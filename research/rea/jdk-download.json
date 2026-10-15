@@ -1,0 +1,40 @@
+{
+  "source": "https://api.github.com/repos/adoptium/temurin21-binaries/releases/latest",
+  "release": "jdk-21.0.12.1+1",
+  "asset": {
+    "url": "https://api.github.com/repos/adoptium/temurin21-binaries/releases/assets/521122372",
+    "id": 521122372,
+    "node_id": "RA_kwDOI-qQc84fD7JE",
+    "name": "OpenJDK21U-jdk_x64_linux_hotspot_21.0.12.1_1.tar.gz",
+    "label": "",
+    "uploader": {
+      "login": "eclipse-temurin-bot",
+      "id": 81643974,
+      "node_id": "MDQ6VXNlcjgxNjQzOTc0",
+      "avatar_url": "https://avatars.githubusercontent.com/u/81643974?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/eclipse-temurin-bot",
+      "html_url": "https://github.com/eclipse-temurin-bot",
+      "followers_url": "https://api.github.com/users/eclipse-temurin-bot/followers",
+      "following_url": "https://api.github.com/users/eclipse-temurin-bot/following{/other_user}",
+      "gists_url": "https://api.github.com/users/eclipse-temurin-bot/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/eclipse-temurin-bot/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/eclipse-temurin-bot/subscriptions",
+      "organizations_url": "https://api.github.com/users/eclipse-temurin-bot/orgs",
+      "repos_url": "https://api.github.com/users/eclipse-temurin-bot/repos",
+      "events_url": "https://api.github.com/users/eclipse-temurin-bot/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/eclipse-temurin-bot/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "content_type": "application/gzip",
+    "state": "uploaded",
+    "size": 207473347,
+    "digest": "sha256:ce79869e1307ed8ee1e2baa86a412b1eb5b75d10a01006d788a6f968bcfaee94",
+    "download_count": 3608996,
+    "created_at": "2026-08-19T17:13:13Z",
+    "updated_at": "2026-08-19T17:13:22Z",
+    "browser_download_url": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.12.1%2B1/OpenJDK21U-jdk_x64_linux_hotspot_21.0.12.1_1.tar.gz"
+  }
+}

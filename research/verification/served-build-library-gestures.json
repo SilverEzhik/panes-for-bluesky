@@ -1,0 +1,11 @@
+{
+  "capturedAt": "2026-10-15T15:45:24.050Z",
+  "baseURL": "http://127.0.0.1:4187",
+  "freshTestOwnedServer": true,
+  "files": {
+    "index.html": "9d75bfa01ecb6794615b4921e5b87471a97176fdbc8c356f849fba1f1bbbc46b",
+    "assets/index-jObDeqRm.js": "9a363e6ea7a03a56d9b82ce37402bd4751b2ce31d565616663a5f932894d7821",
+    "assets/index-IeM849ih.css": "aa8ace177b693ddddda925748e893417638b2418fd8863d338a5e8619e7ec559",
+    "assets/hls-BMtioDMk.js": "fa6cdee93f8f1766148414ffd2787620bc149a1339070f09b64c4377a6c1ddbb"
+  }
+}

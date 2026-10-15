@@ -1,0 +1,166 @@
+[WebServer] (node:166378) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+[WebServer] [plugin builtin:vite-reporter] 
+[WebServer] (!) Some chunks are larger than 500 kB after minification. Consider:
+[WebServer] - Using dynamic import() to code-split the application
+[WebServer] - Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+[WebServer] - Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+[WebServer] (node:166403) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+[WebServer] (node:166426) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 84 tests using 1 worker
+
+(node:166448) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   1 [chromium] › tests/discover-feeds.spec.ts:39:1 › custom feed search selects the actual generator and keeps its URI through pagination (3.6s)
+  ✓   2 [chromium] › tests/discover-feeds.spec.ts:77:3 › signed-in Feeds reads v2 saved feeds without changing preferences (807ms)
+  ✓   3 [chromium] › tests/discover-feeds.spec.ts:77:3 › signed-in Feeds reads legacy saved feeds without changing preferences (836ms)
+  ✓   4 [chromium] › tests/discover-feeds.spec.ts:104:1 › a shared custom-feed embed renders a card and opens its feed instead of a webpage (1.4s)
+  ✓   5 [chromium] › tests/discover-feeds.spec.ts:126:1 › a slow custom-feed response cannot replace a newer selection (910ms)
+  ✓   6 [chromium] › tests/discover-feeds.spec.ts:141:1 › blocked custom-feed embeds withhold their text and artwork (437ms)
+  ✓   7 [chromium] › tests/discover-feeds.spec.ts:156:1 › saved custom-feed posts stay separate from other feeds during an outage (1.4s)
+  ✓   8 [chromium] › tests/discover-feeds.spec.ts:173:1 › a phone can choose a feed without overflow or opening navigation (709ms)
+  ✓   9 [chromium] › tests/discover-feeds.spec.ts:189:1 › Feeds has no injected default entry when Discover is absent from account and directory (637ms)
+  ✓  10 [chromium] › tests/links.spec.ts:63:1 › UTF8 rich text opens mentions in sheets and hashtags as a real Bluesky search (2.2s)
+  ✓  11 [chromium] › tests/links.spec.ts:82:1 › facet links and external cards open embedded pages with working reload and original toolbar assets (3.1s)
+  ✘  12 [chromium] › tests/links.spec.ts:113:1 › timeline thumbnails open a gallery and detail thumbnails preserve selected photo, keys and zoom (10.4s)
+(node:166680) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  13 [chromium] › tests/links.spec.ts:157:1 › a failed full size image explains the failure and retains an accessible original-image escape (2.2s)
+  ✓  14 [chromium] › tests/links.spec.ts:169:3 › a conversation embeds its URL beneath the original post and prunes descendants at 1024px (4.0s)
+  ✓  15 [chromium] › tests/links.spec.ts:169:3 › a conversation embeds its URL beneath the original post and prunes descendants at 768px (4.2s)
+  ✘  16 [chromium] › tests/media-lifecycle.spec.ts:5:1 › a failed image retries in place and fullsize arrow keys pan instead of changing photos (10.3s)
+(node:166803) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  17 [chromium] › tests/photo-gestures.spec.ts:36:1 › fullscreen expands the pane, fits the image and restores focus without closing Photos (2.3s)
+  ✘  18 [chromium] › tests/photo-gestures.spec.ts:59:1 › mouse zoom, drag and keys pan the image while fitted arrow keys browse photos (15.2s)
+
+
+  1) [chromium] › tests/links.spec.ts:113:1 › timeline thumbnails open a gallery and detail thumbnails preserve selected photo, keys and zoom 
+
+    Error: expect(locator).toBeVisible() failed
+
+    Locator:  getByRole('region', { name: 'Image viewer' }).getByRole('img', { name: 'Panel reference image 2', exact: true })
+    Expected: visible
+    Received: hidden
+    Timeout:  8000ms
+
+    Call log:
+      - Expect "toBeVisible" getByRole('region', { name: 'Image viewer' }).getByRole('img', { name: 'Panel reference image 2', exact: true }) with timeout 8000ms
+      - waiting for getByRole('region', { name: 'Image viewer' }).getByRole('img', { name: 'Panel reference image 2', exact: true })
+        20 × locator resolved to <img draggable="false" aria-describedby="_r_1_" class="media-panel__image" alt="Panel reference image 2" src="https://panel-media.example/2.svg"/>
+           - unexpected value "hidden"
+
+
+      124 |   const photos = page.getByRole('region', { name: 'Image viewer' });
+      125 |   await expect(photos.getByRole('status')).toHaveText('2 of 2');
+    > 126 |   await expect(photos.getByRole('img', { name: 'Panel reference image 2', exact: true })).toBeVisible();
+          |                                                                                           ^
+      127 |   await expect.poll(() => photos.locator('.media-panel__image').evaluate(image => (image as HTMLImageElement).naturalWidth)).toBe(1200);
+      128 |   await expect(photos.getByRole('button', { name: 'Next image', exact: true })).toBeDisabled();
+      129 |   await expectToolbarAssets(photos.locator('.link-panel__toolbar'));
+        at /home/debian/twitter/tests/links.spec.ts:126:91
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/links-timeline-thumbnails--8656b-elected-photo-keys-and-zoom-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/links-timeline-thumbnails--8656b-elected-photo-keys-and-zoom-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/links-timeline-thumbnails--8656b-elected-photo-keys-and-zoom-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/links-timeline-thumbnails--8656b-elected-photo-keys-and-zoom-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2) [chromium] › tests/media-lifecycle.spec.ts:5:1 › a failed image retries in place and fullsize arrow keys pan instead of changing photos 
+
+    Error: expect(received).toBeGreaterThan(expected)
+
+    Expected: > 0
+    Received:   -0
+
+    Call Log:
+    - Timeout 8000ms exceeded while waiting on the predicate
+
+      23 |   await viewport.focus();
+      24 |   await page.keyboard.press('ArrowRight');
+    > 25 |   await expect.poll(() => viewport.evaluate(node => -Number(node.getAttribute('data-pan-x')))).toBeGreaterThan(0);
+         |                                                                                                ^
+      26 |   await expect(viewer.getByRole('status')).toHaveText('1 of 2');
+      27 |   await viewer.getByRole('button', { name: 'Next image', exact: true }).click();
+      28 |   await expect(viewer.getByRole('status')).toHaveText('2 of 2');
+        at /home/debian/twitter/tests/media-lifecycle.spec.ts:25:96
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/media-lifecycle-a-failed-i-e9b5f--instead-of-changing-photos-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/media-lifecycle-a-failed-i-e9b5f--instead-of-changing-photos-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/media-lifecycle-a-failed-i-e9b5f--instead-of-changing-photos-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/media-lifecycle-a-failed-i-e9b5f--instead-of-changing-photos-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  3) [chromium] › tests/photo-gestures.spec.ts:59:1 › mouse zoom, drag and keys pan the image while fitted arrow keys browse photos 
+
+    Test was interrupted.
+
+    Error: locator.dblclick: Test ended.
+    Call log:
+      - waiting for getByRole('region', { name: 'Image viewer' }).locator('.media-panel__viewport')
+        - locator resolved to <div tabindex="0" data-pan-x="0.0" data-pan-y="0.0" data-zoom="1.000" data-panel-no-drag="true" class="media-panel__viewport" aria-label="Photo. Pinch or Ctrl+scroll to zoom. Drag to pan. Swipe sideways to browse.">…</div>
+      - attempting dblclick action
+        2 × waiting for element to be visible, enabled and stable
+          - element is not visible
+        - retrying dblclick action
+        - waiting 20ms
+        2 × waiting for element to be visible, enabled and stable
+          - element is not visible
+        - retrying dblclick action
+          - waiting 100ms
+        25 × waiting for element to be visible, enabled and stable
+           - element is not visible
+         - retrying dblclick action
+           - waiting 500ms
+        - waiting for element to be visible, enabled and stable
+
+
+      59 | test('mouse zoom, drag and keys pan the image while fitted arrow keys browse photos', async ({ page }) => {
+      60 |   await setup(page);
+    > 61 |   await surface(page).dblclick();
+         |                       ^
+      62 |   await expect(surface(page)).toHaveAttribute('data-zoom', '2.500');
+      63 |   const before = Number(await surface(page).getAttribute('data-pan-x'));
+      64 |   await swipe(surface(page), 80, 40);
+        at /home/debian/twitter/tests/photo-gestures.spec.ts:61:23
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/photo-gestures-mouse-zoom--64591-ed-arrow-keys-browse-photos-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/photo-gestures-mouse-zoom--64591-ed-arrow-keys-browse-photos-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/photo-gestures-mouse-zoom--64591-ed-arrow-keys-browse-photos-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/photo-gestures-mouse-zoom--64591-ed-arrow-keys-browse-photos-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2 failed
+    [chromium] › tests/links.spec.ts:113:1 › timeline thumbnails open a gallery and detail thumbnails preserve selected photo, keys and zoom 
+    [chromium] › tests/media-lifecycle.spec.ts:5:1 › a failed image retries in place and fullsize arrow keys pan instead of changing photos 
+  1 interrupted
+    [chromium] › tests/photo-gestures.spec.ts:59:1 › mouse zoom, drag and keys pan the image while fitted arrow keys browse photos 
+  66 did not run
+  15 passed (1.2m)

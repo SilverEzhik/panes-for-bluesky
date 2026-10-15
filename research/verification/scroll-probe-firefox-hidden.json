@@ -1,0 +1,805 @@
+{
+  "before": {
+    "windowY": 0,
+    "visualTop": 0,
+    "active": "<body>\n    <div id=\"root\"><div class=\"app-shell nav-expanded \" data-navigation-mode=\"expanded\"><aside id=\"main-navigation\" class=\"sidebar\" aria-label=\"Main navigation\" style=\"width",
+    "offset": "0",
+    "nodes": [
+      {
+        "selector": "html",
+        "left": 0,
+        "top": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 1024,
+          "height": 768,
+          "top": 0,
+          "right": 1024,
+          "bottom": 768,
+          "left": 0
+        },
+        "transform": "none",
+        "overflow": "visible"
+      },
+      {
+        "selector": "body",
+        "left": 0,
+        "top": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 1024,
+          "height": 768,
+          "top": 0,
+          "right": 1024,
+          "bottom": 768,
+          "left": 0
+        },
+        "transform": "none",
+        "overflow": "visible"
+      },
+      {
+        "selector": ".app-shell",
+        "left": 0,
+        "top": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 1024,
+          "height": 768,
+          "top": 0,
+          "right": 1024,
+          "bottom": 768,
+          "left": 0
+        },
+        "transform": "none",
+        "overflow": "hidden"
+      },
+      {
+        "selector": ".workspace",
+        "left": 0,
+        "top": 0,
+        "bounds": {
+          "x": 292,
+          "y": 0,
+          "width": 732,
+          "height": 768,
+          "top": 0,
+          "right": 1024,
+          "bottom": 768,
+          "left": 292
+        },
+        "transform": "none",
+        "overflow": "hidden"
+      },
+      {
+        "selector": ".panel-stack",
+        "left": 0,
+        "top": 0,
+        "bounds": {
+          "x": 292,
+          "y": 0,
+          "width": 732,
+          "height": 768,
+          "top": 0,
+          "right": 1024,
+          "bottom": 768,
+          "left": 292
+        },
+        "transform": "none",
+        "overflow": "hidden"
+      },
+      {
+        "selector": ".timeline",
+        "left": 0,
+        "top": 0,
+        "bounds": {
+          "x": 292,
+          "y": 0,
+          "width": 476,
+          "height": 768,
+          "top": 0,
+          "right": 768,
+          "bottom": 768,
+          "left": 292
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "overflow": "visible"
+      },
+      {
+        "selector": ".feed-scroll",
+        "left": 0,
+        "top": 0,
+        "bounds": {
+          "x": 292,
+          "y": 0,
+          "width": 475,
+          "height": 738,
+          "top": 0,
+          "right": 767,
+          "bottom": 738,
+          "left": 292
+        },
+        "transform": "none",
+        "overflow": "auto"
+      },
+      null,
+      null
+    ]
+  },
+  "opened": {
+    "windowY": 0,
+    "visualTop": 0,
+    "active": "<section class=\"stack-panel\" data-panel-index=\"0\" tabindex=\"-1\" aria-label=\"Conversation\" style=\"width: 476px; transform: translate3d(476px, 0px, 0px); z-index: 1;\"><header class=\"",
+    "offset": "0",
+    "nodes": [
+      {
+        "selector": "html",
+        "left": 0,
+        "top": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 1024,
+          "height": 768,
+          "top": 0,
+          "right": 1024,
+          "bottom": 768,
+          "left": 0
+        },
+        "transform": "none",
+        "overflow": "visible"
+      },
+      {
+        "selector": "body",
+        "left": 0,
+        "top": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 1024,
+          "height": 768,
+          "top": 0,
+          "right": 1024,
+          "bottom": 768,
+          "left": 0
+        },
+        "transform": "none",
+        "overflow": "visible"
+      },
+      {
+        "selector": ".app-shell",
+        "left": 0,
+        "top": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 1024,
+          "height": 768,
+          "top": 0,
+          "right": 1024,
+          "bottom": 768,
+          "left": 0
+        },
+        "transform": "none",
+        "overflow": "hidden"
+      },
+      {
+        "selector": ".workspace",
+        "left": 0,
+        "top": 0,
+        "bounds": {
+          "x": 292,
+          "y": 0,
+          "width": 732,
+          "height": 768,
+          "top": 0,
+          "right": 1024,
+          "bottom": 768,
+          "left": 292
+        },
+        "transform": "none",
+        "overflow": "hidden"
+      },
+      {
+        "selector": ".panel-stack",
+        "left": 0,
+        "top": 0,
+        "bounds": {
+          "x": 292,
+          "y": 0,
+          "width": 732,
+          "height": 768,
+          "top": 0,
+          "right": 1024,
+          "bottom": 768,
+          "left": 292
+        },
+        "transform": "none",
+        "overflow": "hidden"
+      },
+      {
+        "selector": ".timeline",
+        "left": 0,
+        "top": 0,
+        "bounds": {
+          "x": 292,
+          "y": 0,
+          "width": 476,
+          "height": 768,
+          "top": 0,
+          "right": 768,
+          "bottom": 768,
+          "left": 292
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "overflow": "visible"
+      },
+      {
+        "selector": ".feed-scroll",
+        "left": 0,
+        "top": 0,
+        "bounds": {
+          "x": 292,
+          "y": 0,
+          "width": 475,
+          "height": 738,
+          "top": 0,
+          "right": 767,
+          "bottom": 738,
+          "left": 292
+        },
+        "transform": "none",
+        "overflow": "auto"
+      },
+      {
+        "selector": ".stack-panel:last-child",
+        "left": 0,
+        "top": 0,
+        "bounds": {
+          "x": 768,
+          "y": 0,
+          "width": 476,
+          "height": 768,
+          "top": 0,
+          "right": 1244,
+          "bottom": 768,
+          "left": 768
+        },
+        "transform": "matrix(1, 0, 0, 1, 476, 0)",
+        "overflow": "visible"
+      },
+      {
+        "selector": ".stack-panel:last-child .stack-panel__body",
+        "left": 0,
+        "top": 0,
+        "bounds": {
+          "x": 769,
+          "y": 45,
+          "width": 475,
+          "height": 723,
+          "top": 45,
+          "right": 1244,
+          "bottom": 768,
+          "left": 769
+        },
+        "transform": "none",
+        "overflow": "hidden auto"
+      }
+    ]
+  },
+  "from": {
+    "x": 757,
+    "y": 195
+  },
+  "to": {
+    "x": 1037,
+    "y": 195
+  },
+  "events": [
+    {
+      "type": "pointermove",
+      "x": 757,
+      "y": 195,
+      "buttons": 0,
+      "pointerType": "mouse",
+      "target": "profile-bio",
+      "offset": "696"
+    },
+    {
+      "type": "pointerdown",
+      "x": 757,
+      "y": 195,
+      "buttons": 1,
+      "pointerType": "mouse",
+      "target": "profile-bio",
+      "offset": "696"
+    },
+    {
+      "type": "pointermove",
+      "x": 772,
+      "y": 195,
+      "buttons": 1,
+      "pointerType": "mouse",
+      "target": "profile-bio",
+      "offset": "696"
+    },
+    {
+      "type": "pointermove",
+      "x": 788,
+      "y": 195,
+      "buttons": 1,
+      "pointerType": "mouse",
+      "target": "panel-stack panel-stack--moving ",
+      "offset": "696"
+    },
+    {
+      "type": "pointermove",
+      "x": 803,
+      "y": 195,
+      "buttons": 1,
+      "pointerType": "mouse",
+      "target": "panel-stack panel-stack--moving ",
+      "offset": "696"
+    },
+    {
+      "type": "pointermove",
+      "x": 819,
+      "y": 195,
+      "buttons": 1,
+      "pointerType": "mouse",
+      "target": "panel-stack panel-stack--moving ",
+      "offset": "665"
+    },
+    {
+      "type": "pointermove",
+      "x": 834,
+      "y": 195,
+      "buttons": 1,
+      "pointerType": "mouse",
+      "target": "panel-stack panel-stack--moving ",
+      "offset": "649"
+    },
+    {
+      "type": "pointermove",
+      "x": 850,
+      "y": 195,
+      "buttons": 1,
+      "pointerType": "mouse",
+      "target": "panel-stack panel-stack--moving ",
+      "offset": "634"
+    },
+    {
+      "type": "pointermove",
+      "x": 865,
+      "y": 195,
+      "buttons": 1,
+      "pointerType": "mouse",
+      "target": "panel-stack panel-stack--moving ",
+      "offset": "618"
+    },
+    {
+      "type": "pointermove",
+      "x": 881,
+      "y": 195,
+      "buttons": 1,
+      "pointerType": "mouse",
+      "target": "panel-stack panel-stack--moving ",
+      "offset": "603"
+    },
+    {
+      "type": "pointermove",
+      "x": 897,
+      "y": 195,
+      "buttons": 1,
+      "pointerType": "mouse",
+      "target": "panel-stack panel-stack--moving ",
+      "offset": "587"
+    },
+    {
+      "type": "pointermove",
+      "x": 912,
+      "y": 195,
+      "buttons": 1,
+      "pointerType": "mouse",
+      "target": "panel-stack panel-stack--moving ",
+      "offset": "571"
+    },
+    {
+      "type": "pointermove",
+      "x": 928,
+      "y": 195,
+      "buttons": 1,
+      "pointerType": "mouse",
+      "target": "panel-stack panel-stack--moving ",
+      "offset": "556"
+    },
+    {
+      "type": "pointermove",
+      "x": 943,
+      "y": 195,
+      "buttons": 1,
+      "pointerType": "mouse",
+      "target": "panel-stack panel-stack--moving ",
+      "offset": "540"
+    },
+    {
+      "type": "pointermove",
+      "x": 959,
+      "y": 195,
+      "buttons": 1,
+      "pointerType": "mouse",
+      "target": "panel-stack panel-stack--moving ",
+      "offset": "525"
+    },
+    {
+      "type": "pointermove",
+      "x": 974,
+      "y": 195,
+      "buttons": 1,
+      "pointerType": "mouse",
+      "target": "panel-stack panel-stack--moving ",
+      "offset": "509"
+    },
+    {
+      "type": "pointermove",
+      "x": 990,
+      "y": 195,
+      "buttons": 1,
+      "pointerType": "mouse",
+      "target": "panel-stack panel-stack--moving ",
+      "offset": "494"
+    },
+    {
+      "type": "pointermove",
+      "x": 1005,
+      "y": 195,
+      "buttons": 1,
+      "pointerType": "mouse",
+      "target": "panel-stack panel-stack--moving ",
+      "offset": "478"
+    },
+    {
+      "type": "pointermove",
+      "x": 1021,
+      "y": 195,
+      "buttons": 1,
+      "pointerType": "mouse",
+      "target": "panel-stack panel-stack--moving ",
+      "offset": "463"
+    },
+    {
+      "type": "pointermove",
+      "x": 0,
+      "y": -86,
+      "buttons": 0,
+      "pointerType": "mouse",
+      "target": "panel-stack panel-stack--moving ",
+      "offset": "447"
+    }
+  ],
+  "immediate": {
+    "windowY": 0,
+    "visualTop": 0,
+    "active": "<section class=\"stack-panel\" data-panel-index=\"1\" tabindex=\"-1\" aria-label=\"Profile\" style=\"width: 476px; transform: translate3d(725px, 0px, 0px); z-index: 2;\"><header class=\"stack",
+    "offset": "447",
+    "nodes": [
+      {
+        "selector": "html",
+        "left": 0,
+        "top": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 1024,
+          "height": 768,
+          "top": 0,
+          "right": 1024,
+          "bottom": 768,
+          "left": 0
+        },
+        "transform": "none",
+        "overflow": "visible"
+      },
+      {
+        "selector": "body",
+        "left": 0,
+        "top": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 1024,
+          "height": 768,
+          "top": 0,
+          "right": 1024,
+          "bottom": 768,
+          "left": 0
+        },
+        "transform": "none",
+        "overflow": "visible"
+      },
+      {
+        "selector": ".app-shell",
+        "left": 0,
+        "top": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 1024,
+          "height": 768,
+          "top": 0,
+          "right": 1024,
+          "bottom": 768,
+          "left": 0
+        },
+        "transform": "none",
+        "overflow": "hidden"
+      },
+      {
+        "selector": ".workspace",
+        "left": 0,
+        "top": 0,
+        "bounds": {
+          "x": 72,
+          "y": 0,
+          "width": 952,
+          "height": 768,
+          "top": 0,
+          "right": 1024,
+          "bottom": 768,
+          "left": 72
+        },
+        "transform": "none",
+        "overflow": "hidden"
+      },
+      {
+        "selector": ".panel-stack",
+        "left": 0,
+        "top": 0,
+        "bounds": {
+          "x": 72,
+          "y": 0,
+          "width": 952,
+          "height": 768,
+          "top": 0,
+          "right": 1024,
+          "bottom": 768,
+          "left": 72
+        },
+        "transform": "none",
+        "overflow": "hidden"
+      },
+      {
+        "selector": ".timeline",
+        "left": 0,
+        "top": 0,
+        "bounds": {
+          "x": 72,
+          "y": 0,
+          "width": 476,
+          "height": 768,
+          "top": 0,
+          "right": 548,
+          "bottom": 768,
+          "left": 72
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "overflow": "visible"
+      },
+      {
+        "selector": ".feed-scroll",
+        "left": 0,
+        "top": 0,
+        "bounds": {
+          "x": 72,
+          "y": 0,
+          "width": 475,
+          "height": 738,
+          "top": 0,
+          "right": 547,
+          "bottom": 738,
+          "left": 72
+        },
+        "transform": "none",
+        "overflow": "auto"
+      },
+      {
+        "selector": ".stack-panel:last-child",
+        "left": 0,
+        "top": 0,
+        "bounds": {
+          "x": 797,
+          "y": 0,
+          "width": 476,
+          "height": 768,
+          "top": 0,
+          "right": 1273,
+          "bottom": 768,
+          "left": 797
+        },
+        "transform": "matrix(1, 0, 0, 1, 725, 0)",
+        "overflow": "visible"
+      },
+      {
+        "selector": ".stack-panel:last-child .stack-panel__body",
+        "left": 0,
+        "top": 0,
+        "bounds": {
+          "x": 798,
+          "y": 45,
+          "width": 475,
+          "height": 723,
+          "top": 45,
+          "right": 1273,
+          "bottom": 768,
+          "left": 798
+        },
+        "transform": "none",
+        "overflow": "hidden auto"
+      }
+    ]
+  },
+  "settled": {
+    "windowY": 0,
+    "visualTop": 0,
+    "active": "<section class=\"stack-panel\" data-panel-index=\"1\" tabindex=\"-1\" aria-label=\"Profile\" style=\"width: 476px; transform: translate3d(90px, 0px, 0px); z-index: 2;\"><header class=\"stack-",
+    "offset": "1082",
+    "nodes": [
+      {
+        "selector": "html",
+        "left": 0,
+        "top": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 1024,
+          "height": 768,
+          "top": 0,
+          "right": 1024,
+          "bottom": 768,
+          "left": 0
+        },
+        "transform": "none",
+        "overflow": "visible"
+      },
+      {
+        "selector": "body",
+        "left": 0,
+        "top": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 1024,
+          "height": 768,
+          "top": 0,
+          "right": 1024,
+          "bottom": 768,
+          "left": 0
+        },
+        "transform": "none",
+        "overflow": "visible"
+      },
+      {
+        "selector": ".app-shell",
+        "left": 0,
+        "top": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 1024,
+          "height": 768,
+          "top": 0,
+          "right": 1024,
+          "bottom": 768,
+          "left": 0
+        },
+        "transform": "none",
+        "overflow": "hidden"
+      },
+      {
+        "selector": ".workspace",
+        "left": 0,
+        "top": 0,
+        "bounds": {
+          "x": 72,
+          "y": 0,
+          "width": 952,
+          "height": 768,
+          "top": 0,
+          "right": 1024,
+          "bottom": 768,
+          "left": 72
+        },
+        "transform": "none",
+        "overflow": "hidden"
+      },
+      {
+        "selector": ".panel-stack",
+        "left": 0,
+        "top": 0,
+        "bounds": {
+          "x": 72,
+          "y": 0,
+          "width": 952,
+          "height": 768,
+          "top": 0,
+          "right": 1024,
+          "bottom": 768,
+          "left": 72
+        },
+        "transform": "none",
+        "overflow": "hidden"
+      },
+      {
+        "selector": ".timeline",
+        "left": 0,
+        "top": 0,
+        "bounds": {
+          "x": 72,
+          "y": 0,
+          "width": 476,
+          "height": 768,
+          "top": 0,
+          "right": 548,
+          "bottom": 768,
+          "left": 72
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "overflow": "visible"
+      },
+      {
+        "selector": ".feed-scroll",
+        "left": 0,
+        "top": 0,
+        "bounds": {
+          "x": 72,
+          "y": 0,
+          "width": 475,
+          "height": 738,
+          "top": 0,
+          "right": 547,
+          "bottom": 738,
+          "left": 72
+        },
+        "transform": "none",
+        "overflow": "auto"
+      },
+      {
+        "selector": ".stack-panel:last-child",
+        "left": 0,
+        "top": 0,
+        "bounds": {
+          "x": 162,
+          "y": 0,
+          "width": 476,
+          "height": 768,
+          "top": 0,
+          "right": 638,
+          "bottom": 768,
+          "left": 162
+        },
+        "transform": "matrix(1, 0, 0, 1, 90, 0)",
+        "overflow": "visible"
+      },
+      {
+        "selector": ".stack-panel:last-child .stack-panel__body",
+        "left": 0,
+        "top": 0,
+        "bounds": {
+          "x": 163,
+          "y": 45,
+          "width": 475,
+          "height": 723,
+          "top": 45,
+          "right": 638,
+          "bottom": 768,
+          "left": 163
+        },
+        "transform": "none",
+        "overflow": "hidden auto"
+      }
+    ]
+  },
+  "cycles": []
+}

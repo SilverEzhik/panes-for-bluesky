@@ -1,0 +1,542 @@
+
+> panes-bluesky@0.1.0 test
+> playwright test
+
+[WebServer] (node:88156) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+[WebServer] [plugin builtin:vite-reporter] 
+[WebServer] (!) Some chunks are larger than 500 kB after minification. Consider:
+[WebServer] - Using dynamic import() to code-split the application
+[WebServer] - Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+[WebServer] - Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+[WebServer] (node:88185) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+[WebServer] (node:88209) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 51 tests using 2 workers
+
+(node:88231) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:88232) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   2 [chromium] › tests/client.spec.ts:56:1 › pointer body drag and horizontal trackpad wheel browse sheets while vertical wheel scrolls content (4.0s)
+  ✓   3 [chromium] › tests/client.spec.ts:75:1 › keyboard opens posts, browses sheets, and closes the newest panel (3.9s)
+  ✓   4 [chromium] › tests/client.spec.ts:92:1 › mobile navigation and full width sheets fit a phone (2.0s)
+  ✓   5 [chromium] › tests/client.spec.ts:110:1 › authentication errors stay in the dialog, successful login sends writes and persists only tokens (1.7s)
+  ✘   1 [chromium] › tests/client.spec.ts:42:1 › conversation and profile form real stacked sheets; a header drag dismisses only its branch (11.4s)
+(node:88464) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   6 [chromium] › tests/client.spec.ts:136:1 › failed publishing preserves a locally saved draft through closing and reopening (1.4s)
+  ✓   7 [chromium] › tests/client.spec.ts:149:1 › saved public posts survive reload when Bluesky is unavailable (1.7s)
+  ✓   8 [chromium] › tests/client.spec.ts:169:1 › account reading and drafts survive offline reload, writes wait for verified reconnection, and sign out clears private storage (2.7s)
+  ✓   9 [chromium] › tests/links.spec.ts:58:1 › UTF8 rich text opens mentions in sheets and hashtags as a real Bluesky search (1.2s)
+  ✓  11 [chromium] › tests/links.spec.ts:104:1 › image thumbnails open at the selected photo and support gallery keys, zoom and original assets (1.6s)
+  ✓  12 [chromium] › tests/links.spec.ts:136:1 › a failed full size image explains the failure and retains an accessible original-image escape (868ms)
+  ✓  10 [chromium] › tests/links.spec.ts:76:1 › facet links and external cards open embedded pages with working reload and original toolbar assets (2.8s)
+  ✓  14 [chromium] › tests/touch.spec.ts:55:3 › native pinch apart opens a post using the browser touchscreen input pipeline (1.3s)
+  ✓  15 [chromium] › tests/touch.spec.ts:55:3 › native two finger pull down opens a post using the browser touchscreen input pipeline (941ms)
+  ✓  13 [chromium] › tests/touch.spec.ts:13:1 › native touchscreen vertical scrolling and horizontal sheet swipe work on a phone (4.6s)
+  ✓  16 [chromium] › tests/touch.spec.ts:83:1 › touch pointer recognition for pinch and two finger pull down is consistent across engines (2.7s)
+(node:88702) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  17 [chromium] › tests/video.spec.ts:36:1 › HLS video loads fragments only after Play and decodes frames (1.5s)
+(node:88796) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  18 [firefox] › tests/client.spec.ts:42:1 › conversation and profile form real stacked sheets; a header drag dismisses only its branch (4.4s)
+  ✓  19 [firefox] › tests/client.spec.ts:56:1 › pointer body drag and horizontal trackpad wheel browse sheets while vertical wheel scrolls content (3.8s)
+  ✓  21 [firefox] › tests/client.spec.ts:92:1 › mobile navigation and full width sheets fit a phone (2.7s)
+  ✓  20 [firefox] › tests/client.spec.ts:75:1 › keyboard opens posts, browses sheets, and closes the newest panel (4.9s)
+  ✓  22 [firefox] › tests/client.spec.ts:110:1 › authentication errors stay in the dialog, successful login sends writes and persists only tokens (2.3s)
+  ✓  23 [firefox] › tests/client.spec.ts:136:1 › failed publishing preserves a locally saved draft through closing and reopening (2.0s)
+  ✓  24 [firefox] › tests/client.spec.ts:149:1 › saved public posts survive reload when Bluesky is unavailable (1.6s)
+  ✓  26 [firefox] › tests/links.spec.ts:58:1 › UTF8 rich text opens mentions in sheets and hashtags as a real Bluesky search (1.5s)
+  ✓  25 [firefox] › tests/client.spec.ts:169:1 › account reading and drafts survive offline reload, writes wait for verified reconnection, and sign out clears private storage (3.3s)
+  ✓  27 [firefox] › tests/links.spec.ts:76:1 › facet links and external cards open embedded pages with working reload and original toolbar assets (2.7s)
+  ✓  28 [firefox] › tests/links.spec.ts:104:1 › image thumbnails open at the selected photo and support gallery keys, zoom and original assets (1.6s)
+  -  30 [firefox] › tests/touch.spec.ts:13:1 › native touchscreen vertical scrolling and horizontal sheet swipe work on a phone
+  -  31 [firefox] › tests/touch.spec.ts:55:3 › native pinch apart opens a post using the browser touchscreen input pipeline
+  -  32 [firefox] › tests/touch.spec.ts:55:3 › native two finger pull down opens a post using the browser touchscreen input pipeline
+  ✓  29 [firefox] › tests/links.spec.ts:136:1 › a failed full size image explains the failure and retains an accessible original-image escape (1.3s)
+  ✓  34 [firefox] › tests/video.spec.ts:36:1 › HLS video loads fragments only after Play and decodes frames (1.5s)
+(node:89754) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  33 [firefox] › tests/touch.spec.ts:83:1 › touch pointer recognition for pinch and two finger pull down is consistent across engines (3.2s)
+(node:89835) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  35 [webkit] › tests/client.spec.ts:42:1 › conversation and profile form real stacked sheets; a header drag dismisses only its branch (9.3s)
+(node:89933) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  36 [webkit] › tests/client.spec.ts:56:1 › pointer body drag and horizontal trackpad wheel browse sheets while vertical wheel scrolls content (9.6s)
+(node:90014) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  37 [webkit] › tests/client.spec.ts:75:1 › keyboard opens posts, browses sheets, and closes the newest panel (9.5s)
+(node:90107) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  38 [webkit] › tests/client.spec.ts:92:1 › mobile navigation and full width sheets fit a phone (9.7s)
+(node:90188) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  40 [webkit] › tests/client.spec.ts:136:1 › failed publishing preserves a locally saved draft through closing and reopening (10.3s)
+(node:90280) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  39 [webkit] › tests/client.spec.ts:110:1 › authentication errors stay in the dialog, successful login sends writes and persists only tokens (12.6s)
+(node:90292) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  41 [webkit] › tests/client.spec.ts:149:1 › saved public posts survive reload when Bluesky is unavailable (1.7s)
+  ✘  42 [webkit] › tests/client.spec.ts:169:1 › account reading and drafts survive offline reload, writes wait for verified reconnection, and sign out clears private storage (10.4s)
+(node:90502) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  43 [webkit] › tests/links.spec.ts:58:1 › UTF8 rich text opens mentions in sheets and hashtags as a real Bluesky search (9.6s)
+(node:90514) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  45 [webkit] › tests/links.spec.ts:104:1 › image thumbnails open at the selected photo and support gallery keys, zoom and original assets (1.8s)
+(node:90677) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  46 [webkit] › tests/links.spec.ts:136:1 › a failed full size image explains the failure and retains an accessible original-image escape (2.7s)
+  -  47 [webkit] › tests/touch.spec.ts:13:1 › native touchscreen vertical scrolling and horizontal sheet swipe work on a phone
+  -  48 [webkit] › tests/touch.spec.ts:55:3 › native pinch apart opens a post using the browser touchscreen input pipeline
+  -  49 [webkit] › tests/touch.spec.ts:55:3 › native two finger pull down opens a post using the browser touchscreen input pipeline
+  ✓  50 [webkit] › tests/touch.spec.ts:83:1 › touch pointer recognition for pinch and two finger pull down is consistent across engines (4.3s)
+  ✓  51 [webkit] › tests/video.spec.ts:36:1 › HLS video loads fragments only after Play and decodes frames (1.7s)
+  ✘  44 [webkit] › tests/links.spec.ts:76:1 › facet links and external cards open embedded pages with working reload and original toolbar assets (1.0m)
+
+
+  1) [chromium] › tests/client.spec.ts:42:1 › conversation and profile form real stacked sheets; a header drag dismisses only its branch 
+
+    Error: expect(locator).toHaveCount(expected) failed
+
+    Locator:  locator('.stack-panel')
+    Expected: 0
+    Received: 1
+    Timeout:  8000ms
+
+    Call log:
+      - Expect "toHaveCount" locator('.stack-panel') with timeout 8000ms
+      - waiting for locator('.stack-panel')
+        20 × locator resolved to 1 element
+           - unexpected value "1"
+
+
+      51 |   await expect(panels(page)).toHaveCount(1);
+      52 |   await page.getByRole('button', { name: 'Close Conversation' }).click();
+    > 53 |   await expect(panels(page)).toHaveCount(0);
+         |                              ^
+      54 | });
+      55 |
+      56 | test('pointer body drag and horizontal trackpad wheel browse sheets while vertical wheel scrolls content', async ({ page }) => {
+        at /home/debian/twitter/tests/client.spec.ts:53:30
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/client-conversation-and-pr-afd6d-g-dismisses-only-its-branch-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/client-conversation-and-pr-afd6d-g-dismisses-only-its-branch-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/client-conversation-and-pr-afd6d-g-dismisses-only-its-branch-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/client-conversation-and-pr-afd6d-g-dismisses-only-its-branch-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2) [webkit] › tests/client.spec.ts:42:1 › conversation and profile form real stacked sheets; a header drag dismisses only its branch 
+
+    Error: expect(locator).toBeVisible() failed
+
+    Locator: locator('.stack-panel').last().getByText('Panel test post 90.')
+    Expected: visible
+    Timeout: 8000ms
+    Error: element(s) not found
+
+    Call log:
+      - Expect "toBeVisible" locator('.stack-panel').last().getByText('Panel test post 90.') with timeout 8000ms
+      - waiting for locator('.stack-panel').last().getByText('Panel test post 90.')
+
+
+       7 |   await feedPosts(page).first().click();
+       8 |   await expect(panels(page)).toHaveCount(1);
+    >  9 |   await expect(panels(page).last().getByText('Panel test post 90.', { exact: false })).toBeVisible();
+         |                                                                                        ^
+      10 |   await expect.poll(async () => { const box = (await panels(page).last().boundingBox())!; return box.x + box.width; }).toBeLessThanOrEqual(page.viewportSize()!.width + 1);
+      11 |   await expect(page.locator('.panel-stack')).not.toHaveClass(/panel-stack--moving/);
+      12 | }
+        at openConversation (/home/debian/twitter/tests/client.spec.ts:9:88)
+        at openTwoPanels (/home/debian/twitter/tests/client.spec.ts:14:3)
+        at /home/debian/twitter/tests/client.spec.ts:43:3
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/client-conversation-and-pr-afd6d-g-dismisses-only-its-branch-webkit/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/client-conversation-and-pr-afd6d-g-dismisses-only-its-branch-webkit/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/client-conversation-and-pr-afd6d-g-dismisses-only-its-branch-webkit/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/client-conversation-and-pr-afd6d-g-dismisses-only-its-branch-webkit/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  3) [webkit] › tests/client.spec.ts:56:1 › pointer body drag and horizontal trackpad wheel browse sheets while vertical wheel scrolls content 
+
+    Error: expect(locator).toBeVisible() failed
+
+    Locator: locator('.stack-panel').last().getByText('Panel test post 90.')
+    Expected: visible
+    Timeout: 8000ms
+    Error: element(s) not found
+
+    Call log:
+      - Expect "toBeVisible" locator('.stack-panel').last().getByText('Panel test post 90.') with timeout 8000ms
+      - waiting for locator('.stack-panel').last().getByText('Panel test post 90.')
+
+
+       7 |   await feedPosts(page).first().click();
+       8 |   await expect(panels(page)).toHaveCount(1);
+    >  9 |   await expect(panels(page).last().getByText('Panel test post 90.', { exact: false })).toBeVisible();
+         |                                                                                        ^
+      10 |   await expect.poll(async () => { const box = (await panels(page).last().boundingBox())!; return box.x + box.width; }).toBeLessThanOrEqual(page.viewportSize()!.width + 1);
+      11 |   await expect(page.locator('.panel-stack')).not.toHaveClass(/panel-stack--moving/);
+      12 | }
+        at openConversation (/home/debian/twitter/tests/client.spec.ts:9:88)
+        at openTwoPanels (/home/debian/twitter/tests/client.spec.ts:14:3)
+        at /home/debian/twitter/tests/client.spec.ts:57:3
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/client-pointer-body-drag-a-6615d-tical-wheel-scrolls-content-webkit/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/client-pointer-body-drag-a-6615d-tical-wheel-scrolls-content-webkit/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/client-pointer-body-drag-a-6615d-tical-wheel-scrolls-content-webkit/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/client-pointer-body-drag-a-6615d-tical-wheel-scrolls-content-webkit/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  4) [webkit] › tests/client.spec.ts:75:1 › keyboard opens posts, browses sheets, and closes the newest panel 
+
+    Error: expect(locator).toBeVisible() failed
+
+    Locator: locator('.stack-panel').last().getByText('Panel test post 90.')
+    Expected: visible
+    Timeout: 8000ms
+    Error: element(s) not found
+
+    Call log:
+      - Expect "toBeVisible" locator('.stack-panel').last().getByText('Panel test post 90.') with timeout 8000ms
+      - waiting for locator('.stack-panel').last().getByText('Panel test post 90.')
+
+
+       7 |   await feedPosts(page).first().click();
+       8 |   await expect(panels(page)).toHaveCount(1);
+    >  9 |   await expect(panels(page).last().getByText('Panel test post 90.', { exact: false })).toBeVisible();
+         |                                                                                        ^
+      10 |   await expect.poll(async () => { const box = (await panels(page).last().boundingBox())!; return box.x + box.width; }).toBeLessThanOrEqual(page.viewportSize()!.width + 1);
+      11 |   await expect(page.locator('.panel-stack')).not.toHaveClass(/panel-stack--moving/);
+      12 | }
+        at openConversation (/home/debian/twitter/tests/client.spec.ts:9:88)
+        at openTwoPanels (/home/debian/twitter/tests/client.spec.ts:14:3)
+        at /home/debian/twitter/tests/client.spec.ts:81:3
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/client-keyboard-opens-post-9f26f-and-closes-the-newest-panel-webkit/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/client-keyboard-opens-post-9f26f-and-closes-the-newest-panel-webkit/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/client-keyboard-opens-post-9f26f-and-closes-the-newest-panel-webkit/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/client-keyboard-opens-post-9f26f-and-closes-the-newest-panel-webkit/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  5) [webkit] › tests/client.spec.ts:92:1 › mobile navigation and full width sheets fit a phone ────
+
+    Error: expect(locator).toHaveCount(expected) failed
+
+    Locator:  locator('.feed-scroll .post-card')
+    Expected: 1
+    Received: 25
+    Timeout:  8000ms
+
+    Call log:
+      - Expect "toHaveCount" locator('.feed-scroll .post-card') with timeout 8000ms
+      - waiting for locator('.feed-scroll .post-card')
+        5 × locator resolved to 0 elements
+          - unexpected value "0"
+        15 × locator resolved to 25 elements
+           - unexpected value "25"
+
+
+       96 |   await page.getByRole('textbox', { name: 'Search Bluesky' }).fill('panels');
+       97 |   await page.locator('.search-bar').getByRole('button', { name: 'Search' }).click();
+    >  98 |   await expect(feedPosts(page)).toHaveCount(1);
+          |                                 ^
+       99 |   await feedPosts(page).first().click();
+      100 |   await expect(panels(page)).toHaveCount(1);
+      101 |   await expect.poll(async () => (await panels(page).last().boundingBox())!.width).toBeLessThanOrEqual(390);
+        at /home/debian/twitter/tests/client.spec.ts:98:33
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/client-mobile-navigation-and-full-width-sheets-fit-a-phone-webkit/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/client-mobile-navigation-and-full-width-sheets-fit-a-phone-webkit/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/client-mobile-navigation-and-full-width-sheets-fit-a-phone-webkit/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/client-mobile-navigation-and-full-width-sheets-fit-a-phone-webkit/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  6) [webkit] › tests/client.spec.ts:110:1 › authentication errors stay in the dialog, successful login sends writes and persists only tokens 
+
+    Error: expect(locator).toHaveCount(expected) failed
+
+    Locator:  getByRole('dialog')
+    Expected: 0
+    Received: 1
+    Timeout:  8000ms
+
+    Call log:
+      - Expect "toHaveCount" getByRole('dialog') with timeout 8000ms
+      - waiting for getByRole('dialog')
+        20 × locator resolved to 1 element
+           - unexpected value "1"
+
+
+      119 |   api.failLogin = false;
+      120 |   await dialog.getByRole('button', { name: 'Sign in', exact: true }).click();
+    > 121 |   await expect(dialog).toHaveCount(0);
+          |                        ^
+      122 |   await expect(page.getByRole('heading', { name: 'Timeline', exact: true })).toBeVisible();
+      123 |   expect(await page.evaluate(() => JSON.stringify(localStorage))).not.toContain('test-app-password');
+      124 |   await openConversation(page);
+        at /home/debian/twitter/tests/client.spec.ts:121:24
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/client-authentication-erro-457be-es-and-persists-only-tokens-webkit/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/client-authentication-erro-457be-es-and-persists-only-tokens-webkit/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/client-authentication-erro-457be-es-and-persists-only-tokens-webkit/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/client-authentication-erro-457be-es-and-persists-only-tokens-webkit/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  7) [webkit] › tests/client.spec.ts:136:1 › failed publishing preserves a locally saved draft through closing and reopening 
+
+    Error: expect(locator).toHaveCount(expected) failed
+
+    Locator:  getByRole('dialog', { name: 'Sign in to Bluesky' })
+    Expected: 0
+    Received: 1
+    Timeout:  8000ms
+
+    Call log:
+      - Expect "toHaveCount" getByRole('dialog', { name: 'Sign in to Bluesky' }) with timeout 8000ms
+      - waiting for getByRole('dialog', { name: 'Sign in to Bluesky' })
+        20 × locator resolved to 1 element
+           - unexpected value "1"
+
+
+      34 |   await dialog.getByLabel('App password', { exact: true }).fill('test-app-password');
+      35 |   await dialog.getByRole('button', { name: 'Sign in', exact: true }).click();
+    > 36 |   await expect(dialog).toHaveCount(0);
+         |                        ^
+      37 |   await expect(page.getByRole('heading', { name: 'Timeline', exact: true })).toBeVisible();
+      38 | }
+      39 |
+        at signIn (/home/debian/twitter/tests/client.spec.ts:36:24)
+        at /home/debian/twitter/tests/client.spec.ts:138:3
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/client-failed-publishing-p-09f5e-rough-closing-and-reopening-webkit/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/client-failed-publishing-p-09f5e-rough-closing-and-reopening-webkit/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/client-failed-publishing-p-09f5e-rough-closing-and-reopening-webkit/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/client-failed-publishing-p-09f5e-rough-closing-and-reopening-webkit/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  8) [webkit] › tests/client.spec.ts:169:1 › account reading and drafts survive offline reload, writes wait for verified reconnection, and sign out clears private storage 
+
+    Error: expect(locator).toHaveCount(expected) failed
+
+    Locator:  getByRole('dialog', { name: 'Sign in to Bluesky' })
+    Expected: 0
+    Received: 1
+    Timeout:  8000ms
+
+    Call log:
+      - Expect "toHaveCount" getByRole('dialog', { name: 'Sign in to Bluesky' }) with timeout 8000ms
+      - waiting for getByRole('dialog', { name: 'Sign in to Bluesky' })
+        20 × locator resolved to 1 element
+           - unexpected value "1"
+
+
+      34 |   await dialog.getByLabel('App password', { exact: true }).fill('test-app-password');
+      35 |   await dialog.getByRole('button', { name: 'Sign in', exact: true }).click();
+    > 36 |   await expect(dialog).toHaveCount(0);
+         |                        ^
+      37 |   await expect(page.getByRole('heading', { name: 'Timeline', exact: true })).toBeVisible();
+      38 | }
+      39 |
+        at signIn (/home/debian/twitter/tests/client.spec.ts:36:24)
+        at /home/debian/twitter/tests/client.spec.ts:170:3
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/client-account-reading-and-df0ab--out-clears-private-storage-webkit/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/client-account-reading-and-df0ab--out-clears-private-storage-webkit/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/client-account-reading-and-df0ab--out-clears-private-storage-webkit/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/client-account-reading-and-df0ab--out-clears-private-storage-webkit/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  9) [webkit] › tests/links.spec.ts:58:1 › UTF8 rich text opens mentions in sheets and hashtags as a real Bluesky search 
+
+    Error: expect(locator).toHaveCount(expected) failed
+
+    Locator:  locator('.stack-panel')
+    Expected: 1
+    Received: 0
+    Timeout:  8000ms
+
+    Call log:
+      - Expect "toHaveCount" locator('.stack-panel') with timeout 8000ms
+      - waiting for locator('.stack-panel')
+        20 × locator resolved to 0 elements
+           - unexpected value "0"
+
+
+      62 |   await expect(mention).toHaveAttribute('href', `https://bsky.app/profile/${encodeURIComponent(author.did)}`);
+      63 |   await mention.click();
+    > 64 |   await expect(panels(page)).toHaveCount(1);
+         |                              ^
+      65 |   await expect(panels(page).last()).toHaveAttribute('aria-label', 'Profile');
+      66 |   await expect(panels(page).last().getByText(author.description, { exact: true })).toBeVisible();
+      67 |   expect(control.requests.some(request => request.endpoint === 'app.bsky.actor.getProfile')).toBe(true);
+        at /home/debian/twitter/tests/links.spec.ts:64:30
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/links-UTF8-rich-text-opens-0b9d7-gs-as-a-real-Bluesky-search-webkit/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/links-UTF8-rich-text-opens-0b9d7-gs-as-a-real-Bluesky-search-webkit/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/links-UTF8-rich-text-opens-0b9d7-gs-as-a-real-Bluesky-search-webkit/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/links-UTF8-rich-text-opens-0b9d7-gs-as-a-real-Bluesky-search-webkit/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  10) [webkit] › tests/links.spec.ts:76:1 › facet links and external cards open embedded pages with working reload and original toolbar assets 
+
+    Test timeout of 60000ms exceeded.
+
+    Error: locator.click: Test timeout of 60000ms exceeded.
+    Call log:
+      - waiting for locator('.feed-scroll .post-card').first().getByRole('link', { name: 'reference', exact: true })
+
+
+       96 |
+       97 |   await setup(page, 'facets');
+    >  98 |   await firstPost(page).getByRole('link', { name: 'reference', exact: true }).click();
+          |                                                                               ^
+       99 |   await expect(panels(page)).toHaveCount(1);
+      100 |   await expect(panels(page).last()).toHaveAttribute('aria-label', 'reference');
+      101 |   await expect(panels(page).last().locator('iframe')).toHaveAttribute('src', webUrl);
+        at /home/debian/twitter/tests/links.spec.ts:98:79
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/links-facet-links-and-exte-1d0a6-and-original-toolbar-assets-webkit/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/links-facet-links-and-exte-1d0a6-and-original-toolbar-assets-webkit/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/links-facet-links-and-exte-1d0a6-and-original-toolbar-assets-webkit/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/links-facet-links-and-exte-1d0a6-and-original-toolbar-assets-webkit/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  11) [webkit] › tests/links.spec.ts:104:1 › image thumbnails open at the selected photo and support gallery keys, zoom and original assets 
+
+    Error: expect(locator).toHaveText(expected) failed
+
+    Locator: locator('.stack-panel').last().getByRole('region', { name: 'Image viewer' }).getByRole('status')
+    Expected: "2 of 2"
+    Error: strict mode violation: locator('.stack-panel').last().getByRole('region', { name: 'Image viewer' }).getByRole('status') resolved to 2 elements:
+        1) <span role="status" class="media-panel__count">2 of 2</span> aka getByText('of 2')
+        2) <p role="status" class="media-panel__error">…</p> aka getByText('This image could not be')
+
+    Call log:
+      - Expect "toHaveText" locator('.stack-panel').last().getByRole('region', { name: 'Image viewer' }).getByRole('status') with timeout 8000ms
+      - waiting for locator('.stack-panel').last().getByRole('region', { name: 'Image viewer' }).getByRole('status')
+
+
+      107 |   await expect(panels(page)).toHaveCount(1);
+      108 |   const photos = panels(page).last().getByRole('region', { name: 'Image viewer' });
+    > 109 |   await expect(photos.getByRole('status')).toHaveText('2 of 2');
+          |                                            ^
+      110 |   await expect(photos.getByRole('img', { name: 'Panel reference image 2', exact: true })).toBeVisible();
+      111 |   await expect.poll(() => photos.locator('.media-panel__image').evaluate(image => (image as HTMLImageElement).naturalWidth)).toBe(1200);
+      112 |   await expect(photos.getByRole('button', { name: 'Next image', exact: true })).toBeDisabled();
+        at /home/debian/twitter/tests/links.spec.ts:109:44
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/links-image-thumbnails-ope-b0ba1-ys-zoom-and-original-assets-webkit/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/links-image-thumbnails-ope-b0ba1-ys-zoom-and-original-assets-webkit/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/links-image-thumbnails-ope-b0ba1-ys-zoom-and-original-assets-webkit/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/links-image-thumbnails-ope-b0ba1-ys-zoom-and-original-assets-webkit/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  11 failed
+    [chromium] › tests/client.spec.ts:42:1 › conversation and profile form real stacked sheets; a header drag dismisses only its branch 
+    [webkit] › tests/client.spec.ts:42:1 › conversation and profile form real stacked sheets; a header drag dismisses only its branch 
+    [webkit] › tests/client.spec.ts:56:1 › pointer body drag and horizontal trackpad wheel browse sheets while vertical wheel scrolls content 
+    [webkit] › tests/client.spec.ts:75:1 › keyboard opens posts, browses sheets, and closes the newest panel 
+    [webkit] › tests/client.spec.ts:92:1 › mobile navigation and full width sheets fit a phone ─────
+    [webkit] › tests/client.spec.ts:110:1 › authentication errors stay in the dialog, successful login sends writes and persists only tokens 
+    [webkit] › tests/client.spec.ts:136:1 › failed publishing preserves a locally saved draft through closing and reopening 
+    [webkit] › tests/client.spec.ts:169:1 › account reading and drafts survive offline reload, writes wait for verified reconnection, and sign out clears private storage 
+    [webkit] › tests/links.spec.ts:58:1 › UTF8 rich text opens mentions in sheets and hashtags as a real Bluesky search 
+    [webkit] › tests/links.spec.ts:76:1 › facet links and external cards open embedded pages with working reload and original toolbar assets 
+    [webkit] › tests/links.spec.ts:104:1 › image thumbnails open at the selected photo and support gallery keys, zoom and original assets 
+  6 skipped
+  34 passed (2.6m)

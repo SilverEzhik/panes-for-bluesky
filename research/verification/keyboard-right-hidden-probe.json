@@ -1,0 +1,162 @@
+[
+  {
+    "tag": "BUTTON",
+    "text": "Close Profile",
+    "bounds": {
+      "x": 1458,
+      "y": 8,
+      "width": 30,
+      "height": 29,
+      "top": 8,
+      "right": 1488,
+      "bottom": 37,
+      "left": 1458
+    },
+    "offscreen": true,
+    "offset": "220"
+  },
+  {
+    "tag": "BUTTON",
+    "text": "Follow",
+    "bounds": {
+      "x": 1421,
+      "y": 79.5,
+      "width": 62,
+      "height": 29,
+      "top": 79.5,
+      "right": 1483,
+      "bottom": 108.5,
+      "left": 1421
+    },
+    "offscreen": true,
+    "offset": "220"
+  },
+  {
+    "tag": "A",
+    "text": "@paneltester.bsky.social",
+    "bounds": {
+      "x": 1143,
+      "y": 253,
+      "width": 177.78125,
+      "height": 17,
+      "top": 253,
+      "right": 1320.78125,
+      "bottom": 270,
+      "left": 1143
+    },
+    "offscreen": true,
+    "offset": "220"
+  },
+  {
+    "tag": "BUTTON",
+    "text": "Following12",
+    "bounds": {
+      "x": 1043,
+      "y": 300.5,
+      "width": 219,
+      "height": 53,
+      "top": 300.5,
+      "right": 1262,
+      "bottom": 353.5,
+      "left": 1043
+    },
+    "offscreen": true,
+    "offset": "220"
+  },
+  {
+    "tag": "BUTTON",
+    "text": "Followers42",
+    "bounds": {
+      "x": 1262,
+      "y": 300.5,
+      "width": 220,
+      "height": 53,
+      "top": 300.5,
+      "right": 1482,
+      "bottom": 353.5,
+      "left": 1262
+    },
+    "offscreen": true,
+    "offset": "220"
+  },
+  {
+    "tag": "BUTTON",
+    "text": "View Panel Tester's profile",
+    "bounds": {
+      "x": 1038,
+      "y": 424.5,
+      "width": 48,
+      "height": 48,
+      "top": 424.5,
+      "right": 1086,
+      "bottom": 472.5,
+      "left": 1038
+    },
+    "offscreen": true,
+    "offset": "220"
+  },
+  {
+    "tag": "BUTTON",
+    "text": "Panel Tester",
+    "bounds": {
+      "x": 1097,
+      "y": 425.5,
+      "width": 99.84375,
+      "height": 21.25,
+      "top": 425.5,
+      "right": 1196.84375,
+      "bottom": 446.75,
+      "left": 1097
+    },
+    "offscreen": true,
+    "offset": "220"
+  },
+  {
+    "tag": "BUTTON",
+    "text": "Open post by Panel Tester",
+    "bounds": {
+      "x": 1464.640625,
+      "y": 424.5,
+      "width": 22.359375,
+      "height": 24,
+      "top": 424.5,
+      "right": 1487,
+      "bottom": 448.5,
+      "left": 1464.640625
+    },
+    "offscreen": true,
+    "offset": "220"
+  },
+  {
+    "tag": "BUTTON",
+    "text": "View Panel Tester's profile",
+    "bounds": {
+      "x": 1038,
+      "y": 532.09375,
+      "width": 48,
+      "height": 48,
+      "top": 532.09375,
+      "right": 1086,
+      "bottom": 580.09375,
+      "left": 1038
+    },
+    "offscreen": true,
+    "offset": "220"
+  },
+  {
+    "tag": "BUTTON",
+    "text": "Panel Tester",
+    "bounds": {
+      "x": 1097,
+      "y": 533.09375,
+      "width": 99.84375,
+      "height": 21.25,
+      "top": 533.09375,
+      "right": 1196.84375,
+      "bottom": 554.34375,
+      "left": 1097
+    },
+    "offscreen": true,
+    "offset": "220"
+  }
+]

@@ -1,0 +1,17 @@
+{
+  "identifier": "ios-ipa-collection",
+  "file": {
+    "name": "Twitter 3.2.1.ipa",
+    "source": "original",
+    "mtime": "1662255272",
+    "size": "2972290",
+    "md5": "5505af2a724e32cda37b9e2130224984",
+    "crc32": "2e14b79f",
+    "sha1": "5ee9d09ffaab265a135502b47f6733f8811a9ce2",
+    "format": "iOS App Store Package",
+    "filecount": "325"
+  },
+  "downloadUrl": "https://archive.org/download/ios-ipa-collection/Twitter%203.2.1.ipa",
+  "retrievedAt": "2026-10-15",
+  "sha256": "49946b30f44242c405c6a5376412ea74049024485fd6cd7ff1245e4c0854412a"
+}

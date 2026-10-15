@@ -1,0 +1,5605 @@
+{
+  "before": {
+    "windowY": 0,
+    "visualTop": 0,
+    "active": "<body>\n    <div id=\"root\"><div class=\"app-shell nav-expanded \" data-navigation-mode=\"expanded\"><aside id=\"main-navigation\" class=\"sidebar\" aria-label=\"Main navigation\" style=\"width",
+    "offset": "0",
+    "nodes": [
+      {
+        "selector": "html",
+        "left": 0,
+        "top": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 1024,
+          "height": 768,
+          "top": 0,
+          "right": 1024,
+          "bottom": 768,
+          "left": 0
+        },
+        "transform": "none",
+        "overflow": "visible"
+      },
+      {
+        "selector": "body",
+        "left": 0,
+        "top": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 1024,
+          "height": 768,
+          "top": 0,
+          "right": 1024,
+          "bottom": 768,
+          "left": 0
+        },
+        "transform": "none",
+        "overflow": "visible"
+      },
+      {
+        "selector": ".app-shell",
+        "left": 0,
+        "top": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 1024,
+          "height": 768,
+          "top": 0,
+          "right": 1024,
+          "bottom": 768,
+          "left": 0
+        },
+        "transform": "none",
+        "overflow": "hidden"
+      },
+      {
+        "selector": ".workspace",
+        "left": 0,
+        "top": 0,
+        "bounds": {
+          "x": 292,
+          "y": 0,
+          "width": 732,
+          "height": 768,
+          "top": 0,
+          "right": 1024,
+          "bottom": 768,
+          "left": 292
+        },
+        "transform": "none",
+        "overflow": "hidden"
+      },
+      {
+        "selector": ".panel-stack",
+        "left": 0,
+        "top": 0,
+        "bounds": {
+          "x": 292,
+          "y": 0,
+          "width": 732,
+          "height": 768,
+          "top": 0,
+          "right": 1024,
+          "bottom": 768,
+          "left": 292
+        },
+        "transform": "none",
+        "overflow": "hidden"
+      },
+      {
+        "selector": ".timeline",
+        "left": 0,
+        "top": 0,
+        "bounds": {
+          "x": 292,
+          "y": 0,
+          "width": 476,
+          "height": 768,
+          "top": 0,
+          "right": 768,
+          "bottom": 768,
+          "left": 292
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "overflow": "visible"
+      },
+      {
+        "selector": ".feed-scroll",
+        "left": 0,
+        "top": 0,
+        "bounds": {
+          "x": 292,
+          "y": 0,
+          "width": 475,
+          "height": 738,
+          "top": 0,
+          "right": 767,
+          "bottom": 738,
+          "left": 292
+        },
+        "transform": "none",
+        "overflow": "auto"
+      },
+      null,
+      null
+    ]
+  },
+  "opened": {
+    "windowY": 0,
+    "visualTop": 0,
+    "active": "<section class=\"stack-panel\" data-panel-index=\"0\" tabindex=\"-1\" aria-label=\"Conversation\" style=\"width: 476px; transform: translate3d(476px, 0px, 0px); z-index: 1;\"><header class=\"",
+    "offset": "0",
+    "nodes": [
+      {
+        "selector": "html",
+        "left": 0,
+        "top": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 1024,
+          "height": 768,
+          "top": 0,
+          "right": 1024,
+          "bottom": 768,
+          "left": 0
+        },
+        "transform": "none",
+        "overflow": "visible"
+      },
+      {
+        "selector": "body",
+        "left": 0,
+        "top": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 1024,
+          "height": 768,
+          "top": 0,
+          "right": 1024,
+          "bottom": 768,
+          "left": 0
+        },
+        "transform": "none",
+        "overflow": "visible"
+      },
+      {
+        "selector": ".app-shell",
+        "left": 0,
+        "top": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 1024,
+          "height": 768,
+          "top": 0,
+          "right": 1024,
+          "bottom": 768,
+          "left": 0
+        },
+        "transform": "none",
+        "overflow": "hidden"
+      },
+      {
+        "selector": ".workspace",
+        "left": 0,
+        "top": 0,
+        "bounds": {
+          "x": 292,
+          "y": 0,
+          "width": 732,
+          "height": 768,
+          "top": 0,
+          "right": 1024,
+          "bottom": 768,
+          "left": 292
+        },
+        "transform": "none",
+        "overflow": "hidden"
+      },
+      {
+        "selector": ".panel-stack",
+        "left": 0,
+        "top": 0,
+        "bounds": {
+          "x": 292,
+          "y": 0,
+          "width": 732,
+          "height": 768,
+          "top": 0,
+          "right": 1024,
+          "bottom": 768,
+          "left": 292
+        },
+        "transform": "none",
+        "overflow": "hidden"
+      },
+      {
+        "selector": ".timeline",
+        "left": 0,
+        "top": 0,
+        "bounds": {
+          "x": 292,
+          "y": 0,
+          "width": 476,
+          "height": 768,
+          "top": 0,
+          "right": 768,
+          "bottom": 768,
+          "left": 292
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "overflow": "visible"
+      },
+      {
+        "selector": ".feed-scroll",
+        "left": 0,
+        "top": 0,
+        "bounds": {
+          "x": 292,
+          "y": 0,
+          "width": 475,
+          "height": 738,
+          "top": 0,
+          "right": 767,
+          "bottom": 738,
+          "left": 292
+        },
+        "transform": "none",
+        "overflow": "auto"
+      },
+      {
+        "selector": ".stack-panel:last-child",
+        "left": 0,
+        "top": 0,
+        "bounds": {
+          "x": 768,
+          "y": 0,
+          "width": 476,
+          "height": 768,
+          "top": 0,
+          "right": 1244,
+          "bottom": 768,
+          "left": 768
+        },
+        "transform": "matrix(1, 0, 0, 1, 476, 0)",
+        "overflow": "visible"
+      },
+      {
+        "selector": ".stack-panel:last-child .stack-panel__body",
+        "left": 0,
+        "top": 0,
+        "bounds": {
+          "x": 769,
+          "y": 45,
+          "width": 475,
+          "height": 723,
+          "top": 45,
+          "right": 1244,
+          "bottom": 768,
+          "left": 769
+        },
+        "transform": "none",
+        "overflow": "hidden auto"
+      }
+    ]
+  },
+  "events": [],
+  "immediate": {
+    "windowY": 0,
+    "visualTop": 0,
+    "active": "<body>\n    <div id=\"root\"><div class=\"app-shell nav-expanded \" data-navigation-mode=\"expanded\"><aside id=\"main-navigation\" class=\"sidebar\" aria-label=\"Main navigation\" style=\"width",
+    "offset": "220",
+    "nodes": [
+      {
+        "selector": "html",
+        "left": 0,
+        "top": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 1024,
+          "height": 768,
+          "top": 0,
+          "right": 1024,
+          "bottom": 768,
+          "left": 0
+        },
+        "transform": "none",
+        "overflow": "visible"
+      },
+      {
+        "selector": "body",
+        "left": 0,
+        "top": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 1024,
+          "height": 768,
+          "top": 0,
+          "right": 1024,
+          "bottom": 768,
+          "left": 0
+        },
+        "transform": "none",
+        "overflow": "visible"
+      },
+      {
+        "selector": ".app-shell",
+        "left": 0,
+        "top": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 1024,
+          "height": 768,
+          "top": 0,
+          "right": 1024,
+          "bottom": 768,
+          "left": 0
+        },
+        "transform": "none",
+        "overflow": "hidden"
+      },
+      {
+        "selector": ".workspace",
+        "left": 0,
+        "top": 0,
+        "bounds": {
+          "x": 292,
+          "y": 0,
+          "width": 732,
+          "height": 768,
+          "top": 0,
+          "right": 1024,
+          "bottom": 768,
+          "left": 292
+        },
+        "transform": "none",
+        "overflow": "hidden"
+      },
+      {
+        "selector": ".panel-stack",
+        "left": 0,
+        "top": 0,
+        "bounds": {
+          "x": 292,
+          "y": 0,
+          "width": 732,
+          "height": 768,
+          "top": 0,
+          "right": 1024,
+          "bottom": 768,
+          "left": 292
+        },
+        "transform": "none",
+        "overflow": "hidden"
+      },
+      {
+        "selector": ".timeline",
+        "left": 0,
+        "top": 0,
+        "bounds": {
+          "x": 72,
+          "y": 0,
+          "width": 476,
+          "height": 768,
+          "top": 0,
+          "right": 548,
+          "bottom": 768,
+          "left": 72
+        },
+        "transform": "matrix(1, 0, 0, 1, -220, 0)",
+        "overflow": "visible"
+      },
+      {
+        "selector": ".feed-scroll",
+        "left": 0,
+        "top": 0,
+        "bounds": {
+          "x": 72,
+          "y": 0,
+          "width": 475,
+          "height": 738,
+          "top": 0,
+          "right": 547,
+          "bottom": 738,
+          "left": 72
+        },
+        "transform": "none",
+        "overflow": "auto"
+      },
+      null,
+      null
+    ]
+  },
+  "settled": {
+    "windowY": 0,
+    "visualTop": 0,
+    "active": "<body>\n    <div id=\"root\"><div class=\"app-shell nav-expanded \" data-navigation-mode=\"expanded\"><aside id=\"main-navigation\" class=\"sidebar\" aria-label=\"Main navigation\" style=\"width",
+    "offset": "0",
+    "nodes": [
+      {
+        "selector": "html",
+        "left": 0,
+        "top": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 1024,
+          "height": 768,
+          "top": 0,
+          "right": 1024,
+          "bottom": 768,
+          "left": 0
+        },
+        "transform": "none",
+        "overflow": "visible"
+      },
+      {
+        "selector": "body",
+        "left": 0,
+        "top": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 1024,
+          "height": 768,
+          "top": 0,
+          "right": 1024,
+          "bottom": 768,
+          "left": 0
+        },
+        "transform": "none",
+        "overflow": "visible"
+      },
+      {
+        "selector": ".app-shell",
+        "left": 0,
+        "top": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 1024,
+          "height": 768,
+          "top": 0,
+          "right": 1024,
+          "bottom": 768,
+          "left": 0
+        },
+        "transform": "none",
+        "overflow": "hidden"
+      },
+      {
+        "selector": ".workspace",
+        "left": 0,
+        "top": 0,
+        "bounds": {
+          "x": 292,
+          "y": 0,
+          "width": 732,
+          "height": 768,
+          "top": 0,
+          "right": 1024,
+          "bottom": 768,
+          "left": 292
+        },
+        "transform": "none",
+        "overflow": "hidden"
+      },
+      {
+        "selector": ".panel-stack",
+        "left": 0,
+        "top": 0,
+        "bounds": {
+          "x": 292,
+          "y": 0,
+          "width": 732,
+          "height": 768,
+          "top": 0,
+          "right": 1024,
+          "bottom": 768,
+          "left": 292
+        },
+        "transform": "none",
+        "overflow": "hidden"
+      },
+      {
+        "selector": ".timeline",
+        "left": 0,
+        "top": 0,
+        "bounds": {
+          "x": 292,
+          "y": 0,
+          "width": 476,
+          "height": 768,
+          "top": 0,
+          "right": 768,
+          "bottom": 768,
+          "left": 292
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "overflow": "visible"
+      },
+      {
+        "selector": ".feed-scroll",
+        "left": 0,
+        "top": 0,
+        "bounds": {
+          "x": 292,
+          "y": 0,
+          "width": 475,
+          "height": 738,
+          "top": 0,
+          "right": 767,
+          "bottom": 738,
+          "left": 292
+        },
+        "transform": "none",
+        "overflow": "auto"
+      },
+      null,
+      null
+    ]
+  },
+  "cycles": [
+    {
+      "beforeCycle": {
+        "windowY": 0,
+        "visualTop": 0,
+        "active": "<body>\n    <div id=\"root\"><div class=\"app-shell nav-expanded \" data-navigation-mode=\"expanded\"><aside id=\"main-navigation\" class=\"sidebar\" aria-label=\"Main navigation\" style=\"width",
+        "offset": "0",
+        "nodes": [
+          {
+            "selector": "html",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 0,
+              "y": 0,
+              "width": 1024,
+              "height": 768,
+              "top": 0,
+              "right": 1024,
+              "bottom": 768,
+              "left": 0
+            },
+            "transform": "none",
+            "overflow": "visible"
+          },
+          {
+            "selector": "body",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 0,
+              "y": 0,
+              "width": 1024,
+              "height": 768,
+              "top": 0,
+              "right": 1024,
+              "bottom": 768,
+              "left": 0
+            },
+            "transform": "none",
+            "overflow": "visible"
+          },
+          {
+            "selector": ".app-shell",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 0,
+              "y": 0,
+              "width": 1024,
+              "height": 768,
+              "top": 0,
+              "right": 1024,
+              "bottom": 768,
+              "left": 0
+            },
+            "transform": "none",
+            "overflow": "hidden"
+          },
+          {
+            "selector": ".workspace",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 292,
+              "y": 0,
+              "width": 732,
+              "height": 768,
+              "top": 0,
+              "right": 1024,
+              "bottom": 768,
+              "left": 292
+            },
+            "transform": "none",
+            "overflow": "hidden"
+          },
+          {
+            "selector": ".panel-stack",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 292,
+              "y": 0,
+              "width": 732,
+              "height": 768,
+              "top": 0,
+              "right": 1024,
+              "bottom": 768,
+              "left": 292
+            },
+            "transform": "none",
+            "overflow": "hidden"
+          },
+          {
+            "selector": ".timeline",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 292,
+              "y": 0,
+              "width": 476,
+              "height": 768,
+              "top": 0,
+              "right": 768,
+              "bottom": 768,
+              "left": 292
+            },
+            "transform": "matrix(1, 0, 0, 1, 0, 0)",
+            "overflow": "visible"
+          },
+          {
+            "selector": ".feed-scroll",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 292,
+              "y": 0,
+              "width": 475,
+              "height": 738,
+              "top": 0,
+              "right": 767,
+              "bottom": 738,
+              "left": 292
+            },
+            "transform": "none",
+            "overflow": "auto"
+          },
+          null,
+          null
+        ]
+      },
+      "openCycle": {
+        "windowY": 0,
+        "visualTop": 0,
+        "active": "<section class=\"stack-panel\" data-panel-index=\"0\" tabindex=\"-1\" aria-label=\"Conversation\" style=\"width: 476px; transform: translate3d(476px, 0px, 0px); z-index: 1;\"><header class=\"",
+        "offset": "0",
+        "nodes": [
+          {
+            "selector": "html",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 0,
+              "y": 0,
+              "width": 1024,
+              "height": 768,
+              "top": 0,
+              "right": 1024,
+              "bottom": 768,
+              "left": 0
+            },
+            "transform": "none",
+            "overflow": "visible"
+          },
+          {
+            "selector": "body",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 0,
+              "y": 0,
+              "width": 1024,
+              "height": 768,
+              "top": 0,
+              "right": 1024,
+              "bottom": 768,
+              "left": 0
+            },
+            "transform": "none",
+            "overflow": "visible"
+          },
+          {
+            "selector": ".app-shell",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 0,
+              "y": 0,
+              "width": 1024,
+              "height": 768,
+              "top": 0,
+              "right": 1024,
+              "bottom": 768,
+              "left": 0
+            },
+            "transform": "none",
+            "overflow": "hidden"
+          },
+          {
+            "selector": ".workspace",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 292,
+              "y": 0,
+              "width": 732,
+              "height": 768,
+              "top": 0,
+              "right": 1024,
+              "bottom": 768,
+              "left": 292
+            },
+            "transform": "none",
+            "overflow": "hidden"
+          },
+          {
+            "selector": ".panel-stack",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 292,
+              "y": 0,
+              "width": 732,
+              "height": 768,
+              "top": 0,
+              "right": 1024,
+              "bottom": 768,
+              "left": 292
+            },
+            "transform": "none",
+            "overflow": "hidden"
+          },
+          {
+            "selector": ".timeline",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 292,
+              "y": 0,
+              "width": 476,
+              "height": 768,
+              "top": 0,
+              "right": 768,
+              "bottom": 768,
+              "left": 292
+            },
+            "transform": "matrix(1, 0, 0, 1, 0, 0)",
+            "overflow": "visible"
+          },
+          {
+            "selector": ".feed-scroll",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 292,
+              "y": 0,
+              "width": 475,
+              "height": 738,
+              "top": 0,
+              "right": 767,
+              "bottom": 738,
+              "left": 292
+            },
+            "transform": "none",
+            "overflow": "auto"
+          },
+          {
+            "selector": ".stack-panel:last-child",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 768,
+              "y": 0,
+              "width": 476,
+              "height": 768,
+              "top": 0,
+              "right": 1244,
+              "bottom": 768,
+              "left": 768
+            },
+            "transform": "matrix(1, 0, 0, 1, 476, 0)",
+            "overflow": "visible"
+          },
+          {
+            "selector": ".stack-panel:last-child .stack-panel__body",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 769,
+              "y": 45,
+              "width": 475,
+              "height": 723,
+              "top": 45,
+              "right": 1244,
+              "bottom": 768,
+              "left": 769
+            },
+            "transform": "none",
+            "overflow": "hidden auto"
+          }
+        ]
+      },
+      "closed": {
+        "windowY": 0,
+        "visualTop": 0,
+        "active": "<body>\n    <div id=\"root\"><div class=\"app-shell nav-expanded \" data-navigation-mode=\"expanded\"><aside id=\"main-navigation\" class=\"sidebar\" aria-label=\"Main navigation\" style=\"width",
+        "offset": "220",
+        "nodes": [
+          {
+            "selector": "html",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 0,
+              "y": 0,
+              "width": 1024,
+              "height": 768,
+              "top": 0,
+              "right": 1024,
+              "bottom": 768,
+              "left": 0
+            },
+            "transform": "none",
+            "overflow": "visible"
+          },
+          {
+            "selector": "body",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 0,
+              "y": 0,
+              "width": 1024,
+              "height": 768,
+              "top": 0,
+              "right": 1024,
+              "bottom": 768,
+              "left": 0
+            },
+            "transform": "none",
+            "overflow": "visible"
+          },
+          {
+            "selector": ".app-shell",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 0,
+              "y": 0,
+              "width": 1024,
+              "height": 768,
+              "top": 0,
+              "right": 1024,
+              "bottom": 768,
+              "left": 0
+            },
+            "transform": "none",
+            "overflow": "hidden"
+          },
+          {
+            "selector": ".workspace",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 292,
+              "y": 0,
+              "width": 732,
+              "height": 768,
+              "top": 0,
+              "right": 1024,
+              "bottom": 768,
+              "left": 292
+            },
+            "transform": "none",
+            "overflow": "hidden"
+          },
+          {
+            "selector": ".panel-stack",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 292,
+              "y": 0,
+              "width": 732,
+              "height": 768,
+              "top": 0,
+              "right": 1024,
+              "bottom": 768,
+              "left": 292
+            },
+            "transform": "none",
+            "overflow": "hidden"
+          },
+          {
+            "selector": ".timeline",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 72,
+              "y": 0,
+              "width": 476,
+              "height": 768,
+              "top": 0,
+              "right": 548,
+              "bottom": 768,
+              "left": 72
+            },
+            "transform": "matrix(1, 0, 0, 1, -220, 0)",
+            "overflow": "visible"
+          },
+          {
+            "selector": ".feed-scroll",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 72,
+              "y": 0,
+              "width": 475,
+              "height": 738,
+              "top": 0,
+              "right": 547,
+              "bottom": 738,
+              "left": 72
+            },
+            "transform": "none",
+            "overflow": "auto"
+          },
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "beforeCycle": {
+        "windowY": 0,
+        "visualTop": 0,
+        "active": "<body>\n    <div id=\"root\"><div class=\"app-shell nav-expanded \" data-navigation-mode=\"expanded\"><aside id=\"main-navigation\" class=\"sidebar\" aria-label=\"Main navigation\" style=\"width",
+        "offset": "220",
+        "nodes": [
+          {
+            "selector": "html",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 0,
+              "y": 0,
+              "width": 1024,
+              "height": 768,
+              "top": 0,
+              "right": 1024,
+              "bottom": 768,
+              "left": 0
+            },
+            "transform": "none",
+            "overflow": "visible"
+          },
+          {
+            "selector": "body",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 0,
+              "y": 0,
+              "width": 1024,
+              "height": 768,
+              "top": 0,
+              "right": 1024,
+              "bottom": 768,
+              "left": 0
+            },
+            "transform": "none",
+            "overflow": "visible"
+          },
+          {
+            "selector": ".app-shell",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 0,
+              "y": 0,
+              "width": 1024,
+              "height": 768,
+              "top": 0,
+              "right": 1024,
+              "bottom": 768,
+              "left": 0
+            },
+            "transform": "none",
+            "overflow": "hidden"
+          },
+          {
+            "selector": ".workspace",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 292,
+              "y": 0,
+              "width": 732,
+              "height": 768,
+              "top": 0,
+              "right": 1024,
+              "bottom": 768,
+              "left": 292
+            },
+            "transform": "none",
+            "overflow": "hidden"
+          },
+          {
+            "selector": ".panel-stack",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 292,
+              "y": 0,
+              "width": 732,
+              "height": 768,
+              "top": 0,
+              "right": 1024,
+              "bottom": 768,
+              "left": 292
+            },
+            "transform": "none",
+            "overflow": "hidden"
+          },
+          {
+            "selector": ".timeline",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 72,
+              "y": 0,
+              "width": 476,
+              "height": 768,
+              "top": 0,
+              "right": 548,
+              "bottom": 768,
+              "left": 72
+            },
+            "transform": "matrix(1, 0, 0, 1, -220, 0)",
+            "overflow": "visible"
+          },
+          {
+            "selector": ".feed-scroll",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 72,
+              "y": 0,
+              "width": 475,
+              "height": 738,
+              "top": 0,
+              "right": 547,
+              "bottom": 738,
+              "left": 72
+            },
+            "transform": "none",
+            "overflow": "auto"
+          },
+          null,
+          null
+        ]
+      },
+      "openCycle": {
+        "windowY": 0,
+        "visualTop": 0,
+        "active": "<section class=\"stack-panel\" data-panel-index=\"0\" tabindex=\"-1\" aria-label=\"Conversation\" style=\"width: 476px; transform: translate3d(482px, 0px, 0px); z-index: 1;\"><header class=\"",
+        "offset": "-6",
+        "nodes": [
+          {
+            "selector": "html",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 0,
+              "y": 0,
+              "width": 1024,
+              "height": 768,
+              "top": 0,
+              "right": 1024,
+              "bottom": 768,
+              "left": 0
+            },
+            "transform": "none",
+            "overflow": "visible"
+          },
+          {
+            "selector": "body",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 0,
+              "y": 0,
+              "width": 1024,
+              "height": 768,
+              "top": 0,
+              "right": 1024,
+              "bottom": 768,
+              "left": 0
+            },
+            "transform": "none",
+            "overflow": "visible"
+          },
+          {
+            "selector": ".app-shell",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 0,
+              "y": 0,
+              "width": 1024,
+              "height": 768,
+              "top": 0,
+              "right": 1024,
+              "bottom": 768,
+              "left": 0
+            },
+            "transform": "none",
+            "overflow": "hidden"
+          },
+          {
+            "selector": ".workspace",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 292,
+              "y": 0,
+              "width": 732,
+              "height": 768,
+              "top": 0,
+              "right": 1024,
+              "bottom": 768,
+              "left": 292
+            },
+            "transform": "none",
+            "overflow": "hidden"
+          },
+          {
+            "selector": ".panel-stack",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 292,
+              "y": 0,
+              "width": 732,
+              "height": 768,
+              "top": 0,
+              "right": 1024,
+              "bottom": 768,
+              "left": 292
+            },
+            "transform": "none",
+            "overflow": "hidden"
+          },
+          {
+            "selector": ".timeline",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 298,
+              "y": 0,
+              "width": 476,
+              "height": 768,
+              "top": 0,
+              "right": 774,
+              "bottom": 768,
+              "left": 298
+            },
+            "transform": "matrix(1, 0, 0, 1, 6, 0)",
+            "overflow": "visible"
+          },
+          {
+            "selector": ".feed-scroll",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 298,
+              "y": 0,
+              "width": 475,
+              "height": 738,
+              "top": 0,
+              "right": 773,
+              "bottom": 738,
+              "left": 298
+            },
+            "transform": "none",
+            "overflow": "auto"
+          },
+          {
+            "selector": ".stack-panel:last-child",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 774,
+              "y": 0,
+              "width": 476,
+              "height": 768,
+              "top": 0,
+              "right": 1250,
+              "bottom": 768,
+              "left": 774
+            },
+            "transform": "matrix(1, 0, 0, 1, 482, 0)",
+            "overflow": "visible"
+          },
+          {
+            "selector": ".stack-panel:last-child .stack-panel__body",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 775,
+              "y": 45,
+              "width": 475,
+              "height": 723,
+              "top": 45,
+              "right": 1250,
+              "bottom": 768,
+              "left": 775
+            },
+            "transform": "none",
+            "overflow": "hidden auto"
+          }
+        ]
+      },
+      "closed": {
+        "windowY": 0,
+        "visualTop": 0,
+        "active": "<body>\n    <div id=\"root\"><div class=\"app-shell nav-expanded \" data-navigation-mode=\"expanded\"><aside id=\"main-navigation\" class=\"sidebar\" aria-label=\"Main navigation\" style=\"width",
+        "offset": "220",
+        "nodes": [
+          {
+            "selector": "html",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 0,
+              "y": 0,
+              "width": 1024,
+              "height": 768,
+              "top": 0,
+              "right": 1024,
+              "bottom": 768,
+              "left": 0
+            },
+            "transform": "none",
+            "overflow": "visible"
+          },
+          {
+            "selector": "body",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 0,
+              "y": 0,
+              "width": 1024,
+              "height": 768,
+              "top": 0,
+              "right": 1024,
+              "bottom": 768,
+              "left": 0
+            },
+            "transform": "none",
+            "overflow": "visible"
+          },
+          {
+            "selector": ".app-shell",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 0,
+              "y": 0,
+              "width": 1024,
+              "height": 768,
+              "top": 0,
+              "right": 1024,
+              "bottom": 768,
+              "left": 0
+            },
+            "transform": "none",
+            "overflow": "hidden"
+          },
+          {
+            "selector": ".workspace",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 292,
+              "y": 0,
+              "width": 732,
+              "height": 768,
+              "top": 0,
+              "right": 1024,
+              "bottom": 768,
+              "left": 292
+            },
+            "transform": "none",
+            "overflow": "hidden"
+          },
+          {
+            "selector": ".panel-stack",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 292,
+              "y": 0,
+              "width": 732,
+              "height": 768,
+              "top": 0,
+              "right": 1024,
+              "bottom": 768,
+              "left": 292
+            },
+            "transform": "none",
+            "overflow": "hidden"
+          },
+          {
+            "selector": ".timeline",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 72,
+              "y": 0,
+              "width": 476,
+              "height": 768,
+              "top": 0,
+              "right": 548,
+              "bottom": 768,
+              "left": 72
+            },
+            "transform": "matrix(1, 0, 0, 1, -220, 0)",
+            "overflow": "visible"
+          },
+          {
+            "selector": ".feed-scroll",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 72,
+              "y": 0,
+              "width": 475,
+              "height": 738,
+              "top": 0,
+              "right": 547,
+              "bottom": 738,
+              "left": 72
+            },
+            "transform": "none",
+            "overflow": "auto"
+          },
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "beforeCycle": {
+        "windowY": 0,
+        "visualTop": 0,
+        "active": "<body>\n    <div id=\"root\"><div class=\"app-shell nav-expanded \" data-navigation-mode=\"expanded\"><aside id=\"main-navigation\" class=\"sidebar\" aria-label=\"Main navigation\" style=\"width",
+        "offset": "220",
+        "nodes": [
+          {
+            "selector": "html",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 0,
+              "y": 0,
+              "width": 1024,
+              "height": 768,
+              "top": 0,
+              "right": 1024,
+              "bottom": 768,
+              "left": 0
+            },
+            "transform": "none",
+            "overflow": "visible"
+          },
+          {
+            "selector": "body",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 0,
+              "y": 0,
+              "width": 1024,
+              "height": 768,
+              "top": 0,
+              "right": 1024,
+              "bottom": 768,
+              "left": 0
+            },
+            "transform": "none",
+            "overflow": "visible"
+          },
+          {
+            "selector": ".app-shell",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 0,
+              "y": 0,
+              "width": 1024,
+              "height": 768,
+              "top": 0,
+              "right": 1024,
+              "bottom": 768,
+              "left": 0
+            },
+            "transform": "none",
+            "overflow": "hidden"
+          },
+          {
+            "selector": ".workspace",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 292,
+              "y": 0,
+              "width": 732,
+              "height": 768,
+              "top": 0,
+              "right": 1024,
+              "bottom": 768,
+              "left": 292
+            },
+            "transform": "none",
+            "overflow": "hidden"
+          },
+          {
+            "selector": ".panel-stack",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 292,
+              "y": 0,
+              "width": 732,
+              "height": 768,
+              "top": 0,
+              "right": 1024,
+              "bottom": 768,
+              "left": 292
+            },
+            "transform": "none",
+            "overflow": "hidden"
+          },
+          {
+            "selector": ".timeline",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 72,
+              "y": 0,
+              "width": 476,
+              "height": 768,
+              "top": 0,
+              "right": 548,
+              "bottom": 768,
+              "left": 72
+            },
+            "transform": "matrix(1, 0, 0, 1, -220, 0)",
+            "overflow": "visible"
+          },
+          {
+            "selector": ".feed-scroll",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 72,
+              "y": 0,
+              "width": 475,
+              "height": 738,
+              "top": 0,
+              "right": 547,
+              "bottom": 738,
+              "left": 72
+            },
+            "transform": "none",
+            "overflow": "auto"
+          },
+          null,
+          null
+        ]
+      },
+      "openCycle": {
+        "windowY": 0,
+        "visualTop": 0,
+        "active": "<section class=\"stack-panel\" data-panel-index=\"0\" tabindex=\"-1\" aria-label=\"Conversation\" style=\"width: 476px; transform: translate3d(482px, 0px, 0px); z-index: 1;\"><header class=\"",
+        "offset": "-6",
+        "nodes": [
+          {
+            "selector": "html",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 0,
+              "y": 0,
+              "width": 1024,
+              "height": 768,
+              "top": 0,
+              "right": 1024,
+              "bottom": 768,
+              "left": 0
+            },
+            "transform": "none",
+            "overflow": "visible"
+          },
+          {
+            "selector": "body",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 0,
+              "y": 0,
+              "width": 1024,
+              "height": 768,
+              "top": 0,
+              "right": 1024,
+              "bottom": 768,
+              "left": 0
+            },
+            "transform": "none",
+            "overflow": "visible"
+          },
+          {
+            "selector": ".app-shell",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 0,
+              "y": 0,
+              "width": 1024,
+              "height": 768,
+              "top": 0,
+              "right": 1024,
+              "bottom": 768,
+              "left": 0
+            },
+            "transform": "none",
+            "overflow": "hidden"
+          },
+          {
+            "selector": ".workspace",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 292,
+              "y": 0,
+              "width": 732,
+              "height": 768,
+              "top": 0,
+              "right": 1024,
+              "bottom": 768,
+              "left": 292
+            },
+            "transform": "none",
+            "overflow": "hidden"
+          },
+          {
+            "selector": ".panel-stack",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 292,
+              "y": 0,
+              "width": 732,
+              "height": 768,
+              "top": 0,
+              "right": 1024,
+              "bottom": 768,
+              "left": 292
+            },
+            "transform": "none",
+            "overflow": "hidden"
+          },
+          {
+            "selector": ".timeline",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 298,
+              "y": 0,
+              "width": 476,
+              "height": 768,
+              "top": 0,
+              "right": 774,
+              "bottom": 768,
+              "left": 298
+            },
+            "transform": "matrix(1, 0, 0, 1, 6, 0)",
+            "overflow": "visible"
+          },
+          {
+            "selector": ".feed-scroll",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 298,
+              "y": 0,
+              "width": 475,
+              "height": 738,
+              "top": 0,
+              "right": 773,
+              "bottom": 738,
+              "left": 298
+            },
+            "transform": "none",
+            "overflow": "auto"
+          },
+          {
+            "selector": ".stack-panel:last-child",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 774,
+              "y": 0,
+              "width": 476,
+              "height": 768,
+              "top": 0,
+              "right": 1250,
+              "bottom": 768,
+              "left": 774
+            },
+            "transform": "matrix(1, 0, 0, 1, 482, 0)",
+            "overflow": "visible"
+          },
+          {
+            "selector": ".stack-panel:last-child .stack-panel__body",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 775,
+              "y": 45,
+              "width": 475,
+              "height": 723,
+              "top": 45,
+              "right": 1250,
+              "bottom": 768,
+              "left": 775
+            },
+            "transform": "none",
+            "overflow": "hidden auto"
+          }
+        ]
+      },
+      "closed": {
+        "windowY": 0,
+        "visualTop": 0,
+        "active": "<body>\n    <div id=\"root\"><div class=\"app-shell nav-expanded \" data-navigation-mode=\"expanded\"><aside id=\"main-navigation\" class=\"sidebar\" aria-label=\"Main navigation\" style=\"width",
+        "offset": "220",
+        "nodes": [
+          {
+            "selector": "html",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 0,
+              "y": 0,
+              "width": 1024,
+              "height": 768,
+              "top": 0,
+              "right": 1024,
+              "bottom": 768,
+              "left": 0
+            },
+            "transform": "none",
+            "overflow": "visible"
+          },
+          {
+            "selector": "body",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 0,
+              "y": 0,
+              "width": 1024,
+              "height": 768,
+              "top": 0,
+              "right": 1024,
+              "bottom": 768,
+              "left": 0
+            },
+            "transform": "none",
+            "overflow": "visible"
+          },
+          {
+            "selector": ".app-shell",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 0,
+              "y": 0,
+              "width": 1024,
+              "height": 768,
+              "top": 0,
+              "right": 1024,
+              "bottom": 768,
+              "left": 0
+            },
+            "transform": "none",
+            "overflow": "hidden"
+          },
+          {
+            "selector": ".workspace",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 292,
+              "y": 0,
+              "width": 732,
+              "height": 768,
+              "top": 0,
+              "right": 1024,
+              "bottom": 768,
+              "left": 292
+            },
+            "transform": "none",
+            "overflow": "hidden"
+          },
+          {
+            "selector": ".panel-stack",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 292,
+              "y": 0,
+              "width": 732,
+              "height": 768,
+              "top": 0,
+              "right": 1024,
+              "bottom": 768,
+              "left": 292
+            },
+            "transform": "none",
+            "overflow": "hidden"
+          },
+          {
+            "selector": ".timeline",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 72,
+              "y": 0,
+              "width": 476,
+              "height": 768,
+              "top": 0,
+              "right": 548,
+              "bottom": 768,
+              "left": 72
+            },
+            "transform": "matrix(1, 0, 0, 1, -220, 0)",
+            "overflow": "visible"
+          },
+          {
+            "selector": ".feed-scroll",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 72,
+              "y": 0,
+              "width": 475,
+              "height": 738,
+              "top": 0,
+              "right": 547,
+              "bottom": 738,
+              "left": 72
+            },
+            "transform": "none",
+            "overflow": "auto"
+          },
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "beforeCycle": {
+        "windowY": 0,
+        "visualTop": 0,
+        "active": "<body>\n    <div id=\"root\"><div class=\"app-shell nav-expanded \" data-navigation-mode=\"expanded\"><aside id=\"main-navigation\" class=\"sidebar\" aria-label=\"Main navigation\" style=\"width",
+        "offset": "220",
+        "nodes": [
+          {
+            "selector": "html",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 0,
+              "y": 0,
+              "width": 1024,
+              "height": 768,
+              "top": 0,
+              "right": 1024,
+              "bottom": 768,
+              "left": 0
+            },
+            "transform": "none",
+            "overflow": "visible"
+          },
+          {
+            "selector": "body",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 0,
+              "y": 0,
+              "width": 1024,
+              "height": 768,
+              "top": 0,
+              "right": 1024,
+              "bottom": 768,
+              "left": 0
+            },
+            "transform": "none",
+            "overflow": "visible"
+          },
+          {
+            "selector": ".app-shell",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 0,
+              "y": 0,
+              "width": 1024,
+              "height": 768,
+              "top": 0,
+              "right": 1024,
+              "bottom": 768,
+              "left": 0
+            },
+            "transform": "none",
+            "overflow": "hidden"
+          },
+          {
+            "selector": ".workspace",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 292,
+              "y": 0,
+              "width": 732,
+              "height": 768,
+              "top": 0,
+              "right": 1024,
+              "bottom": 768,
+              "left": 292
+            },
+            "transform": "none",
+            "overflow": "hidden"
+          },
+          {
+            "selector": ".panel-stack",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 292,
+              "y": 0,
+              "width": 732,
+              "height": 768,
+              "top": 0,
+              "right": 1024,
+              "bottom": 768,
+              "left": 292
+            },
+            "transform": "none",
+            "overflow": "hidden"
+          },
+          {
+            "selector": ".timeline",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 72,
+              "y": 0,
+              "width": 476,
+              "height": 768,
+              "top": 0,
+              "right": 548,
+              "bottom": 768,
+              "left": 72
+            },
+            "transform": "matrix(1, 0, 0, 1, -220, 0)",
+            "overflow": "visible"
+          },
+          {
+            "selector": ".feed-scroll",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 72,
+              "y": 0,
+              "width": 475,
+              "height": 738,
+              "top": 0,
+              "right": 547,
+              "bottom": 738,
+              "left": 72
+            },
+            "transform": "none",
+            "overflow": "auto"
+          },
+          null,
+          null
+        ]
+      },
+      "openCycle": {
+        "windowY": 0,
+        "visualTop": 0,
+        "active": "<section class=\"stack-panel\" data-panel-index=\"0\" tabindex=\"-1\" aria-label=\"Conversation\" style=\"width: 476px; transform: translate3d(482px, 0px, 0px); z-index: 1;\"><header class=\"",
+        "offset": "-6",
+        "nodes": [
+          {
+            "selector": "html",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 0,
+              "y": 0,
+              "width": 1024,
+              "height": 768,
+              "top": 0,
+              "right": 1024,
+              "bottom": 768,
+              "left": 0
+            },
+            "transform": "none",
+            "overflow": "visible"
+          },
+          {
+            "selector": "body",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 0,
+              "y": 0,
+              "width": 1024,
+              "height": 768,
+              "top": 0,
+              "right": 1024,
+              "bottom": 768,
+              "left": 0
+            },
+            "transform": "none",
+            "overflow": "visible"
+          },
+          {
+            "selector": ".app-shell",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 0,
+              "y": 0,
+              "width": 1024,
+              "height": 768,
+              "top": 0,
+              "right": 1024,
+              "bottom": 768,
+              "left": 0
+            },
+            "transform": "none",
+            "overflow": "hidden"
+          },
+          {
+            "selector": ".workspace",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 292,
+              "y": 0,
+              "width": 732,
+              "height": 768,
+              "top": 0,
+              "right": 1024,
+              "bottom": 768,
+              "left": 292
+            },
+            "transform": "none",
+            "overflow": "hidden"
+          },
+          {
+            "selector": ".panel-stack",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 292,
+              "y": 0,
+              "width": 732,
+              "height": 768,
+              "top": 0,
+              "right": 1024,
+              "bottom": 768,
+              "left": 292
+            },
+            "transform": "none",
+            "overflow": "hidden"
+          },
+          {
+            "selector": ".timeline",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 298,
+              "y": 0,
+              "width": 476,
+              "height": 768,
+              "top": 0,
+              "right": 774,
+              "bottom": 768,
+              "left": 298
+            },
+            "transform": "matrix(1, 0, 0, 1, 6, 0)",
+            "overflow": "visible"
+          },
+          {
+            "selector": ".feed-scroll",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 298,
+              "y": 0,
+              "width": 475,
+              "height": 738,
+              "top": 0,
+              "right": 773,
+              "bottom": 738,
+              "left": 298
+            },
+            "transform": "none",
+            "overflow": "auto"
+          },
+          {
+            "selector": ".stack-panel:last-child",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 774,
+              "y": 0,
+              "width": 476,
+              "height": 768,
+              "top": 0,
+              "right": 1250,
+              "bottom": 768,
+              "left": 774
+            },
+            "transform": "matrix(1, 0, 0, 1, 482, 0)",
+            "overflow": "visible"
+          },
+          {
+            "selector": ".stack-panel:last-child .stack-panel__body",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 775,
+              "y": 45,
+              "width": 475,
+              "height": 723,
+              "top": 45,
+              "right": 1250,
+              "bottom": 768,
+              "left": 775
+            },
+            "transform": "none",
+            "overflow": "hidden auto"
+          }
+        ]
+      },
+      "closed": {
+        "windowY": 0,
+        "visualTop": 0,
+        "active": "<body>\n    <div id=\"root\"><div class=\"app-shell nav-expanded \" data-navigation-mode=\"expanded\"><aside id=\"main-navigation\" class=\"sidebar\" aria-label=\"Main navigation\" style=\"width",
+        "offset": "226",
+        "nodes": [
+          {
+            "selector": "html",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 0,
+              "y": 0,
+              "width": 1024,
+              "height": 768,
+              "top": 0,
+              "right": 1024,
+              "bottom": 768,
+              "left": 0
+            },
+            "transform": "none",
+            "overflow": "visible"
+          },
+          {
+            "selector": "body",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 0,
+              "y": 0,
+              "width": 1024,
+              "height": 768,
+              "top": 0,
+              "right": 1024,
+              "bottom": 768,
+              "left": 0
+            },
+            "transform": "none",
+            "overflow": "visible"
+          },
+          {
+            "selector": ".app-shell",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 0,
+              "y": 0,
+              "width": 1024,
+              "height": 768,
+              "top": 0,
+              "right": 1024,
+              "bottom": 768,
+              "left": 0
+            },
+            "transform": "none",
+            "overflow": "hidden"
+          },
+          {
+            "selector": ".workspace",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 292,
+              "y": 0,
+              "width": 732,
+              "height": 768,
+              "top": 0,
+              "right": 1024,
+              "bottom": 768,
+              "left": 292
+            },
+            "transform": "none",
+            "overflow": "hidden"
+          },
+          {
+            "selector": ".panel-stack",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 292,
+              "y": 0,
+              "width": 732,
+              "height": 768,
+              "top": 0,
+              "right": 1024,
+              "bottom": 768,
+              "left": 292
+            },
+            "transform": "none",
+            "overflow": "hidden"
+          },
+          {
+            "selector": ".timeline",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 66,
+              "y": 0,
+              "width": 476,
+              "height": 768,
+              "top": 0,
+              "right": 542,
+              "bottom": 768,
+              "left": 66
+            },
+            "transform": "matrix(1, 0, 0, 1, -226, 0)",
+            "overflow": "visible"
+          },
+          {
+            "selector": ".feed-scroll",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 66,
+              "y": 0,
+              "width": 475,
+              "height": 738,
+              "top": 0,
+              "right": 541,
+              "bottom": 738,
+              "left": 66
+            },
+            "transform": "none",
+            "overflow": "auto"
+          },
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "beforeCycle": {
+        "windowY": 0,
+        "visualTop": 0,
+        "active": "<body>\n    <div id=\"root\"><div class=\"app-shell nav-expanded \" data-navigation-mode=\"expanded\"><aside id=\"main-navigation\" class=\"sidebar\" aria-label=\"Main navigation\" style=\"width",
+        "offset": "226",
+        "nodes": [
+          {
+            "selector": "html",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 0,
+              "y": 0,
+              "width": 1024,
+              "height": 768,
+              "top": 0,
+              "right": 1024,
+              "bottom": 768,
+              "left": 0
+            },
+            "transform": "none",
+            "overflow": "visible"
+          },
+          {
+            "selector": "body",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 0,
+              "y": 0,
+              "width": 1024,
+              "height": 768,
+              "top": 0,
+              "right": 1024,
+              "bottom": 768,
+              "left": 0
+            },
+            "transform": "none",
+            "overflow": "visible"
+          },
+          {
+            "selector": ".app-shell",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 0,
+              "y": 0,
+              "width": 1024,
+              "height": 768,
+              "top": 0,
+              "right": 1024,
+              "bottom": 768,
+              "left": 0
+            },
+            "transform": "none",
+            "overflow": "hidden"
+          },
+          {
+            "selector": ".workspace",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 292,
+              "y": 0,
+              "width": 732,
+              "height": 768,
+              "top": 0,
+              "right": 1024,
+              "bottom": 768,
+              "left": 292
+            },
+            "transform": "none",
+            "overflow": "hidden"
+          },
+          {
+            "selector": ".panel-stack",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 292,
+              "y": 0,
+              "width": 732,
+              "height": 768,
+              "top": 0,
+              "right": 1024,
+              "bottom": 768,
+              "left": 292
+            },
+            "transform": "none",
+            "overflow": "hidden"
+          },
+          {
+            "selector": ".timeline",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 66,
+              "y": 0,
+              "width": 476,
+              "height": 768,
+              "top": 0,
+              "right": 542,
+              "bottom": 768,
+              "left": 66
+            },
+            "transform": "matrix(1, 0, 0, 1, -226, 0)",
+            "overflow": "visible"
+          },
+          {
+            "selector": ".feed-scroll",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 66,
+              "y": 0,
+              "width": 475,
+              "height": 738,
+              "top": 0,
+              "right": 541,
+              "bottom": 738,
+              "left": 66
+            },
+            "transform": "none",
+            "overflow": "auto"
+          },
+          null,
+          null
+        ]
+      },
+      "openCycle": {
+        "windowY": 0,
+        "visualTop": 0,
+        "active": "<section class=\"stack-panel\" data-panel-index=\"0\" tabindex=\"-1\" aria-label=\"Conversation\" style=\"width: 476px; transform: translate3d(476px, 0px, 0px); z-index: 1;\"><header class=\"",
+        "offset": "0",
+        "nodes": [
+          {
+            "selector": "html",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 0,
+              "y": 0,
+              "width": 1024,
+              "height": 768,
+              "top": 0,
+              "right": 1024,
+              "bottom": 768,
+              "left": 0
+            },
+            "transform": "none",
+            "overflow": "visible"
+          },
+          {
+            "selector": "body",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 0,
+              "y": 0,
+              "width": 1024,
+              "height": 768,
+              "top": 0,
+              "right": 1024,
+              "bottom": 768,
+              "left": 0
+            },
+            "transform": "none",
+            "overflow": "visible"
+          },
+          {
+            "selector": ".app-shell",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 0,
+              "y": 0,
+              "width": 1024,
+              "height": 768,
+              "top": 0,
+              "right": 1024,
+              "bottom": 768,
+              "left": 0
+            },
+            "transform": "none",
+            "overflow": "hidden"
+          },
+          {
+            "selector": ".workspace",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 292,
+              "y": 0,
+              "width": 732,
+              "height": 768,
+              "top": 0,
+              "right": 1024,
+              "bottom": 768,
+              "left": 292
+            },
+            "transform": "none",
+            "overflow": "hidden"
+          },
+          {
+            "selector": ".panel-stack",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 292,
+              "y": 0,
+              "width": 732,
+              "height": 768,
+              "top": 0,
+              "right": 1024,
+              "bottom": 768,
+              "left": 292
+            },
+            "transform": "none",
+            "overflow": "hidden"
+          },
+          {
+            "selector": ".timeline",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 292,
+              "y": 0,
+              "width": 476,
+              "height": 768,
+              "top": 0,
+              "right": 768,
+              "bottom": 768,
+              "left": 292
+            },
+            "transform": "matrix(1, 0, 0, 1, 0, 0)",
+            "overflow": "visible"
+          },
+          {
+            "selector": ".feed-scroll",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 292,
+              "y": 0,
+              "width": 475,
+              "height": 738,
+              "top": 0,
+              "right": 767,
+              "bottom": 738,
+              "left": 292
+            },
+            "transform": "none",
+            "overflow": "auto"
+          },
+          {
+            "selector": ".stack-panel:last-child",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 768,
+              "y": 0,
+              "width": 476,
+              "height": 768,
+              "top": 0,
+              "right": 1244,
+              "bottom": 768,
+              "left": 768
+            },
+            "transform": "matrix(1, 0, 0, 1, 476, 0)",
+            "overflow": "visible"
+          },
+          {
+            "selector": ".stack-panel:last-child .stack-panel__body",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 769,
+              "y": 45,
+              "width": 475,
+              "height": 723,
+              "top": 45,
+              "right": 1244,
+              "bottom": 768,
+              "left": 769
+            },
+            "transform": "none",
+            "overflow": "hidden auto"
+          }
+        ]
+      },
+      "closed": {
+        "windowY": 0,
+        "visualTop": 0,
+        "active": "<body>\n    <div id=\"root\"><div class=\"app-shell nav-expanded \" data-navigation-mode=\"expanded\"><aside id=\"main-navigation\" class=\"sidebar\" aria-label=\"Main navigation\" style=\"width",
+        "offset": "226",
+        "nodes": [
+          {
+            "selector": "html",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 0,
+              "y": 0,
+              "width": 1024,
+              "height": 768,
+              "top": 0,
+              "right": 1024,
+              "bottom": 768,
+              "left": 0
+            },
+            "transform": "none",
+            "overflow": "visible"
+          },
+          {
+            "selector": "body",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 0,
+              "y": 0,
+              "width": 1024,
+              "height": 768,
+              "top": 0,
+              "right": 1024,
+              "bottom": 768,
+              "left": 0
+            },
+            "transform": "none",
+            "overflow": "visible"
+          },
+          {
+            "selector": ".app-shell",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 0,
+              "y": 0,
+              "width": 1024,
+              "height": 768,
+              "top": 0,
+              "right": 1024,
+              "bottom": 768,
+              "left": 0
+            },
+            "transform": "none",
+            "overflow": "hidden"
+          },
+          {
+            "selector": ".workspace",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 292,
+              "y": 0,
+              "width": 732,
+              "height": 768,
+              "top": 0,
+              "right": 1024,
+              "bottom": 768,
+              "left": 292
+            },
+            "transform": "none",
+            "overflow": "hidden"
+          },
+          {
+            "selector": ".panel-stack",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 292,
+              "y": 0,
+              "width": 732,
+              "height": 768,
+              "top": 0,
+              "right": 1024,
+              "bottom": 768,
+              "left": 292
+            },
+            "transform": "none",
+            "overflow": "hidden"
+          },
+          {
+            "selector": ".timeline",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 66,
+              "y": 0,
+              "width": 476,
+              "height": 768,
+              "top": 0,
+              "right": 542,
+              "bottom": 768,
+              "left": 66
+            },
+            "transform": "matrix(1, 0, 0, 1, -226, 0)",
+            "overflow": "visible"
+          },
+          {
+            "selector": ".feed-scroll",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 66,
+              "y": 0,
+              "width": 475,
+              "height": 738,
+              "top": 0,
+              "right": 541,
+              "bottom": 738,
+              "left": 66
+            },
+            "transform": "none",
+            "overflow": "auto"
+          },
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "beforeCycle": {
+        "windowY": 0,
+        "visualTop": 0,
+        "active": "<body>\n    <div id=\"root\"><div class=\"app-shell nav-expanded \" data-navigation-mode=\"expanded\"><aside id=\"main-navigation\" class=\"sidebar\" aria-label=\"Main navigation\" style=\"width",
+        "offset": "226",
+        "nodes": [
+          {
+            "selector": "html",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 0,
+              "y": 0,
+              "width": 1024,
+              "height": 768,
+              "top": 0,
+              "right": 1024,
+              "bottom": 768,
+              "left": 0
+            },
+            "transform": "none",
+            "overflow": "visible"
+          },
+          {
+            "selector": "body",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 0,
+              "y": 0,
+              "width": 1024,
+              "height": 768,
+              "top": 0,
+              "right": 1024,
+              "bottom": 768,
+              "left": 0
+            },
+            "transform": "none",
+            "overflow": "visible"
+          },
+          {
+            "selector": ".app-shell",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 0,
+              "y": 0,
+              "width": 1024,
+              "height": 768,
+              "top": 0,
+              "right": 1024,
+              "bottom": 768,
+              "left": 0
+            },
+            "transform": "none",
+            "overflow": "hidden"
+          },
+          {
+            "selector": ".workspace",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 292,
+              "y": 0,
+              "width": 732,
+              "height": 768,
+              "top": 0,
+              "right": 1024,
+              "bottom": 768,
+              "left": 292
+            },
+            "transform": "none",
+            "overflow": "hidden"
+          },
+          {
+            "selector": ".panel-stack",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 292,
+              "y": 0,
+              "width": 732,
+              "height": 768,
+              "top": 0,
+              "right": 1024,
+              "bottom": 768,
+              "left": 292
+            },
+            "transform": "none",
+            "overflow": "hidden"
+          },
+          {
+            "selector": ".timeline",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 66,
+              "y": 0,
+              "width": 476,
+              "height": 768,
+              "top": 0,
+              "right": 542,
+              "bottom": 768,
+              "left": 66
+            },
+            "transform": "matrix(1, 0, 0, 1, -226, 0)",
+            "overflow": "visible"
+          },
+          {
+            "selector": ".feed-scroll",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 66,
+              "y": 0,
+              "width": 475,
+              "height": 738,
+              "top": 0,
+              "right": 541,
+              "bottom": 738,
+              "left": 66
+            },
+            "transform": "none",
+            "overflow": "auto"
+          },
+          null,
+          null
+        ]
+      },
+      "openCycle": {
+        "windowY": 0,
+        "visualTop": 0,
+        "active": "<section class=\"stack-panel\" data-panel-index=\"0\" tabindex=\"-1\" aria-label=\"Conversation\" style=\"width: 476px; transform: translate3d(482px, 0px, 0px); z-index: 1;\"><header class=\"",
+        "offset": "-6",
+        "nodes": [
+          {
+            "selector": "html",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 0,
+              "y": 0,
+              "width": 1024,
+              "height": 768,
+              "top": 0,
+              "right": 1024,
+              "bottom": 768,
+              "left": 0
+            },
+            "transform": "none",
+            "overflow": "visible"
+          },
+          {
+            "selector": "body",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 0,
+              "y": 0,
+              "width": 1024,
+              "height": 768,
+              "top": 0,
+              "right": 1024,
+              "bottom": 768,
+              "left": 0
+            },
+            "transform": "none",
+            "overflow": "visible"
+          },
+          {
+            "selector": ".app-shell",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 0,
+              "y": 0,
+              "width": 1024,
+              "height": 768,
+              "top": 0,
+              "right": 1024,
+              "bottom": 768,
+              "left": 0
+            },
+            "transform": "none",
+            "overflow": "hidden"
+          },
+          {
+            "selector": ".workspace",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 292,
+              "y": 0,
+              "width": 732,
+              "height": 768,
+              "top": 0,
+              "right": 1024,
+              "bottom": 768,
+              "left": 292
+            },
+            "transform": "none",
+            "overflow": "hidden"
+          },
+          {
+            "selector": ".panel-stack",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 292,
+              "y": 0,
+              "width": 732,
+              "height": 768,
+              "top": 0,
+              "right": 1024,
+              "bottom": 768,
+              "left": 292
+            },
+            "transform": "none",
+            "overflow": "hidden"
+          },
+          {
+            "selector": ".timeline",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 298,
+              "y": 0,
+              "width": 476,
+              "height": 768,
+              "top": 0,
+              "right": 774,
+              "bottom": 768,
+              "left": 298
+            },
+            "transform": "matrix(1, 0, 0, 1, 6, 0)",
+            "overflow": "visible"
+          },
+          {
+            "selector": ".feed-scroll",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 298,
+              "y": 0,
+              "width": 475,
+              "height": 738,
+              "top": 0,
+              "right": 773,
+              "bottom": 738,
+              "left": 298
+            },
+            "transform": "none",
+            "overflow": "auto"
+          },
+          {
+            "selector": ".stack-panel:last-child",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 774,
+              "y": 0,
+              "width": 476,
+              "height": 768,
+              "top": 0,
+              "right": 1250,
+              "bottom": 768,
+              "left": 774
+            },
+            "transform": "matrix(1, 0, 0, 1, 482, 0)",
+            "overflow": "visible"
+          },
+          {
+            "selector": ".stack-panel:last-child .stack-panel__body",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 775,
+              "y": 45,
+              "width": 475,
+              "height": 723,
+              "top": 45,
+              "right": 1250,
+              "bottom": 768,
+              "left": 775
+            },
+            "transform": "none",
+            "overflow": "hidden auto"
+          }
+        ]
+      },
+      "closed": {
+        "windowY": 0,
+        "visualTop": 0,
+        "active": "<body>\n    <div id=\"root\"><div class=\"app-shell nav-expanded \" data-navigation-mode=\"expanded\"><aside id=\"main-navigation\" class=\"sidebar\" aria-label=\"Main navigation\" style=\"width",
+        "offset": "220",
+        "nodes": [
+          {
+            "selector": "html",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 0,
+              "y": 0,
+              "width": 1024,
+              "height": 768,
+              "top": 0,
+              "right": 1024,
+              "bottom": 768,
+              "left": 0
+            },
+            "transform": "none",
+            "overflow": "visible"
+          },
+          {
+            "selector": "body",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 0,
+              "y": 0,
+              "width": 1024,
+              "height": 768,
+              "top": 0,
+              "right": 1024,
+              "bottom": 768,
+              "left": 0
+            },
+            "transform": "none",
+            "overflow": "visible"
+          },
+          {
+            "selector": ".app-shell",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 0,
+              "y": 0,
+              "width": 1024,
+              "height": 768,
+              "top": 0,
+              "right": 1024,
+              "bottom": 768,
+              "left": 0
+            },
+            "transform": "none",
+            "overflow": "hidden"
+          },
+          {
+            "selector": ".workspace",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 292,
+              "y": 0,
+              "width": 732,
+              "height": 768,
+              "top": 0,
+              "right": 1024,
+              "bottom": 768,
+              "left": 292
+            },
+            "transform": "none",
+            "overflow": "hidden"
+          },
+          {
+            "selector": ".panel-stack",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 292,
+              "y": 0,
+              "width": 732,
+              "height": 768,
+              "top": 0,
+              "right": 1024,
+              "bottom": 768,
+              "left": 292
+            },
+            "transform": "none",
+            "overflow": "hidden"
+          },
+          {
+            "selector": ".timeline",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 72,
+              "y": 0,
+              "width": 476,
+              "height": 768,
+              "top": 0,
+              "right": 548,
+              "bottom": 768,
+              "left": 72
+            },
+            "transform": "matrix(1, 0, 0, 1, -220, 0)",
+            "overflow": "visible"
+          },
+          {
+            "selector": ".feed-scroll",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 72,
+              "y": 0,
+              "width": 475,
+              "height": 738,
+              "top": 0,
+              "right": 547,
+              "bottom": 738,
+              "left": 72
+            },
+            "transform": "none",
+            "overflow": "auto"
+          },
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "beforeCycle": {
+        "windowY": 0,
+        "visualTop": 0,
+        "active": "<body>\n    <div id=\"root\"><div class=\"app-shell nav-expanded \" data-navigation-mode=\"expanded\"><aside id=\"main-navigation\" class=\"sidebar\" aria-label=\"Main navigation\" style=\"width",
+        "offset": "220",
+        "nodes": [
+          {
+            "selector": "html",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 0,
+              "y": 0,
+              "width": 1024,
+              "height": 768,
+              "top": 0,
+              "right": 1024,
+              "bottom": 768,
+              "left": 0
+            },
+            "transform": "none",
+            "overflow": "visible"
+          },
+          {
+            "selector": "body",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 0,
+              "y": 0,
+              "width": 1024,
+              "height": 768,
+              "top": 0,
+              "right": 1024,
+              "bottom": 768,
+              "left": 0
+            },
+            "transform": "none",
+            "overflow": "visible"
+          },
+          {
+            "selector": ".app-shell",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 0,
+              "y": 0,
+              "width": 1024,
+              "height": 768,
+              "top": 0,
+              "right": 1024,
+              "bottom": 768,
+              "left": 0
+            },
+            "transform": "none",
+            "overflow": "hidden"
+          },
+          {
+            "selector": ".workspace",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 292,
+              "y": 0,
+              "width": 732,
+              "height": 768,
+              "top": 0,
+              "right": 1024,
+              "bottom": 768,
+              "left": 292
+            },
+            "transform": "none",
+            "overflow": "hidden"
+          },
+          {
+            "selector": ".panel-stack",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 292,
+              "y": 0,
+              "width": 732,
+              "height": 768,
+              "top": 0,
+              "right": 1024,
+              "bottom": 768,
+              "left": 292
+            },
+            "transform": "none",
+            "overflow": "hidden"
+          },
+          {
+            "selector": ".timeline",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 72,
+              "y": 0,
+              "width": 476,
+              "height": 768,
+              "top": 0,
+              "right": 548,
+              "bottom": 768,
+              "left": 72
+            },
+            "transform": "matrix(1, 0, 0, 1, -220, 0)",
+            "overflow": "visible"
+          },
+          {
+            "selector": ".feed-scroll",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 72,
+              "y": 0,
+              "width": 475,
+              "height": 738,
+              "top": 0,
+              "right": 547,
+              "bottom": 738,
+              "left": 72
+            },
+            "transform": "none",
+            "overflow": "auto"
+          },
+          null,
+          null
+        ]
+      },
+      "openCycle": {
+        "windowY": 0,
+        "visualTop": 0,
+        "active": "<section class=\"stack-panel\" data-panel-index=\"0\" tabindex=\"-1\" aria-label=\"Conversation\" style=\"width: 476px; transform: translate3d(476px, 0px, 0px); z-index: 1;\"><header class=\"",
+        "offset": "0",
+        "nodes": [
+          {
+            "selector": "html",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 0,
+              "y": 0,
+              "width": 1024,
+              "height": 768,
+              "top": 0,
+              "right": 1024,
+              "bottom": 768,
+              "left": 0
+            },
+            "transform": "none",
+            "overflow": "visible"
+          },
+          {
+            "selector": "body",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 0,
+              "y": 0,
+              "width": 1024,
+              "height": 768,
+              "top": 0,
+              "right": 1024,
+              "bottom": 768,
+              "left": 0
+            },
+            "transform": "none",
+            "overflow": "visible"
+          },
+          {
+            "selector": ".app-shell",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 0,
+              "y": 0,
+              "width": 1024,
+              "height": 768,
+              "top": 0,
+              "right": 1024,
+              "bottom": 768,
+              "left": 0
+            },
+            "transform": "none",
+            "overflow": "hidden"
+          },
+          {
+            "selector": ".workspace",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 292,
+              "y": 0,
+              "width": 732,
+              "height": 768,
+              "top": 0,
+              "right": 1024,
+              "bottom": 768,
+              "left": 292
+            },
+            "transform": "none",
+            "overflow": "hidden"
+          },
+          {
+            "selector": ".panel-stack",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 292,
+              "y": 0,
+              "width": 732,
+              "height": 768,
+              "top": 0,
+              "right": 1024,
+              "bottom": 768,
+              "left": 292
+            },
+            "transform": "none",
+            "overflow": "hidden"
+          },
+          {
+            "selector": ".timeline",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 292,
+              "y": 0,
+              "width": 476,
+              "height": 768,
+              "top": 0,
+              "right": 768,
+              "bottom": 768,
+              "left": 292
+            },
+            "transform": "matrix(1, 0, 0, 1, 0, 0)",
+            "overflow": "visible"
+          },
+          {
+            "selector": ".feed-scroll",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 292,
+              "y": 0,
+              "width": 475,
+              "height": 738,
+              "top": 0,
+              "right": 767,
+              "bottom": 738,
+              "left": 292
+            },
+            "transform": "none",
+            "overflow": "auto"
+          },
+          {
+            "selector": ".stack-panel:last-child",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 768,
+              "y": 0,
+              "width": 476,
+              "height": 768,
+              "top": 0,
+              "right": 1244,
+              "bottom": 768,
+              "left": 768
+            },
+            "transform": "matrix(1, 0, 0, 1, 476, 0)",
+            "overflow": "visible"
+          },
+          {
+            "selector": ".stack-panel:last-child .stack-panel__body",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 769,
+              "y": 45,
+              "width": 475,
+              "height": 723,
+              "top": 45,
+              "right": 1244,
+              "bottom": 768,
+              "left": 769
+            },
+            "transform": "none",
+            "overflow": "hidden auto"
+          }
+        ]
+      },
+      "closed": {
+        "windowY": 0,
+        "visualTop": 0,
+        "active": "<body>\n    <div id=\"root\"><div class=\"app-shell nav-expanded \" data-navigation-mode=\"expanded\"><aside id=\"main-navigation\" class=\"sidebar\" aria-label=\"Main navigation\" style=\"width",
+        "offset": "220",
+        "nodes": [
+          {
+            "selector": "html",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 0,
+              "y": 0,
+              "width": 1024,
+              "height": 768,
+              "top": 0,
+              "right": 1024,
+              "bottom": 768,
+              "left": 0
+            },
+            "transform": "none",
+            "overflow": "visible"
+          },
+          {
+            "selector": "body",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 0,
+              "y": 0,
+              "width": 1024,
+              "height": 768,
+              "top": 0,
+              "right": 1024,
+              "bottom": 768,
+              "left": 0
+            },
+            "transform": "none",
+            "overflow": "visible"
+          },
+          {
+            "selector": ".app-shell",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 0,
+              "y": 0,
+              "width": 1024,
+              "height": 768,
+              "top": 0,
+              "right": 1024,
+              "bottom": 768,
+              "left": 0
+            },
+            "transform": "none",
+            "overflow": "hidden"
+          },
+          {
+            "selector": ".workspace",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 292,
+              "y": 0,
+              "width": 732,
+              "height": 768,
+              "top": 0,
+              "right": 1024,
+              "bottom": 768,
+              "left": 292
+            },
+            "transform": "none",
+            "overflow": "hidden"
+          },
+          {
+            "selector": ".panel-stack",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 292,
+              "y": 0,
+              "width": 732,
+              "height": 768,
+              "top": 0,
+              "right": 1024,
+              "bottom": 768,
+              "left": 292
+            },
+            "transform": "none",
+            "overflow": "hidden"
+          },
+          {
+            "selector": ".timeline",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 72,
+              "y": 0,
+              "width": 476,
+              "height": 768,
+              "top": 0,
+              "right": 548,
+              "bottom": 768,
+              "left": 72
+            },
+            "transform": "matrix(1, 0, 0, 1, -220, 0)",
+            "overflow": "visible"
+          },
+          {
+            "selector": ".feed-scroll",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 72,
+              "y": 0,
+              "width": 475,
+              "height": 738,
+              "top": 0,
+              "right": 547,
+              "bottom": 738,
+              "left": 72
+            },
+            "transform": "none",
+            "overflow": "auto"
+          },
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "beforeCycle": {
+        "windowY": 0,
+        "visualTop": 0,
+        "active": "<body>\n    <div id=\"root\"><div class=\"app-shell nav-expanded \" data-navigation-mode=\"expanded\"><aside id=\"main-navigation\" class=\"sidebar\" aria-label=\"Main navigation\" style=\"width",
+        "offset": "220",
+        "nodes": [
+          {
+            "selector": "html",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 0,
+              "y": 0,
+              "width": 1024,
+              "height": 768,
+              "top": 0,
+              "right": 1024,
+              "bottom": 768,
+              "left": 0
+            },
+            "transform": "none",
+            "overflow": "visible"
+          },
+          {
+            "selector": "body",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 0,
+              "y": 0,
+              "width": 1024,
+              "height": 768,
+              "top": 0,
+              "right": 1024,
+              "bottom": 768,
+              "left": 0
+            },
+            "transform": "none",
+            "overflow": "visible"
+          },
+          {
+            "selector": ".app-shell",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 0,
+              "y": 0,
+              "width": 1024,
+              "height": 768,
+              "top": 0,
+              "right": 1024,
+              "bottom": 768,
+              "left": 0
+            },
+            "transform": "none",
+            "overflow": "hidden"
+          },
+          {
+            "selector": ".workspace",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 292,
+              "y": 0,
+              "width": 732,
+              "height": 768,
+              "top": 0,
+              "right": 1024,
+              "bottom": 768,
+              "left": 292
+            },
+            "transform": "none",
+            "overflow": "hidden"
+          },
+          {
+            "selector": ".panel-stack",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 292,
+              "y": 0,
+              "width": 732,
+              "height": 768,
+              "top": 0,
+              "right": 1024,
+              "bottom": 768,
+              "left": 292
+            },
+            "transform": "none",
+            "overflow": "hidden"
+          },
+          {
+            "selector": ".timeline",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 72,
+              "y": 0,
+              "width": 476,
+              "height": 768,
+              "top": 0,
+              "right": 548,
+              "bottom": 768,
+              "left": 72
+            },
+            "transform": "matrix(1, 0, 0, 1, -220, 0)",
+            "overflow": "visible"
+          },
+          {
+            "selector": ".feed-scroll",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 72,
+              "y": 0,
+              "width": 475,
+              "height": 738,
+              "top": 0,
+              "right": 547,
+              "bottom": 738,
+              "left": 72
+            },
+            "transform": "none",
+            "overflow": "auto"
+          },
+          null,
+          null
+        ]
+      },
+      "openCycle": {
+        "windowY": 0,
+        "visualTop": 0,
+        "active": "<section class=\"stack-panel\" data-panel-index=\"0\" tabindex=\"-1\" aria-label=\"Conversation\" style=\"width: 476px; transform: translate3d(477px, 0px, 0px); z-index: 1;\"><header class=\"",
+        "offset": "-1",
+        "nodes": [
+          {
+            "selector": "html",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 0,
+              "y": 0,
+              "width": 1024,
+              "height": 768,
+              "top": 0,
+              "right": 1024,
+              "bottom": 768,
+              "left": 0
+            },
+            "transform": "none",
+            "overflow": "visible"
+          },
+          {
+            "selector": "body",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 0,
+              "y": 0,
+              "width": 1024,
+              "height": 768,
+              "top": 0,
+              "right": 1024,
+              "bottom": 768,
+              "left": 0
+            },
+            "transform": "none",
+            "overflow": "visible"
+          },
+          {
+            "selector": ".app-shell",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 0,
+              "y": 0,
+              "width": 1024,
+              "height": 768,
+              "top": 0,
+              "right": 1024,
+              "bottom": 768,
+              "left": 0
+            },
+            "transform": "none",
+            "overflow": "hidden"
+          },
+          {
+            "selector": ".workspace",
+            "left": 14,
+            "top": 0,
+            "bounds": {
+              "x": 292,
+              "y": 0,
+              "width": 732,
+              "height": 768,
+              "top": 0,
+              "right": 1024,
+              "bottom": 768,
+              "left": 292
+            },
+            "transform": "none",
+            "overflow": "hidden"
+          },
+          {
+            "selector": ".panel-stack",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 278,
+              "y": 0,
+              "width": 732,
+              "height": 768,
+              "top": 0,
+              "right": 1010,
+              "bottom": 768,
+              "left": 278
+            },
+            "transform": "none",
+            "overflow": "hidden"
+          },
+          {
+            "selector": ".timeline",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 279,
+              "y": 0,
+              "width": 476,
+              "height": 768,
+              "top": 0,
+              "right": 755,
+              "bottom": 768,
+              "left": 279
+            },
+            "transform": "matrix(1, 0, 0, 1, 1, 0)",
+            "overflow": "visible"
+          },
+          {
+            "selector": ".feed-scroll",
+            "left": 0,
+            "top": 43,
+            "bounds": {
+              "x": 279,
+              "y": 0,
+              "width": 475,
+              "height": 738,
+              "top": 0,
+              "right": 754,
+              "bottom": 738,
+              "left": 279
+            },
+            "transform": "none",
+            "overflow": "auto"
+          },
+          {
+            "selector": ".stack-panel:last-child",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 755,
+              "y": 0,
+              "width": 476,
+              "height": 768,
+              "top": 0,
+              "right": 1231,
+              "bottom": 768,
+              "left": 755
+            },
+            "transform": "matrix(1, 0, 0, 1, 477, 0)",
+            "overflow": "visible"
+          },
+          {
+            "selector": ".stack-panel:last-child .stack-panel__body",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 756,
+              "y": 45,
+              "width": 475,
+              "height": 723,
+              "top": 45,
+              "right": 1231,
+              "bottom": 768,
+              "left": 756
+            },
+            "transform": "none",
+            "overflow": "hidden auto"
+          }
+        ]
+      },
+      "closed": {
+        "windowY": 0,
+        "visualTop": 0,
+        "active": "<body>\n    <div id=\"root\"><div class=\"app-shell nav-expanded \" data-navigation-mode=\"expanded\"><aside id=\"main-navigation\" class=\"sidebar\" aria-label=\"Main navigation\" style=\"width",
+        "offset": "220",
+        "nodes": [
+          {
+            "selector": "html",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 0,
+              "y": 0,
+              "width": 1024,
+              "height": 768,
+              "top": 0,
+              "right": 1024,
+              "bottom": 768,
+              "left": 0
+            },
+            "transform": "none",
+            "overflow": "visible"
+          },
+          {
+            "selector": "body",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 0,
+              "y": 0,
+              "width": 1024,
+              "height": 768,
+              "top": 0,
+              "right": 1024,
+              "bottom": 768,
+              "left": 0
+            },
+            "transform": "none",
+            "overflow": "visible"
+          },
+          {
+            "selector": ".app-shell",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 0,
+              "y": 0,
+              "width": 1024,
+              "height": 768,
+              "top": 0,
+              "right": 1024,
+              "bottom": 768,
+              "left": 0
+            },
+            "transform": "none",
+            "overflow": "hidden"
+          },
+          {
+            "selector": ".workspace",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 292,
+              "y": 0,
+              "width": 732,
+              "height": 768,
+              "top": 0,
+              "right": 1024,
+              "bottom": 768,
+              "left": 292
+            },
+            "transform": "none",
+            "overflow": "hidden"
+          },
+          {
+            "selector": ".panel-stack",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 292,
+              "y": 0,
+              "width": 732,
+              "height": 768,
+              "top": 0,
+              "right": 1024,
+              "bottom": 768,
+              "left": 292
+            },
+            "transform": "none",
+            "overflow": "hidden"
+          },
+          {
+            "selector": ".timeline",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 72,
+              "y": 0,
+              "width": 476,
+              "height": 768,
+              "top": 0,
+              "right": 548,
+              "bottom": 768,
+              "left": 72
+            },
+            "transform": "matrix(1, 0, 0, 1, -220, 0)",
+            "overflow": "visible"
+          },
+          {
+            "selector": ".feed-scroll",
+            "left": 0,
+            "top": 43,
+            "bounds": {
+              "x": 72,
+              "y": 0,
+              "width": 475,
+              "height": 738,
+              "top": 0,
+              "right": 547,
+              "bottom": 738,
+              "left": 72
+            },
+            "transform": "none",
+            "overflow": "auto"
+          },
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "beforeCycle": {
+        "windowY": 0,
+        "visualTop": 0,
+        "active": "<body>\n    <div id=\"root\"><div class=\"app-shell nav-expanded \" data-navigation-mode=\"expanded\"><aside id=\"main-navigation\" class=\"sidebar\" aria-label=\"Main navigation\" style=\"width",
+        "offset": "220",
+        "nodes": [
+          {
+            "selector": "html",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 0,
+              "y": 0,
+              "width": 1024,
+              "height": 768,
+              "top": 0,
+              "right": 1024,
+              "bottom": 768,
+              "left": 0
+            },
+            "transform": "none",
+            "overflow": "visible"
+          },
+          {
+            "selector": "body",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 0,
+              "y": 0,
+              "width": 1024,
+              "height": 768,
+              "top": 0,
+              "right": 1024,
+              "bottom": 768,
+              "left": 0
+            },
+            "transform": "none",
+            "overflow": "visible"
+          },
+          {
+            "selector": ".app-shell",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 0,
+              "y": 0,
+              "width": 1024,
+              "height": 768,
+              "top": 0,
+              "right": 1024,
+              "bottom": 768,
+              "left": 0
+            },
+            "transform": "none",
+            "overflow": "hidden"
+          },
+          {
+            "selector": ".workspace",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 292,
+              "y": 0,
+              "width": 732,
+              "height": 768,
+              "top": 0,
+              "right": 1024,
+              "bottom": 768,
+              "left": 292
+            },
+            "transform": "none",
+            "overflow": "hidden"
+          },
+          {
+            "selector": ".panel-stack",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 292,
+              "y": 0,
+              "width": 732,
+              "height": 768,
+              "top": 0,
+              "right": 1024,
+              "bottom": 768,
+              "left": 292
+            },
+            "transform": "none",
+            "overflow": "hidden"
+          },
+          {
+            "selector": ".timeline",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 72,
+              "y": 0,
+              "width": 476,
+              "height": 768,
+              "top": 0,
+              "right": 548,
+              "bottom": 768,
+              "left": 72
+            },
+            "transform": "matrix(1, 0, 0, 1, -220, 0)",
+            "overflow": "visible"
+          },
+          {
+            "selector": ".feed-scroll",
+            "left": 0,
+            "top": 43,
+            "bounds": {
+              "x": 72,
+              "y": 0,
+              "width": 475,
+              "height": 738,
+              "top": 0,
+              "right": 547,
+              "bottom": 738,
+              "left": 72
+            },
+            "transform": "none",
+            "overflow": "auto"
+          },
+          null,
+          null
+        ]
+      },
+      "openCycle": {
+        "windowY": 0,
+        "visualTop": 0,
+        "active": "<section class=\"stack-panel\" data-panel-index=\"0\" tabindex=\"-1\" aria-label=\"Conversation\" style=\"width: 476px; transform: translate3d(477px, 0px, 0px); z-index: 1;\"><header class=\"",
+        "offset": "-1",
+        "nodes": [
+          {
+            "selector": "html",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 0,
+              "y": 0,
+              "width": 1024,
+              "height": 768,
+              "top": 0,
+              "right": 1024,
+              "bottom": 768,
+              "left": 0
+            },
+            "transform": "none",
+            "overflow": "visible"
+          },
+          {
+            "selector": "body",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 0,
+              "y": 0,
+              "width": 1024,
+              "height": 768,
+              "top": 0,
+              "right": 1024,
+              "bottom": 768,
+              "left": 0
+            },
+            "transform": "none",
+            "overflow": "visible"
+          },
+          {
+            "selector": ".app-shell",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 0,
+              "y": 0,
+              "width": 1024,
+              "height": 768,
+              "top": 0,
+              "right": 1024,
+              "bottom": 768,
+              "left": 0
+            },
+            "transform": "none",
+            "overflow": "hidden"
+          },
+          {
+            "selector": ".workspace",
+            "left": 14,
+            "top": 0,
+            "bounds": {
+              "x": 292,
+              "y": 0,
+              "width": 732,
+              "height": 768,
+              "top": 0,
+              "right": 1024,
+              "bottom": 768,
+              "left": 292
+            },
+            "transform": "none",
+            "overflow": "hidden"
+          },
+          {
+            "selector": ".panel-stack",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 278,
+              "y": 0,
+              "width": 732,
+              "height": 768,
+              "top": 0,
+              "right": 1010,
+              "bottom": 768,
+              "left": 278
+            },
+            "transform": "none",
+            "overflow": "hidden"
+          },
+          {
+            "selector": ".timeline",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 279,
+              "y": 0,
+              "width": 476,
+              "height": 768,
+              "top": 0,
+              "right": 755,
+              "bottom": 768,
+              "left": 279
+            },
+            "transform": "matrix(1, 0, 0, 1, 1, 0)",
+            "overflow": "visible"
+          },
+          {
+            "selector": ".feed-scroll",
+            "left": 0,
+            "top": 43,
+            "bounds": {
+              "x": 279,
+              "y": 0,
+              "width": 475,
+              "height": 738,
+              "top": 0,
+              "right": 754,
+              "bottom": 738,
+              "left": 279
+            },
+            "transform": "none",
+            "overflow": "auto"
+          },
+          {
+            "selector": ".stack-panel:last-child",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 755,
+              "y": 0,
+              "width": 476,
+              "height": 768,
+              "top": 0,
+              "right": 1231,
+              "bottom": 768,
+              "left": 755
+            },
+            "transform": "matrix(1, 0, 0, 1, 477, 0)",
+            "overflow": "visible"
+          },
+          {
+            "selector": ".stack-panel:last-child .stack-panel__body",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 756,
+              "y": 45,
+              "width": 475,
+              "height": 723,
+              "top": 45,
+              "right": 1231,
+              "bottom": 768,
+              "left": 756
+            },
+            "transform": "none",
+            "overflow": "hidden auto"
+          }
+        ]
+      },
+      "closed": {
+        "windowY": 0,
+        "visualTop": 0,
+        "active": "<body>\n    <div id=\"root\"><div class=\"app-shell nav-expanded \" data-navigation-mode=\"expanded\"><aside id=\"main-navigation\" class=\"sidebar\" aria-label=\"Main navigation\" style=\"width",
+        "offset": "220",
+        "nodes": [
+          {
+            "selector": "html",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 0,
+              "y": 0,
+              "width": 1024,
+              "height": 768,
+              "top": 0,
+              "right": 1024,
+              "bottom": 768,
+              "left": 0
+            },
+            "transform": "none",
+            "overflow": "visible"
+          },
+          {
+            "selector": "body",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 0,
+              "y": 0,
+              "width": 1024,
+              "height": 768,
+              "top": 0,
+              "right": 1024,
+              "bottom": 768,
+              "left": 0
+            },
+            "transform": "none",
+            "overflow": "visible"
+          },
+          {
+            "selector": ".app-shell",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 0,
+              "y": 0,
+              "width": 1024,
+              "height": 768,
+              "top": 0,
+              "right": 1024,
+              "bottom": 768,
+              "left": 0
+            },
+            "transform": "none",
+            "overflow": "hidden"
+          },
+          {
+            "selector": ".workspace",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 292,
+              "y": 0,
+              "width": 732,
+              "height": 768,
+              "top": 0,
+              "right": 1024,
+              "bottom": 768,
+              "left": 292
+            },
+            "transform": "none",
+            "overflow": "hidden"
+          },
+          {
+            "selector": ".panel-stack",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 292,
+              "y": 0,
+              "width": 732,
+              "height": 768,
+              "top": 0,
+              "right": 1024,
+              "bottom": 768,
+              "left": 292
+            },
+            "transform": "none",
+            "overflow": "hidden"
+          },
+          {
+            "selector": ".timeline",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 72,
+              "y": 0,
+              "width": 476,
+              "height": 768,
+              "top": 0,
+              "right": 548,
+              "bottom": 768,
+              "left": 72
+            },
+            "transform": "matrix(1, 0, 0, 1, -220, 0)",
+            "overflow": "visible"
+          },
+          {
+            "selector": ".feed-scroll",
+            "left": 0,
+            "top": 43,
+            "bounds": {
+              "x": 72,
+              "y": 0,
+              "width": 475,
+              "height": 738,
+              "top": 0,
+              "right": 547,
+              "bottom": 738,
+              "left": 72
+            },
+            "transform": "none",
+            "overflow": "auto"
+          },
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "beforeCycle": {
+        "windowY": 0,
+        "visualTop": 0,
+        "active": "<body>\n    <div id=\"root\"><div class=\"app-shell nav-expanded \" data-navigation-mode=\"expanded\"><aside id=\"main-navigation\" class=\"sidebar\" aria-label=\"Main navigation\" style=\"width",
+        "offset": "220",
+        "nodes": [
+          {
+            "selector": "html",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 0,
+              "y": 0,
+              "width": 1024,
+              "height": 768,
+              "top": 0,
+              "right": 1024,
+              "bottom": 768,
+              "left": 0
+            },
+            "transform": "none",
+            "overflow": "visible"
+          },
+          {
+            "selector": "body",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 0,
+              "y": 0,
+              "width": 1024,
+              "height": 768,
+              "top": 0,
+              "right": 1024,
+              "bottom": 768,
+              "left": 0
+            },
+            "transform": "none",
+            "overflow": "visible"
+          },
+          {
+            "selector": ".app-shell",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 0,
+              "y": 0,
+              "width": 1024,
+              "height": 768,
+              "top": 0,
+              "right": 1024,
+              "bottom": 768,
+              "left": 0
+            },
+            "transform": "none",
+            "overflow": "hidden"
+          },
+          {
+            "selector": ".workspace",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 292,
+              "y": 0,
+              "width": 732,
+              "height": 768,
+              "top": 0,
+              "right": 1024,
+              "bottom": 768,
+              "left": 292
+            },
+            "transform": "none",
+            "overflow": "hidden"
+          },
+          {
+            "selector": ".panel-stack",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 292,
+              "y": 0,
+              "width": 732,
+              "height": 768,
+              "top": 0,
+              "right": 1024,
+              "bottom": 768,
+              "left": 292
+            },
+            "transform": "none",
+            "overflow": "hidden"
+          },
+          {
+            "selector": ".timeline",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 72,
+              "y": 0,
+              "width": 476,
+              "height": 768,
+              "top": 0,
+              "right": 548,
+              "bottom": 768,
+              "left": 72
+            },
+            "transform": "matrix(1, 0, 0, 1, -220, 0)",
+            "overflow": "visible"
+          },
+          {
+            "selector": ".feed-scroll",
+            "left": 0,
+            "top": 43,
+            "bounds": {
+              "x": 72,
+              "y": 0,
+              "width": 475,
+              "height": 738,
+              "top": 0,
+              "right": 547,
+              "bottom": 738,
+              "left": 72
+            },
+            "transform": "none",
+            "overflow": "auto"
+          },
+          null,
+          null
+        ]
+      },
+      "openCycle": {
+        "windowY": 0,
+        "visualTop": 0,
+        "active": "<section class=\"stack-panel\" data-panel-index=\"0\" tabindex=\"-1\" aria-label=\"Conversation\" style=\"width: 476px; transform: translate3d(476px, 0px, 0px); z-index: 1;\"><header class=\"",
+        "offset": "0",
+        "nodes": [
+          {
+            "selector": "html",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 0,
+              "y": 0,
+              "width": 1024,
+              "height": 768,
+              "top": 0,
+              "right": 1024,
+              "bottom": 768,
+              "left": 0
+            },
+            "transform": "none",
+            "overflow": "visible"
+          },
+          {
+            "selector": "body",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 0,
+              "y": 0,
+              "width": 1024,
+              "height": 768,
+              "top": 0,
+              "right": 1024,
+              "bottom": 768,
+              "left": 0
+            },
+            "transform": "none",
+            "overflow": "visible"
+          },
+          {
+            "selector": ".app-shell",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 0,
+              "y": 0,
+              "width": 1024,
+              "height": 768,
+              "top": 0,
+              "right": 1024,
+              "bottom": 768,
+              "left": 0
+            },
+            "transform": "none",
+            "overflow": "hidden"
+          },
+          {
+            "selector": ".workspace",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 292,
+              "y": 0,
+              "width": 732,
+              "height": 768,
+              "top": 0,
+              "right": 1024,
+              "bottom": 768,
+              "left": 292
+            },
+            "transform": "none",
+            "overflow": "hidden"
+          },
+          {
+            "selector": ".panel-stack",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 292,
+              "y": 0,
+              "width": 732,
+              "height": 768,
+              "top": 0,
+              "right": 1024,
+              "bottom": 768,
+              "left": 292
+            },
+            "transform": "none",
+            "overflow": "hidden"
+          },
+          {
+            "selector": ".timeline",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 292,
+              "y": 0,
+              "width": 476,
+              "height": 768,
+              "top": 0,
+              "right": 768,
+              "bottom": 768,
+              "left": 292
+            },
+            "transform": "matrix(1, 0, 0, 1, 0, 0)",
+            "overflow": "visible"
+          },
+          {
+            "selector": ".feed-scroll",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 292,
+              "y": 0,
+              "width": 475,
+              "height": 738,
+              "top": 0,
+              "right": 767,
+              "bottom": 738,
+              "left": 292
+            },
+            "transform": "none",
+            "overflow": "auto"
+          },
+          {
+            "selector": ".stack-panel:last-child",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 768,
+              "y": 0,
+              "width": 476,
+              "height": 768,
+              "top": 0,
+              "right": 1244,
+              "bottom": 768,
+              "left": 768
+            },
+            "transform": "matrix(1, 0, 0, 1, 476, 0)",
+            "overflow": "visible"
+          },
+          {
+            "selector": ".stack-panel:last-child .stack-panel__body",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 769,
+              "y": 45,
+              "width": 475,
+              "height": 723,
+              "top": 45,
+              "right": 1244,
+              "bottom": 768,
+              "left": 769
+            },
+            "transform": "none",
+            "overflow": "hidden auto"
+          }
+        ]
+      },
+      "closed": {
+        "windowY": 0,
+        "visualTop": 0,
+        "active": "<body>\n    <div id=\"root\"><div class=\"app-shell nav-expanded \" data-navigation-mode=\"expanded\"><aside id=\"main-navigation\" class=\"sidebar\" aria-label=\"Main navigation\" style=\"width",
+        "offset": "220",
+        "nodes": [
+          {
+            "selector": "html",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 0,
+              "y": 0,
+              "width": 1024,
+              "height": 768,
+              "top": 0,
+              "right": 1024,
+              "bottom": 768,
+              "left": 0
+            },
+            "transform": "none",
+            "overflow": "visible"
+          },
+          {
+            "selector": "body",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 0,
+              "y": 0,
+              "width": 1024,
+              "height": 768,
+              "top": 0,
+              "right": 1024,
+              "bottom": 768,
+              "left": 0
+            },
+            "transform": "none",
+            "overflow": "visible"
+          },
+          {
+            "selector": ".app-shell",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 0,
+              "y": 0,
+              "width": 1024,
+              "height": 768,
+              "top": 0,
+              "right": 1024,
+              "bottom": 768,
+              "left": 0
+            },
+            "transform": "none",
+            "overflow": "hidden"
+          },
+          {
+            "selector": ".workspace",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 292,
+              "y": 0,
+              "width": 732,
+              "height": 768,
+              "top": 0,
+              "right": 1024,
+              "bottom": 768,
+              "left": 292
+            },
+            "transform": "none",
+            "overflow": "hidden"
+          },
+          {
+            "selector": ".panel-stack",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 292,
+              "y": 0,
+              "width": 732,
+              "height": 768,
+              "top": 0,
+              "right": 1024,
+              "bottom": 768,
+              "left": 292
+            },
+            "transform": "none",
+            "overflow": "hidden"
+          },
+          {
+            "selector": ".timeline",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 72,
+              "y": 0,
+              "width": 476,
+              "height": 768,
+              "top": 0,
+              "right": 548,
+              "bottom": 768,
+              "left": 72
+            },
+            "transform": "matrix(1, 0, 0, 1, -220, 0)",
+            "overflow": "visible"
+          },
+          {
+            "selector": ".feed-scroll",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 72,
+              "y": 0,
+              "width": 475,
+              "height": 738,
+              "top": 0,
+              "right": 547,
+              "bottom": 738,
+              "left": 72
+            },
+            "transform": "none",
+            "overflow": "auto"
+          },
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "beforeCycle": {
+        "windowY": 0,
+        "visualTop": 0,
+        "active": "<body>\n    <div id=\"root\"><div class=\"app-shell nav-expanded \" data-navigation-mode=\"expanded\"><aside id=\"main-navigation\" class=\"sidebar\" aria-label=\"Main navigation\" style=\"width",
+        "offset": "220",
+        "nodes": [
+          {
+            "selector": "html",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 0,
+              "y": 0,
+              "width": 1024,
+              "height": 768,
+              "top": 0,
+              "right": 1024,
+              "bottom": 768,
+              "left": 0
+            },
+            "transform": "none",
+            "overflow": "visible"
+          },
+          {
+            "selector": "body",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 0,
+              "y": 0,
+              "width": 1024,
+              "height": 768,
+              "top": 0,
+              "right": 1024,
+              "bottom": 768,
+              "left": 0
+            },
+            "transform": "none",
+            "overflow": "visible"
+          },
+          {
+            "selector": ".app-shell",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 0,
+              "y": 0,
+              "width": 1024,
+              "height": 768,
+              "top": 0,
+              "right": 1024,
+              "bottom": 768,
+              "left": 0
+            },
+            "transform": "none",
+            "overflow": "hidden"
+          },
+          {
+            "selector": ".workspace",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 292,
+              "y": 0,
+              "width": 732,
+              "height": 768,
+              "top": 0,
+              "right": 1024,
+              "bottom": 768,
+              "left": 292
+            },
+            "transform": "none",
+            "overflow": "hidden"
+          },
+          {
+            "selector": ".panel-stack",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 292,
+              "y": 0,
+              "width": 732,
+              "height": 768,
+              "top": 0,
+              "right": 1024,
+              "bottom": 768,
+              "left": 292
+            },
+            "transform": "none",
+            "overflow": "hidden"
+          },
+          {
+            "selector": ".timeline",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 72,
+              "y": 0,
+              "width": 476,
+              "height": 768,
+              "top": 0,
+              "right": 548,
+              "bottom": 768,
+              "left": 72
+            },
+            "transform": "matrix(1, 0, 0, 1, -220, 0)",
+            "overflow": "visible"
+          },
+          {
+            "selector": ".feed-scroll",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 72,
+              "y": 0,
+              "width": 475,
+              "height": 738,
+              "top": 0,
+              "right": 547,
+              "bottom": 738,
+              "left": 72
+            },
+            "transform": "none",
+            "overflow": "auto"
+          },
+          null,
+          null
+        ]
+      },
+      "openCycle": {
+        "windowY": 0,
+        "visualTop": 0,
+        "active": "<section class=\"stack-panel\" data-panel-index=\"0\" tabindex=\"-1\" aria-label=\"Conversation\" style=\"width: 476px; transform: translate3d(476px, 0px, 0px); z-index: 1;\"><header class=\"",
+        "offset": "4",
+        "nodes": [
+          {
+            "selector": "html",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 0,
+              "y": 0,
+              "width": 1024,
+              "height": 768,
+              "top": 0,
+              "right": 1024,
+              "bottom": 768,
+              "left": 0
+            },
+            "transform": "none",
+            "overflow": "visible"
+          },
+          {
+            "selector": "body",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 0,
+              "y": 0,
+              "width": 1024,
+              "height": 768,
+              "top": 0,
+              "right": 1024,
+              "bottom": 768,
+              "left": 0
+            },
+            "transform": "none",
+            "overflow": "visible"
+          },
+          {
+            "selector": ".app-shell",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 0,
+              "y": 0,
+              "width": 1024,
+              "height": 768,
+              "top": 0,
+              "right": 1024,
+              "bottom": 768,
+              "left": 0
+            },
+            "transform": "none",
+            "overflow": "hidden"
+          },
+          {
+            "selector": ".workspace",
+            "left": 10,
+            "top": 0,
+            "bounds": {
+              "x": 288,
+              "y": 0,
+              "width": 736,
+              "height": 768,
+              "top": 0,
+              "right": 1024,
+              "bottom": 768,
+              "left": 288
+            },
+            "transform": "none",
+            "overflow": "hidden"
+          },
+          {
+            "selector": ".panel-stack",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 278,
+              "y": 0,
+              "width": 736,
+              "height": 768,
+              "top": 0,
+              "right": 1014,
+              "bottom": 768,
+              "left": 278
+            },
+            "transform": "none",
+            "overflow": "hidden"
+          },
+          {
+            "selector": ".timeline",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 278,
+              "y": 0,
+              "width": 476,
+              "height": 768,
+              "top": 0,
+              "right": 754,
+              "bottom": 768,
+              "left": 278
+            },
+            "transform": "matrix(1, 0, 0, 1, 0, 0)",
+            "overflow": "visible"
+          },
+          {
+            "selector": ".feed-scroll",
+            "left": 0,
+            "top": 43,
+            "bounds": {
+              "x": 278,
+              "y": 0,
+              "width": 475,
+              "height": 738,
+              "top": 0,
+              "right": 753,
+              "bottom": 738,
+              "left": 278
+            },
+            "transform": "none",
+            "overflow": "auto"
+          },
+          {
+            "selector": ".stack-panel:last-child",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 754,
+              "y": 0,
+              "width": 476,
+              "height": 768,
+              "top": 0,
+              "right": 1230,
+              "bottom": 768,
+              "left": 754
+            },
+            "transform": "matrix(1, 0, 0, 1, 476, 0)",
+            "overflow": "visible"
+          },
+          {
+            "selector": ".stack-panel:last-child .stack-panel__body",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 755,
+              "y": 45,
+              "width": 475,
+              "height": 723,
+              "top": 45,
+              "right": 1230,
+              "bottom": 768,
+              "left": 755
+            },
+            "transform": "none",
+            "overflow": "hidden auto"
+          }
+        ]
+      },
+      "closed": {
+        "windowY": 0,
+        "visualTop": 0,
+        "active": "<body>\n    <div id=\"root\"><div class=\"app-shell nav-expanded \" data-navigation-mode=\"expanded\"><aside id=\"main-navigation\" class=\"sidebar\" aria-label=\"Main navigation\" style=\"width",
+        "offset": "220",
+        "nodes": [
+          {
+            "selector": "html",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 0,
+              "y": 0,
+              "width": 1024,
+              "height": 768,
+              "top": 0,
+              "right": 1024,
+              "bottom": 768,
+              "left": 0
+            },
+            "transform": "none",
+            "overflow": "visible"
+          },
+          {
+            "selector": "body",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 0,
+              "y": 0,
+              "width": 1024,
+              "height": 768,
+              "top": 0,
+              "right": 1024,
+              "bottom": 768,
+              "left": 0
+            },
+            "transform": "none",
+            "overflow": "visible"
+          },
+          {
+            "selector": ".app-shell",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 0,
+              "y": 0,
+              "width": 1024,
+              "height": 768,
+              "top": 0,
+              "right": 1024,
+              "bottom": 768,
+              "left": 0
+            },
+            "transform": "none",
+            "overflow": "hidden"
+          },
+          {
+            "selector": ".workspace",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 292,
+              "y": 0,
+              "width": 732,
+              "height": 768,
+              "top": 0,
+              "right": 1024,
+              "bottom": 768,
+              "left": 292
+            },
+            "transform": "none",
+            "overflow": "hidden"
+          },
+          {
+            "selector": ".panel-stack",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 292,
+              "y": 0,
+              "width": 732,
+              "height": 768,
+              "top": 0,
+              "right": 1024,
+              "bottom": 768,
+              "left": 292
+            },
+            "transform": "none",
+            "overflow": "hidden"
+          },
+          {
+            "selector": ".timeline",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 72,
+              "y": 0,
+              "width": 476,
+              "height": 768,
+              "top": 0,
+              "right": 548,
+              "bottom": 768,
+              "left": 72
+            },
+            "transform": "matrix(1, 0, 0, 1, -220, 0)",
+            "overflow": "visible"
+          },
+          {
+            "selector": ".feed-scroll",
+            "left": 0,
+            "top": 43,
+            "bounds": {
+              "x": 72,
+              "y": 0,
+              "width": 475,
+              "height": 738,
+              "top": 0,
+              "right": 547,
+              "bottom": 738,
+              "left": 72
+            },
+            "transform": "none",
+            "overflow": "auto"
+          },
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "beforeCycle": {
+        "windowY": 0,
+        "visualTop": 0,
+        "active": "<body>\n    <div id=\"root\"><div class=\"app-shell nav-expanded \" data-navigation-mode=\"expanded\"><aside id=\"main-navigation\" class=\"sidebar\" aria-label=\"Main navigation\" style=\"width",
+        "offset": "220",
+        "nodes": [
+          {
+            "selector": "html",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 0,
+              "y": 0,
+              "width": 1024,
+              "height": 768,
+              "top": 0,
+              "right": 1024,
+              "bottom": 768,
+              "left": 0
+            },
+            "transform": "none",
+            "overflow": "visible"
+          },
+          {
+            "selector": "body",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 0,
+              "y": 0,
+              "width": 1024,
+              "height": 768,
+              "top": 0,
+              "right": 1024,
+              "bottom": 768,
+              "left": 0
+            },
+            "transform": "none",
+            "overflow": "visible"
+          },
+          {
+            "selector": ".app-shell",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 0,
+              "y": 0,
+              "width": 1024,
+              "height": 768,
+              "top": 0,
+              "right": 1024,
+              "bottom": 768,
+              "left": 0
+            },
+            "transform": "none",
+            "overflow": "hidden"
+          },
+          {
+            "selector": ".workspace",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 292,
+              "y": 0,
+              "width": 732,
+              "height": 768,
+              "top": 0,
+              "right": 1024,
+              "bottom": 768,
+              "left": 292
+            },
+            "transform": "none",
+            "overflow": "hidden"
+          },
+          {
+            "selector": ".panel-stack",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 292,
+              "y": 0,
+              "width": 732,
+              "height": 768,
+              "top": 0,
+              "right": 1024,
+              "bottom": 768,
+              "left": 292
+            },
+            "transform": "none",
+            "overflow": "hidden"
+          },
+          {
+            "selector": ".timeline",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 72,
+              "y": 0,
+              "width": 476,
+              "height": 768,
+              "top": 0,
+              "right": 548,
+              "bottom": 768,
+              "left": 72
+            },
+            "transform": "matrix(1, 0, 0, 1, -220, 0)",
+            "overflow": "visible"
+          },
+          {
+            "selector": ".feed-scroll",
+            "left": 0,
+            "top": 43,
+            "bounds": {
+              "x": 72,
+              "y": 0,
+              "width": 475,
+              "height": 738,
+              "top": 0,
+              "right": 547,
+              "bottom": 738,
+              "left": 72
+            },
+            "transform": "none",
+            "overflow": "auto"
+          },
+          null,
+          null
+        ]
+      },
+      "openCycle": {
+        "windowY": 0,
+        "visualTop": 0,
+        "active": "<section class=\"stack-panel\" data-panel-index=\"0\" tabindex=\"-1\" aria-label=\"Conversation\" style=\"width: 476px; transform: translate3d(476px, 0px, 0px); z-index: 1;\"><header class=\"",
+        "offset": "0",
+        "nodes": [
+          {
+            "selector": "html",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 0,
+              "y": 0,
+              "width": 1024,
+              "height": 768,
+              "top": 0,
+              "right": 1024,
+              "bottom": 768,
+              "left": 0
+            },
+            "transform": "none",
+            "overflow": "visible"
+          },
+          {
+            "selector": "body",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 0,
+              "y": 0,
+              "width": 1024,
+              "height": 768,
+              "top": 0,
+              "right": 1024,
+              "bottom": 768,
+              "left": 0
+            },
+            "transform": "none",
+            "overflow": "visible"
+          },
+          {
+            "selector": ".app-shell",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 0,
+              "y": 0,
+              "width": 1024,
+              "height": 768,
+              "top": 0,
+              "right": 1024,
+              "bottom": 768,
+              "left": 0
+            },
+            "transform": "none",
+            "overflow": "hidden"
+          },
+          {
+            "selector": ".workspace",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 292,
+              "y": 0,
+              "width": 732,
+              "height": 768,
+              "top": 0,
+              "right": 1024,
+              "bottom": 768,
+              "left": 292
+            },
+            "transform": "none",
+            "overflow": "hidden"
+          },
+          {
+            "selector": ".panel-stack",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 292,
+              "y": 0,
+              "width": 732,
+              "height": 768,
+              "top": 0,
+              "right": 1024,
+              "bottom": 768,
+              "left": 292
+            },
+            "transform": "none",
+            "overflow": "hidden"
+          },
+          {
+            "selector": ".timeline",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 292,
+              "y": 0,
+              "width": 476,
+              "height": 768,
+              "top": 0,
+              "right": 768,
+              "bottom": 768,
+              "left": 292
+            },
+            "transform": "matrix(1, 0, 0, 1, 0, 0)",
+            "overflow": "visible"
+          },
+          {
+            "selector": ".feed-scroll",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 292,
+              "y": 0,
+              "width": 475,
+              "height": 738,
+              "top": 0,
+              "right": 767,
+              "bottom": 738,
+              "left": 292
+            },
+            "transform": "none",
+            "overflow": "auto"
+          },
+          {
+            "selector": ".stack-panel:last-child",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 768,
+              "y": 0,
+              "width": 476,
+              "height": 768,
+              "top": 0,
+              "right": 1244,
+              "bottom": 768,
+              "left": 768
+            },
+            "transform": "matrix(1, 0, 0, 1, 476, 0)",
+            "overflow": "visible"
+          },
+          {
+            "selector": ".stack-panel:last-child .stack-panel__body",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 769,
+              "y": 45,
+              "width": 475,
+              "height": 723,
+              "top": 45,
+              "right": 1244,
+              "bottom": 768,
+              "left": 769
+            },
+            "transform": "none",
+            "overflow": "hidden auto"
+          }
+        ]
+      },
+      "closed": {
+        "windowY": 0,
+        "visualTop": 0,
+        "active": "<body>\n    <div id=\"root\"><div class=\"app-shell nav-expanded \" data-navigation-mode=\"expanded\"><aside id=\"main-navigation\" class=\"sidebar\" aria-label=\"Main navigation\" style=\"width",
+        "offset": "220",
+        "nodes": [
+          {
+            "selector": "html",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 0,
+              "y": 0,
+              "width": 1024,
+              "height": 768,
+              "top": 0,
+              "right": 1024,
+              "bottom": 768,
+              "left": 0
+            },
+            "transform": "none",
+            "overflow": "visible"
+          },
+          {
+            "selector": "body",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 0,
+              "y": 0,
+              "width": 1024,
+              "height": 768,
+              "top": 0,
+              "right": 1024,
+              "bottom": 768,
+              "left": 0
+            },
+            "transform": "none",
+            "overflow": "visible"
+          },
+          {
+            "selector": ".app-shell",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 0,
+              "y": 0,
+              "width": 1024,
+              "height": 768,
+              "top": 0,
+              "right": 1024,
+              "bottom": 768,
+              "left": 0
+            },
+            "transform": "none",
+            "overflow": "hidden"
+          },
+          {
+            "selector": ".workspace",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 292,
+              "y": 0,
+              "width": 732,
+              "height": 768,
+              "top": 0,
+              "right": 1024,
+              "bottom": 768,
+              "left": 292
+            },
+            "transform": "none",
+            "overflow": "hidden"
+          },
+          {
+            "selector": ".panel-stack",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 292,
+              "y": 0,
+              "width": 732,
+              "height": 768,
+              "top": 0,
+              "right": 1024,
+              "bottom": 768,
+              "left": 292
+            },
+            "transform": "none",
+            "overflow": "hidden"
+          },
+          {
+            "selector": ".timeline",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 72,
+              "y": 0,
+              "width": 476,
+              "height": 768,
+              "top": 0,
+              "right": 548,
+              "bottom": 768,
+              "left": 72
+            },
+            "transform": "matrix(1, 0, 0, 1, -220, 0)",
+            "overflow": "visible"
+          },
+          {
+            "selector": ".feed-scroll",
+            "left": 0,
+            "top": 0,
+            "bounds": {
+              "x": 72,
+              "y": 0,
+              "width": 475,
+              "height": 738,
+              "top": 0,
+              "right": 547,
+              "bottom": 738,
+              "left": 72
+            },
+            "transform": "none",
+            "overflow": "auto"
+          },
+          null,
+          null
+        ]
+      }
+    }
+  ]
+}

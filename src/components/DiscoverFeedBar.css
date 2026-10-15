@@ -1,0 +1,15 @@
+.discover-feed-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  min-height: 42px;
+  padding: 5px 12px;
+  border-bottom: 1px solid #c4cbd0;
+  background: #e9edf0;
+  color: #4b5964;
+  font-size: 12px;
+  flex-shrink: 0;
+}
+.discover-feed-bar > span { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-weight: bold; }
+.discover-feed-bar > button { flex-shrink: 0; font-size: 12px; }

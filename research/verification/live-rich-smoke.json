@@ -1,0 +1,30 @@
+{
+  "checkedAt": "2026-10-15T14:02:10.182Z",
+  "baseUrl": "http://localhost:5173",
+  "errors": [],
+  "initialPosts": 27,
+  "previews": {
+    "images": 15,
+    "videos": 5,
+    "links": 6,
+    "quotes": 0
+  },
+  "butterflies": 2,
+  "avatarRadius": "50%",
+  "directoryFeeds": 24,
+  "selectedFeed": {
+    "name": "Science",
+    "uri": "at://did:plc:jfhpnnst6flqway4eaeqzj2a/app.bsky.feed.generator/for-science",
+    "records": 30
+  },
+  "paneTitles": [
+    "Feeds",
+    "Science"
+  ],
+  "preservedRootPosts": 27,
+  "feedErrors": 0,
+  "horizontalOverflow": false,
+  "searchedFeeds": 30,
+  "pickerOverflow": false,
+  "pass": true
+}

@@ -1,0 +1,33 @@
+{
+  "checkedAt": "2026-10-15T07:11:54.796Z",
+  "workerSha256": "aeafa7f6b18fd38904e1146599cc68671418552fb291dea314979acad9e350af",
+  "results": [
+    {
+      "engine": "chromium",
+      "scope": "/",
+      "precachedFiles": 35,
+      "apiResponsesCached": false,
+      "serverStoppedReloadPassed": true,
+      "offlineStylesLoaded": true,
+      "brokenOriginalImages": []
+    },
+    {
+      "engine": "firefox",
+      "scope": "/",
+      "precachedFiles": 35,
+      "apiResponsesCached": false,
+      "serverStoppedReloadPassed": true,
+      "offlineStylesLoaded": true,
+      "brokenOriginalImages": []
+    },
+    {
+      "engine": "webkit",
+      "scope": "/",
+      "precachedFiles": 35,
+      "apiResponsesCached": false,
+      "serverStoppedReloadPassed": true,
+      "offlineStylesLoaded": true,
+      "brokenOriginalImages": []
+    }
+  ]
+}

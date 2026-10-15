@@ -1,0 +1,69 @@
+{
+  "analysis_tool": "Python 3 plistlib (ordinary shell, not REA Evidence)",
+  "source": "/home/debian/twitter/research/original-app/Twitter-3.1.1/Payload/Twitter.app/Info.plist",
+  "sha256": "8df4cf1e74213d697d2c4b1c53a18edcd22b6b5abbcf2dc16467f9eb8ab7d24b",
+  "plist": {
+    "CFBundleURLTypes": [
+      {
+        "CFBundleURLName": "com.twitter.twitter-iphone",
+        "CFBundleURLSchemes": [
+          "twitter",
+          "com.twitter.twitter-iphone",
+          "com.twitter.twitter-iphone+1.0.0",
+          "tweetie",
+          "com.atebits.Tweetie2",
+          "com.atebits.Tweetie2+2.0.0",
+          "com.atebits.Tweetie2+2.1.0",
+          "com.atebits.Tweetie2+2.1.1",
+          "com.atebits.Tweetie2+3.0.0"
+        ]
+      }
+    ],
+    "CFBundleInfoDictionaryVersion": "6.0",
+    "UISupportedInterfaceOrientations~ipad": [
+      "UIInterfaceOrientationPortrait",
+      "UIInterfaceOrientationPortraitUpsideDown",
+      "UIInterfaceOrientationLandscapeLeft",
+      "UIInterfaceOrientationLandscapeRight"
+    ],
+    "UIInterfaceOrientation": "UIInterfaceOrientationPortrait",
+    "CFBundleIconFile": "Icon.png",
+    "CFBundleName": "Twitter",
+    "DTSDKName": "iphoneos4.0",
+    "UTImportedTypeDeclarations": [],
+    "DTPlatformVersion": "4.0 GM",
+    "UIStatusBarStyle": "UIStatusBarStyleDefault",
+    "LSRequiresIPhoneOS": true,
+    "UIRequiresPersistentWiFi": true,
+    "CFBundleDisplayName": "Twitter",
+    "CFBundleDocumentTypes": [],
+    "CFBundleSupportedPlatforms": [
+      "iPhoneOS"
+    ],
+    "UISupportedInterfaceOrientations": [],
+    "CFBundlePackageType": "APPL",
+    "UTExportedTypeDeclarations": [],
+    "CFBundleDevelopmentRegion": "English",
+    "UIPrerenderedIcon": true,
+    "CFBundleVersion": "3.1.1",
+    "MinimumOSVersion": "3.1",
+    "UIInterfaceOrientation~ipad": "UIInterfaceOrientationPortrait",
+    "UIDeviceFamily": [
+      1,
+      2
+    ],
+    "CFBundleIdentifier": "com.atebits.Tweetie2",
+    "CFBundleIconFiles": [
+      "Icon.png",
+      "Icon@2x.png",
+      "Icon-iPad.png"
+    ],
+    "DTXcode": "0323",
+    "Push Environment": "3",
+    "CFBundleExecutable": "Twitter",
+    "CFBundleSignature": "????",
+    "DTPlatformName": "iphoneos",
+    "CFBundleResourceSpecification": "ResourceRules.plist",
+    "DTCompiler": "com.apple.compilers.llvmgcc42"
+  }
+}

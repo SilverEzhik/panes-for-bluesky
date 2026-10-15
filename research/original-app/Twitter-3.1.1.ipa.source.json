@@ -1,0 +1,20 @@
+{
+  "identifier": "marcoalimaiosappcollection",
+  "file": {
+    "name": "Twitter.v3.1.1.iPhone-C4iD.ipa",
+    "source": "original",
+    "mtime": "1677551701",
+    "size": "2748346",
+    "md5": "e6be126ae0d1fdcf2fdba3245a3dc03d",
+    "crc32": "3682c517",
+    "sha1": "e607a0d591fefa563e29bc8478bbad6de24dd55a",
+    "rclone-mtime": "2010-09-14T20:22:05Z",
+    "rclone-update-track": "mebijoj6limodoy8muwubim1hewifen7",
+    "format": "iOS App Store Package",
+    "filecount": "291",
+    "viruscheck": "1677552912"
+  },
+  "downloadUrl": "https://archive.org/download/marcoalimaiosappcollection/Twitter.v3.1.1.iPhone-C4iD.ipa",
+  "retrievedAt": "2026-10-15",
+  "sha256": "605d2192d883d1c9f7a44969da827db951d567b783f0d41bbc877412e817b581"
+}

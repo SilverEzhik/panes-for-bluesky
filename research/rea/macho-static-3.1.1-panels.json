@@ -1,0 +1,2672 @@
+{
+  "source": "/home/debian/twitter/research/original-app/Twitter-3.1.1/Payload/Twitter.app/Twitter",
+  "sha256": "eb02c536eab4b7308eddc4cd8642648ab9e20a2269900f06a0b91f4f29fe53e1",
+  "size": 3082480,
+  "container": "thin",
+  "analysis": "custom read-only static metadata parser",
+  "limitations": [
+    "No code executed.",
+    "Metadata names establish declarations, not runtime behavior.",
+    "Only little-endian 32-bit Mach-O Objective-C 2 metadata is parsed.",
+    "External class references may be zero before dyld binding.",
+    "No panel dimensions or gesture thresholds are inferred from names."
+  ],
+  "selection": "Class names matching panel|stack|gesture|pinch|swipe|ipad|tablet|column|root|drag, case insensitive",
+  "slices": [
+    {
+      "file_offset": 0,
+      "size": 3082480,
+      "cpu_type": 12,
+      "cpu_subtype": 6,
+      "filetype": 2,
+      "flags": 98437,
+      "load_commands": [
+        {
+          "command": "0x1",
+          "file_offset": 28,
+          "size": 56
+        },
+        {
+          "command": "0x1",
+          "file_offset": 84,
+          "size": 464
+        },
+        {
+          "command": "0x1",
+          "file_offset": 548,
+          "size": 1416
+        },
+        {
+          "command": "0x1",
+          "file_offset": 1964,
+          "size": 56
+        },
+        {
+          "command": "0x80000022",
+          "file_offset": 2020,
+          "size": 48
+        },
+        {
+          "command": "0x2",
+          "file_offset": 2068,
+          "size": 24
+        },
+        {
+          "command": "0xb",
+          "file_offset": 2092,
+          "size": 80
+        },
+        {
+          "command": "0xe",
+          "file_offset": 2172,
+          "size": 28
+        },
+        {
+          "command": "0x1b",
+          "file_offset": 2200,
+          "size": 24
+        },
+        {
+          "command": "0x5",
+          "file_offset": 2224,
+          "size": 84
+        },
+        {
+          "command": "0x21",
+          "file_offset": 2308,
+          "size": 20
+        },
+        {
+          "command": "0xc",
+          "file_offset": 2328,
+          "size": 52
+        },
+        {
+          "command": "0xc",
+          "file_offset": 2380,
+          "size": 52
+        },
+        {
+          "command": "0xc",
+          "file_offset": 2432,
+          "size": 48
+        },
+        {
+          "command": "0x80000018",
+          "file_offset": 2480,
+          "size": 84
+        },
+        {
+          "command": "0x80000018",
+          "file_offset": 2564,
+          "size": 76
+        },
+        {
+          "command": "0xc",
+          "file_offset": 2640,
+          "size": 88
+        },
+        {
+          "command": "0xc",
+          "file_offset": 2728,
+          "size": 80
+        },
+        {
+          "command": "0xc",
+          "file_offset": 2808,
+          "size": 92
+        },
+        {
+          "command": "0xc",
+          "file_offset": 2900,
+          "size": 84
+        },
+        {
+          "command": "0xc",
+          "file_offset": 2984,
+          "size": 84
+        },
+        {
+          "command": "0xc",
+          "file_offset": 3068,
+          "size": 84
+        },
+        {
+          "command": "0xc",
+          "file_offset": 3152,
+          "size": 76
+        },
+        {
+          "command": "0xc",
+          "file_offset": 3228,
+          "size": 100
+        },
+        {
+          "command": "0xc",
+          "file_offset": 3328,
+          "size": 88
+        },
+        {
+          "command": "0xc",
+          "file_offset": 3416,
+          "size": 88
+        },
+        {
+          "command": "0xc",
+          "file_offset": 3504,
+          "size": 92
+        },
+        {
+          "command": "0xc",
+          "file_offset": 3596,
+          "size": 88
+        },
+        {
+          "command": "0xc",
+          "file_offset": 3684,
+          "size": 88
+        },
+        {
+          "command": "0x80000018",
+          "file_offset": 3772,
+          "size": 80
+        },
+        {
+          "command": "0xc",
+          "file_offset": 3852,
+          "size": 52
+        },
+        {
+          "command": "0xc",
+          "file_offset": 3904,
+          "size": 52
+        },
+        {
+          "command": "0xc",
+          "file_offset": 3956,
+          "size": 52
+        },
+        {
+          "command": "0x1d",
+          "file_offset": 4008,
+          "size": 16
+        }
+      ],
+      "sections": [
+        {
+          "name": "__text",
+          "segment": "__TEXT",
+          "vm_address": 12080,
+          "size": 743880,
+          "file_offset": 7984,
+          "flags": 2147484672
+        },
+        {
+          "name": "__symbol_stub4",
+          "segment": "__TEXT",
+          "vm_address": 755960,
+          "size": 3300,
+          "file_offset": 751864,
+          "flags": 2147484680
+        },
+        {
+          "name": "__cstring",
+          "segment": "__TEXT",
+          "vm_address": 759260,
+          "size": 175617,
+          "file_offset": 755164,
+          "flags": 2
+        },
+        {
+          "name": "__const",
+          "segment": "__TEXT",
+          "vm_address": 934880,
+          "size": 519096,
+          "file_offset": 930784,
+          "flags": 0
+        },
+        {
+          "name": "__ustring",
+          "segment": "__TEXT",
+          "vm_address": 1453976,
+          "size": 856,
+          "file_offset": 1449880,
+          "flags": 0
+        },
+        {
+          "name": "__stub_helper",
+          "segment": "__TEXT",
+          "vm_address": 1454832,
+          "size": 3336,
+          "file_offset": 1450736,
+          "flags": 2147484672
+        },
+        {
+          "name": "__program_vars",
+          "segment": "__DATA",
+          "vm_address": 1458176,
+          "size": 20,
+          "file_offset": 1454080,
+          "flags": 0
+        },
+        {
+          "name": "__mod_init_func",
+          "segment": "__DATA",
+          "vm_address": 1458196,
+          "size": 4,
+          "file_offset": 1454100,
+          "flags": 9
+        },
+        {
+          "name": "__nl_symbol_ptr",
+          "segment": "__DATA",
+          "vm_address": 1458200,
+          "size": 1028,
+          "file_offset": 1454104,
+          "flags": 6
+        },
+        {
+          "name": "__la_symbol_ptr",
+          "segment": "__DATA",
+          "vm_address": 1459228,
+          "size": 1100,
+          "file_offset": 1455132,
+          "flags": 7
+        },
+        {
+          "name": "__const",
+          "segment": "__DATA",
+          "vm_address": 1460336,
+          "size": 52,
+          "file_offset": 1456240,
+          "flags": 0
+        },
+        {
+          "name": "__cfstring",
+          "segment": "__DATA",
+          "vm_address": 1460388,
+          "size": 33744,
+          "file_offset": 1456292,
+          "flags": 0
+        },
+        {
+          "name": "__gcc_except_tab",
+          "segment": "__DATA",
+          "vm_address": 1494132,
+          "size": 312,
+          "file_offset": 1490036,
+          "flags": 0
+        },
+        {
+          "name": "__objc_data",
+          "segment": "__DATA",
+          "vm_address": 1494444,
+          "size": 15640,
+          "file_offset": 1490348,
+          "flags": 0
+        },
+        {
+          "name": "__objc_protorefs",
+          "segment": "__DATA",
+          "vm_address": 1510084,
+          "size": 4,
+          "file_offset": 1505988,
+          "flags": 0
+        },
+        {
+          "name": "__objc_selrefs",
+          "segment": "__DATA",
+          "vm_address": 1510088,
+          "size": 13324,
+          "file_offset": 1505992,
+          "flags": 5
+        },
+        {
+          "name": "__objc_classrefs",
+          "segment": "__DATA",
+          "vm_address": 1523412,
+          "size": 1744,
+          "file_offset": 1519316,
+          "flags": 0
+        },
+        {
+          "name": "__objc_superrefs",
+          "segment": "__DATA",
+          "vm_address": 1525156,
+          "size": 1092,
+          "file_offset": 1521060,
+          "flags": 0
+        },
+        {
+          "name": "__objc_const",
+          "segment": "__DATA",
+          "vm_address": 1526248,
+          "size": 151712,
+          "file_offset": 1522152,
+          "flags": 0
+        },
+        {
+          "name": "__objc_classlist",
+          "segment": "__DATA",
+          "vm_address": 1677960,
+          "size": 1564,
+          "file_offset": 1673864,
+          "flags": 0
+        },
+        {
+          "name": "__objc_catlist",
+          "segment": "__DATA",
+          "vm_address": 1679524,
+          "size": 544,
+          "file_offset": 1675428,
+          "flags": 0
+        },
+        {
+          "name": "__objc_protolist",
+          "segment": "__DATA",
+          "vm_address": 1680068,
+          "size": 232,
+          "file_offset": 1675972,
+          "flags": 0
+        },
+        {
+          "name": "__objc_imageinfo",
+          "segment": "__DATA",
+          "vm_address": 1680300,
+          "size": 8,
+          "file_offset": 1676204,
+          "flags": 0
+        },
+        {
+          "name": "__data",
+          "segment": "__DATA",
+          "vm_address": 1680320,
+          "size": 92334,
+          "file_offset": 1676224,
+          "flags": 0
+        },
+        {
+          "name": "__common",
+          "segment": "__DATA",
+          "vm_address": 1772656,
+          "size": 41,
+          "file_offset": 0,
+          "flags": 1
+        },
+        {
+          "name": "__bss",
+          "segment": "__DATA",
+          "vm_address": 1772704,
+          "size": 5864,
+          "file_offset": 0,
+          "flags": 1
+        }
+      ],
+      "encryption": [
+        {
+          "command_file_offset": 2308,
+          "cryptoff": 4096,
+          "absolute_cryptoff": 4096,
+          "cryptsize": 1449984,
+          "cryptid": 0
+        }
+      ],
+      "total_class_count": 391,
+      "total_category_count": 136,
+      "categories": [
+        {
+          "name": "ABColumnBarAdditions",
+          "category_vm_address": 1643944,
+          "category_file_offset": 1639848,
+          "class_vm_address": 1507104,
+          "class_name": "ABColumnItem",
+          "methods": [
+            {
+              "selector": "_setColumnBar:",
+              "type_encoding": "v12@0:4@8",
+              "record_file_offset": 1639836,
+              "selector_file_offset": 896633,
+              "implementation_vm_address": 550837,
+              "implementation_file_offset": 546740,
+              "thumb": true
+            }
+          ],
+          "class_methods": []
+        },
+        {
+          "name": "ABColumnItemAdditions",
+          "category_vm_address": 1645556,
+          "category_file_offset": 1641460,
+          "class_vm_address": 0,
+          "class_name": null,
+          "methods": [
+            {
+              "selector": "ab_columnItem",
+              "type_encoding": "@8@0:4",
+              "record_file_offset": 1641432,
+              "selector_file_offset": 893436,
+              "implementation_vm_address": 561857,
+              "implementation_file_offset": 557760,
+              "thumb": true
+            }
+          ],
+          "class_methods": []
+        },
+        {
+          "name": "ABColumnViewControllerAdditions",
+          "category_vm_address": 1659248,
+          "category_file_offset": 1655152,
+          "class_vm_address": 0,
+          "class_name": null,
+          "methods": [
+            {
+              "selector": "ab_pushColumn:animated:",
+              "type_encoding": "v16@0:4@8c12",
+              "record_file_offset": 1655068,
+              "selector_file_offset": 814104,
+              "implementation_vm_address": 640409,
+              "implementation_file_offset": 636312,
+              "thumb": true
+            },
+            {
+              "selector": "_ab_setSuperColumn:",
+              "type_encoding": "v12@0:4@8",
+              "record_file_offset": 1655080,
+              "selector_file_offset": 912652,
+              "implementation_vm_address": 640385,
+              "implementation_file_offset": 636288,
+              "thumb": true
+            },
+            {
+              "selector": "ab_superColumn",
+              "type_encoding": "@8@0:4",
+              "record_file_offset": 1655092,
+              "selector_file_offset": 897473,
+              "implementation_vm_address": 640361,
+              "implementation_file_offset": 636264,
+              "thumb": true
+            },
+            {
+              "selector": "_ab_setColumnViewController:",
+              "type_encoding": "v12@0:4@8",
+              "record_file_offset": 1655104,
+              "selector_file_offset": 894056,
+              "implementation_vm_address": 640337,
+              "implementation_file_offset": 636240,
+              "thumb": true
+            },
+            {
+              "selector": "ab_columnViewController",
+              "type_encoding": "@8@0:4",
+              "record_file_offset": 1655116,
+              "selector_file_offset": 887336,
+              "implementation_vm_address": 640313,
+              "implementation_file_offset": 636216,
+              "thumb": true
+            }
+          ],
+          "class_methods": []
+        },
+        {
+          "name": "ABSwipeColumnViewController",
+          "category_vm_address": 1659304,
+          "category_file_offset": 1655208,
+          "class_vm_address": 0,
+          "class_name": null,
+          "methods": [
+            {
+              "selector": "ab_shouldShowPullTab",
+              "type_encoding": "c8@0:4",
+              "record_file_offset": 1655184,
+              "selector_file_offset": 845275,
+              "implementation_vm_address": 631937,
+              "implementation_file_offset": 627840,
+              "thumb": true
+            },
+            {
+              "selector": "ab_swipeColumnWidth:",
+              "type_encoding": "f12@0:4i8",
+              "record_file_offset": 1655196,
+              "selector_file_offset": 913384,
+              "implementation_vm_address": 631897,
+              "implementation_file_offset": 627800,
+              "thumb": true
+            }
+          ],
+          "class_methods": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "ABColumnBar",
+          "class_vm_address": 1506944,
+          "class_file_offset": 1502848,
+          "classlist_pointer_file_offset": 1675112,
+          "ro_vm_address": 1643400,
+          "instance_start": 44,
+          "instance_size": 80,
+          "methods": [
+            {
+              "selector": "setDelegate:",
+              "type_encoding": "v12@0:4@8",
+              "record_file_offset": 1639352,
+              "selector_file_offset": 757704,
+              "implementation_vm_address": 550897,
+              "implementation_file_offset": 546800,
+              "thumb": true
+            },
+            {
+              "selector": "delegate",
+              "type_encoding": "@8@0:4",
+              "record_file_offset": 1639364,
+              "selector_file_offset": 763008,
+              "implementation_vm_address": 550885,
+              "implementation_file_offset": 546788,
+              "thumb": true
+            },
+            {
+              "selector": "endSetItemsAnimation:finished:context:",
+              "type_encoding": "v20@0:4@8@12^v16",
+              "record_file_offset": 1639376,
+              "selector_file_offset": 896557,
+              "implementation_vm_address": 551249,
+              "implementation_file_offset": 547152,
+              "thumb": true
+            },
+            {
+              "selector": "_finishTransition",
+              "type_encoding": "v8@0:4",
+              "record_file_offset": 1639388,
+              "selector_file_offset": 896508,
+              "implementation_vm_address": 551269,
+              "implementation_file_offset": 547172,
+              "thumb": true
+            },
+            {
+              "selector": "setItems:animated:",
+              "type_encoding": "v16@0:4@8c12",
+              "record_file_offset": 1639400,
+              "selector_file_offset": 896677,
+              "implementation_vm_address": 551493,
+              "implementation_file_offset": 547396,
+              "thumb": true
+            },
+            {
+              "selector": "_itemDidUpdate:",
+              "type_encoding": "v12@0:4@8",
+              "record_file_offset": 1639412,
+              "selector_file_offset": 896818,
+              "implementation_vm_address": 554021,
+              "implementation_file_offset": 549924,
+              "thumb": true
+            },
+            {
+              "selector": "_updateToolbarItems:animated:",
+              "type_encoding": "v16@0:4@8c12",
+              "record_file_offset": 1639424,
+              "selector_file_offset": 896603,
+              "implementation_vm_address": 554201,
+              "implementation_file_offset": 550104,
+              "thumb": true
+            },
+            {
+              "selector": "pop:",
+              "type_encoding": "v12@0:4@8",
+              "record_file_offset": 1639436,
+              "selector_file_offset": 896596,
+              "implementation_vm_address": 554277,
+              "implementation_file_offset": 550180,
+              "thumb": true
+            },
+            {
+              "selector": "layoutSubviews",
+              "type_encoding": "v8@0:4",
+              "record_file_offset": 1639448,
+              "selector_file_offset": 846142,
+              "implementation_vm_address": 554349,
+              "implementation_file_offset": 550252,
+              "thumb": true
+            },
+            {
+              "selector": "_updateLayout",
+              "type_encoding": "v8@0:4",
+              "record_file_offset": 1639460,
+              "selector_file_offset": 913284,
+              "implementation_vm_address": 554401,
+              "implementation_file_offset": 550304,
+              "thumb": true
+            },
+            {
+              "selector": "toolbarFrame",
+              "type_encoding": "{CGRect={CGPoint=ff}{CGSize=ff}}8@0:4",
+              "record_file_offset": 1639472,
+              "selector_file_offset": 896730,
+              "implementation_vm_address": 554709,
+              "implementation_file_offset": 550612,
+              "thumb": true
+            },
+            {
+              "selector": "rightTitleFrame",
+              "type_encoding": "{CGRect={CGPoint=ff}{CGSize=ff}}8@0:4",
+              "record_file_offset": 1639484,
+              "selector_file_offset": 896756,
+              "implementation_vm_address": 554769,
+              "implementation_file_offset": 550672,
+              "thumb": true
+            },
+            {
+              "selector": "dividerFrame",
+              "type_encoding": "{CGRect={CGPoint=ff}{CGSize=ff}}8@0:4",
+              "record_file_offset": 1639496,
+              "selector_file_offset": 896743,
+              "implementation_vm_address": 554893,
+              "implementation_file_offset": 550796,
+              "thumb": true
+            },
+            {
+              "selector": "leftTitleFrame",
+              "type_encoding": "{CGRect={CGPoint=ff}{CGSize=ff}}8@0:4",
+              "record_file_offset": 1639508,
+              "selector_file_offset": 896791,
+              "implementation_vm_address": 555009,
+              "implementation_file_offset": 550912,
+              "thumb": true
+            },
+            {
+              "selector": "backButtonFrame:",
+              "type_encoding": "{CGRect={CGPoint=ff}{CGSize=ff}}24@0:4{CGRect={CGPoint=ff}{CGSize=ff}}8",
+              "record_file_offset": 1639520,
+              "selector_file_offset": 896774,
+              "implementation_vm_address": 550853,
+              "implementation_file_offset": 546756,
+              "thumb": true
+            },
+            {
+              "selector": "rightItem",
+              "type_encoding": "@8@0:4",
+              "record_file_offset": 1639532,
+              "selector_file_offset": 896658,
+              "implementation_vm_address": 555061,
+              "implementation_file_offset": 550964,
+              "thumb": true
+            },
+            {
+              "selector": "leftItem",
+              "type_encoding": "@8@0:4",
+              "record_file_offset": 1639544,
+              "selector_file_offset": 896668,
+              "implementation_vm_address": 555173,
+              "implementation_file_offset": 551076,
+              "thumb": true
+            },
+            {
+              "selector": "backItem",
+              "type_encoding": "@8@0:4",
+              "record_file_offset": 1639556,
+              "selector_file_offset": 824623,
+              "implementation_vm_address": 555253,
+              "implementation_file_offset": 551156,
+              "thumb": true
+            },
+            {
+              "selector": "dealloc",
+              "type_encoding": "v8@0:4",
+              "record_file_offset": 1639568,
+              "selector_file_offset": 755284,
+              "implementation_vm_address": 555349,
+              "implementation_file_offset": 551252,
+              "thumb": true
+            },
+            {
+              "selector": "initWithFrame:",
+              "type_encoding": "@24@0:4{CGRect={CGPoint=ff}{CGSize=ff}}8",
+              "record_file_offset": 1639580,
+              "selector_file_offset": 803256,
+              "implementation_vm_address": 550909,
+              "implementation_file_offset": 546812,
+              "thumb": true
+            }
+          ],
+          "class_methods": [],
+          "ivars": [
+            {
+              "name": "delegate",
+              "type_encoding": "@",
+              "offset_pointer_vm_address": 1643356,
+              "offset_pointer_file_offset": 1639260,
+              "instance_offset": 44,
+              "size": 4,
+              "alignment_log2": 2,
+              "record_file_offset": 1639600
+            },
+            {
+              "name": "items",
+              "type_encoding": "@\"NSArray\"",
+              "offset_pointer_vm_address": 1643876,
+              "offset_pointer_file_offset": 1639780,
+              "instance_offset": 48,
+              "size": 4,
+              "alignment_log2": 2,
+              "record_file_offset": 1639620
+            },
+            {
+              "name": "_dummyBackToRootItem",
+              "type_encoding": "@\"ABColumnItem\"",
+              "offset_pointer_vm_address": 1643880,
+              "offset_pointer_file_offset": 1639784,
+              "instance_offset": 52,
+              "size": 4,
+              "alignment_log2": 2,
+              "record_file_offset": 1639640
+            },
+            {
+              "name": "currentBackButtonView",
+              "type_encoding": "@\"UIView\"",
+              "offset_pointer_vm_address": 1643884,
+              "offset_pointer_file_offset": 1639788,
+              "instance_offset": 56,
+              "size": 4,
+              "alignment_log2": 2,
+              "record_file_offset": 1639660
+            },
+            {
+              "name": "currentLeftTitleView",
+              "type_encoding": "@\"UIView\"",
+              "offset_pointer_vm_address": 1643888,
+              "offset_pointer_file_offset": 1639792,
+              "instance_offset": 60,
+              "size": 4,
+              "alignment_log2": 2,
+              "record_file_offset": 1639680
+            },
+            {
+              "name": "currentRightTitleView",
+              "type_encoding": "@\"UIView\"",
+              "offset_pointer_vm_address": 1643892,
+              "offset_pointer_file_offset": 1639796,
+              "instance_offset": 64,
+              "size": 4,
+              "alignment_log2": 2,
+              "record_file_offset": 1639700
+            },
+            {
+              "name": "transition",
+              "type_encoding": "{?=\"removeViews\"@\"NSArray\"}",
+              "offset_pointer_vm_address": 1643896,
+              "offset_pointer_file_offset": 1639800,
+              "instance_offset": 68,
+              "size": 4,
+              "alignment_log2": 2,
+              "record_file_offset": 1639720
+            },
+            {
+              "name": "divider",
+              "type_encoding": "@\"UIView\"",
+              "offset_pointer_vm_address": 1643900,
+              "offset_pointer_file_offset": 1639804,
+              "instance_offset": 72,
+              "size": 4,
+              "alignment_log2": 2,
+              "record_file_offset": 1639740
+            },
+            {
+              "name": "toolbar",
+              "type_encoding": "@\"UIToolbar\"",
+              "offset_pointer_vm_address": 1643904,
+              "offset_pointer_file_offset": 1639808,
+              "instance_offset": 76,
+              "size": 4,
+              "alignment_log2": 2,
+              "record_file_offset": 1639760
+            }
+          ]
+        },
+        {
+          "name": "ABColumnItem",
+          "class_vm_address": 1507104,
+          "class_file_offset": 1503008,
+          "classlist_pointer_file_offset": 1675128,
+          "ro_vm_address": 1645208,
+          "instance_start": 4,
+          "instance_size": 28,
+          "methods": [
+            {
+              "selector": "title",
+              "type_encoding": "@8@0:4",
+              "record_file_offset": 1641160,
+              "selector_file_offset": 818896,
+              "implementation_vm_address": 561313,
+              "implementation_file_offset": 557216,
+              "thumb": true
+            },
+            {
+              "selector": "toolbarItems",
+              "type_encoding": "@8@0:4",
+              "record_file_offset": 1641172,
+              "selector_file_offset": 898312,
+              "implementation_vm_address": 561301,
+              "implementation_file_offset": 557204,
+              "thumb": true
+            },
+            {
+              "selector": "setToolbarItems:animated:",
+              "type_encoding": "v16@0:4@8c12",
+              "record_file_offset": 1641184,
+              "selector_file_offset": 898325,
+              "implementation_vm_address": 561805,
+              "implementation_file_offset": 557708,
+              "thumb": true
+            },
+            {
+              "selector": "backButtonView",
+              "type_encoding": "@8@0:4",
+              "record_file_offset": 1641196,
+              "selector_file_offset": 896492,
+              "implementation_vm_address": 561961,
+              "implementation_file_offset": 557864,
+              "thumb": true
+            },
+            {
+              "selector": "setTitle:",
+              "type_encoding": "v12@0:4@8",
+              "record_file_offset": 1641208,
+              "selector_file_offset": 808448,
+              "implementation_vm_address": 561729,
+              "implementation_file_offset": 557632,
+              "thumb": true
+            },
+            {
+              "selector": "setTitleView:",
+              "type_encoding": "v12@0:4@8",
+              "record_file_offset": 1641220,
+              "selector_file_offset": 759482,
+              "implementation_vm_address": 561677,
+              "implementation_file_offset": 557580,
+              "thumb": true
+            },
+            {
+              "selector": "titleView",
+              "type_encoding": "@8@0:4",
+              "record_file_offset": 1641232,
+              "selector_file_offset": 896648,
+              "implementation_vm_address": 561325,
+              "implementation_file_offset": 557228,
+              "thumb": true
+            },
+            {
+              "selector": "dealloc",
+              "type_encoding": "v8@0:4",
+              "record_file_offset": 1641244,
+              "selector_file_offset": 755284,
+              "implementation_vm_address": 562457,
+              "implementation_file_offset": 558360,
+              "thumb": true
+            }
+          ],
+          "class_methods": [],
+          "ivars": [
+            {
+              "name": "title",
+              "type_encoding": "@\"NSString\"",
+              "offset_pointer_vm_address": 1645156,
+              "offset_pointer_file_offset": 1641060,
+              "instance_offset": 4,
+              "size": 4,
+              "alignment_log2": 2,
+              "record_file_offset": 1641264
+            },
+            {
+              "name": "_titleView",
+              "type_encoding": "@\"UIView\"",
+              "offset_pointer_vm_address": 1645160,
+              "offset_pointer_file_offset": 1641064,
+              "instance_offset": 8,
+              "size": 4,
+              "alignment_log2": 2,
+              "record_file_offset": 1641284
+            },
+            {
+              "name": "_backButtonView",
+              "type_encoding": "@\"UIView\"",
+              "offset_pointer_vm_address": 1645480,
+              "offset_pointer_file_offset": 1641384,
+              "instance_offset": 12,
+              "size": 4,
+              "alignment_log2": 2,
+              "record_file_offset": 1641304
+            },
+            {
+              "name": "_toolbarItems",
+              "type_encoding": "@\"NSArray\"",
+              "offset_pointer_vm_address": 1645152,
+              "offset_pointer_file_offset": 1641056,
+              "instance_offset": 16,
+              "size": 4,
+              "alignment_log2": 2,
+              "record_file_offset": 1641324
+            },
+            {
+              "name": "_columnBar",
+              "type_encoding": "@\"ABColumnBar\"",
+              "offset_pointer_vm_address": 1645164,
+              "offset_pointer_file_offset": 1641068,
+              "instance_offset": 20,
+              "size": 4,
+              "alignment_log2": 2,
+              "record_file_offset": 1641344
+            },
+            {
+              "name": "_owner",
+              "type_encoding": "@\"UIViewController\"",
+              "offset_pointer_vm_address": 1645484,
+              "offset_pointer_file_offset": 1641388,
+              "instance_offset": 24,
+              "size": 4,
+              "alignment_log2": 2,
+              "record_file_offset": 1641364
+            }
+          ]
+        },
+        {
+          "name": "ABSwipeColumnViewController",
+          "class_vm_address": 1508344,
+          "class_file_offset": 1504248,
+          "classlist_pointer_file_offset": 1675252,
+          "ro_vm_address": 1658276,
+          "instance_start": 124,
+          "instance_size": 188,
+          "methods": [
+            {
+              "selector": "setDelegate:",
+              "type_encoding": "v12@0:4@8",
+              "record_file_offset": 1654228,
+              "selector_file_offset": 757704,
+              "implementation_vm_address": 631885,
+              "implementation_file_offset": 627788,
+              "thumb": true
+            },
+            {
+              "selector": "delegate",
+              "type_encoding": "@8@0:4",
+              "record_file_offset": 1654240,
+              "selector_file_offset": 763008,
+              "implementation_vm_address": 631873,
+              "implementation_file_offset": 627776,
+              "thumb": true
+            },
+            {
+              "selector": "tapStatusBar:",
+              "type_encoding": "v16@0:4{CGPoint=ff}8",
+              "record_file_offset": 1654252,
+              "selector_file_offset": 883824,
+              "implementation_vm_address": 632093,
+              "implementation_file_offset": 627996,
+              "thumb": true
+            },
+            {
+              "selector": "visibleViewControllers",
+              "type_encoding": "@8@0:4",
+              "record_file_offset": 1654264,
+              "selector_file_offset": 913406,
+              "implementation_vm_address": 631861,
+              "implementation_file_offset": 627764,
+              "thumb": true
+            },
+            {
+              "selector": "endFullScreenAnimated:",
+              "type_encoding": "@12@0:4c8",
+              "record_file_offset": 1654276,
+              "selector_file_offset": 897338,
+              "implementation_vm_address": 632357,
+              "implementation_file_offset": 628260,
+              "thumb": true
+            },
+            {
+              "selector": "beginFullScreenAnimationDidStop:finished:context:",
+              "type_encoding": "v20@0:4@8@12^v16",
+              "record_file_offset": 1654288,
+              "selector_file_offset": 909864,
+              "implementation_vm_address": 632461,
+              "implementation_file_offset": 628364,
+              "thumb": true
+            },
+            {
+              "selector": "beginFullScreenForView:animated:",
+              "type_encoding": "@16@0:4@8c12",
+              "record_file_offset": 1654300,
+              "selector_file_offset": 910692,
+              "implementation_vm_address": 632557,
+              "implementation_file_offset": 628460,
+              "thumb": true
+            },
+            {
+              "selector": "hideOverViewControllerAnimated:",
+              "type_encoding": "v12@0:4c8",
+              "record_file_offset": 1654312,
+              "selector_file_offset": 910726,
+              "implementation_vm_address": 633089,
+              "implementation_file_offset": 628992,
+              "thumb": true
+            },
+            {
+              "selector": "hideOverViewAnimationDidEnd:finished:context:",
+              "type_encoding": "v20@0:4@8@12^v16",
+              "record_file_offset": 1654324,
+              "selector_file_offset": 909936,
+              "implementation_vm_address": 633649,
+              "implementation_file_offset": 629552,
+              "thumb": true
+            },
+            {
+              "selector": "ignore:context:",
+              "type_encoding": "v16@0:4@8^v12",
+              "record_file_offset": 1654336,
+              "selector_file_offset": 910013,
+              "implementation_vm_address": 631857,
+              "implementation_file_offset": 627760,
+              "thumb": true
+            },
+            {
+              "selector": "showOverViewController:animated:",
+              "type_encoding": "v16@0:4@8c12",
+              "record_file_offset": 1654348,
+              "selector_file_offset": 910774,
+              "implementation_vm_address": 633729,
+              "implementation_file_offset": 629632,
+              "thumb": true
+            },
+            {
+              "selector": "overViewController",
+              "type_encoding": "@8@0:4",
+              "record_file_offset": 1654360,
+              "selector_file_offset": 892392,
+              "implementation_vm_address": 631845,
+              "implementation_file_offset": 627748,
+              "thumb": true
+            },
+            {
+              "selector": "showOverViewAnimationDidEnd:finished:context:",
+              "type_encoding": "v20@0:4@8@12^v16",
+              "record_file_offset": 1654372,
+              "selector_file_offset": 910029,
+              "implementation_vm_address": 634409,
+              "implementation_file_offset": 630312,
+              "thumb": true
+            },
+            {
+              "selector": "viewControllerAfter:",
+              "type_encoding": "@12@0:4@8",
+              "record_file_offset": 1654384,
+              "selector_file_offset": 910810,
+              "implementation_vm_address": 634449,
+              "implementation_file_offset": 630352,
+              "thumb": true
+            },
+            {
+              "selector": "_finishPush:",
+              "type_encoding": "v12@0:4@8",
+              "record_file_offset": 1654396,
+              "selector_file_offset": 910132,
+              "implementation_vm_address": 634545,
+              "implementation_file_offset": 630448,
+              "thumb": true
+            },
+            {
+              "selector": "pushViewController:afterViewController:animated:",
+              "type_encoding": "v20@0:4@8@12c16",
+              "record_file_offset": 1654408,
+              "selector_file_offset": 883896,
+              "implementation_vm_address": 634589,
+              "implementation_file_offset": 630492,
+              "thumb": true
+            },
+            {
+              "selector": "_superestColumn:",
+              "type_encoding": "@12@0:4@8",
+              "record_file_offset": 1654420,
+              "selector_file_offset": 910170,
+              "implementation_vm_address": 635749,
+              "implementation_file_offset": 631652,
+              "thumb": true
+            },
+            {
+              "selector": "popToRootViewControllerAnimated:",
+              "type_encoding": "@12@0:4c8",
+              "record_file_offset": 1654432,
+              "selector_file_offset": 859599,
+              "implementation_vm_address": 635801,
+              "implementation_file_offset": 631704,
+              "thumb": true
+            },
+            {
+              "selector": "willAnimateRotationToInterfaceOrientation:duration:",
+              "type_encoding": "v20@0:4i8d12",
+              "record_file_offset": 1654444,
+              "selector_file_offset": 829916,
+              "implementation_vm_address": 635845,
+              "implementation_file_offset": 631748,
+              "thumb": true
+            },
+            {
+              "selector": "viewControllerNeedsToUpdateWidth:",
+              "type_encoding": "v12@0:4@8",
+              "record_file_offset": 1654456,
+              "selector_file_offset": 910833,
+              "implementation_vm_address": 635933,
+              "implementation_file_offset": 631836,
+              "thumb": true
+            },
+            {
+              "selector": "shouldAutorotateToInterfaceOrientation:",
+              "type_encoding": "c12@0:4i8",
+              "record_file_offset": 1654468,
+              "selector_file_offset": 807016,
+              "implementation_vm_address": 631839,
+              "implementation_file_offset": 627742,
+              "thumb": true
+            },
+            {
+              "selector": "scrollViewDidEndScrollingAnimation:",
+              "type_encoding": "v12@0:4@8",
+              "record_file_offset": 1654480,
+              "selector_file_offset": 760596,
+              "implementation_vm_address": 631837,
+              "implementation_file_offset": 627740,
+              "thumb": true
+            },
+            {
+              "selector": "scrollViewDidScroll:",
+              "type_encoding": "v12@0:4@8",
+              "record_file_offset": 1654492,
+              "selector_file_offset": 815064,
+              "implementation_vm_address": 636033,
+              "implementation_file_offset": 631936,
+              "thumb": true
+            },
+            {
+              "selector": "swipeView:willSwipeToOffset:throwing:",
+              "type_encoding": "f20@0:4@8f12c16",
+              "record_file_offset": 1654504,
+              "selector_file_offset": 910547,
+              "implementation_vm_address": 636053,
+              "implementation_file_offset": 631956,
+              "thumb": true
+            },
+            {
+              "selector": "nearestOffsetForPossibleOffsets:fromOffset:toOffset:",
+              "type_encoding": "i20@0:4@8i12i16",
+              "record_file_offset": 1654516,
+              "selector_file_offset": 910204,
+              "implementation_vm_address": 636253,
+              "implementation_file_offset": 632156,
+              "thumb": true
+            },
+            {
+              "selector": "bestOffsetForPossibleOffsets:fromOffset:toOffset:inDirection:",
+              "type_encoding": "i24@0:4@8i12i16i20",
+              "record_file_offset": 1654528,
+              "selector_file_offset": 910257,
+              "implementation_vm_address": 636465,
+              "implementation_file_offset": 632368,
+              "thumb": true
+            },
+            {
+              "selector": "swipePointsForSwipeView:proposedOffset:",
+              "type_encoding": "@16@0:4@8f12",
+              "record_file_offset": 1654540,
+              "selector_file_offset": 910319,
+              "implementation_vm_address": 636713,
+              "implementation_file_offset": 632616,
+              "thumb": true
+            },
+            {
+              "selector": "swipeView:shouldRevealItem:",
+              "type_encoding": "v16@0:4@8@12",
+              "record_file_offset": 1654552,
+              "selector_file_offset": 910601,
+              "implementation_vm_address": 637369,
+              "implementation_file_offset": 633272,
+              "thumb": true
+            },
+            {
+              "selector": "_reveal:animated:",
+              "type_encoding": "v16@0:4@8c12",
+              "record_file_offset": 1654564,
+              "selector_file_offset": 910361,
+              "implementation_vm_address": 637393,
+              "implementation_file_offset": 633296,
+              "thumb": true
+            },
+            {
+              "selector": "swipeView:willBeginTouches:withEvent:",
+              "type_encoding": "@20@0:4@8@12@16",
+              "record_file_offset": 1654576,
+              "selector_file_offset": 910629,
+              "implementation_vm_address": 637709,
+              "implementation_file_offset": 633612,
+              "thumb": true
+            },
+            {
+              "selector": "loadView",
+              "type_encoding": "v8@0:4",
+              "record_file_offset": 1654588,
+              "selector_file_offset": 760924,
+              "implementation_vm_address": 637925,
+              "implementation_file_offset": 633828,
+              "thumb": true
+            },
+            {
+              "selector": "_updateLayout:",
+              "type_encoding": "v12@0:4c8",
+              "record_file_offset": 1654600,
+              "selector_file_offset": 910189,
+              "implementation_vm_address": 638997,
+              "implementation_file_offset": 634900,
+              "thumb": true
+            },
+            {
+              "selector": "viewControllers",
+              "type_encoding": "@8@0:4",
+              "record_file_offset": 1654612,
+              "selector_file_offset": 804260,
+              "implementation_vm_address": 631825,
+              "implementation_file_offset": 627728,
+              "thumb": true
+            },
+            {
+              "selector": "dealloc",
+              "type_encoding": "v8@0:4",
+              "record_file_offset": 1654624,
+              "selector_file_offset": 755284,
+              "implementation_vm_address": 640237,
+              "implementation_file_offset": 636140,
+              "thumb": true
+            },
+            {
+              "selector": "init",
+              "type_encoding": "@8@0:4",
+              "record_file_offset": 1654636,
+              "selector_file_offset": 757968,
+              "implementation_vm_address": 631941,
+              "implementation_file_offset": 627844,
+              "thumb": true
+            }
+          ],
+          "class_methods": [
+            {
+              "selector": "_viewControllerDoneAnimatingAway:info:",
+              "type_encoding": "v16@0:4@8@12",
+              "record_file_offset": 1654108,
+              "selector_file_offset": 910475,
+              "implementation_vm_address": 632041,
+              "implementation_file_offset": 627944,
+              "thumb": true
+            }
+          ],
+          "ivars": [
+            {
+              "name": "delegate",
+              "type_encoding": "@\"<ABSwipeColumnViewControllerDelegate>\"",
+              "offset_pointer_vm_address": 1658152,
+              "offset_pointer_file_offset": 1654056,
+              "instance_offset": 124,
+              "size": 4,
+              "alignment_log2": 2,
+              "record_file_offset": 1654656
+            },
+            {
+              "name": "viewControllers",
+              "type_encoding": "@\"NSMutableArray\"",
+              "offset_pointer_vm_address": 1658144,
+              "offset_pointer_file_offset": 1654048,
+              "instance_offset": 128,
+              "size": 4,
+              "alignment_log2": 2,
+              "record_file_offset": 1654676
+            },
+            {
+              "name": "overViewController",
+              "type_encoding": "@\"UIViewController\"",
+              "offset_pointer_vm_address": 1658148,
+              "offset_pointer_file_offset": 1654052,
+              "instance_offset": 132,
+              "size": 4,
+              "alignment_log2": 2,
+              "record_file_offset": 1654696
+            },
+            {
+              "name": "_masterContainer",
+              "type_encoding": "@\"UIView\"",
+              "offset_pointer_vm_address": 1659072,
+              "offset_pointer_file_offset": 1654976,
+              "instance_offset": 136,
+              "size": 4,
+              "alignment_log2": 2,
+              "record_file_offset": 1654716
+            },
+            {
+              "name": "_scrollView",
+              "type_encoding": "@\"ABSwipeColumnScrollView\"",
+              "offset_pointer_vm_address": 1659076,
+              "offset_pointer_file_offset": 1654980,
+              "instance_offset": 140,
+              "size": 4,
+              "alignment_log2": 2,
+              "record_file_offset": 1654736
+            },
+            {
+              "name": "_pullTab",
+              "type_encoding": "@\"UIImageView\"",
+              "offset_pointer_vm_address": 1659080,
+              "offset_pointer_file_offset": 1654984,
+              "instance_offset": 144,
+              "size": 4,
+              "alignment_log2": 2,
+              "record_file_offset": 1654756
+            },
+            {
+              "name": "sidebarShadow",
+              "type_encoding": "@\"UIImageView\"",
+              "offset_pointer_vm_address": 1659084,
+              "offset_pointer_file_offset": 1654988,
+              "instance_offset": 148,
+              "size": 4,
+              "alignment_log2": 2,
+              "record_file_offset": 1654776
+            },
+            {
+              "name": "otherSidebarShadow",
+              "type_encoding": "@\"UIImageView\"",
+              "offset_pointer_vm_address": 1659088,
+              "offset_pointer_file_offset": 1654992,
+              "instance_offset": 152,
+              "size": 4,
+              "alignment_log2": 2,
+              "record_file_offset": 1654796
+            },
+            {
+              "name": "currentOrientation",
+              "type_encoding": "i",
+              "offset_pointer_vm_address": 1659092,
+              "offset_pointer_file_offset": 1654996,
+              "instance_offset": 156,
+              "size": 4,
+              "alignment_log2": 2,
+              "record_file_offset": 1654816
+            },
+            {
+              "name": "_updatingWidthViewController",
+              "type_encoding": "@\"UIViewController\"",
+              "offset_pointer_vm_address": 1659096,
+              "offset_pointer_file_offset": 1655000,
+              "instance_offset": 160,
+              "size": 4,
+              "alignment_log2": 2,
+              "record_file_offset": 1654836
+            },
+            {
+              "name": "_updatingWidthOriginalWidth",
+              "type_encoding": "f",
+              "offset_pointer_vm_address": 1659100,
+              "offset_pointer_file_offset": 1655004,
+              "instance_offset": 164,
+              "size": 4,
+              "alignment_log2": 2,
+              "record_file_offset": 1654856
+            },
+            {
+              "name": "_updatingWidthDesiredWidth",
+              "type_encoding": "f",
+              "offset_pointer_vm_address": 1659104,
+              "offset_pointer_file_offset": 1655008,
+              "instance_offset": 168,
+              "size": 4,
+              "alignment_log2": 2,
+              "record_file_offset": 1654876
+            },
+            {
+              "name": "_fullScreenToolbar",
+              "type_encoding": "@\"UIToolbar\"",
+              "offset_pointer_vm_address": 1659108,
+              "offset_pointer_file_offset": 1655012,
+              "instance_offset": 172,
+              "size": 4,
+              "alignment_log2": 2,
+              "record_file_offset": 1654896
+            },
+            {
+              "name": "_fullScreenView",
+              "type_encoding": "@\"UIView\"",
+              "offset_pointer_vm_address": 1659112,
+              "offset_pointer_file_offset": 1655016,
+              "instance_offset": 176,
+              "size": 4,
+              "alignment_log2": 2,
+              "record_file_offset": 1654916
+            },
+            {
+              "name": "_flags",
+              "type_encoding": "{?=\"pushing\"b1\"tracking\"b1\"sidebarImage\"b3}",
+              "offset_pointer_vm_address": 1659116,
+              "offset_pointer_file_offset": 1655020,
+              "instance_offset": 180,
+              "size": 1,
+              "alignment_log2": 0,
+              "record_file_offset": 1654936
+            },
+            {
+              "name": "lastSnapOffset",
+              "type_encoding": "i",
+              "offset_pointer_vm_address": 1659120,
+              "offset_pointer_file_offset": 1655024,
+              "instance_offset": 184,
+              "size": 4,
+              "alignment_log2": 2,
+              "record_file_offset": 1654956
+            }
+          ],
+          "superclass": "ABMasterViewController"
+        },
+        {
+          "name": "ABScrollGestureRecognizer",
+          "class_vm_address": 1508464,
+          "class_file_offset": 1504368,
+          "classlist_pointer_file_offset": 1675260,
+          "ro_vm_address": 1660168,
+          "instance_start": 52,
+          "instance_size": 104,
+          "methods": [
+            {
+              "selector": "reset",
+              "type_encoding": "v8@0:4",
+              "record_file_offset": 1656120,
+              "selector_file_offset": 911604,
+              "implementation_vm_address": 642857,
+              "implementation_file_offset": 638760,
+              "thumb": true
+            },
+            {
+              "selector": "touchesCancelled:withEvent:",
+              "type_encoding": "v16@0:4@8@12",
+              "record_file_offset": 1656132,
+              "selector_file_offset": 841712,
+              "implementation_vm_address": 642933,
+              "implementation_file_offset": 638836,
+              "thumb": true
+            },
+            {
+              "selector": "touchesEnded:withEvent:",
+              "type_encoding": "v16@0:4@8@12",
+              "record_file_offset": 1656144,
+              "selector_file_offset": 900632,
+              "implementation_vm_address": 643001,
+              "implementation_file_offset": 638904,
+              "thumb": true
+            },
+            {
+              "selector": "touchesMoved:withEvent:",
+              "type_encoding": "v16@0:4@8@12",
+              "record_file_offset": 1656156,
+              "selector_file_offset": 915248,
+              "implementation_vm_address": 643321,
+              "implementation_file_offset": 639224,
+              "thumb": true
+            },
+            {
+              "selector": "touchesBegan:withEvent:",
+              "type_encoding": "v16@0:4@8@12",
+              "record_file_offset": 1656168,
+              "selector_file_offset": 915272,
+              "implementation_vm_address": 643965,
+              "implementation_file_offset": 639868,
+              "thumb": true
+            }
+          ],
+          "class_methods": [],
+          "ivars": [
+            {
+              "name": "_touch",
+              "type_encoding": "@\"UITouch\"",
+              "offset_pointer_vm_address": 1660424,
+              "offset_pointer_file_offset": 1656328,
+              "instance_offset": 52,
+              "size": 4,
+              "alignment_log2": 2,
+              "record_file_offset": 1656188
+            },
+            {
+              "name": "_firstPoint",
+              "type_encoding": "{CGPoint=\"x\"f\"y\"f}",
+              "offset_pointer_vm_address": 1660428,
+              "offset_pointer_file_offset": 1656332,
+              "instance_offset": 56,
+              "size": 8,
+              "alignment_log2": 2,
+              "record_file_offset": 1656208
+            },
+            {
+              "name": "_lastPoint",
+              "type_encoding": "{CGPoint=\"x\"f\"y\"f}",
+              "offset_pointer_vm_address": 1660432,
+              "offset_pointer_file_offset": 1656336,
+              "instance_offset": 64,
+              "size": 8,
+              "alignment_log2": 2,
+              "record_file_offset": 1656228
+            },
+            {
+              "name": "_lastTime",
+              "type_encoding": "d",
+              "offset_pointer_vm_address": 1660436,
+              "offset_pointer_file_offset": 1656340,
+              "instance_offset": 72,
+              "size": 8,
+              "alignment_log2": 2,
+              "record_file_offset": 1656248
+            },
+            {
+              "name": "_dx",
+              "type_encoding": "f",
+              "offset_pointer_vm_address": 1660440,
+              "offset_pointer_file_offset": 1656344,
+              "instance_offset": 80,
+              "size": 4,
+              "alignment_log2": 2,
+              "record_file_offset": 1656268
+            },
+            {
+              "name": "_dt",
+              "type_encoding": "f",
+              "offset_pointer_vm_address": 1660444,
+              "offset_pointer_file_offset": 1656348,
+              "instance_offset": 84,
+              "size": 4,
+              "alignment_log2": 2,
+              "record_file_offset": 1656288
+            },
+            {
+              "name": "_originalBounds",
+              "type_encoding": "{CGRect=\"origin\"{CGPoint=\"x\"f\"y\"f}\"size\"{CGSize=\"width\"f\"height\"f}}",
+              "offset_pointer_vm_address": 1660448,
+              "offset_pointer_file_offset": 1656352,
+              "instance_offset": 88,
+              "size": 16,
+              "alignment_log2": 2,
+              "record_file_offset": 1656308
+            }
+          ]
+        },
+        {
+          "name": "ABSwipeColumnScrollView",
+          "class_vm_address": 1508424,
+          "class_file_offset": 1504328,
+          "classlist_pointer_file_offset": 1675264,
+          "ro_vm_address": 1659484,
+          "instance_start": 44,
+          "instance_size": 106,
+          "methods": [
+            {
+              "selector": "setDelegate:",
+              "type_encoding": "v12@0:4@8",
+              "record_file_offset": 1655436,
+              "selector_file_offset": 757704,
+              "implementation_vm_address": 640553,
+              "implementation_file_offset": 636456,
+              "thumb": true
+            },
+            {
+              "selector": "delegate",
+              "type_encoding": "@8@0:4",
+              "record_file_offset": 1655448,
+              "selector_file_offset": 763008,
+              "implementation_vm_address": 640541,
+              "implementation_file_offset": 636444,
+              "thumb": true
+            },
+            {
+              "selector": "didHesitate",
+              "type_encoding": "c8@0:4",
+              "record_file_offset": 1655460,
+              "selector_file_offset": 911879,
+              "implementation_vm_address": 640529,
+              "implementation_file_offset": 636432,
+              "thumb": true
+            },
+            {
+              "selector": "_didReset",
+              "type_encoding": "v8@0:4",
+              "record_file_offset": 1655472,
+              "selector_file_offset": 911594,
+              "implementation_vm_address": 640629,
+              "implementation_file_offset": 636532,
+              "thumb": true
+            },
+            {
+              "selector": "swipeView:willBeginTouches:withEvent:",
+              "type_encoding": "v20@0:4@8@12@16",
+              "record_file_offset": 1655484,
+              "selector_file_offset": 910629,
+              "implementation_vm_address": 640709,
+              "implementation_file_offset": 636612,
+              "thumb": true
+            },
+            {
+              "selector": "_invalidateTimer",
+              "type_encoding": "v8@0:4",
+              "record_file_offset": 1655496,
+              "selector_file_offset": 911634,
+              "implementation_vm_address": 640781,
+              "implementation_file_offset": 636684,
+              "thumb": true
+            },
+            {
+              "selector": "scrollRectToVisible:animated:",
+              "type_encoding": "v28@0:4{CGRect={CGPoint=ff}{CGSize=ff}}8c24",
+              "record_file_offset": 1655508,
+              "selector_file_offset": 898846,
+              "implementation_vm_address": 640833,
+              "implementation_file_offset": 636736,
+              "thumb": true
+            },
+            {
+              "selector": "setContentOffset:animated:",
+              "type_encoding": "v20@0:4{CGPoint=ff}8c16",
+              "record_file_offset": 1655520,
+              "selector_file_offset": 810160,
+              "implementation_vm_address": 641085,
+              "implementation_file_offset": 636988,
+              "thumb": true
+            },
+            {
+              "selector": "setContentSize:",
+              "type_encoding": "v16@0:4{CGSize=ff}8",
+              "record_file_offset": 1655532,
+              "selector_file_offset": 888436,
+              "implementation_vm_address": 640509,
+              "implementation_file_offset": 636412,
+              "thumb": true
+            },
+            {
+              "selector": "contentSize",
+              "type_encoding": "{CGSize=ff}8@0:4",
+              "record_file_offset": 1655544,
+              "selector_file_offset": 904582,
+              "implementation_vm_address": 640485,
+              "implementation_file_offset": 636388,
+              "thumb": true
+            },
+            {
+              "selector": "animate",
+              "type_encoding": "v8@0:4",
+              "record_file_offset": 1655556,
+              "selector_file_offset": 911765,
+              "implementation_vm_address": 641213,
+              "implementation_file_offset": 637116,
+              "thumb": true
+            },
+            {
+              "selector": "disableSpring",
+              "type_encoding": "v8@0:4",
+              "record_file_offset": 1655568,
+              "selector_file_offset": 910381,
+              "implementation_vm_address": 640461,
+              "implementation_file_offset": 636364,
+              "thumb": true
+            },
+            {
+              "selector": "_endScroll:",
+              "type_encoding": "v12@0:4f8",
+              "record_file_offset": 1655580,
+              "selector_file_offset": 911610,
+              "implementation_vm_address": 641673,
+              "implementation_file_offset": 637576,
+              "thumb": true
+            },
+            {
+              "selector": "jiggle",
+              "type_encoding": "v8@0:4",
+              "record_file_offset": 1655592,
+              "selector_file_offset": 911959,
+              "implementation_vm_address": 641833,
+              "implementation_file_offset": 637736,
+              "thumb": true
+            },
+            {
+              "selector": "_animateToDestinationOffset",
+              "type_encoding": "v8@0:4",
+              "record_file_offset": 1655604,
+              "selector_file_offset": 911651,
+              "implementation_vm_address": 641889,
+              "implementation_file_offset": 637792,
+              "thumb": true
+            },
+            {
+              "selector": "_didScroll:",
+              "type_encoding": "v16@0:4{CGPoint=ff}8",
+              "record_file_offset": 1655616,
+              "selector_file_offset": 911622,
+              "implementation_vm_address": 642273,
+              "implementation_file_offset": 638176,
+              "thumb": true
+            },
+            {
+              "selector": "_beginTouch:",
+              "type_encoding": "v16@0:4{CGPoint=ff}8",
+              "record_file_offset": 1655628,
+              "selector_file_offset": 911966,
+              "implementation_vm_address": 640457,
+              "implementation_file_offset": 636360,
+              "thumb": true
+            },
+            {
+              "selector": "setContentOffset:",
+              "type_encoding": "v16@0:4{CGPoint=ff}8",
+              "record_file_offset": 1655640,
+              "selector_file_offset": 888352,
+              "implementation_vm_address": 642597,
+              "implementation_file_offset": 638500,
+              "thumb": true
+            },
+            {
+              "selector": "contentOffset",
+              "type_encoding": "{CGPoint=ff}8@0:4",
+              "record_file_offset": 1655652,
+              "selector_file_offset": 814748,
+              "implementation_vm_address": 642625,
+              "implementation_file_offset": 638528,
+              "thumb": true
+            },
+            {
+              "selector": "dealloc",
+              "type_encoding": "v8@0:4",
+              "record_file_offset": 1655664,
+              "selector_file_offset": 755284,
+              "implementation_vm_address": 640565,
+              "implementation_file_offset": 636468,
+              "thumb": true
+            },
+            {
+              "selector": "initWithFrame:",
+              "type_encoding": "@24@0:4{CGRect={CGPoint=ff}{CGSize=ff}}8",
+              "record_file_offset": 1655676,
+              "selector_file_offset": 803256,
+              "implementation_vm_address": 642661,
+              "implementation_file_offset": 638564,
+              "thumb": true
+            }
+          ],
+          "class_methods": [
+            {
+              "selector": "layerClass",
+              "type_encoding": "#8@0:4",
+              "record_file_offset": 1655376,
+              "selector_file_offset": 911868,
+              "implementation_vm_address": 640601,
+              "implementation_file_offset": 636504,
+              "thumb": true
+            }
+          ],
+          "ivars": [
+            {
+              "name": "delegate",
+              "type_encoding": "@\"<ABSwipeColumnScrollViewDelegate>\"",
+              "offset_pointer_vm_address": 1659420,
+              "offset_pointer_file_offset": 1655324,
+              "instance_offset": 44,
+              "size": 4,
+              "alignment_log2": 2,
+              "record_file_offset": 1655696
+            },
+            {
+              "name": "contentSize",
+              "type_encoding": "{CGSize=\"width\"f\"height\"f}",
+              "offset_pointer_vm_address": 1659412,
+              "offset_pointer_file_offset": 1655316,
+              "instance_offset": 48,
+              "size": 8,
+              "alignment_log2": 2,
+              "record_file_offset": 1655716
+            },
+            {
+              "name": "r",
+              "type_encoding": "@\"UIGestureRecognizer\"",
+              "offset_pointer_vm_address": 1660052,
+              "offset_pointer_file_offset": 1655956,
+              "instance_offset": 56,
+              "size": 4,
+              "alignment_log2": 2,
+              "record_file_offset": 1655736
+            },
+            {
+              "name": "timer",
+              "type_encoding": "@\"NSTimer\"",
+              "offset_pointer_vm_address": 1660056,
+              "offset_pointer_file_offset": 1655960,
+              "instance_offset": 60,
+              "size": 4,
+              "alignment_log2": 2,
+              "record_file_offset": 1655756
+            },
+            {
+              "name": "dx",
+              "type_encoding": "f",
+              "offset_pointer_vm_address": 1660060,
+              "offset_pointer_file_offset": 1655964,
+              "instance_offset": 64,
+              "size": 4,
+              "alignment_log2": 2,
+              "record_file_offset": 1655776
+            },
+            {
+              "name": "steps",
+              "type_encoding": "i",
+              "offset_pointer_vm_address": 1660064,
+              "offset_pointer_file_offset": 1655968,
+              "instance_offset": 68,
+              "size": 4,
+              "alignment_log2": 2,
+              "record_file_offset": 1655796
+            },
+            {
+              "name": "friction",
+              "type_encoding": "f",
+              "offset_pointer_vm_address": 1660068,
+              "offset_pointer_file_offset": 1655972,
+              "instance_offset": 72,
+              "size": 4,
+              "alignment_log2": 2,
+              "record_file_offset": 1655816
+            },
+            {
+              "name": "springiness",
+              "type_encoding": "f",
+              "offset_pointer_vm_address": 1660072,
+              "offset_pointer_file_offset": 1655976,
+              "instance_offset": 76,
+              "size": 4,
+              "alignment_log2": 2,
+              "record_file_offset": 1655836
+            },
+            {
+              "name": "workingBounds",
+              "type_encoding": "{CGRect=\"origin\"{CGPoint=\"x\"f\"y\"f}\"size\"{CGSize=\"width\"f\"height\"f}}",
+              "offset_pointer_vm_address": 1660076,
+              "offset_pointer_file_offset": 1655980,
+              "instance_offset": 80,
+              "size": 16,
+              "alignment_log2": 2,
+              "record_file_offset": 1655856
+            },
+            {
+              "name": "destinationOffset",
+              "type_encoding": "f",
+              "offset_pointer_vm_address": 1660080,
+              "offset_pointer_file_offset": 1655984,
+              "instance_offset": 96,
+              "size": 4,
+              "alignment_log2": 2,
+              "record_file_offset": 1655876
+            },
+            {
+              "name": "beganInteractionOnItem",
+              "type_encoding": "@",
+              "offset_pointer_vm_address": 1660084,
+              "offset_pointer_file_offset": 1655988,
+              "instance_offset": 100,
+              "size": 4,
+              "alignment_log2": 2,
+              "record_file_offset": 1655896
+            },
+            {
+              "name": "_swipeFlags",
+              "type_encoding": "{?=\"disableSpring\"b1\"throwing\"b1}",
+              "offset_pointer_vm_address": 1659408,
+              "offset_pointer_file_offset": 1655312,
+              "instance_offset": 104,
+              "size": 1,
+              "alignment_log2": 0,
+              "record_file_offset": 1655916
+            },
+            {
+              "name": "didHesitate",
+              "type_encoding": "c",
+              "offset_pointer_vm_address": 1659416,
+              "offset_pointer_file_offset": 1655320,
+              "instance_offset": 105,
+              "size": 1,
+              "alignment_log2": 0,
+              "record_file_offset": 1655936
+            }
+          ]
+        },
+        {
+          "name": "ABTableViewPinchPreviewController",
+          "class_vm_address": 1509024,
+          "class_file_offset": 1504928,
+          "classlist_pointer_file_offset": 1675320,
+          "ro_vm_address": 1665052,
+          "instance_start": 4,
+          "instance_size": 161,
+          "methods": [
+            {
+              "selector": "setStayOnScreenController:",
+              "type_encoding": "v12@0:4@8",
+              "record_file_offset": 1661004,
+              "selector_file_offset": 894252,
+              "implementation_vm_address": 678049,
+              "implementation_file_offset": 673952,
+              "thumb": true
+            },
+            {
+              "selector": "stayOnScreenController",
+              "type_encoding": "@8@0:4",
+              "record_file_offset": 1661016,
+              "selector_file_offset": 894924,
+              "implementation_vm_address": 678037,
+              "implementation_file_offset": 673940,
+              "thumb": true
+            },
+            {
+              "selector": "setDidDismissCallback:",
+              "type_encoding": "v12@0:4@8",
+              "record_file_offset": 1661028,
+              "selector_file_offset": 893776,
+              "implementation_vm_address": 678221,
+              "implementation_file_offset": 674124,
+              "thumb": true
+            },
+            {
+              "selector": "didDismissCallback",
+              "type_encoding": "@8@0:4",
+              "record_file_offset": 1661040,
+              "selector_file_offset": 917730,
+              "implementation_vm_address": 678025,
+              "implementation_file_offset": 673928,
+              "thumb": true
+            },
+            {
+              "selector": "pinching",
+              "type_encoding": "c8@0:4",
+              "record_file_offset": 1661052,
+              "selector_file_offset": 917096,
+              "implementation_vm_address": 678013,
+              "implementation_file_offset": 673916,
+              "thumb": true
+            },
+            {
+              "selector": "cancel",
+              "type_encoding": "v8@0:4",
+              "record_file_offset": 1661064,
+              "selector_file_offset": 917108,
+              "implementation_vm_address": 678253,
+              "implementation_file_offset": 674156,
+              "thumb": true
+            },
+            {
+              "selector": "twoFingerGesture:",
+              "type_encoding": "v12@0:4@8",
+              "record_file_offset": 1661076,
+              "selector_file_offset": 917040,
+              "implementation_vm_address": 678301,
+              "implementation_file_offset": 674204,
+              "thumb": true
+            },
+            {
+              "selector": "fadeOutPinch:",
+              "type_encoding": "v12@0:4@8",
+              "record_file_offset": 1661088,
+              "selector_file_offset": 916623,
+              "implementation_vm_address": 678537,
+              "implementation_file_offset": 674440,
+              "thumb": true
+            },
+            {
+              "selector": "animateOutPinch:",
+              "type_encoding": "v12@0:4@8",
+              "record_file_offset": 1661100,
+              "selector_file_offset": 916674,
+              "implementation_vm_address": 678689,
+              "implementation_file_offset": 674592,
+              "thumb": true
+            },
+            {
+              "selector": "animateOpenPinch:",
+              "type_encoding": "v12@0:4@8",
+              "record_file_offset": 1661112,
+              "selector_file_offset": 916654,
+              "implementation_vm_address": 679153,
+              "implementation_file_offset": 675056,
+              "thumb": true
+            },
+            {
+              "selector": "_finishEndPinch",
+              "type_encoding": "v8@0:4",
+              "record_file_offset": 1661124,
+              "selector_file_offset": 916607,
+              "implementation_vm_address": 679497,
+              "implementation_file_offset": 675400,
+              "thumb": true
+            },
+            {
+              "selector": "pinchTapDismiss:",
+              "type_encoding": "v12@0:4@8",
+              "record_file_offset": 1661136,
+              "selector_file_offset": 916846,
+              "implementation_vm_address": 679721,
+              "implementation_file_offset": 675624,
+              "thumb": true
+            },
+            {
+              "selector": "_endPinch:",
+              "type_encoding": "v12@0:4@8",
+              "record_file_offset": 1661148,
+              "selector_file_offset": 916509,
+              "implementation_vm_address": 679741,
+              "implementation_file_offset": 675644,
+              "thumb": true
+            },
+            {
+              "selector": "dismiss:",
+              "type_encoding": "v12@0:4@8",
+              "record_file_offset": 1661160,
+              "selector_file_offset": 900952,
+              "implementation_vm_address": 679973,
+              "implementation_file_offset": 675876,
+              "thumb": true
+            },
+            {
+              "selector": "_dismiss",
+              "type_encoding": "v8@0:4",
+              "record_file_offset": 1661172,
+              "selector_file_offset": 849288,
+              "implementation_vm_address": 679993,
+              "implementation_file_offset": 675896,
+              "thumb": true
+            },
+            {
+              "selector": "_continuePinch:",
+              "type_encoding": "v12@0:4@8",
+              "record_file_offset": 1661184,
+              "selector_file_offset": 916537,
+              "implementation_vm_address": 680109,
+              "implementation_file_offset": 676012,
+              "thumb": true
+            },
+            {
+              "selector": "_updatePinch:::",
+              "type_encoding": "v32@0:4{CGPoint=ff}8{CGPoint=ff}16{CGPoint=ff}24",
+              "record_file_offset": 1661196,
+              "selector_file_offset": 916691,
+              "implementation_vm_address": 680357,
+              "implementation_file_offset": 676260,
+              "thumb": true
+            },
+            {
+              "selector": "_pinchDelta:",
+              "type_encoding": "f12@0:4f8",
+              "record_file_offset": 1661208,
+              "selector_file_offset": 916719,
+              "implementation_vm_address": 682469,
+              "implementation_file_offset": 678372,
+              "thumb": true
+            },
+            {
+              "selector": "_startPinch:",
+              "type_encoding": "v12@0:4@8",
+              "record_file_offset": 1661220,
+              "selector_file_offset": 916575,
+              "implementation_vm_address": 682653,
+              "implementation_file_offset": 678556,
+              "thumb": true
+            },
+            {
+              "selector": "_finishWindowShadeAnimationDidEnd:finished:context:",
+              "type_encoding": "v20@0:4@8@12^v16",
+              "record_file_offset": 1661232,
+              "selector_file_offset": 916923,
+              "implementation_vm_address": 685341,
+              "implementation_file_offset": 681244,
+              "thumb": true
+            },
+            {
+              "selector": "_finishEndWindowShade",
+              "type_encoding": "v8@0:4",
+              "record_file_offset": 1661244,
+              "selector_file_offset": 916898,
+              "implementation_vm_address": 685393,
+              "implementation_file_offset": 681296,
+              "thumb": true
+            },
+            {
+              "selector": "_endWindowShade:",
+              "type_encoding": "v12@0:4@8",
+              "record_file_offset": 1661256,
+              "selector_file_offset": 916520,
+              "implementation_vm_address": 685533,
+              "implementation_file_offset": 681436,
+              "thumb": true
+            },
+            {
+              "selector": "_continueWindowShade:",
+              "type_encoding": "v12@0:4@8",
+              "record_file_offset": 1661268,
+              "selector_file_offset": 916553,
+              "implementation_vm_address": 685857,
+              "implementation_file_offset": 681760,
+              "thumb": true
+            },
+            {
+              "selector": "_startWindowShade:",
+              "type_encoding": "v12@0:4@8",
+              "record_file_offset": 1661280,
+              "selector_file_offset": 916588,
+              "implementation_vm_address": 686085,
+              "implementation_file_offset": 681988,
+              "thumb": true
+            },
+            {
+              "selector": "_interactionCell:",
+              "type_encoding": "@12@0:4@8",
+              "record_file_offset": 1661292,
+              "selector_file_offset": 917020,
+              "implementation_vm_address": 687145,
+              "implementation_file_offset": 683048,
+              "thumb": true
+            },
+            {
+              "selector": "dealloc",
+              "type_encoding": "v8@0:4",
+              "record_file_offset": 1661304,
+              "selector_file_offset": 755284,
+              "implementation_vm_address": 687337,
+              "implementation_file_offset": 683240,
+              "thumb": true
+            },
+            {
+              "selector": "initWithTableView:contentsController:",
+              "type_encoding": "@16@0:4@8@12",
+              "record_file_offset": 1661316,
+              "selector_file_offset": 894279,
+              "implementation_vm_address": 678061,
+              "implementation_file_offset": 673964,
+              "thumb": true
+            }
+          ],
+          "class_methods": [],
+          "ivars": [
+            {
+              "name": "_contentsController",
+              "type_encoding": "@\"UIViewController<ABTableViewPinchPreview>\"",
+              "offset_pointer_vm_address": 1666092,
+              "offset_pointer_file_offset": 1661996,
+              "instance_offset": 4,
+              "size": 4,
+              "alignment_log2": 2,
+              "record_file_offset": 1661336
+            },
+            {
+              "name": "_tableView",
+              "type_encoding": "@\"UITableView\"",
+              "offset_pointer_vm_address": 1666096,
+              "offset_pointer_file_offset": 1662000,
+              "instance_offset": 8,
+              "size": 4,
+              "alignment_log2": 2,
+              "record_file_offset": 1661356
+            },
+            {
+              "name": "stayOnScreenController",
+              "type_encoding": "@\"ABTableViewStayOnScreenController\"",
+              "offset_pointer_vm_address": 1665008,
+              "offset_pointer_file_offset": 1660912,
+              "instance_offset": 12,
+              "size": 4,
+              "alignment_log2": 2,
+              "record_file_offset": 1661376
+            },
+            {
+              "name": "didDismissCallback",
+              "type_encoding": "@\"ABCallback\"",
+              "offset_pointer_vm_address": 1665004,
+              "offset_pointer_file_offset": 1660908,
+              "instance_offset": 16,
+              "size": 4,
+              "alignment_log2": 2,
+              "record_file_offset": 1661396
+            },
+            {
+              "name": "_blackView",
+              "type_encoding": "@\"UIView\"",
+              "offset_pointer_vm_address": 1666100,
+              "offset_pointer_file_offset": 1662004,
+              "instance_offset": 20,
+              "size": 4,
+              "alignment_log2": 2,
+              "record_file_offset": 1661416
+            },
+            {
+              "name": "_previewViewController",
+              "type_encoding": "@\"UIViewController\"",
+              "offset_pointer_vm_address": 1666104,
+              "offset_pointer_file_offset": 1662008,
+              "instance_offset": 24,
+              "size": 4,
+              "alignment_log2": 2,
+              "record_file_offset": 1661436
+            },
+            {
+              "name": "shadow1",
+              "type_encoding": "@\"UIImageView\"",
+              "offset_pointer_vm_address": 1666108,
+              "offset_pointer_file_offset": 1662012,
+              "instance_offset": 28,
+              "size": 4,
+              "alignment_log2": 2,
+              "record_file_offset": 1661456
+            },
+            {
+              "name": "shadow2",
+              "type_encoding": "@\"UIImageView\"",
+              "offset_pointer_vm_address": 1666112,
+              "offset_pointer_file_offset": 1662016,
+              "instance_offset": 32,
+              "size": 4,
+              "alignment_log2": 2,
+              "record_file_offset": 1661476
+            },
+            {
+              "name": "originalCellHeight",
+              "type_encoding": "f",
+              "offset_pointer_vm_address": 1666116,
+              "offset_pointer_file_offset": 1662020,
+              "instance_offset": 36,
+              "size": 4,
+              "alignment_log2": 2,
+              "record_file_offset": 1661496
+            },
+            {
+              "name": "cellRect",
+              "type_encoding": "{CGRect=\"origin\"{CGPoint=\"x\"f\"y\"f}\"size\"{CGSize=\"width\"f\"height\"f}}",
+              "offset_pointer_vm_address": 1666120,
+              "offset_pointer_file_offset": 1662024,
+              "instance_offset": 40,
+              "size": 16,
+              "alignment_log2": 2,
+              "record_file_offset": 1661516
+            },
+            {
+              "name": "pinchContainerHeight",
+              "type_encoding": "f",
+              "offset_pointer_vm_address": 1666124,
+              "offset_pointer_file_offset": 1662028,
+              "instance_offset": 56,
+              "size": 4,
+              "alignment_log2": 2,
+              "record_file_offset": 1661536
+            },
+            {
+              "name": "originalPinchFingerDistance",
+              "type_encoding": "f",
+              "offset_pointer_vm_address": 1666128,
+              "offset_pointer_file_offset": 1662032,
+              "instance_offset": 60,
+              "size": 4,
+              "alignment_log2": 2,
+              "record_file_offset": 1661556
+            },
+            {
+              "name": "lastPinchFingerDistance",
+              "type_encoding": "f",
+              "offset_pointer_vm_address": 1666132,
+              "offset_pointer_file_offset": 1662036,
+              "instance_offset": 64,
+              "size": 4,
+              "alignment_log2": 2,
+              "record_file_offset": 1661576
+            },
+            {
+              "name": "_pinchContainer",
+              "type_encoding": "@\"UIView\"",
+              "offset_pointer_vm_address": 1666136,
+              "offset_pointer_file_offset": 1662040,
+              "instance_offset": 68,
+              "size": 4,
+              "alignment_log2": 2,
+              "record_file_offset": 1661596
+            },
+            {
+              "name": "_originalPinchBlocker",
+              "type_encoding": "@\"UIView\"",
+              "offset_pointer_vm_address": 1666140,
+              "offset_pointer_file_offset": 1662044,
+              "instance_offset": 72,
+              "size": 4,
+              "alignment_log2": 2,
+              "record_file_offset": 1661616
+            },
+            {
+              "name": "_pinchTopFlap",
+              "type_encoding": "@\"UIView\"",
+              "offset_pointer_vm_address": 1666144,
+              "offset_pointer_file_offset": 1662048,
+              "instance_offset": 76,
+              "size": 4,
+              "alignment_log2": 2,
+              "record_file_offset": 1661636
+            },
+            {
+              "name": "_pinchBottomFlap",
+              "type_encoding": "@\"UIView\"",
+              "offset_pointer_vm_address": 1666148,
+              "offset_pointer_file_offset": 1662052,
+              "instance_offset": 80,
+              "size": 4,
+              "alignment_log2": 2,
+              "record_file_offset": 1661656
+            },
+            {
+              "name": "_pinchTopFlapShade",
+              "type_encoding": "@\"UIView\"",
+              "offset_pointer_vm_address": 1666152,
+              "offset_pointer_file_offset": 1662056,
+              "instance_offset": 84,
+              "size": 4,
+              "alignment_log2": 2,
+              "record_file_offset": 1661676
+            },
+            {
+              "name": "_pinchBottomFlapShade",
+              "type_encoding": "@\"UIView\"",
+              "offset_pointer_vm_address": 1666156,
+              "offset_pointer_file_offset": 1662060,
+              "instance_offset": 88,
+              "size": 4,
+              "alignment_log2": 2,
+              "record_file_offset": 1661696
+            },
+            {
+              "name": "_pinchTopFlapContents",
+              "type_encoding": "@\"UIView\"",
+              "offset_pointer_vm_address": 1666160,
+              "offset_pointer_file_offset": 1662064,
+              "instance_offset": 92,
+              "size": 4,
+              "alignment_log2": 2,
+              "record_file_offset": 1661716
+            },
+            {
+              "name": "_pinchBottomFlapContents",
+              "type_encoding": "@\"UIView\"",
+              "offset_pointer_vm_address": 1666164,
+              "offset_pointer_file_offset": 1662068,
+              "instance_offset": 96,
+              "size": 4,
+              "alignment_log2": 2,
+              "record_file_offset": 1661736
+            },
+            {
+              "name": "_pinchFatShadow1",
+              "type_encoding": "@\"UIImageView\"",
+              "offset_pointer_vm_address": 1666168,
+              "offset_pointer_file_offset": 1662072,
+              "instance_offset": 100,
+              "size": 4,
+              "alignment_log2": 2,
+              "record_file_offset": 1661756
+            },
+            {
+              "name": "_pinchFatShadow2",
+              "type_encoding": "@\"UIImageView\"",
+              "offset_pointer_vm_address": 1666172,
+              "offset_pointer_file_offset": 1662076,
+              "instance_offset": 104,
+              "size": 4,
+              "alignment_log2": 2,
+              "record_file_offset": 1661776
+            },
+            {
+              "name": "_pinchBlackout",
+              "type_encoding": "@\"UIView\"",
+              "offset_pointer_vm_address": 1666176,
+              "offset_pointer_file_offset": 1662080,
+              "instance_offset": 108,
+              "size": 4,
+              "alignment_log2": 2,
+              "record_file_offset": 1661796
+            },
+            {
+              "name": "flapContentsController",
+              "type_encoding": "@\"UIViewController\"",
+              "offset_pointer_vm_address": 1666180,
+              "offset_pointer_file_offset": 1662084,
+              "instance_offset": 112,
+              "size": 4,
+              "alignment_log2": 2,
+              "record_file_offset": 1661816
+            },
+            {
+              "name": "pinchLastT",
+              "type_encoding": "f",
+              "offset_pointer_vm_address": 1666184,
+              "offset_pointer_file_offset": 1662088,
+              "instance_offset": 116,
+              "size": 4,
+              "alignment_log2": 2,
+              "record_file_offset": 1661836
+            },
+            {
+              "name": "pinchLastDT",
+              "type_encoding": "f",
+              "offset_pointer_vm_address": 1666188,
+              "offset_pointer_file_offset": 1662092,
+              "instance_offset": 120,
+              "size": 4,
+              "alignment_log2": 2,
+              "record_file_offset": 1661856
+            },
+            {
+              "name": "pinchLastA",
+              "type_encoding": "{CGPoint=\"x\"f\"y\"f}",
+              "offset_pointer_vm_address": 1666192,
+              "offset_pointer_file_offset": 1662096,
+              "instance_offset": 124,
+              "size": 8,
+              "alignment_log2": 2,
+              "record_file_offset": 1661876
+            },
+            {
+              "name": "pinchLastB",
+              "type_encoding": "{CGPoint=\"x\"f\"y\"f}",
+              "offset_pointer_vm_address": 1666196,
+              "offset_pointer_file_offset": 1662100,
+              "instance_offset": 132,
+              "size": 8,
+              "alignment_log2": 2,
+              "record_file_offset": 1661896
+            },
+            {
+              "name": "pinchLastCenter",
+              "type_encoding": "{CGPoint=\"x\"f\"y\"f}",
+              "offset_pointer_vm_address": 1666200,
+              "offset_pointer_file_offset": 1662104,
+              "instance_offset": 140,
+              "size": 8,
+              "alignment_log2": 2,
+              "record_file_offset": 1661916
+            },
+            {
+              "name": "startAnimateOutPinch",
+              "type_encoding": "d",
+              "offset_pointer_vm_address": 1666204,
+              "offset_pointer_file_offset": 1662108,
+              "instance_offset": 148,
+              "size": 8,
+              "alignment_log2": 2,
+              "record_file_offset": 1661936
+            },
+            {
+              "name": "twoFingerState",
+              "type_encoding": "i",
+              "offset_pointer_vm_address": 1666208,
+              "offset_pointer_file_offset": 1662112,
+              "instance_offset": 156,
+              "size": 4,
+              "alignment_log2": 2,
+              "record_file_offset": 1661956
+            },
+            {
+              "name": "pinching",
+              "type_encoding": "c",
+              "offset_pointer_vm_address": 1665000,
+              "offset_pointer_file_offset": 1660904,
+              "instance_offset": 160,
+              "size": 1,
+              "alignment_log2": 0,
+              "record_file_offset": 1661976
+            }
+          ]
+        },
+        {
+          "name": "ABTwoFingerDragDownGestureRecognizer",
+          "class_vm_address": 1509144,
+          "class_file_offset": 1505048,
+          "classlist_pointer_file_offset": 1675332,
+          "ro_vm_address": 1667364,
+          "instance_start": 52,
+          "instance_size": 80,
+          "methods": [
+            {
+              "selector": "twoFingerState",
+              "type_encoding": "i8@0:4",
+              "record_file_offset": 1663316,
+              "selector_file_offset": 916492,
+              "implementation_vm_address": 694077,
+              "implementation_file_offset": 689980,
+              "thumb": true
+            },
+            {
+              "selector": "reset",
+              "type_encoding": "v8@0:4",
+              "record_file_offset": 1663328,
+              "selector_file_offset": 911604,
+              "implementation_vm_address": 694089,
+              "implementation_file_offset": 689992,
+              "thumb": true
+            },
+            {
+              "selector": "touchesCancelled:withEvent:",
+              "type_encoding": "v16@0:4@8@12",
+              "record_file_offset": 1663340,
+              "selector_file_offset": 841712,
+              "implementation_vm_address": 694161,
+              "implementation_file_offset": 690064,
+              "thumb": true
+            },
+            {
+              "selector": "touchesEnded:withEvent:",
+              "type_encoding": "v16@0:4@8@12",
+              "record_file_offset": 1663352,
+              "selector_file_offset": 900632,
+              "implementation_vm_address": 694217,
+              "implementation_file_offset": 690120,
+              "thumb": true
+            },
+            {
+              "selector": "touchesMoved:withEvent:",
+              "type_encoding": "v16@0:4@8@12",
+              "record_file_offset": 1663364,
+              "selector_file_offset": 915248,
+              "implementation_vm_address": 694305,
+              "implementation_file_offset": 690208,
+              "thumb": true
+            },
+            {
+              "selector": "touchesBegan:withEvent:",
+              "type_encoding": "v16@0:4@8@12",
+              "record_file_offset": 1663376,
+              "selector_file_offset": 915272,
+              "implementation_vm_address": 694949,
+              "implementation_file_offset": 690852,
+              "thumb": true
+            }
+          ],
+          "class_methods": [],
+          "ivars": [
+            {
+              "name": "aStart",
+              "type_encoding": "{CGPoint=\"x\"f\"y\"f}",
+              "offset_pointer_vm_address": 1667592,
+              "offset_pointer_file_offset": 1663496,
+              "instance_offset": 52,
+              "size": 8,
+              "alignment_log2": 2,
+              "record_file_offset": 1663396
+            },
+            {
+              "name": "bStart",
+              "type_encoding": "{CGPoint=\"x\"f\"y\"f}",
+              "offset_pointer_vm_address": 1667596,
+              "offset_pointer_file_offset": 1663500,
+              "instance_offset": 60,
+              "size": 8,
+              "alignment_log2": 2,
+              "record_file_offset": 1663416
+            },
+            {
+              "name": "a",
+              "type_encoding": "@\"UITouch\"",
+              "offset_pointer_vm_address": 1667600,
+              "offset_pointer_file_offset": 1663504,
+              "instance_offset": 68,
+              "size": 4,
+              "alignment_log2": 2,
+              "record_file_offset": 1663436
+            },
+            {
+              "name": "b",
+              "type_encoding": "@\"UITouch\"",
+              "offset_pointer_vm_address": 1667604,
+              "offset_pointer_file_offset": 1663508,
+              "instance_offset": 72,
+              "size": 4,
+              "alignment_log2": 2,
+              "record_file_offset": 1663456
+            },
+            {
+              "name": "twoFingerState",
+              "type_encoding": "i",
+              "offset_pointer_vm_address": 1667320,
+              "offset_pointer_file_offset": 1663224,
+              "instance_offset": 76,
+              "size": 4,
+              "alignment_log2": 2,
+              "record_file_offset": 1663476
+            }
+          ]
+        },
+        {
+          "name": "TwitterPadPinchTopFlapView",
+          "class_vm_address": 1509704,
+          "class_file_offset": 1505608,
+          "classlist_pointer_file_offset": 1675388,
+          "ro_vm_address": 1671016,
+          "instance_start": 41,
+          "instance_size": 41,
+          "methods": [
+            {
+              "selector": "drawRect:",
+              "type_encoding": "v24@0:4{CGRect={CGPoint=ff}{CGSize=ff}}8",
+              "record_file_offset": 1666868,
+              "selector_file_offset": 888612,
+              "implementation_vm_address": 709749,
+              "implementation_file_offset": 705652,
+              "thumb": true
+            }
+          ],
+          "class_methods": [],
+          "ivars": []
+        }
+      ]
+    }
+  ]
+}

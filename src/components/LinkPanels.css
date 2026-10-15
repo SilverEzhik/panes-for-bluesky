@@ -1,0 +1,131 @@
+.link-panel {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  height: 100%;
+  color: #363b3f;
+  background: #ededed;
+}
+
+.link-panel__toolbar {
+  display: flex;
+  align-items: center;
+  flex: 0 0 auto;
+  gap: 7px;
+  min-height: 49px;
+  padding: 5px 9px;
+  border-bottom: 1px solid #9a9b9e;
+  box-shadow: inset 0 1px #fff;
+  background: #dedede url('/assets/original/iPad-columnbar-background.png') repeat-x top left;
+  background-size: auto 100%;
+  text-shadow: 0 1px #fff;
+}
+
+.link-panel__icon-button {
+  display: inline-flex;
+  flex: 0 0 auto;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 34px;
+  margin: 0;
+  padding: 3px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  color: #41474d;
+  background: transparent;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.link-panel__icon-button img { display: block; object-fit: contain; filter: brightness(0) opacity(.66) drop-shadow(0 1px 0 #ffffffb0); }
+.link-panel__icon-button:hover { border-color: #9ba2aa; background: #a4adb638; }
+.link-panel__icon-button:active { background: #0001; box-shadow: inset 0 1px 3px #0002; }
+.link-panel__icon-button:disabled { opacity: .3; cursor: default; background: transparent; border-color: transparent; box-shadow: none; }
+.link-panel :focus-visible { outline: 2px solid #237fa9; outline-offset: 2px; }
+
+.web-panel__address { flex: 1 1 auto; min-width: 0; padding-left: 3px; }
+.web-panel__address strong, .web-panel__address span { display: block; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.web-panel__address strong { font-size: 13px; line-height: 18px; }
+.web-panel__address span { color: #73777b; font-size: 11px; line-height: 15px; }
+.web-panel__notice { flex: 0 0 auto; margin: 0; padding: 8px 12px; border-bottom: 1px solid #d5d6d7; background: #f7f7f7; color: #666; font-size: 11px; line-height: 1.5; }
+.web-panel__notice a { color: #356a87; white-space: nowrap; }
+.web-panel__frame { display: block; flex: 1 1 auto; width: 100%; min-height: 300px; border: 0; background: white; }
+.link-panel--invalid { padding: 20px; box-sizing: border-box; }
+
+.media-panel { background: #242629; }
+.media-panel__toolbar { justify-content: space-between; }
+.media-panel__navigation, .media-panel__tools { display: flex; align-items: center; gap: 3px; }
+.media-panel__count { min-width: 47px; text-align: center; font-size: 12px; font-weight: bold; color: #555c62; font-variant-numeric: tabular-nums; }
+.media-panel__figure { display: flex; flex: 1 1 auto; flex-direction: column; min-height: 0; margin: 0; }
+.media-panel__caption { flex: 0 0 auto; max-height: 28%; overflow: auto; margin: 0; padding: 12px 15px; border-top: 1px solid #42464a; color: #e2e3e4; background: #2e3033; font-size: 12px; line-height: 1.5; white-space: pre-wrap; overflow-wrap: anywhere; }
+.media-panel__error { padding: 24px; color: #eee; font-size: 13px; line-height: 1.6; text-align: center; }
+.media-panel__error a { color: #b1d7eb; }
+
+@media (pointer: coarse) {
+  .link-panel__icon-button { width: 40px; min-height: 40px; }
+}
+
+.media-panel__toolbar { flex-wrap: wrap; }
+.media-panel__tools { margin-left: auto; }
+.media-panel__zoom-button { width: 28px; font-size: 22px; font-weight: 500; }
+.media-panel__zoom-level { width: 43px; font-size: 11px; font-weight: bold; font-variant-numeric: tabular-nums; }
+.media-panel__viewport {
+  flex: 1 1 auto;
+  overscroll-behavior: contain;
+  position: relative;
+  display: block;
+  min-height: 0;
+  overflow: hidden;
+  touch-action: none;
+  user-select: none;
+  -webkit-user-select: none;
+  cursor: grab;
+}
+.media-panel__image, .media-panel--zoomed .media-panel__image {
+  position: absolute;
+  left: 50%; top: 50%;
+  display: block; object-fit: contain;
+  max-width: 100%; max-height: 100%;
+  margin: 0;
+  transform-origin: center;
+  -webkit-user-drag: none;
+  will-change: transform;
+}
+.media-fullscreen {
+  position: fixed; inset: 0; z-index: 70;
+  display: flex; flex-direction: column;
+  background: #242629;
+  overscroll-behavior: none;
+  padding: env(safe-area-inset-top, 0px) env(safe-area-inset-right, 0px) env(safe-area-inset-bottom, 0px) env(safe-area-inset-left, 0px);
+}
+.media-fullscreen__header {
+  display: flex; align-items: center; justify-content: space-between;
+  flex: 0 0 45px; padding: 0 12px 0 16px;
+  color: #3c4247; text-shadow: 0 1px white;
+  border-bottom: 1px solid #999;
+  background: #dfe0e6 url('/assets/original/iPad-columnbar-background.png') repeat-x left top;
+}
+.media-fullscreen__header h2 { margin: 0; font: bold 16px/1.25 Helvetica, Arial, sans-serif; }
+.media-fullscreen > .media-panel { flex: 1; height: auto; min-height: 0; }
+@media (max-width: 480px) {
+  .media-panel__toolbar { padding: 4px 6px; gap: 2px; }
+  .media-panel__tools, .media-panel__navigation { gap: 0; }
+  .media-panel__toolbar .link-panel__icon-button { width: 32px; min-height: 40px; }
+  .media-panel__toolbar .media-panel__zoom-level { width: 40px; }
+  .media-panel__count { min-width: 40px; }
+}
+.media-panel__image {
+  transform: translate(-50%, -50%) translate3d(var(--photo-x, 0px), var(--photo-y, 0px), 0) scale(var(--photo-scale, 1));
+}
+.media-panel__viewport[data-gesturing="true"] { cursor: grabbing; }
+.media-panel__viewport[data-settling="true"] .media-panel__image { transition: transform 180ms cubic-bezier(.2,.7,.25,1); }
+.media-fullscreen { background: rgb(36 38 41 / var(--photo-backdrop-opacity, 1)); }
+.media-fullscreen > .media-panel { background: transparent; }
+@media (prefers-reduced-motion: reduce) {
+  .media-panel__viewport[data-settling="true"] .media-panel__image { transition: none; }
+}
+
+.media-panel__viewport[data-lifted="true"] .media-panel__image { visibility: hidden; }
+.photo-lift { position: fixed; inset: 0; z-index: 80; pointer-events: none; background: rgb(20 23 28 / var(--lift-shade, 0)); }
+.photo-lift .media-panel__image { max-width: none; max-height: none; box-shadow: 0 8px 40px #0004; }

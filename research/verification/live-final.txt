@@ -1,0 +1,20 @@
+
+> panes-bluesky@0.1.0 check:live
+> node scripts/live-smoke.mjs
+
+{
+  "timestamp": "2026-10-15T07:12:38.936Z",
+  "baseUrl": "http://localhost:5173",
+  "errors": [],
+  "livePosts": 24,
+  "brokenVisibleImages": 0,
+  "profile": "muellershewrote.com",
+  "authorFeedRecords": 30,
+  "profileError": 0,
+  "threadUri": "at://did:plc:x4g4laxkmsrczwvnvbbgsm7g/app.bsky.feed.post/3mxuyomlrz22a",
+  "threadError": 0,
+  "searchRecords": 30,
+  "searchPosts": 27,
+  "horizontalOverflow": false,
+  "pass": true
+}

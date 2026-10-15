@@ -1,0 +1,9 @@
+node_modules/
+dist/
+test-results/
+playwright-report/
+*.tsbuildinfo
+.env*
+!.env.example
+research/original-app/*/Payload/
+research/original-app/*.ipa

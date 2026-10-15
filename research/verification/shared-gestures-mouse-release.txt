@@ -1,0 +1,34 @@
+[WebServer] (node:175756) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+[WebServer] [plugin builtin:vite-reporter] 
+[WebServer] (!) Some chunks are larger than 500 kB after minification. Consider:
+[WebServer] - Using dynamic import() to code-split the application
+[WebServer] - Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+[WebServer] - Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+[WebServer] (node:175781) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+[WebServer] (node:175804) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 12 tests using 1 worker
+
+(node:175826) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   1 [chromium] › tests/trackpad-navigation.spec.ts:5:1 › short horizontal trackpad swipes work over buttons and return to the feed pane (3.4s)
+  ✓   2 [chromium] › tests/trackpad-navigation.spec.ts:25:1 › vertical scrolling over post buttons stays native and Ctrl-wheel does not move the pane stack (1.4s)
+  ✓   3 [chromium] › tests/trackpad-navigation.spec.ts:41:1 › a horizontal gesture retains its axis despite small diagonal samples and respects editable fields (2.1s)
+  ✓   4 [chromium] › tests/trackpad-navigation.spec.ts:58:1 › a missed mouse release settles the pane without sampling stale coordinates (691ms)
+(node:175945) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   5 [firefox] › tests/trackpad-navigation.spec.ts:5:1 › short horizontal trackpad swipes work over buttons and return to the feed pane (4.5s)
+  ✓   6 [firefox] › tests/trackpad-navigation.spec.ts:25:1 › vertical scrolling over post buttons stays native and Ctrl-wheel does not move the pane stack (1.2s)
+  ✓   7 [firefox] › tests/trackpad-navigation.spec.ts:41:1 › a horizontal gesture retains its axis despite small diagonal samples and respects editable fields (2.1s)
+  ✓   8 [firefox] › tests/trackpad-navigation.spec.ts:58:1 › a missed mouse release settles the pane without sampling stale coordinates (946ms)
+(node:176245) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   9 [webkit] › tests/trackpad-navigation.spec.ts:5:1 › short horizontal trackpad swipes work over buttons and return to the feed pane (3.9s)
+  ✓  10 [webkit] › tests/trackpad-navigation.spec.ts:25:1 › vertical scrolling over post buttons stays native and Ctrl-wheel does not move the pane stack (2.2s)
+  ✓  11 [webkit] › tests/trackpad-navigation.spec.ts:41:1 › a horizontal gesture retains its axis despite small diagonal samples and respects editable fields (2.6s)
+  ✓  12 [webkit] › tests/trackpad-navigation.spec.ts:58:1 › a missed mouse release settles the pane without sampling stale coordinates (1.0s)
+
+  12 passed (32.8s)

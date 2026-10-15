@@ -1,0 +1,41 @@
+[WebServer] (node:179525) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+[WebServer] [plugin builtin:vite-reporter] 
+[WebServer] (!) Some chunks are larger than 500 kB after minification. Consider:
+[WebServer] - Using dynamic import() to code-split the application
+[WebServer] - Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+[WebServer] - Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+[WebServer] (node:179550) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+[WebServer] (node:179576) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 18 tests using 1 worker
+
+(node:179598) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   1 [chromium] › tests/photo-gestures.spec.ts:76:1 › pointer pinch zooms, and shrinking past fit returns a fullscreen photo to its pane (2.2s)
+  ✓   2 [chromium] › tests/photo-gestures.spec.ts:140:1 › native Chromium touchscreen pinch and vertical swipe use the image gesture owner (2.6s)
+  ✓   3 [chromium] › tests/photo-gestures.spec.ts:176:1 › fullscreen trackpad dismissal previews its threshold, reverses to cancel and commits after quiet (2.9s)
+  ✓   4 [chromium] › tests/photo-gestures.spec.ts:206:1 › pinch dismissal is deliberate, reversible, cancelled safely and waits for gestureend (2.3s)
+  ✓   5 [chromium] › tests/photo-gestures.spec.ts:237:1 › zooming out of a magnified fullscreen photo stops at fit and requires a fresh pinch to dismiss (2.1s)
+  ✓   6 [chromium] › tests/photo-gestures.spec.ts:273:1 › mouse dismissal shows a pull preview, cancels on blur and only commits on release (2.6s)
+(node:179757) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   7 [firefox] › tests/photo-gestures.spec.ts:76:1 › pointer pinch zooms, and shrinking past fit returns a fullscreen photo to its pane (3.2s)
+  -   8 [firefox] › tests/photo-gestures.spec.ts:140:1 › native Chromium touchscreen pinch and vertical swipe use the image gesture owner
+  ✓   9 [firefox] › tests/photo-gestures.spec.ts:176:1 › fullscreen trackpad dismissal previews its threshold, reverses to cancel and commits after quiet (3.3s)
+  ✓  10 [firefox] › tests/photo-gestures.spec.ts:206:1 › pinch dismissal is deliberate, reversible, cancelled safely and waits for gestureend (2.6s)
+  ✓  11 [firefox] › tests/photo-gestures.spec.ts:237:1 › zooming out of a magnified fullscreen photo stops at fit and requires a fresh pinch to dismiss (2.4s)
+  ✓  12 [firefox] › tests/photo-gestures.spec.ts:273:1 › mouse dismissal shows a pull preview, cancels on blur and only commits on release (2.8s)
+(node:180080) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  13 [webkit] › tests/photo-gestures.spec.ts:76:1 › pointer pinch zooms, and shrinking past fit returns a fullscreen photo to its pane (3.2s)
+  -  14 [webkit] › tests/photo-gestures.spec.ts:140:1 › native Chromium touchscreen pinch and vertical swipe use the image gesture owner
+  ✓  15 [webkit] › tests/photo-gestures.spec.ts:176:1 › fullscreen trackpad dismissal previews its threshold, reverses to cancel and commits after quiet (3.8s)
+  ✓  16 [webkit] › tests/photo-gestures.spec.ts:206:1 › pinch dismissal is deliberate, reversible, cancelled safely and waits for gestureend (3.4s)
+  ✓  17 [webkit] › tests/photo-gestures.spec.ts:237:1 › zooming out of a magnified fullscreen photo stops at fit and requires a fresh pinch to dismiss (3.0s)
+  ✓  18 [webkit] › tests/photo-gestures.spec.ts:273:1 › mouse dismissal shows a pull preview, cancels on blur and only commits on release (3.3s)
+
+  2 skipped
+  16 passed (52.6s)

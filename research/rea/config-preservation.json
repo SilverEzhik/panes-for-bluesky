@@ -1,0 +1,6 @@
+{
+  "comparison": "parsed TOML after removing only mcp_servers.rea from current configuration",
+  "unrelated_configuration_preserved": true,
+  "baseline_backup": "/home/debian/.codex/config.toml.rea.backup",
+  "current_config": "/home/debian/.codex/config.toml"
+}

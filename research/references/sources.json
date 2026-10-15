@@ -1,0 +1,147 @@
+[
+  {
+    "file": "launch-panes.png",
+    "url": "https://blog.x.com/content/dam/blog-twitter/archive/twitter_for_ipadsharingcontentintweets95.thumb.1280.1280.png",
+    "published": "2010-09-02",
+    "source": "Twitter launch blog",
+    "sha256": "8ecaa74c36e3e10f0caa562103b22ce45f4942c15379d40c8f9186c5bdeeab84",
+    "bytes": 392099,
+    "dimensions": [
+      800,
+      600
+    ]
+  },
+  {
+    "file": "launch-pinch.png",
+    "url": "https://blog.x.com/content/dam/blog-twitter/archive/twitter_for_ipadsharingcontentintweets96.thumb.1280.1280.png",
+    "published": "2010-09-02",
+    "source": "Twitter launch blog",
+    "sha256": "de60a8f4c3ec8cc7115d4f25b1be6cf7875832e6d00b8b03c02da4e9cba4b646",
+    "bytes": 237293,
+    "dimensions": [
+      450,
+      600
+    ]
+  },
+  {
+    "file": "launch-conversation.png",
+    "url": "https://blog.x.com/content/dam/blog-twitter/archive/twitter_for_ipadsharingcontentintweets97.thumb.1280.1280.png",
+    "published": "2010-09-02",
+    "source": "Twitter launch blog",
+    "sha256": "6cb0e29995e629762fb48d5e4643e2bf9023234e2b94e1000342f0c35f9b0dd9",
+    "bytes": 274911,
+    "dimensions": [
+      800,
+      600
+    ]
+  },
+  {
+    "file": "twitteripad_composing.PNG",
+    "url": "https://cdn.arstechnica.net/wp-content/uploads/archive/twitterforipad/twitteripad_composing.PNG",
+    "published": "2010-09-02",
+    "source": "Ars Technica launch hands-on",
+    "sha256": "0b307d063406eece5dce9c8a041cbd2327baa1592bac570c992ab9041992f827",
+    "bytes": 437027,
+    "dimensions": [
+      640,
+      853
+    ]
+  },
+  {
+    "file": "twitteripad_article.PNG",
+    "url": "https://cdn.arstechnica.net/wp-content/uploads/archive/twitterforipad/twitteripad_article.PNG",
+    "published": "2010-09-02",
+    "source": "Ars Technica launch hands-on",
+    "sha256": "19e4761dcd85b2fd1fbff3d8f25d5acdd427bfb49936650d9a80c6e92b7ff2ac",
+    "bytes": 644338,
+    "dimensions": [
+      640,
+      853
+    ]
+  },
+  {
+    "file": "twitteripad_flipout.PNG",
+    "url": "https://cdn.arstechnica.net/wp-content/uploads/archive/twitterforipad/twitteripad_flipout.PNG",
+    "published": "2010-09-02",
+    "source": "Ars Technica launch hands-on",
+    "sha256": "7ef4961adf079f565a177694cb670a7bc018611bc735f93d8b85eb541e93e8c4",
+    "bytes": 460996,
+    "dimensions": [
+      640,
+      853
+    ]
+  },
+  {
+    "file": "twitteripad_tags.PNG",
+    "url": "https://cdn.arstechnica.net/wp-content/uploads/archive/twitterforipad/twitteripad_tags.PNG",
+    "published": "2010-09-02",
+    "source": "Ars Technica launch hands-on",
+    "sha256": "7ae512c188039b4cffe87d5230d869444a064d198e097c6e99bc39211b96e1b9",
+    "bytes": 516565,
+    "dimensions": [
+      640,
+      853
+    ]
+  },
+  {
+    "file": "twitteripad_shrinkurl.PNG",
+    "url": "https://cdn.arstechnica.net/wp-content/uploads/archive/twitterforipad/twitteripad_shrinkurl.PNG",
+    "published": "2010-09-02",
+    "source": "Ars Technica launch hands-on",
+    "sha256": "46812faade6a6647c0c60c41413eed7f2d8ee3e6e929f2e03b5c3e6a643d1206",
+    "bytes": 58667,
+    "dimensions": [
+      768,
+      217
+    ]
+  },
+  {
+    "file": "twitteripad_replies.PNG",
+    "url": "https://cdn.arstechnica.net/wp-content/uploads/archive/twitterforipad/twitteripad_replies.PNG",
+    "published": "2010-09-02",
+    "source": "Ars Technica launch hands-on",
+    "sha256": "6ae25b264df8ce77b25402e1eaa1b6caef1835300a523817bccb77c986bc149c",
+    "bytes": 413151,
+    "dimensions": [
+      640,
+      853
+    ]
+  },
+  {
+    "file": "twitteripad_switchaccounts.PNG",
+    "url": "https://cdn.arstechnica.net/wp-content/uploads/archive/twitterforipad/twitteripad_switchaccounts.PNG",
+    "published": "2010-09-02",
+    "source": "Ars Technica launch hands-on",
+    "sha256": "d44610303b730d2be45fa9778761888f74f28274847b78438163c77d1ecb125d",
+    "bytes": 154288,
+    "dimensions": [
+      640,
+      339
+    ]
+  },
+  {
+    "file": "wired-compose.png",
+    "url": "https://media.wired.com/photos/5933ece0714b881cb296c73a/master/w_768,h_1024,c_limit/twitter_compose.png",
+    "published": "2010-09-02",
+    "source": "WIRED launch hands-on",
+    "sha256": "268230f34bb8c251d6232fd6572261848334bdb5fb69bca0d74f6aaae45700d0",
+    "bytes": 159310,
+    "dimensions": [
+      768,
+      1024
+    ]
+  },
+  {
+    "file": "macrumors-2010-demo.mp4",
+    "url": "https://www.youtube.com/watch?v=ehVbbOi-klY",
+    "published": "2010-09-02",
+    "source": "Shark / jarques launch demo, embedded in launch-day MacRumors article",
+    "sha256": "7147a3d4cb80f12e86314e1c27adddfad26415e720a328405ba062f7e7c09fc7",
+    "bytes": 23200465,
+    "dimensions": [
+      1280,
+      720
+    ],
+    "durationSeconds": 94
+  }
+]

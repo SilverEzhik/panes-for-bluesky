@@ -1,0 +1,126 @@
+[
+  {
+    "file": "mcp-native-fixed-close.json",
+    "jsonrpc_error": false,
+    "tool_error": false
+  },
+  {
+    "file": "mcp-native-fixed-direction-offset.json",
+    "jsonrpc_error": false,
+    "tool_error": false,
+    "evidence_id": "ev_ca33d6e7be4e428d727b3b2df3ce0b526da48bf7834bcab043f2816940433846",
+    "readable_extract_matches": true,
+    "profile": "ghidra-default+disabled:Non-Returning Functions - Discovered",
+    "false_no_return_warning": false
+  },
+  {
+    "file": "mcp-native-fixed-gesture-moved.json",
+    "jsonrpc_error": false,
+    "tool_error": false,
+    "evidence_id": "ev_45fd2fa6a12c996bdfa815c496dcab6a6969f889689f56ccfe806e50c43c3a34",
+    "readable_extract_matches": true,
+    "profile": "ghidra-default+disabled:Non-Returning Functions - Discovered",
+    "false_no_return_warning": false
+  },
+  {
+    "file": "mcp-native-fixed-initialize.json",
+    "jsonrpc_error": false,
+    "tool_error": false
+  },
+  {
+    "file": "mcp-native-fixed-layout.json",
+    "jsonrpc_error": false,
+    "tool_error": false,
+    "evidence_id": "ev_b6afd1b50ee657fd05a70ca919a9b6c7260961d5d6676294f4e4af725d16f559",
+    "readable_extract_matches": true,
+    "profile": "ghidra-default+disabled:Non-Returning Functions - Discovered",
+    "false_no_return_warning": false
+  },
+  {
+    "file": "mcp-native-fixed-nearest-offset.json",
+    "jsonrpc_error": false,
+    "tool_error": false,
+    "evidence_id": "ev_7b4a802efc0398f8ba5bc9cfd6d122f3ecae31675314ec0c037d91b1558b4e6c",
+    "readable_extract_matches": true,
+    "profile": "ghidra-default+disabled:Non-Returning Functions - Discovered",
+    "false_no_return_warning": false
+  },
+  {
+    "file": "mcp-native-fixed-open.json",
+    "jsonrpc_error": false,
+    "tool_error": false
+  },
+  {
+    "file": "mcp-native-fixed-scroll-animate.json",
+    "jsonrpc_error": false,
+    "tool_error": false,
+    "evidence_id": "ev_e9f331c436f5ce8f47d5dffef85b87f18bf9aedba03494c772523fc22e4f05e5",
+    "readable_extract_matches": true,
+    "profile": "ghidra-default+disabled:Non-Returning Functions - Discovered",
+    "false_no_return_warning": false
+  },
+  {
+    "file": "mcp-native-fixed-scroll-destination.json",
+    "jsonrpc_error": false,
+    "tool_error": false,
+    "evidence_id": "ev_dd6eda93d18410efb63bdc850b93c4a2dc475388073dba8d4ff20645240f111a",
+    "readable_extract_matches": true,
+    "profile": "ghidra-default+disabled:Non-Returning Functions - Discovered",
+    "false_no_return_warning": false
+  },
+  {
+    "file": "mcp-native-fixed-scroll-init.json",
+    "jsonrpc_error": false,
+    "tool_error": false,
+    "evidence_id": "ev_b0d3ffa90944ca0ca26e420c7f1c97e44251c4439c2a6f67c7a589418d4ae2a1",
+    "readable_extract_matches": true,
+    "profile": "ghidra-default+disabled:Non-Returning Functions - Discovered",
+    "false_no_return_warning": false
+  },
+  {
+    "file": "mcp-native-fixed-session.json",
+    "jsonrpc_error": false,
+    "tool_error": false
+  },
+  {
+    "file": "mcp-native-fixed-sidebar-width.json",
+    "jsonrpc_error": false,
+    "tool_error": false,
+    "evidence_id": "ev_e9eda991b618bea3c744e079828f527dbeca3ba4d15785947d75358439a0ba0a",
+    "readable_extract_matches": true,
+    "profile": "ghidra-default+disabled:Non-Returning Functions - Discovered",
+    "false_no_return_warning": false
+  },
+  {
+    "file": "mcp-native-fixed-swipe-points.json",
+    "jsonrpc_error": false,
+    "tool_error": false,
+    "evidence_id": "ev_809c1f3526c0c0de005d338751b09dc18ea11b05eab85c635d4853b29785436e",
+    "readable_extract_matches": true,
+    "profile": "ghidra-default+disabled:Non-Returning Functions - Discovered",
+    "false_no_return_warning": false
+  },
+  {
+    "file": "mcp-native-fixed-swipe-procedures.json",
+    "jsonrpc_error": false,
+    "tool_error": false
+  },
+  {
+    "file": "mcp-native-fixed-tweet-width.json",
+    "jsonrpc_error": false,
+    "tool_error": false,
+    "evidence_id": "ev_b916f6b9a0f35b6581befb0be47199a72285e099f0201da9231666e329305cdd",
+    "readable_extract_matches": true,
+    "profile": "ghidra-default+disabled:Non-Returning Functions - Discovered",
+    "false_no_return_warning": false
+  },
+  {
+    "file": "mcp-native-fixed-web-width.json",
+    "jsonrpc_error": false,
+    "tool_error": false,
+    "evidence_id": "ev_334ca2cc29d443a12986482750c647d71c49810aab056dd57c1c21fd0fcb8153",
+    "readable_extract_matches": true,
+    "profile": "ghidra-default+disabled:Non-Returning Functions - Discovered",
+    "false_no_return_warning": false
+  }
+]

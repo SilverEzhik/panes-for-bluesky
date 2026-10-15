@@ -1,0 +1,88 @@
+.panel-stack {
+  position: absolute;
+  inset: 0;
+  overflow: clip;
+  pointer-events: none;
+  overscroll-behavior-x: contain;
+  --panel-header-height: 45px;
+}
+
+.stack-panel {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  overflow: visible;
+  pointer-events: auto;
+  touch-action: pan-y pinch-zoom;
+  background: #f7f7f7;
+  border-left: 1px solid #999;
+  box-sizing: border-box;
+  will-change: transform;
+}
+
+.stack-panel::before {
+  content: '';
+  position: absolute;
+  right: 100%;
+  top: 0;
+  bottom: 0;
+  width: 23px;
+  pointer-events: none;
+  background: url('/assets/original/shadow-left.png') repeat-y;
+}
+
+.panel-stack--moving .stack-panel {
+  transition: none;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.stack-panel__header {
+  flex: 0 0 var(--panel-header-height);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  box-sizing: border-box;
+  padding: 0 12px 0 16px;
+  background: #dfe0e6 url('/assets/original/iPad-columnbar-background.png') repeat-x left top;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #999;
+  color: #3c4247;
+  text-shadow: 0 1px #fff;
+  cursor: grab;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.panel-stack--moving .stack-panel__header { cursor: grabbing; }
+.stack-panel__title { overflow: hidden; margin: 0; font: bold 16px/1.25 Helvetica, Arial, sans-serif; text-overflow: ellipsis; white-space: nowrap; }
+.stack-panel__close {
+  display: grid;
+  place-items: center;
+  flex: 0 0 30px;
+  width: 30px;
+  height: 29px;
+  padding: 0 0 2px;
+  border: 1px solid #9da2a7;
+  border-radius: 5px;
+  color: #575e66;
+  background: linear-gradient(#fbfbfc, #cbd0d5);
+  box-shadow: inset 0 1px #fff, 0 1px #fff8;
+  text-shadow: 0 1px #fff;
+  font: 24px/1 Helvetica, Arial, sans-serif;
+  cursor: pointer;
+}
+.stack-panel__close:active { background: #b9bfc5; box-shadow: inset 0 1px 3px #0003; }
+.stack-panel__close:focus-visible { outline: 2px solid #2787bd; outline-offset: 2px; }
+.stack-panel__body { flex: 1 1 auto; min-height: 0; overflow-y: auto; overflow-x: hidden; overscroll-behavior-y: contain; -webkit-overflow-scrolling: touch; }
+
+@media (prefers-reduced-motion: reduce) {
+  .stack-panel { transition: none; }
+}
+
+/* The timeline and details share the native horizontal gesture surface. */
+.workspace > .timeline { touch-action: pan-y pinch-zoom; }
+html, body, .workspace { overscroll-behavior-x: none; }

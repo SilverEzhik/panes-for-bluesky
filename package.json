@@ -1,0 +1,30 @@
+{
+  "name": "panes-bluesky",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "tsc -b && vite build && node scripts/build-sw.mjs dist",
+    "preview": "vite preview --host 0.0.0.0",
+    "test": "playwright test",
+    "check:pwa": "node scripts/verify-pwa.mjs",
+    "check:live": "node scripts/live-smoke.mjs",
+    "check:offline": "node scripts/check-offline.mjs"
+  },
+  "dependencies": {
+    "@atproto/api": "^0.27.0",
+    "@use-gesture/vanilla": "^10.3.1",
+    "hls.js": "^1.7.3",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.64.1",
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "@vitejs/plugin-react": "latest",
+    "typescript": "~5.9.3",
+    "vite": "^8.3.4"
+  }
+}

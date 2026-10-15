@@ -1,0 +1,5 @@
+
+> panes-bluesky@0.1.0 check:pwa
+> node scripts/verify-pwa.mjs
+
+PWA verified: build injection, root/subpath scopes, offline navigation, API bypass, isolated cache cleanup, explicit update, and optional-chunk body deadlines.

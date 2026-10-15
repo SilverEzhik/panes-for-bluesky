@@ -1,0 +1,42 @@
+
+> panes-bluesky@0.1.0 check:offline
+> node scripts/check-offline.mjs
+
+vite v8.3.4 building client environment for production...
+transforming...
+✓ 579 modules transformed.
+rendering chunks...
+computing gzip size...
+../../../tmp/panes-offline-JL028Y/index.html                     0.86 kB │ gzip:   0.44 kB
+../../../tmp/panes-offline-JL028Y/assets/index-CAI8FaLi.css     44.01 kB │ gzip:   9.68 kB
+../../../tmp/panes-offline-JL028Y/assets/hls-BMtioDMk.js       574.41 kB │ gzip: 178.97 kB
+../../../tmp/panes-offline-JL028Y/assets/index-BlF2Wsqd.js   1,157.06 kB │ gzip: 252.06 kB
+
+[plugin builtin:vite-reporter] 
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+✓ built in 359ms
+chromium: / shell, 31 cached files, API cache exclusion, and real server-off reload verified.
+firefox: / shell, 31 cached files, API cache exclusion, and real server-off reload verified.
+webkit: / shell, 31 cached files, API cache exclusion, and real server-off reload verified.
+vite v8.3.4 building client environment for production...
+transforming...
+✓ 579 modules transformed.
+rendering chunks...
+computing gzip size...
+../../../tmp/panes-offline-JL028Y/index.html                     0.88 kB │ gzip:   0.45 kB
+../../../tmp/panes-offline-JL028Y/assets/index-CprsahDK.css     44.08 kB │ gzip:   9.68 kB
+../../../tmp/panes-offline-JL028Y/assets/hls-BMtioDMk.js       574.41 kB │ gzip: 178.97 kB
+../../../tmp/panes-offline-JL028Y/assets/index-CY1_gigr.js   1,157.15 kB │ gzip: 252.08 kB
+
+✓ built in 349ms
+[plugin builtin:vite-reporter] 
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+chromium: /panels/ shell, 31 cached files, API cache exclusion, and real server-off reload verified.
+firefox: /panels/ shell, 31 cached files, API cache exclusion, and real server-off reload verified.
+webkit: /panels/ shell, 31 cached files, API cache exclusion, and real server-off reload verified.

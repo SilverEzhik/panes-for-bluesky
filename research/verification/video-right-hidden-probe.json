@@ -1,0 +1,32 @@
+{
+  "a": {
+    "time": 1.062449,
+    "paused": false,
+    "bounds": {
+      "x": 408,
+      "y": 221.78125,
+      "width": 295,
+      "height": 165.9375,
+      "top": 221.78125,
+      "right": 703,
+      "bottom": 387.71875,
+      "left": 408
+    },
+    "inert": false
+  },
+  "b": {
+    "time": 2.069564,
+    "paused": false,
+    "bounds": {
+      "x": 408,
+      "y": 221.78125,
+      "width": 295,
+      "height": 165.9375,
+      "top": 221.78125,
+      "right": 703,
+      "bottom": 387.71875,
+      "left": 408
+    },
+    "inert": false
+  }
+}

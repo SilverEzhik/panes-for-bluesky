@@ -1,0 +1,5460 @@
+{
+  "config": {
+    "argv": [
+      "/home/debian/.local/node-v22.20.0-linux-x64/bin/node",
+      "/home/debian/twitter/node_modules/.bin/playwright",
+      "test",
+      "tests/photo-gestures.spec.ts",
+      "tests/photo-lift.spec.ts",
+      "tests/gesture-ownership.spec.ts",
+      "tests/post-interactions.spec.ts",
+      "tests/trackpad.spec.ts",
+      "tests/touch.spec.ts",
+      "tests/trackpad-navigation.spec.ts",
+      "tests/links.spec.ts",
+      "tests/media-lifecycle.spec.ts",
+      "--workers=1"
+    ],
+    "configFile": "/home/debian/twitter/playwright.config.ts",
+    "rootDir": "/home/debian/twitter/tests",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": true,
+    "globalSetup": "/home/debian/twitter/tests/global-setup.ts",
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "/home/debian/twitter/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "/home/debian/twitter/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 60000
+      },
+      {
+        "outputDir": "/home/debian/twitter/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "firefox",
+        "name": "firefox",
+        "testDir": "/home/debian/twitter/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 60000
+      },
+      {
+        "outputDir": "/home/debian/twitter/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "webkit",
+        "name": "webkit",
+        "testDir": "/home/debian/twitter/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 60000
+      }
+    ],
+    "filteredProjects": [
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "/home/debian/twitter/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "name": "chromium",
+        "testDir": "/home/debian/twitter/tests",
+        "snapshotDir": "/home/debian/twitter/tests",
+        "testIgnore": [],
+        "testMatch": "**/*.@(spec|test).?(c|m)[jt]s?(x)",
+        "timeout": 60000,
+        "use": {
+          "baseURL": "http://127.0.0.1:4187",
+          "viewport": {
+            "width": 1024,
+            "height": 768
+          },
+          "trace": "retain-on-failure",
+          "screenshot": "only-on-failure",
+          "serviceWorkers": "block",
+          "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.8078.4 Safari/537.36",
+          "screen": {
+            "width": 1920,
+            "height": 1080
+          },
+          "deviceScaleFactor": 1,
+          "isMobile": false,
+          "hasTouch": false,
+          "defaultBrowserType": "chromium"
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": "chromium"
+      },
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "/home/debian/twitter/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "name": "firefox",
+        "testDir": "/home/debian/twitter/tests",
+        "snapshotDir": "/home/debian/twitter/tests",
+        "testIgnore": [],
+        "testMatch": "**/*.@(spec|test).?(c|m)[jt]s?(x)",
+        "timeout": 60000,
+        "use": {
+          "baseURL": "http://127.0.0.1:4187",
+          "viewport": {
+            "width": 1024,
+            "height": 768
+          },
+          "trace": "retain-on-failure",
+          "screenshot": "only-on-failure",
+          "serviceWorkers": "block",
+          "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:157.0) Gecko/20100101 Firefox/157.0",
+          "screen": {
+            "width": 1920,
+            "height": 1080
+          },
+          "deviceScaleFactor": 1,
+          "isMobile": false,
+          "hasTouch": false,
+          "defaultBrowserType": "firefox"
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": "firefox"
+      },
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "/home/debian/twitter/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "name": "webkit",
+        "testDir": "/home/debian/twitter/tests",
+        "snapshotDir": "/home/debian/twitter/tests",
+        "testIgnore": [],
+        "testMatch": "**/*.@(spec|test).?(c|m)[jt]s?(x)",
+        "timeout": 60000,
+        "use": {
+          "baseURL": "http://127.0.0.1:4187",
+          "viewport": {
+            "width": 1024,
+            "height": 768
+          },
+          "trace": "retain-on-failure",
+          "screenshot": "only-on-failure",
+          "serviceWorkers": "block",
+          "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.2 Safari/605.1.15",
+          "screen": {
+            "width": 1792,
+            "height": 1120
+          },
+          "deviceScaleFactor": 2,
+          "isMobile": false,
+          "hasTouch": false,
+          "defaultBrowserType": "webkit"
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": "webkit"
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "html",
+        {
+          "open": "never"
+        }
+      ],
+      [
+        "json",
+        {
+          "outputFile": "research/verification/browser-tests.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "default",
+    "updateSourceMethod": "patch",
+    "version": "1.64.1",
+    "workers": 1,
+    "webServer": {
+      "command": "npm run build && npm run preview -- --host 127.0.0.1 --port 4187 --strictPort",
+      "url": "http://127.0.0.1:4187",
+      "reuseExistingServer": false,
+      "timeout": 120000
+    }
+  },
+  "suites": [
+    {
+      "title": "gesture-ownership.spec.ts",
+      "file": "gesture-ownership.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "a deck wheel burst continues over photos and reverses without a premature snap or gallery navigation",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3068,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T16:21:53.535Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "888795d2d4ed64ae158a-44c5b91b711290764515",
+          "file": "gesture-ownership.spec.ts",
+          "line": 61,
+          "column": 1
+        },
+        {
+          "title": "a zoomed-photo wheel burst keeps panning the photo after crossing to the source pane",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2191,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T16:21:56.677Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "888795d2d4ed64ae158a-e128fc60262ca4a7824f",
+          "file": "gesture-ownership.spec.ts",
+          "line": 84,
+          "column": 1
+        },
+        {
+          "title": "switching from Ctrl-wheel to plain wheel gives the new burst to its starting pane",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2968,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T16:21:58.880Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "888795d2d4ed64ae158a-bdadf5d79878fc904baa",
+          "file": "gesture-ownership.spec.ts",
+          "line": 99,
+          "column": 1
+        },
+        {
+          "title": "a mouse drag started on the source header keeps moving the deck across a photo",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3150,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T16:22:01.859Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "888795d2d4ed64ae158a-76eb7cb7e11fc818aa3c",
+          "file": "gesture-ownership.spec.ts",
+          "line": 117,
+          "column": 1
+        },
+        {
+          "title": "a deck wheel burst continues over photos and reverses without a premature snap or gallery navigation",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 4102,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T16:23:50.241Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "888795d2d4ed64ae158a-bb2fdb21d6e4b5fec1f6",
+          "file": "gesture-ownership.spec.ts",
+          "line": 61,
+          "column": 1
+        },
+        {
+          "title": "a zoomed-photo wheel burst keeps panning the photo after crossing to the source pane",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2592,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T16:23:54.715Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "888795d2d4ed64ae158a-5131f55978f479247b41",
+          "file": "gesture-ownership.spec.ts",
+          "line": 84,
+          "column": 1
+        },
+        {
+          "title": "switching from Ctrl-wheel to plain wheel gives the new burst to its starting pane",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3339,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T16:23:57.318Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "888795d2d4ed64ae158a-33b0b295cb7a63107783",
+          "file": "gesture-ownership.spec.ts",
+          "line": 99,
+          "column": 1
+        },
+        {
+          "title": "a mouse drag started on the source header keeps moving the deck across a photo",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3455,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T16:24:00.669Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "888795d2d4ed64ae158a-f6d68f94f2c493a55c8f",
+          "file": "gesture-ownership.spec.ts",
+          "line": 117,
+          "column": 1
+        },
+        {
+          "title": "a deck wheel burst continues over photos and reverses without a premature snap or gallery navigation",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 4330,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T16:25:46.492Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "888795d2d4ed64ae158a-1e49d3efec9951a3642d",
+          "file": "gesture-ownership.spec.ts",
+          "line": 61,
+          "column": 1
+        },
+        {
+          "title": "a zoomed-photo wheel burst keeps panning the photo after crossing to the source pane",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3322,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T16:25:51.063Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "888795d2d4ed64ae158a-b6678ba6c824dd4a61c4",
+          "file": "gesture-ownership.spec.ts",
+          "line": 84,
+          "column": 1
+        },
+        {
+          "title": "switching from Ctrl-wheel to plain wheel gives the new burst to its starting pane",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 4042,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T16:25:54.397Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "888795d2d4ed64ae158a-e2e943551c2aa1276d5b",
+          "file": "gesture-ownership.spec.ts",
+          "line": 99,
+          "column": 1
+        },
+        {
+          "title": "a mouse drag started on the source header keeps moving the deck across a photo",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 4054,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T16:25:58.449Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "888795d2d4ed64ae158a-c3c7db49c50d535f69ee",
+          "file": "gesture-ownership.spec.ts",
+          "line": 117,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "links.spec.ts",
+      "file": "links.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "UTF8 rich text opens mentions in sheets and hashtags as a real Bluesky search",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2268,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T16:22:05.025Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f3986e67d50a5ed8c69e-683ef12827aa345e1a89",
+          "file": "links.spec.ts",
+          "line": 63,
+          "column": 1
+        },
+        {
+          "title": "facet links and external cards open embedded pages with working reload and original toolbar assets",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3173,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T16:22:07.302Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f3986e67d50a5ed8c69e-f324df50a9c257514dd9",
+          "file": "links.spec.ts",
+          "line": 82,
+          "column": 1
+        },
+        {
+          "title": "timeline thumbnails open a gallery and detail thumbnails preserve selected photo, keys and zoom",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3222,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T16:22:10.489Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f3986e67d50a5ed8c69e-756efc49ec3f28817884",
+          "file": "links.spec.ts",
+          "line": 113,
+          "column": 1
+        },
+        {
+          "title": "a failed full size image explains the failure and retains an accessible original-image escape",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2201,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T16:22:13.726Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f3986e67d50a5ed8c69e-1b9ca9f6aae263d9d490",
+          "file": "links.spec.ts",
+          "line": 157,
+          "column": 1
+        },
+        {
+          "title": "a conversation embeds its URL beneath the original post and prunes descendants at 1024px",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3995,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T16:22:15.937Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f3986e67d50a5ed8c69e-1dc7d9a663ec4d9b489a",
+          "file": "links.spec.ts",
+          "line": 169,
+          "column": 3
+        },
+        {
+          "title": "a conversation embeds its URL beneath the original post and prunes descendants at 768px",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 4200,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T16:22:19.943Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f3986e67d50a5ed8c69e-5cbcfae67489c3a08dc4",
+          "file": "links.spec.ts",
+          "line": 169,
+          "column": 3
+        },
+        {
+          "title": "UTF8 rich text opens mentions in sheets and hashtags as a real Bluesky search",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2479,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T16:24:04.142Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f3986e67d50a5ed8c69e-93b66ca87086d965b88c",
+          "file": "links.spec.ts",
+          "line": 63,
+          "column": 1
+        },
+        {
+          "title": "facet links and external cards open embedded pages with working reload and original toolbar assets",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3459,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T16:24:06.630Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f3986e67d50a5ed8c69e-cddde2a2111d41b11182",
+          "file": "links.spec.ts",
+          "line": 82,
+          "column": 1
+        },
+        {
+          "title": "timeline thumbnails open a gallery and detail thumbnails preserve selected photo, keys and zoom",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 4684,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T16:24:10.099Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f3986e67d50a5ed8c69e-f748fa8e6b4ebb0bc028",
+          "file": "links.spec.ts",
+          "line": 113,
+          "column": 1
+        },
+        {
+          "title": "a failed full size image explains the failure and retains an accessible original-image escape",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2397,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T16:24:14.792Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f3986e67d50a5ed8c69e-990c8a850f90b6a64809",
+          "file": "links.spec.ts",
+          "line": 157,
+          "column": 1
+        },
+        {
+          "title": "a conversation embeds its URL beneath the original post and prunes descendants at 1024px",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 4512,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T16:24:17.205Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f3986e67d50a5ed8c69e-33a8cc7970e1f833d5c8",
+          "file": "links.spec.ts",
+          "line": 169,
+          "column": 3
+        },
+        {
+          "title": "a conversation embeds its URL beneath the original post and prunes descendants at 768px",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 5090,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T16:24:21.730Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f3986e67d50a5ed8c69e-8e2c6f4677e91ee4160c",
+          "file": "links.spec.ts",
+          "line": 169,
+          "column": 3
+        },
+        {
+          "title": "UTF8 rich text opens mentions in sheets and hashtags as a real Bluesky search",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 4039,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T16:26:02.526Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f3986e67d50a5ed8c69e-0888ee0dcef441566c66",
+          "file": "links.spec.ts",
+          "line": 63,
+          "column": 1
+        },
+        {
+          "title": "facet links and external cards open embedded pages with working reload and original toolbar assets",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 4484,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T16:26:06.576Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f3986e67d50a5ed8c69e-44f4dc23752827232406",
+          "file": "links.spec.ts",
+          "line": 82,
+          "column": 1
+        },
+        {
+          "title": "timeline thumbnails open a gallery and detail thumbnails preserve selected photo, keys and zoom",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 7083,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T16:26:11.074Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f3986e67d50a5ed8c69e-aed0dcb280efdc2084fa",
+          "file": "links.spec.ts",
+          "line": 113,
+          "column": 1
+        },
+        {
+          "title": "a failed full size image explains the failure and retains an accessible original-image escape",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2959,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T16:26:18.176Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f3986e67d50a5ed8c69e-48bc9c15f2b2773d7eb6",
+          "file": "links.spec.ts",
+          "line": 157,
+          "column": 1
+        },
+        {
+          "title": "a conversation embeds its URL beneath the original post and prunes descendants at 1024px",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 4998,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T16:26:21.147Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f3986e67d50a5ed8c69e-aa6f92cc52aaa475529c",
+          "file": "links.spec.ts",
+          "line": 169,
+          "column": 3
+        },
+        {
+          "title": "a conversation embeds its URL beneath the original post and prunes descendants at 768px",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 5171,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T16:26:26.155Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f3986e67d50a5ed8c69e-b680c50ababe8b3a5ef3",
+          "file": "links.spec.ts",
+          "line": 169,
+          "column": 3
+        }
+      ]
+    },
+    {
+      "title": "media-lifecycle.spec.ts",
+      "file": "media-lifecycle.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "a failed image retries in place and fullsize arrow keys pan instead of changing photos",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2253,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T16:22:24.157Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b41e07081ae8134473b7-1b120d64bd2e39890f79",
+          "file": "media-lifecycle.spec.ts",
+          "line": 5,
+          "column": 1
+        },
+        {
+          "title": "a failed image retries in place and fullsize arrow keys pan instead of changing photos",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2560,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T16:24:26.839Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b41e07081ae8134473b7-413b39c7c68a5b46b2d9",
+          "file": "media-lifecycle.spec.ts",
+          "line": 5,
+          "column": 1
+        },
+        {
+          "title": "a failed image retries in place and fullsize arrow keys pan instead of changing photos",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3099,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T16:26:31.344Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b41e07081ae8134473b7-bc9223dd460e6954cefd",
+          "file": "media-lifecycle.spec.ts",
+          "line": 5,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "photo-gestures.spec.ts",
+      "file": "photo-gestures.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "fullscreen expands the pane, fits the image and restores focus without closing Photos",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2183,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T16:22:26.428Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "3ace1efc2be21d470baf-8844f26400a4d3b0d356",
+          "file": "photo-gestures.spec.ts",
+          "line": 47,
+          "column": 1
+        },
+        {
+          "title": "mouse zoom, drag and keys pan the image while fitted arrow keys browse photos",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2507,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T16:22:28.619Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "3ace1efc2be21d470baf-051e9085ac9aeb2a3630",
+          "file": "photo-gestures.spec.ts",
+          "line": 70,
+          "column": 1
+        },
+        {
+          "title": "pointer pinch zooms, and shrinking past fit returns a fullscreen photo to its pane",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2138,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T16:22:31.138Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "3ace1efc2be21d470baf-a1a9af0a61167fe46936",
+          "file": "photo-gestures.spec.ts",
+          "line": 87,
+          "column": 1
+        },
+        {
+          "title": "a vertical mouse swipe up leaves fullscreen without dismissing the gallery",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2345,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T16:22:33.286Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "3ace1efc2be21d470baf-054078d9e502d1b12f70",
+          "file": "photo-gestures.spec.ts",
+          "line": 101,
+          "column": 3
+        },
+        {
+          "title": "a vertical mouse swipe down leaves fullscreen without dismissing the gallery",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2351,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T16:22:35.641Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "3ace1efc2be21d470baf-dbfd50539469600d167b",
+          "file": "photo-gestures.spec.ts",
+          "line": 101,
+          "column": 3
+        },
+        {
+          "title": "trackpad horizontal swipes preview and browse once after the momentum burst ends",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2624,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T16:22:38.001Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "3ace1efc2be21d470baf-c6564a6bdd5dd01228b8",
+          "file": "photo-gestures.spec.ts",
+          "line": 111,
+          "column": 1
+        },
+        {
+          "title": "Ctrl-wheel zoom and plain trackpad pan stay in fullscreen; a fitted vertical swipe returns to the pane",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2705,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T16:22:40.636Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "3ace1efc2be21d470baf-322d7b8abffa17c8a79e",
+          "file": "photo-gestures.spec.ts",
+          "line": 125,
+          "column": 1
+        },
+        {
+          "title": "Safari gesture events zoom the photo without zooming the document",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2092,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T16:22:43.348Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "3ace1efc2be21d470baf-415c1dccd5df2eb2d23f",
+          "file": "photo-gestures.spec.ts",
+          "line": 139,
+          "column": 1
+        },
+        {
+          "title": "native Chromium touchscreen pinch and vertical swipe use the image gesture owner",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2610,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T16:22:45.453Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "3ace1efc2be21d470baf-17f3a56057d105ca9c7f",
+          "file": "photo-gestures.spec.ts",
+          "line": 152,
+          "column": 1
+        },
+        {
+          "title": "single-photo trackpad swipes hand off to the pane stack, including directly over the image",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2863,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T16:22:48.074Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "3ace1efc2be21d470baf-a864b97fdc984293eb65",
+          "file": "photo-gestures.spec.ts",
+          "line": 175,
+          "column": 1
+        },
+        {
+          "title": "fullscreen trackpad dismissal previews its threshold, reverses to cancel and commits after quiet",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2807,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T16:22:50.945Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "3ace1efc2be21d470baf-854119b420510048e413",
+          "file": "photo-gestures.spec.ts",
+          "line": 188,
+          "column": 1
+        },
+        {
+          "title": "pinch dismissal is deliberate, reversible, cancelled safely and waits for gestureend",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2249,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T16:22:53.760Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "3ace1efc2be21d470baf-504443a5cf633a9a8d1d",
+          "file": "photo-gestures.spec.ts",
+          "line": 218,
+          "column": 1
+        },
+        {
+          "title": "zooming out of a magnified fullscreen photo stops at fit and requires a fresh pinch to dismiss",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2140,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T16:22:56.018Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "3ace1efc2be21d470baf-0be16f6d559d0a9b564f",
+          "file": "photo-gestures.spec.ts",
+          "line": 249,
+          "column": 1
+        },
+        {
+          "title": "wheel zoom is frame-smoothed and preserves zoom when switching to trackpad pan",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2444,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T16:22:58.168Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "3ace1efc2be21d470baf-60f2505bfbbbaa49d448",
+          "file": "photo-gestures.spec.ts",
+          "line": 261,
+          "column": 1
+        },
+        {
+          "title": "mouse dismissal shows a pull preview, cancels on blur and only commits on release",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2569,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T16:23:00.622Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "3ace1efc2be21d470baf-cda27687b6c1b0a9f8e0",
+          "file": "photo-gestures.spec.ts",
+          "line": 288,
+          "column": 1
+        },
+        {
+          "title": "fullscreen expands the pane, fits the image and restores focus without closing Photos",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2442,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T16:24:29.419Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "3ace1efc2be21d470baf-18460f70c38e9e49cbb3",
+          "file": "photo-gestures.spec.ts",
+          "line": 47,
+          "column": 1
+        },
+        {
+          "title": "mouse zoom, drag and keys pan the image while fitted arrow keys browse photos",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2804,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T16:24:31.872Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "3ace1efc2be21d470baf-9564a6ab92809ebdb693",
+          "file": "photo-gestures.spec.ts",
+          "line": 70,
+          "column": 1
+        },
+        {
+          "title": "pointer pinch zooms, and shrinking past fit returns a fullscreen photo to its pane",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2599,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T16:24:34.689Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "3ace1efc2be21d470baf-0df9993eb7acdebf6ffa",
+          "file": "photo-gestures.spec.ts",
+          "line": 87,
+          "column": 1
+        },
+        {
+          "title": "a vertical mouse swipe up leaves fullscreen without dismissing the gallery",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2679,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T16:24:37.296Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "3ace1efc2be21d470baf-a7d15ff7e469effe13aa",
+          "file": "photo-gestures.spec.ts",
+          "line": 101,
+          "column": 3
+        },
+        {
+          "title": "a vertical mouse swipe down leaves fullscreen without dismissing the gallery",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2561,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T16:24:39.985Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "3ace1efc2be21d470baf-f26a76d6b3a2ea79b19f",
+          "file": "photo-gestures.spec.ts",
+          "line": 101,
+          "column": 3
+        },
+        {
+          "title": "trackpad horizontal swipes preview and browse once after the momentum burst ends",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2833,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T16:24:42.556Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "3ace1efc2be21d470baf-aa41a3496c26c621904f",
+          "file": "photo-gestures.spec.ts",
+          "line": 111,
+          "column": 1
+        },
+        {
+          "title": "Ctrl-wheel zoom and plain trackpad pan stay in fullscreen; a fitted vertical swipe returns to the pane",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3092,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T16:24:45.397Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "3ace1efc2be21d470baf-fcd1d291dc6ab3227b5d",
+          "file": "photo-gestures.spec.ts",
+          "line": 125,
+          "column": 1
+        },
+        {
+          "title": "Safari gesture events zoom the photo without zooming the document",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2355,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T16:24:48.499Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "3ace1efc2be21d470baf-26c6b60eed2e1b30606b",
+          "file": "photo-gestures.spec.ts",
+          "line": 139,
+          "column": 1
+        },
+        {
+          "title": "native Chromium touchscreen pinch and vertical swipe use the image gesture owner",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [
+                {
+                  "type": "skip",
+                  "description": "Native multi-touch injection uses Chromium CDP.",
+                  "location": {
+                    "file": "/home/debian/twitter/tests/photo-gestures.spec.ts",
+                    "line": 153,
+                    "column": 8
+                  }
+                }
+              ],
+              "expectedStatus": "skipped",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "skipped",
+                  "duration": 1,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T16:24:50.863Z",
+                  "annotations": [
+                    {
+                      "type": "skip",
+                      "description": "Native multi-touch injection uses Chromium CDP.",
+                      "location": {
+                        "file": "/home/debian/twitter/tests/photo-gestures.spec.ts",
+                        "line": 153,
+                        "column": 8
+                      }
+                    }
+                  ],
+                  "attachments": []
+                }
+              ],
+              "status": "skipped"
+            }
+          ],
+          "id": "3ace1efc2be21d470baf-51c0e97d59c1c5a640fd",
+          "file": "photo-gestures.spec.ts",
+          "line": 152,
+          "column": 1
+        },
+        {
+          "title": "single-photo trackpad swipes hand off to the pane stack, including directly over the image",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3619,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T16:24:50.875Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "3ace1efc2be21d470baf-d580c219f3f0472eb4b6",
+          "file": "photo-gestures.spec.ts",
+          "line": 175,
+          "column": 1
+        },
+        {
+          "title": "fullscreen trackpad dismissal previews its threshold, reverses to cancel and commits after quiet",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3221,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T16:24:54.505Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "3ace1efc2be21d470baf-d247a08987a379a49872",
+          "file": "photo-gestures.spec.ts",
+          "line": 188,
+          "column": 1
+        },
+        {
+          "title": "pinch dismissal is deliberate, reversible, cancelled safely and waits for gestureend",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2607,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T16:24:57.737Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "3ace1efc2be21d470baf-297b25e7430cc3e91837",
+          "file": "photo-gestures.spec.ts",
+          "line": 218,
+          "column": 1
+        },
+        {
+          "title": "zooming out of a magnified fullscreen photo stops at fit and requires a fresh pinch to dismiss",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2425,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T16:25:00.354Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "3ace1efc2be21d470baf-40c787e864f86527ad1b",
+          "file": "photo-gestures.spec.ts",
+          "line": 249,
+          "column": 1
+        },
+        {
+          "title": "wheel zoom is frame-smoothed and preserves zoom when switching to trackpad pan",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2716,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T16:25:02.788Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "3ace1efc2be21d470baf-e36cd858385559d7d611",
+          "file": "photo-gestures.spec.ts",
+          "line": 261,
+          "column": 1
+        },
+        {
+          "title": "mouse dismissal shows a pull preview, cancels on blur and only commits on release",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2848,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T16:25:05.512Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "3ace1efc2be21d470baf-8e187aab34744f4002de",
+          "file": "photo-gestures.spec.ts",
+          "line": 288,
+          "column": 1
+        },
+        {
+          "title": "fullscreen expands the pane, fits the image and restores focus without closing Photos",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3285,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T16:26:34.459Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "3ace1efc2be21d470baf-59386f2d7b8261456366",
+          "file": "photo-gestures.spec.ts",
+          "line": 47,
+          "column": 1
+        },
+        {
+          "title": "mouse zoom, drag and keys pan the image while fitted arrow keys browse photos",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3354,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T16:26:37.754Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "3ace1efc2be21d470baf-cc6c59681129fe731611",
+          "file": "photo-gestures.spec.ts",
+          "line": 70,
+          "column": 1
+        },
+        {
+          "title": "pointer pinch zooms, and shrinking past fit returns a fullscreen photo to its pane",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3068,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T16:26:41.123Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "3ace1efc2be21d470baf-44d6e53cc55aa721c8f4",
+          "file": "photo-gestures.spec.ts",
+          "line": 87,
+          "column": 1
+        },
+        {
+          "title": "a vertical mouse swipe up leaves fullscreen without dismissing the gallery",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3081,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T16:26:44.201Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "3ace1efc2be21d470baf-784eb43add8ec5f039b8",
+          "file": "photo-gestures.spec.ts",
+          "line": 101,
+          "column": 3
+        },
+        {
+          "title": "a vertical mouse swipe down leaves fullscreen without dismissing the gallery",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3058,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T16:26:47.295Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "3ace1efc2be21d470baf-bdd0e59d59352fd989ee",
+          "file": "photo-gestures.spec.ts",
+          "line": 101,
+          "column": 3
+        },
+        {
+          "title": "trackpad horizontal swipes preview and browse once after the momentum burst ends",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3425,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T16:26:50.366Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "3ace1efc2be21d470baf-6394caae39dba24f27e5",
+          "file": "photo-gestures.spec.ts",
+          "line": 111,
+          "column": 1
+        },
+        {
+          "title": "Ctrl-wheel zoom and plain trackpad pan stay in fullscreen; a fitted vertical swipe returns to the pane",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3625,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T16:26:53.809Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "3ace1efc2be21d470baf-59e9ea0104f911d4bf96",
+          "file": "photo-gestures.spec.ts",
+          "line": 125,
+          "column": 1
+        },
+        {
+          "title": "Safari gesture events zoom the photo without zooming the document",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2962,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T16:26:57.450Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "3ace1efc2be21d470baf-00fd0751bb7bc4355459",
+          "file": "photo-gestures.spec.ts",
+          "line": 139,
+          "column": 1
+        },
+        {
+          "title": "native Chromium touchscreen pinch and vertical swipe use the image gesture owner",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [
+                {
+                  "type": "skip",
+                  "description": "Native multi-touch injection uses Chromium CDP.",
+                  "location": {
+                    "file": "/home/debian/twitter/tests/photo-gestures.spec.ts",
+                    "line": 153,
+                    "column": 8
+                  }
+                }
+              ],
+              "expectedStatus": "skipped",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "skipped",
+                  "duration": 1,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T16:27:00.421Z",
+                  "annotations": [
+                    {
+                      "type": "skip",
+                      "description": "Native multi-touch injection uses Chromium CDP.",
+                      "location": {
+                        "file": "/home/debian/twitter/tests/photo-gestures.spec.ts",
+                        "line": 153,
+                        "column": 8
+                      }
+                    }
+                  ],
+                  "attachments": []
+                }
+              ],
+              "status": "skipped"
+            }
+          ],
+          "id": "3ace1efc2be21d470baf-8183996420a2f7dbf117",
+          "file": "photo-gestures.spec.ts",
+          "line": 152,
+          "column": 1
+        },
+        {
+          "title": "single-photo trackpad swipes hand off to the pane stack, including directly over the image",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3423,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T16:27:00.434Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "3ace1efc2be21d470baf-2ca97f557a8f729d0a12",
+          "file": "photo-gestures.spec.ts",
+          "line": 175,
+          "column": 1
+        },
+        {
+          "title": "fullscreen trackpad dismissal previews its threshold, reverses to cancel and commits after quiet",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3588,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T16:27:03.870Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "3ace1efc2be21d470baf-280ad54966066da2a033",
+          "file": "photo-gestures.spec.ts",
+          "line": 188,
+          "column": 1
+        },
+        {
+          "title": "pinch dismissal is deliberate, reversible, cancelled safely and waits for gestureend",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3402,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T16:27:07.471Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "3ace1efc2be21d470baf-fb4d97d083bcbbd2a358",
+          "file": "photo-gestures.spec.ts",
+          "line": 218,
+          "column": 1
+        },
+        {
+          "title": "zooming out of a magnified fullscreen photo stops at fit and requires a fresh pinch to dismiss",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3027,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T16:27:10.887Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "3ace1efc2be21d470baf-33ccf9de5ef735a228d6",
+          "file": "photo-gestures.spec.ts",
+          "line": 249,
+          "column": 1
+        },
+        {
+          "title": "wheel zoom is frame-smoothed and preserves zoom when switching to trackpad pan",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3322,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T16:27:13.927Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "3ace1efc2be21d470baf-72487f8d9f8ae6983549",
+          "file": "photo-gestures.spec.ts",
+          "line": 261,
+          "column": 1
+        },
+        {
+          "title": "mouse dismissal shows a pull preview, cancels on blur and only commits on release",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3309,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T16:27:17.262Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "3ace1efc2be21d470baf-219c43264921b5491043",
+          "file": "photo-gestures.spec.ts",
+          "line": 288,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "photo-lift.spec.ts",
+      "file": "photo-lift.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "a held outward pinch lifts the photo beyond its pane and promotes only on release",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2268,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T16:23:03.205Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c2889cfff7b0f556d7d2-5fc825cfcca79b5e3f23",
+          "file": "photo-lift.spec.ts",
+          "line": 56,
+          "column": 1
+        },
+        {
+          "title": "reversing, cancelling, or interrupting a lifted pinch restores the photo pane",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2303,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T16:23:05.481Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c2889cfff7b0f556d7d2-b7e330389f905d1a201d",
+          "file": "photo-lift.spec.ts",
+          "line": 81,
+          "column": 1
+        },
+        {
+          "title": "a small trackpad pinch keeps lifting across the source pane and expands after the burst ends",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2375,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T16:23:07.794Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c2889cfff7b0f556d7d2-7b048d05b8e0a4772ec4",
+          "file": "photo-lift.spec.ts",
+          "line": 101,
+          "column": 1
+        },
+        {
+          "title": "native touchscreen pinch lifts while contacts remain down and promotes after touch release",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2216,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T16:23:10.181Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c2889cfff7b0f556d7d2-7b20b0c80848cfeec247",
+          "file": "photo-lift.spec.ts",
+          "line": 126,
+          "column": 1
+        },
+        {
+          "title": "a held outward pinch lifts the photo beyond its pane and promotes only on release",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2586,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T16:25:08.383Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c2889cfff7b0f556d7d2-594b3ba2b2b08009fe24",
+          "file": "photo-lift.spec.ts",
+          "line": 56,
+          "column": 1
+        },
+        {
+          "title": "reversing, cancelling, or interrupting a lifted pinch restores the photo pane",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2581,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T16:25:10.977Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c2889cfff7b0f556d7d2-140f3afdda222d767b96",
+          "file": "photo-lift.spec.ts",
+          "line": 81,
+          "column": 1
+        },
+        {
+          "title": "a small trackpad pinch keeps lifting across the source pane and expands after the burst ends",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2923,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T16:25:13.571Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c2889cfff7b0f556d7d2-6c6844cfef3597df90f0",
+          "file": "photo-lift.spec.ts",
+          "line": 101,
+          "column": 1
+        },
+        {
+          "title": "native touchscreen pinch lifts while contacts remain down and promotes after touch release",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [
+                {
+                  "type": "skip",
+                  "description": "Native multi-touch injection uses Chromium CDP.",
+                  "location": {
+                    "file": "/home/debian/twitter/tests/photo-lift.spec.ts",
+                    "line": 127,
+                    "column": 8
+                  }
+                }
+              ],
+              "expectedStatus": "skipped",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "skipped",
+                  "duration": 0,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T16:25:16.502Z",
+                  "annotations": [
+                    {
+                      "type": "skip",
+                      "description": "Native multi-touch injection uses Chromium CDP.",
+                      "location": {
+                        "file": "/home/debian/twitter/tests/photo-lift.spec.ts",
+                        "line": 127,
+                        "column": 8
+                      }
+                    }
+                  ],
+                  "attachments": []
+                }
+              ],
+              "status": "skipped"
+            }
+          ],
+          "id": "c2889cfff7b0f556d7d2-24c5f3e6e99824457cdc",
+          "file": "photo-lift.spec.ts",
+          "line": 126,
+          "column": 1
+        },
+        {
+          "title": "a held outward pinch lifts the photo beyond its pane and promotes only on release",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3068,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T16:27:20.589Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c2889cfff7b0f556d7d2-f40911dacb1ab8ec89f4",
+          "file": "photo-lift.spec.ts",
+          "line": 56,
+          "column": 1
+        },
+        {
+          "title": "reversing, cancelling, or interrupting a lifted pinch restores the photo pane",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3361,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T16:27:23.666Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c2889cfff7b0f556d7d2-1408fae7458d51b758d5",
+          "file": "photo-lift.spec.ts",
+          "line": 81,
+          "column": 1
+        },
+        {
+          "title": "a small trackpad pinch keeps lifting across the source pane and expands after the burst ends",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3456,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T16:27:27.045Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c2889cfff7b0f556d7d2-220c06d379a68b2c18e2",
+          "file": "photo-lift.spec.ts",
+          "line": 101,
+          "column": 1
+        },
+        {
+          "title": "native touchscreen pinch lifts while contacts remain down and promotes after touch release",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [
+                {
+                  "type": "skip",
+                  "description": "Native multi-touch injection uses Chromium CDP.",
+                  "location": {
+                    "file": "/home/debian/twitter/tests/photo-lift.spec.ts",
+                    "line": 127,
+                    "column": 8
+                  }
+                }
+              ],
+              "expectedStatus": "skipped",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "skipped",
+                  "duration": 0,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T16:27:30.519Z",
+                  "annotations": [
+                    {
+                      "type": "skip",
+                      "description": "Native multi-touch injection uses Chromium CDP.",
+                      "location": {
+                        "file": "/home/debian/twitter/tests/photo-lift.spec.ts",
+                        "line": 127,
+                        "column": 8
+                      }
+                    }
+                  ],
+                  "attachments": []
+                }
+              ],
+              "status": "skipped"
+            }
+          ],
+          "id": "c2889cfff7b0f556d7d2-3f43d5704056fa192ad3",
+          "file": "photo-lift.spec.ts",
+          "line": 126,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "post-interactions.spec.ts",
+      "file": "post-interactions.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "post conversation has a separate keyboard button without nesting its controls",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1339,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T16:23:12.411Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "dee49b58fa627d779acb-8c54f4962c5f9762eda4",
+          "file": "post-interactions.spec.ts",
+          "line": 24,
+          "column": 1
+        },
+        {
+          "title": "synthetic touch ownership rejects excluded controls, outside third contacts and late second fingers",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1337,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T16:23:13.758Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "dee49b58fa627d779acb-1c319c61dc50be851f07",
+          "file": "post-interactions.spec.ts",
+          "line": 36,
+          "column": 1
+        },
+        {
+          "title": "an owned Safari-shaped gesture follows its popup and releases at gestureend",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1342,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T16:23:15.104Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "dee49b58fa627d779acb-969334f4a1e164dc52d8",
+          "file": "post-interactions.spec.ts",
+          "line": 82,
+          "column": 1
+        },
+        {
+          "title": "Ctrl-wheel ownership releases when an ordinary wheel starts",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1338,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T16:23:16.454Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "dee49b58fa627d779acb-28f1aadb3273c693fe74",
+          "file": "post-interactions.spec.ts",
+          "line": 115,
+          "column": 1
+        },
+        {
+          "title": "fresh native tap works immediately after a pinch; its compatibility click stays suppressed",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1515,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T16:23:17.804Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "dee49b58fa627d779acb-aa7b132992928b5a7260",
+          "file": "post-interactions.spec.ts",
+          "line": 129,
+          "column": 1
+        },
+        {
+          "title": "pointer cancellation and blur discard gesture recognition",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1319,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T16:23:19.328Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "dee49b58fa627d779acb-322567021e247ef28c9c",
+          "file": "post-interactions.spec.ts",
+          "line": 147,
+          "column": 1
+        },
+        {
+          "title": "protected detail media is mounted only after disclosure and removed on collapse",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2668,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T16:23:20.654Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "dee49b58fa627d779acb-56cfaf9b8e6cf0284ca8",
+          "file": "post-interactions.spec.ts",
+          "line": 166,
+          "column": 1
+        },
+        {
+          "title": "post conversation has a separate keyboard button without nesting its controls",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1622,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T16:25:16.523Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "dee49b58fa627d779acb-d9b04aedf9f4ea8f0255",
+          "file": "post-interactions.spec.ts",
+          "line": 24,
+          "column": 1
+        },
+        {
+          "title": "synthetic touch ownership rejects excluded controls, outside third contacts and late second fingers",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2111,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T16:25:18.152Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "dee49b58fa627d779acb-fa064a28af0b999a12cf",
+          "file": "post-interactions.spec.ts",
+          "line": 36,
+          "column": 1
+        },
+        {
+          "title": "an owned Safari-shaped gesture follows its popup and releases at gestureend",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1131,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T16:25:20.271Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "dee49b58fa627d779acb-a8ff31a9da5ac9750cef",
+          "file": "post-interactions.spec.ts",
+          "line": 82,
+          "column": 1
+        },
+        {
+          "title": "Ctrl-wheel ownership releases when an ordinary wheel starts",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1075,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T16:25:21.411Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "dee49b58fa627d779acb-bd8c6c58fa8bda2636c5",
+          "file": "post-interactions.spec.ts",
+          "line": 115,
+          "column": 1
+        },
+        {
+          "title": "fresh native tap works immediately after a pinch; its compatibility click stays suppressed",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1272,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T16:25:22.497Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "dee49b58fa627d779acb-cca554cbbe04a201fb48",
+          "file": "post-interactions.spec.ts",
+          "line": 129,
+          "column": 1
+        },
+        {
+          "title": "pointer cancellation and blur discard gesture recognition",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1140,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T16:25:23.779Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "dee49b58fa627d779acb-7381f035a9bf8ef1f437",
+          "file": "post-interactions.spec.ts",
+          "line": 147,
+          "column": 1
+        },
+        {
+          "title": "protected detail media is mounted only after disclosure and removed on collapse",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2985,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T16:25:24.931Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "dee49b58fa627d779acb-694c49bd1805ae2965fa",
+          "file": "post-interactions.spec.ts",
+          "line": 166,
+          "column": 1
+        },
+        {
+          "title": "post conversation has a separate keyboard button without nesting its controls",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2088,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T16:27:30.535Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "dee49b58fa627d779acb-41749d1409ce120146de",
+          "file": "post-interactions.spec.ts",
+          "line": 24,
+          "column": 1
+        },
+        {
+          "title": "synthetic touch ownership rejects excluded controls, outside third contacts and late second fingers",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2101,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T16:27:32.637Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "dee49b58fa627d779acb-67d4f60411f01f0aa77e",
+          "file": "post-interactions.spec.ts",
+          "line": 36,
+          "column": 1
+        },
+        {
+          "title": "an owned Safari-shaped gesture follows its popup and releases at gestureend",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2131,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T16:27:34.772Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "dee49b58fa627d779acb-8a7e8ef69747e9909b3c",
+          "file": "post-interactions.spec.ts",
+          "line": 82,
+          "column": 1
+        },
+        {
+          "title": "Ctrl-wheel ownership releases when an ordinary wheel starts",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2121,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T16:27:36.911Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "dee49b58fa627d779acb-ec4567816261c8050340",
+          "file": "post-interactions.spec.ts",
+          "line": 115,
+          "column": 1
+        },
+        {
+          "title": "fresh native tap works immediately after a pinch; its compatibility click stays suppressed",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2419,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T16:27:39.046Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "dee49b58fa627d779acb-c7b5a1489e1ac62c7e0d",
+          "file": "post-interactions.spec.ts",
+          "line": 129,
+          "column": 1
+        },
+        {
+          "title": "pointer cancellation and blur discard gesture recognition",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2132,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T16:27:41.488Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "dee49b58fa627d779acb-2873980f3c1fdda19db7",
+          "file": "post-interactions.spec.ts",
+          "line": 147,
+          "column": 1
+        },
+        {
+          "title": "protected detail media is mounted only after disclosure and removed on collapse",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 4156,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T16:27:43.641Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "dee49b58fa627d779acb-bb55c6ab2351e31e1b0b",
+          "file": "post-interactions.spec.ts",
+          "line": 166,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "touch.spec.ts",
+      "file": "touch.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "native touchscreen vertical scrolling and horizontal sheet swipe work on a phone",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 4960,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T16:23:23.340Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "native-touch-events.json",
+                      "contentType": "application/json",
+                      "body": "ewogICJldmVudHMiOiBbCiAgICB7CiAgICAgICJ0eXBlIjogInBvaW50ZXJkb3duIiwKICAgICAgInRhcmdldCI6ICJzdGFjay1wYW5lbF9fdGl0bGUiLAogICAgICAieCI6IDEwMSwKICAgICAgInkiOiAyMiwKICAgICAgImJ1dHRvbiI6IDAsCiAgICAgICJwcmltYXJ5IjogdHJ1ZQogICAgfSwKICAgIHsKICAgICAgInR5cGUiOiAidG91Y2hzdGFydCIsCiAgICAgICJ0YXJnZXQiOiAic3RhY2stcGFuZWxfX3RpdGxlIgogICAgfSwKICAgIHsKICAgICAgInR5cGUiOiAiZ290cG9pbnRlcmNhcHR1cmUiLAogICAgICAidGFyZ2V0IjogInN0YWNrLXBhbmVsX190aXRsZSIsCiAgICAgICJ4IjogMTEwLjUsCiAgICAgICJ5IjogMjIsCiAgICAgICJidXR0b24iOiAtMSwKICAgICAgInByaW1hcnkiOiB0cnVlCiAgICB9LAogICAgewogICAgICAidHlwZSI6ICJwb2ludGVybW92ZSIsCiAgICAgICJ0YXJnZXQiOiAic3RhY2stcGFuZWxfX3RpdGxlIiwKICAgICAgIngiOiAxMTAuNSwKICAgICAgInkiOiAyMiwKICAgICAgImJ1dHRvbiI6IC0xLAogICAgICAicHJpbWFyeSI6IHRydWUKICAgIH0sCiAgICB7CiAgICAgICJ0eXBlIjogInBvaW50ZXJtb3ZlIiwKICAgICAgInRhcmdldCI6ICJzdGFjay1wYW5lbF9fdGl0bGUiLAogICAgICAieCI6IDEyMCwKICAgICAgInkiOiAyMiwKICAgICAgImJ1dHRvbiI6IC0xLAogICAgICAicHJpbWFyeSI6IHRydWUKICAgIH0sCiAgICB7CiAgICAgICJ0eXBlIjogInBvaW50ZXJtb3ZlIiwKICAgICAgInRhcmdldCI6ICJzdGFjay1wYW5lbF9fdGl0bGUiLAogICAgICAieCI6IDEyOS41LAogICAgICAieSI6IDIyLAogICAgICAiYnV0dG9uIjogLTEsCiAgICAgICJwcmltYXJ5IjogdHJ1ZQogICAgfSwKICAgIHsKICAgICAgInR5cGUiOiAicG9pbnRlcm1vdmUiLAogICAgICAidGFyZ2V0IjogInN0YWNrLXBhbmVsX190aXRsZSIsCiAgICAgICJ4IjogMTM5LAogICAgICAieSI6IDIyLAogICAgICAiYnV0dG9uIjogLTEsCiAgICAgICJwcmltYXJ5IjogdHJ1ZQogICAgfSwKICAgIHsKICAgICAgInR5cGUiOiAicG9pbnRlcm1vdmUiLAogICAgICAidGFyZ2V0IjogInN0YWNrLXBhbmVsX190aXRsZSIsCiAgICAgICJ4IjogMTQ4LjUsCiAgICAgICJ5IjogMjIsCiAgICAgICJidXR0b24iOiAtMSwKICAgICAgInByaW1hcnkiOiB0cnVlCiAgICB9LAogICAgewogICAgICAidHlwZSI6ICJwb2ludGVybW92ZSIsCiAgICAgICJ0YXJnZXQiOiAic3RhY2stcGFuZWxfX3RpdGxlIiwKICAgICAgIngiOiAxNTgsCiAgICAgICJ5IjogMjIsCiAgICAgICJidXR0b24iOiAtMSwKICAgICAgInByaW1hcnkiOiB0cnVlCiAgICB9LAogICAgewogICAgICAidHlwZSI6ICJwb2ludGVybW92ZSIsCiAgICAgICJ0YXJnZXQiOiAic3RhY2stcGFuZWxfX3RpdGxlIiwKICAgICAgIngiOiAxNjcuNSwKICAgICAgInkiOiAyMiwKICAgICAgImJ1dHRvbiI6IC0xLAogICAgICAicHJpbWFyeSI6IHRydWUKICAgIH0sCiAgICB7CiAgICAgICJ0eXBlIjogInBvaW50ZXJtb3ZlIiwKICAgICAgInRhcmdldCI6ICJzdGFjay1wYW5lbF9fdGl0bGUiLAogICAgICAieCI6IDE3NywKICAgICAgInkiOiAyMiwKICAgICAgImJ1dHRvbiI6IC0xLAogICAgICAicHJpbWFyeSI6IHRydWUKICAgIH0sCiAgICB7CiAgICAgICJ0eXBlIjogInBvaW50ZXJtb3ZlIiwKICAgICAgInRhcmdldCI6ICJzdGFjay1wYW5lbF9fdGl0bGUiLAogICAgICAieCI6IDE4Ni41LAogICAgICAieSI6IDIyLAogICAgICAiYnV0dG9uIjogLTEsCiAgICAgICJwcmltYXJ5IjogdHJ1ZQogICAgfSwKICAgIHsKICAgICAgInR5cGUiOiAicG9pbnRlcm1vdmUiLAogICAgICAidGFyZ2V0IjogInN0YWNrLXBhbmVsX190aXRsZSIsCiAgICAgICJ4IjogMTk2LAogICAgICAieSI6IDIyLAogICAgICAiYnV0dG9uIjogLTEsCiAgICAgICJwcmltYXJ5IjogdHJ1ZQogICAgfSwKICAgIHsKICAgICAgInR5cGUiOiAicG9pbnRlcm1vdmUiLAogICAgICAidGFyZ2V0IjogInN0YWNrLXBhbmVsX190aXRsZSIsCiAgICAgICJ4IjogMjA1LjUsCiAgICAgICJ5IjogMjIsCiAgICAgICJidXR0b24iOiAtMSwKICAgICAgInByaW1hcnkiOiB0cnVlCiAgICB9LAogICAgewogICAgICAidHlwZSI6ICJwb2ludGVybW92ZSIsCiAgICAgICJ0YXJnZXQiOiAic3RhY2stcGFuZWxfX3RpdGxlIiwKICAgICAgIngiOiAyMTUsCiAgICAgICJ5IjogMjIsCiAgICAgICJidXR0b24iOiAtMSwKICAgICAgInByaW1hcnkiOiB0cnVlCiAgICB9LAogICAgewogICAgICAidHlwZSI6ICJwb2ludGVybW92ZSIsCiAgICAgICJ0YXJnZXQiOiAic3RhY2stcGFuZWxfX3RpdGxlIiwKICAgICAgIngiOiAyMjQuNSwKICAgICAgInkiOiAyMiwKICAgICAgImJ1dHRvbiI6IC0xLAogICAgICAicHJpbWFyeSI6IHRydWUKICAgIH0sCiAgICB7CiAgICAgICJ0eXBlIjogInBvaW50ZXJtb3ZlIiwKICAgICAgInRhcmdldCI6ICJzdGFjay1wYW5lbF9fdGl0bGUiLAogICAgICAieCI6IDIzNCwKICAgICAgInkiOiAyMiwKICAgICAgImJ1dHRvbiI6IC0xLAogICAgICAicHJpbWFyeSI6IHRydWUKICAgIH0sCiAgICB7CiAgICAgICJ0eXBlIjogInBvaW50ZXJtb3ZlIiwKICAgICAgInRhcmdldCI6ICJzdGFjay1wYW5lbF9fdGl0bGUiLAogICAgICAieCI6IDI0My41LAogICAgICAieSI6IDIyLAogICAgICAiYnV0dG9uIjogLTEsCiAgICAgICJwcmltYXJ5IjogdHJ1ZQogICAgfSwKICAgIHsKICAgICAgInR5cGUiOiAicG9pbnRlcm1vdmUiLAogICAgICAidGFyZ2V0IjogInN0YWNrLXBhbmVsX190aXRsZSIsCiAgICAgICJ4IjogMjUzLAogICAgICAieSI6IDIyLAogICAgICAiYnV0dG9uIjogLTEsCiAgICAgICJwcmltYXJ5IjogdHJ1ZQogICAgfSwKICAgIHsKICAgICAgInR5cGUiOiAicG9pbnRlcm1vdmUiLAogICAgICAidGFyZ2V0IjogInN0YWNrLXBhbmVsX190aXRsZSIsCiAgICAgICJ4IjogMjYyLjUsCiAgICAgICJ5IjogMjIsCiAgICAgICJidXR0b24iOiAtMSwKICAgICAgInByaW1hcnkiOiB0cnVlCiAgICB9LAogICAgewogICAgICAidHlwZSI6ICJwb2ludGVybW92ZSIsCiAgICAgICJ0YXJnZXQiOiAic3RhY2stcGFuZWxfX3RpdGxlIiwKICAgICAgIngiOiAyNzIsCiAgICAgICJ5IjogMjIsCiAgICAgICJidXR0b24iOiAtMSwKICAgICAgInByaW1hcnkiOiB0cnVlCiAgICB9LAogICAgewogICAgICAidHlwZSI6ICJwb2ludGVybW92ZSIsCiAgICAgICJ0YXJnZXQiOiAic3RhY2stcGFuZWxfX3RpdGxlIiwKICAgICAgIngiOiAyODEuNSwKICAgICAgInkiOiAyMiwKICAgICAgImJ1dHRvbiI6IC0xLAogICAgICAicHJpbWFyeSI6IHRydWUKICAgIH0sCiAgICB7CiAgICAgICJ0eXBlIjogInBvaW50ZXJtb3ZlIiwKICAgICAgInRhcmdldCI6ICJzdGFjay1wYW5lbF9fdGl0bGUiLAogICAgICAieCI6IDI5MSwKICAgICAgInkiOiAyMiwKICAgICAgImJ1dHRvbiI6IC0xLAogICAgICAicHJpbWFyeSI6IHRydWUKICAgIH0sCiAgICB7CiAgICAgICJ0eXBlIjogInBvaW50ZXJ1cCIsCiAgICAgICJ0YXJnZXQiOiAic3RhY2stcGFuZWxfX3RpdGxlIiwKICAgICAgIngiOiAyOTEsCiAgICAgICJ5IjogMjIsCiAgICAgICJidXR0b24iOiAwLAogICAgICAicHJpbWFyeSI6IHRydWUKICAgIH0sCiAgICB7CiAgICAgICJ0eXBlIjogImxvc3Rwb2ludGVyY2FwdHVyZSIsCiAgICAgICJ0YXJnZXQiOiAic3RhY2stcGFuZWxfX3RpdGxlIiwKICAgICAgIngiOiAyOTEsCiAgICAgICJ5IjogMjIsCiAgICAgICJidXR0b24iOiAwLAogICAgICAicHJpbWFyeSI6IHRydWUKICAgIH0sCiAgICB7CiAgICAgICJ0eXBlIjogInRvdWNoZW5kIiwKICAgICAgInRhcmdldCI6ICJzdGFjay1wYW5lbF9fdGl0bGUiCiAgICB9CiAgXSwKICAiaGVhZGVyIjogewogICAgIngiOiA2MSwKICAgICJ5IjogMCwKICAgICJ3aWR0aCI6IDMyOSwKICAgICJoZWlnaHQiOiA0NSwKICAgICJ0b3AiOiAwLAogICAgInJpZ2h0IjogMzkwLAogICAgImJvdHRvbSI6IDQ1LAogICAgImxlZnQiOiA2MQogIH0KfQ=="
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "1506cf64783f7365f542-3f4b412103a9e5c7923a",
+          "file": "touch.spec.ts",
+          "line": 14,
+          "column": 1
+        },
+        {
+          "title": "native pinch apart opens a post using the browser touchscreen input pipeline",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1749,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T16:23:28.309Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "1506cf64783f7365f542-9bdccd2bf1d8f6582a2a",
+          "file": "touch.spec.ts",
+          "line": 60,
+          "column": 3
+        },
+        {
+          "title": "native two finger pull down opens a post using the browser touchscreen input pipeline",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1769,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T16:23:30.068Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "1506cf64783f7365f542-11f6b13fe3820a658889",
+          "file": "touch.spec.ts",
+          "line": 60,
+          "column": 3
+        },
+        {
+          "title": "touch pointer recognition for pinch and two finger pull down is consistent across engines",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3985,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T16:23:31.846Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "1506cf64783f7365f542-ed3fd88f78113a698bce",
+          "file": "touch.spec.ts",
+          "line": 88,
+          "column": 1
+        },
+        {
+          "title": "native touchscreen vertical scrolling and horizontal sheet swipe work on a phone",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [
+                {
+                  "type": "skip",
+                  "description": "Chromium CDP supplies real touchscreen input; mouse/wheel run on every engine.",
+                  "location": {
+                    "file": "/home/debian/twitter/tests/touch.spec.ts",
+                    "line": 15,
+                    "column": 8
+                  }
+                }
+              ],
+              "expectedStatus": "skipped",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "skipped",
+                  "duration": 1,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T16:25:27.931Z",
+                  "annotations": [
+                    {
+                      "type": "skip",
+                      "description": "Chromium CDP supplies real touchscreen input; mouse/wheel run on every engine.",
+                      "location": {
+                        "file": "/home/debian/twitter/tests/touch.spec.ts",
+                        "line": 15,
+                        "column": 8
+                      }
+                    }
+                  ],
+                  "attachments": []
+                }
+              ],
+              "status": "skipped"
+            }
+          ],
+          "id": "1506cf64783f7365f542-dd10ce96b9b6d3b3b707",
+          "file": "touch.spec.ts",
+          "line": 14,
+          "column": 1
+        },
+        {
+          "title": "native pinch apart opens a post using the browser touchscreen input pipeline",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [
+                {
+                  "type": "skip",
+                  "description": "Native multi-touch injection uses Chromium CDP.",
+                  "location": {
+                    "file": "/home/debian/twitter/tests/touch.spec.ts",
+                    "line": 61,
+                    "column": 10
+                  }
+                }
+              ],
+              "expectedStatus": "skipped",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "skipped",
+                  "duration": 0,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T16:25:27.939Z",
+                  "annotations": [
+                    {
+                      "type": "skip",
+                      "description": "Native multi-touch injection uses Chromium CDP.",
+                      "location": {
+                        "file": "/home/debian/twitter/tests/touch.spec.ts",
+                        "line": 61,
+                        "column": 10
+                      }
+                    }
+                  ],
+                  "attachments": []
+                }
+              ],
+              "status": "skipped"
+            }
+          ],
+          "id": "1506cf64783f7365f542-e534279f2ff826bb9000",
+          "file": "touch.spec.ts",
+          "line": 60,
+          "column": 3
+        },
+        {
+          "title": "native two finger pull down opens a post using the browser touchscreen input pipeline",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [
+                {
+                  "type": "skip",
+                  "description": "Native multi-touch injection uses Chromium CDP.",
+                  "location": {
+                    "file": "/home/debian/twitter/tests/touch.spec.ts",
+                    "line": 61,
+                    "column": 10
+                  }
+                }
+              ],
+              "expectedStatus": "skipped",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "skipped",
+                  "duration": 0,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T16:25:27.947Z",
+                  "annotations": [
+                    {
+                      "type": "skip",
+                      "description": "Native multi-touch injection uses Chromium CDP.",
+                      "location": {
+                        "file": "/home/debian/twitter/tests/touch.spec.ts",
+                        "line": 61,
+                        "column": 10
+                      }
+                    }
+                  ],
+                  "attachments": []
+                }
+              ],
+              "status": "skipped"
+            }
+          ],
+          "id": "1506cf64783f7365f542-f6474b21dde068209590",
+          "file": "touch.spec.ts",
+          "line": 60,
+          "column": 3
+        },
+        {
+          "title": "touch pointer recognition for pinch and two finger pull down is consistent across engines",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3798,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T16:25:27.954Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "1506cf64783f7365f542-8d1304c195879449e3e4",
+          "file": "touch.spec.ts",
+          "line": 88,
+          "column": 1
+        },
+        {
+          "title": "native touchscreen vertical scrolling and horizontal sheet swipe work on a phone",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [
+                {
+                  "type": "skip",
+                  "description": "Chromium CDP supplies real touchscreen input; mouse/wheel run on every engine.",
+                  "location": {
+                    "file": "/home/debian/twitter/tests/touch.spec.ts",
+                    "line": 15,
+                    "column": 8
+                  }
+                }
+              ],
+              "expectedStatus": "skipped",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "skipped",
+                  "duration": 0,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T16:27:47.817Z",
+                  "annotations": [
+                    {
+                      "type": "skip",
+                      "description": "Chromium CDP supplies real touchscreen input; mouse/wheel run on every engine.",
+                      "location": {
+                        "file": "/home/debian/twitter/tests/touch.spec.ts",
+                        "line": 15,
+                        "column": 8
+                      }
+                    }
+                  ],
+                  "attachments": []
+                }
+              ],
+              "status": "skipped"
+            }
+          ],
+          "id": "1506cf64783f7365f542-9fe6456f7321c5b55797",
+          "file": "touch.spec.ts",
+          "line": 14,
+          "column": 1
+        },
+        {
+          "title": "native pinch apart opens a post using the browser touchscreen input pipeline",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [
+                {
+                  "type": "skip",
+                  "description": "Native multi-touch injection uses Chromium CDP.",
+                  "location": {
+                    "file": "/home/debian/twitter/tests/touch.spec.ts",
+                    "line": 61,
+                    "column": 10
+                  }
+                }
+              ],
+              "expectedStatus": "skipped",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "skipped",
+                  "duration": 1,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T16:27:47.825Z",
+                  "annotations": [
+                    {
+                      "type": "skip",
+                      "description": "Native multi-touch injection uses Chromium CDP.",
+                      "location": {
+                        "file": "/home/debian/twitter/tests/touch.spec.ts",
+                        "line": 61,
+                        "column": 10
+                      }
+                    }
+                  ],
+                  "attachments": []
+                }
+              ],
+              "status": "skipped"
+            }
+          ],
+          "id": "1506cf64783f7365f542-3f79527bc9fe8f3ded79",
+          "file": "touch.spec.ts",
+          "line": 60,
+          "column": 3
+        },
+        {
+          "title": "native two finger pull down opens a post using the browser touchscreen input pipeline",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [
+                {
+                  "type": "skip",
+                  "description": "Native multi-touch injection uses Chromium CDP.",
+                  "location": {
+                    "file": "/home/debian/twitter/tests/touch.spec.ts",
+                    "line": 61,
+                    "column": 10
+                  }
+                }
+              ],
+              "expectedStatus": "skipped",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "skipped",
+                  "duration": 1,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T16:27:47.836Z",
+                  "annotations": [
+                    {
+                      "type": "skip",
+                      "description": "Native multi-touch injection uses Chromium CDP.",
+                      "location": {
+                        "file": "/home/debian/twitter/tests/touch.spec.ts",
+                        "line": 61,
+                        "column": 10
+                      }
+                    }
+                  ],
+                  "attachments": []
+                }
+              ],
+              "status": "skipped"
+            }
+          ],
+          "id": "1506cf64783f7365f542-32f191c8fde5be3a6320",
+          "file": "touch.spec.ts",
+          "line": 60,
+          "column": 3
+        },
+        {
+          "title": "touch pointer recognition for pinch and two finger pull down is consistent across engines",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 4904,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T16:27:47.849Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "1506cf64783f7365f542-495ec5cb57a6653ee471",
+          "file": "touch.spec.ts",
+          "line": 88,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "trackpad-navigation.spec.ts",
+      "file": "trackpad-navigation.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "short horizontal trackpad swipes work over buttons and return to the feed pane",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3333,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T16:23:35.847Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "70f3df7a8e60abcd963f-633cfe0c44ae4208c872",
+          "file": "trackpad-navigation.spec.ts",
+          "line": 5,
+          "column": 1
+        },
+        {
+          "title": "vertical scrolling over post buttons stays native and Ctrl-wheel does not move the pane stack",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1451,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T16:23:39.193Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "70f3df7a8e60abcd963f-f4f29717fb383a896c51",
+          "file": "trackpad-navigation.spec.ts",
+          "line": 25,
+          "column": 1
+        },
+        {
+          "title": "a horizontal gesture retains its axis despite small diagonal samples and respects editable fields",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2112,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T16:23:40.657Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "70f3df7a8e60abcd963f-a56ded8ea964ff7bb8f7",
+          "file": "trackpad-navigation.spec.ts",
+          "line": 41,
+          "column": 1
+        },
+        {
+          "title": "a missed mouse release settles the pane without sampling stale coordinates",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 666,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T16:23:42.779Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "70f3df7a8e60abcd963f-01dc96f96526c49327ca",
+          "file": "trackpad-navigation.spec.ts",
+          "line": 58,
+          "column": 1
+        },
+        {
+          "title": "vertical reading scroll does not interrupt a pane that is opening",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2201,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T16:23:43.454Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "70f3df7a8e60abcd963f-7921adb3d6cfd204cdbe",
+          "file": "trackpad-navigation.spec.ts",
+          "line": 85,
+          "column": 1
+        },
+        {
+          "title": "short horizontal trackpad swipes work over buttons and return to the feed pane",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3749,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T16:25:31.770Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "70f3df7a8e60abcd963f-244e9b573766207c010c",
+          "file": "trackpad-navigation.spec.ts",
+          "line": 5,
+          "column": 1
+        },
+        {
+          "title": "vertical scrolling over post buttons stays native and Ctrl-wheel does not move the pane stack",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1185,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T16:25:35.530Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "70f3df7a8e60abcd963f-107cf9d468603d025526",
+          "file": "trackpad-navigation.spec.ts",
+          "line": 25,
+          "column": 1
+        },
+        {
+          "title": "a horizontal gesture retains its axis despite small diagonal samples and respects editable fields",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2643,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T16:25:36.730Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "70f3df7a8e60abcd963f-c736318f24f7e6087c71",
+          "file": "trackpad-navigation.spec.ts",
+          "line": 41,
+          "column": 1
+        },
+        {
+          "title": "a missed mouse release settles the pane without sampling stale coordinates",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1564,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T16:25:39.384Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "70f3df7a8e60abcd963f-b2b38adc025e4d1e9c7d",
+          "file": "trackpad-navigation.spec.ts",
+          "line": 58,
+          "column": 1
+        },
+        {
+          "title": "vertical reading scroll does not interrupt a pane that is opening",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2275,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T16:25:40.957Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "70f3df7a8e60abcd963f-90b555f29c7ec74db169",
+          "file": "trackpad-navigation.spec.ts",
+          "line": 85,
+          "column": 1
+        },
+        {
+          "title": "short horizontal trackpad swipes work over buttons and return to the feed pane",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3879,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T16:27:52.774Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "70f3df7a8e60abcd963f-b4f1a1813e63980f293f",
+          "file": "trackpad-navigation.spec.ts",
+          "line": 5,
+          "column": 1
+        },
+        {
+          "title": "vertical scrolling over post buttons stays native and Ctrl-wheel does not move the pane stack",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2311,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T16:27:56.661Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "70f3df7a8e60abcd963f-1cde8f1905ce160d8c34",
+          "file": "trackpad-navigation.spec.ts",
+          "line": 25,
+          "column": 1
+        },
+        {
+          "title": "a horizontal gesture retains its axis despite small diagonal samples and respects editable fields",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2617,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T16:27:58.986Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "70f3df7a8e60abcd963f-08cade1e0f62a2a0f293",
+          "file": "trackpad-navigation.spec.ts",
+          "line": 41,
+          "column": 1
+        },
+        {
+          "title": "a missed mouse release settles the pane without sampling stale coordinates",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 990,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T16:28:01.616Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "70f3df7a8e60abcd963f-096e2d1fdb94e5a4cfaa",
+          "file": "trackpad-navigation.spec.ts",
+          "line": 58,
+          "column": 1
+        },
+        {
+          "title": "vertical reading scroll does not interrupt a pane that is opening",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2784,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T16:28:02.623Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "70f3df7a8e60abcd963f-ee7c7c7f911e59374b9b",
+          "file": "trackpad-navigation.spec.ts",
+          "line": 85,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "trackpad.spec.ts",
+      "file": "trackpad.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "trackpad pinch events open post actions while ordinary scrolling and gestures outside posts retain defaults",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2388,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T16:23:45.674Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "27cd3e1073fddc581cfb-1638aca981678b28552d",
+          "file": "trackpad.spec.ts",
+          "line": 5,
+          "column": 1
+        },
+        {
+          "title": "browser native trackpad pinch opens post actions",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1500,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T16:23:48.075Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "27cd3e1073fddc581cfb-5ef5e09e2901555fdb97",
+          "file": "trackpad.spec.ts",
+          "line": 49,
+          "column": 1
+        },
+        {
+          "title": "trackpad pinch events open post actions while ordinary scrolling and gestures outside posts retain defaults",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2154,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T16:25:43.246Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "27cd3e1073fddc581cfb-f135a5c81201f18e2289",
+          "file": "trackpad.spec.ts",
+          "line": 5,
+          "column": 1
+        },
+        {
+          "title": "browser native trackpad pinch opens post actions",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [
+                {
+                  "type": "skip",
+                  "description": "Native trackpad gesture injection uses Chromium CDP.",
+                  "location": {
+                    "file": "/home/debian/twitter/tests/trackpad.spec.ts",
+                    "line": 50,
+                    "column": 8
+                  }
+                }
+              ],
+              "expectedStatus": "skipped",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "skipped",
+                  "duration": 210,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T16:25:45.413Z",
+                  "annotations": [
+                    {
+                      "type": "skip",
+                      "description": "Native trackpad gesture injection uses Chromium CDP.",
+                      "location": {
+                        "file": "/home/debian/twitter/tests/trackpad.spec.ts",
+                        "line": 50,
+                        "column": 8
+                      }
+                    }
+                  ],
+                  "attachments": []
+                }
+              ],
+              "status": "skipped"
+            }
+          ],
+          "id": "27cd3e1073fddc581cfb-1ad8fceccbde01e0a71e",
+          "file": "trackpad.spec.ts",
+          "line": 49,
+          "column": 1
+        },
+        {
+          "title": "trackpad pinch events open post actions while ordinary scrolling and gestures outside posts retain defaults",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3283,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T16:28:05.424Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "27cd3e1073fddc581cfb-86380a865397f5fdd0bc",
+          "file": "trackpad.spec.ts",
+          "line": 5,
+          "column": 1
+        },
+        {
+          "title": "browser native trackpad pinch opens post actions",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [
+                {
+                  "type": "skip",
+                  "description": "Native trackpad gesture injection uses Chromium CDP.",
+                  "location": {
+                    "file": "/home/debian/twitter/tests/trackpad.spec.ts",
+                    "line": 50,
+                    "column": 8
+                  }
+                }
+              ],
+              "expectedStatus": "skipped",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "skipped",
+                  "duration": 299,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T16:28:08.715Z",
+                  "annotations": [
+                    {
+                      "type": "skip",
+                      "description": "Native trackpad gesture injection uses Chromium CDP.",
+                      "location": {
+                        "file": "/home/debian/twitter/tests/trackpad.spec.ts",
+                        "line": 50,
+                        "column": 8
+                      }
+                    }
+                  ],
+                  "attachments": []
+                }
+              ],
+              "status": "skipped"
+            }
+          ],
+          "id": "27cd3e1073fddc581cfb-9f30f96dfe61f59b0029",
+          "file": "trackpad.spec.ts",
+          "line": 49,
+          "column": 1
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-10-15T16:21:49.003Z",
+    "duration": 380154.495,
+    "expected": 132,
+    "skipped": 12,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

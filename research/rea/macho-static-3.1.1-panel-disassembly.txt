@@ -1,0 +1,3007 @@
+# Custom Capstone 5.0.6 disassembly; static only, not REA output.
+# Source SHA256: eb02c536eab4b7308eddc4cd8642648ab9e20a2269900f06a0b91f4f29fe53e1
+# Range stops at next Objective-C method implementation known from metadata; literal pools can be decoded as instructions.
+# PC-relative literal annotations include the exact literal VM address, raw value and interpretation candidates.
+
+## -[TwitterPadSidebarViewController ab_swipeColumnWidth:] VM 0x81aa0 file 0x80aa0 bounded end 0x81aa8
+0x00081aa0 0048         ldr      r0, [pc, #0] ; literal@0x81aa4=0x43920000 float32-candidate=292
+0x00081aa2 7047         bx       lr
+0x00081aa4 0000         movs     r0, r0
+0x00081aa6 9243         bics     r2, r2
+
+## -[TwitterPadWebViewController ab_swipeColumnWidth:] VM 0x87998 file 0x86998 bounded end 0x879b4
+0x00087998 90b5         push     {r4, r7, lr}
+0x0008799a 01af         add      r7, sp, #4
+0x0008799c 013a         subs     r2, #1
+0x0008799e 034b         ldr      r3, [pc, #0xc] ; literal@0x879ac=0x440f8000 float32-candidate=574
+0x000879a0 034c         ldr      r4, [pc, #0xc] ; literal@0x879b0=0x444f8000 float32-candidate=830
+0x000879a2 022a         cmp      r2, #2
+0x000879a4 00d3         blo      #0x879a8
+0x000879a6 2346         mov      r3, r4
+0x000879a8 1846         mov      r0, r3
+0x000879aa 90bd         pop      {r4, r7, pc}
+0x000879ac 0080         strh     r0, [r0]
+0x000879ae 0f44         add      r7, r1
+0x000879b0 0080         strh     r0, [r0]
+0x000879b2 4f44         add      r7, sb
+
+## -[ABSwipeColumnViewController swipeView:willSwipeToOffset:throwing:] VM 0x9b494 file 0x9a494 bounded end 0x9b55c
+0x0009b494 f0b5         push     {r4, r5, r6, r7, lr}
+0x0009b496 03af         add      r7, sp, #0xc
+0x0009b498 85b0         sub      sp, #0x14
+0x0009b49a 0393         str      r3, [sp, #0xc]
+0x0009b49c 1446         mov      r4, r2
+0x0009b49e 0490         str      r0, [sp, #0x10]
+0x0009b4a0 2649         ldr      r1, [pc, #0x98] ; literal@0x9b53c=0x194d20 _OBJC_IVAR_$_ABSwipeColumnViewController.viewControllers
+0x0009b4a2 0968         ldr      r1, [r1]
+0x0009b4a4 0858         ldr      r0, [r1, r0]
+0x0009b4a6 2649         ldr      r1, [pc, #0x98] ; literal@0x9b540=0x170c20 selector-ref:count
+0x0009b4a8 0968         ldr      r1, [r1]
+0x0009b4aa 1df0d2ef     blx      #0xb9450 ; _objc_msgSend
+0x0009b4ae 0328         cmp      r0, #3
+0x0009b4b0 41d3         blo      #0x9b536
+0x0009b4b2 0a9d         ldr      r5, [sp, #0x28]
+0x0009b4b4 2246         mov      r2, r4
+0x0009b4b6 2348         ldr      r0, [pc, #0x8c] ; literal@0x9b544=0x1739d0 selector-ref:swipePointsForSwipeView:proposedOffset:
+0x0009b4b8 0168         ldr      r1, [r0]
+0x0009b4ba 0498         ldr      r0, [sp, #0x10]
+0x0009b4bc 039b         ldr      r3, [sp, #0xc]
+0x0009b4be 1df0c8ef     blx      #0xb9450 ; _objc_msgSend
+0x0009b4c2 0290         str      r0, [sp, #8]
+0x0009b4c4 ff20         movs     r0, #0xff
+0x0009b4c6 0542         tst      r5, r0
+0x0009b4c8 1cd0         beq      #0x9b504
+0x0009b4ca 1f48         ldr      r0, [pc, #0x7c] ; literal@0x9b548=0x1950f0 _OBJC_IVAR_$_ABSwipeColumnViewController.lastSnapOffset
+0x0009b4cc 0068         ldr      r0, [r0]
+0x0009b4ce 0499         ldr      r1, [sp, #0x10]
+0x0009b4d0 4458         ldr      r4, [r0, r1]
+0x0009b4d2 039d         ldr      r5, [sp, #0xc]
+0x0009b4d4 2846         mov      r0, r5
+0x0009b4d6 1df06cee     blx      #0xb91b0 ; ___fixsfsivfp
+0x0009b4da 0646         mov      r6, r0
+0x0009b4dc 2046         mov      r0, r4
+0x0009b4de 1df080ee     blx      #0xb91e0 ; ___floatsisfvfp
+0x0009b4e2 2946         mov      r1, r5
+0x0009b4e4 1df0b2ee     blx      #0xb924c ; ___ltsf2vfp
+0x0009b4e8 0122         movs     r2, #1
+0x0009b4ea 0021         movs     r1, #0
+0x0009b4ec 0028         cmp      r0, #0
+0x0009b4ee 00d1         bne      #0x9b4f2
+0x0009b4f0 0a46         mov      r2, r1
+0x0009b4f2 1648         ldr      r0, [pc, #0x58] ; literal@0x9b54c=0x1739cc selector-ref:bestOffsetForPossibleOffsets:fromOffset:toOffset:inDirection:
+0x0009b4f4 0168         ldr      r1, [r0]
+0x0009b4f6 6846         mov      r0, sp
+0x0009b4f8 4260         str      r2, [r0, #4]
+0x0009b4fa 0660         str      r6, [r0]
+0x0009b4fc 0498         ldr      r0, [sp, #0x10]
+0x0009b4fe 029a         ldr      r2, [sp, #8]
+0x0009b500 2346         mov      r3, r4
+0x0009b502 0ee0         b        #0x9b522
+0x0009b504 1248         ldr      r0, [pc, #0x48] ; literal@0x9b550=0x1950f0 _OBJC_IVAR_$_ABSwipeColumnViewController.lastSnapOffset
+0x0009b506 0068         ldr      r0, [r0]
+0x0009b508 049c         ldr      r4, [sp, #0x10]
+0x0009b50a 0559         ldr      r5, [r0, r4]
+0x0009b50c 1148         ldr      r0, [pc, #0x44] ; literal@0x9b554=0x1739c8 selector-ref:nearestOffsetForPossibleOffsets:fromOffset:toOffset:
+0x0009b50e 0668         ldr      r6, [r0]
+0x0009b510 0398         ldr      r0, [sp, #0xc]
+0x0009b512 1df04eee     blx      #0xb91b0 ; ___fixsfsivfp
+0x0009b516 6946         mov      r1, sp
+0x0009b518 0860         str      r0, [r1]
+0x0009b51a 2046         mov      r0, r4
+0x0009b51c 3146         mov      r1, r6
+0x0009b51e 029a         ldr      r2, [sp, #8]
+0x0009b520 2b46         mov      r3, r5
+0x0009b522 1df096ef     blx      #0xb9450 ; _objc_msgSend
+0x0009b526 0c49         ldr      r1, [pc, #0x30] ; literal@0x9b558=0x1950f0 _OBJC_IVAR_$_ABSwipeColumnViewController.lastSnapOffset
+0x0009b528 0968         ldr      r1, [r1]
+0x0009b52a 049a         ldr      r2, [sp, #0x10]
+0x0009b52c 8850         str      r0, [r1, r2]
+0x0009b52e 1df058ee     blx      #0xb91e0 ; ___floatsisfvfp
+0x0009b532 05b0         add      sp, #0x14
+0x0009b534 f0bd         pop      {r4, r5, r6, r7, pc}
+0x0009b536 0020         movs     r0, #0
+0x0009b538 05b0         add      sp, #0x14
+0x0009b53a f0bd         pop      {r4, r5, r6, r7, pc}
+0x0009b53c 204d         ldr      r5, [pc, #0x80] ; literal@0x9b5c0=0x68009809
+0x0009b53e 1900         movs     r1, r3
+0x0009b540 200c         lsrs     r0, r4, #0x10
+0x0009b542 1700         movs     r7, r2
+0x0009b544 d039         subs     r1, #0xd0
+0x0009b546 1700         movs     r7, r2
+0x0009b548 f050         str      r0, [r6, r3]
+0x0009b54a 1900         movs     r1, r3
+0x0009b54c cc39         subs     r1, #0xcc
+0x0009b54e 1700         movs     r7, r2
+0x0009b550 f050         str      r0, [r6, r3]
+0x0009b552 1900         movs     r1, r3
+0x0009b554 c839         subs     r1, #0xc8
+0x0009b556 1700         movs     r7, r2
+0x0009b558 f050         str      r0, [r6, r3]
+0x0009b55a 1900         movs     r1, r3
+
+## -[ABSwipeColumnViewController nearestOffsetForPossibleOffsets:fromOffset:toOffset:] VM 0x9b55c file 0x9a55c bounded end 0x9b630
+0x0009b55c f0b5         push     {r4, r5, r6, r7, lr}
+0x0009b55e 03af         add      r7, sp, #0xc
+0x0009b560 9fb0         sub      sp, #0x7c
+0x0009b562 0193         str      r3, [sp, #4]
+0x0009b564 1046         mov      r0, r2
+0x0009b566 0590         str      r0, [sp, #0x14]
+0x0009b568 0021         movs     r1, #0
+0x0009b56a 0791         str      r1, [sp, #0x1c]
+0x0009b56c 0891         str      r1, [sp, #0x20]
+0x0009b56e 0991         str      r1, [sp, #0x24]
+0x0009b570 0a91         str      r1, [sp, #0x28]
+0x0009b572 0b91         str      r1, [sp, #0x2c]
+0x0009b574 0c91         str      r1, [sp, #0x30]
+0x0009b576 0d91         str      r1, [sp, #0x34]
+0x0009b578 0e91         str      r1, [sp, #0x38]
+0x0009b57a 2949         ldr      r1, [pc, #0xa4] ; literal@0x9b620=0x171064 selector-ref:countByEnumeratingWithState:objects:count:
+0x0009b57c 0968         ldr      r1, [r1]
+0x0009b57e 1022         movs     r2, #0x10
+0x0009b580 6b46         mov      r3, sp
+0x0009b582 1a60         str      r2, [r3]
+0x0009b584 07aa         add      r2, sp, #0x1c
+0x0009b586 0fab         add      r3, sp, #0x3c
+0x0009b588 1df062ef     blx      #0xb9450 ; _objc_msgSend
+0x0009b58c 0028         cmp      r0, #0
+0x0009b58e 0cd1         bne      #0x9b5aa
+0x0009b590 0020         movs     r0, #0
+0x0009b592 c043         mvns     r0, r0
+0x0009b594 0690         str      r0, [sp, #0x18]
+0x0009b596 0020         movs     r0, #0
+0x0009b598 c043         mvns     r0, r0
+0x0009b59a 0699         ldr      r1, [sp, #0x18]
+0x0009b59c 8142         cmp      r1, r0
+0x0009b59e 01d0         beq      #0x9b5a4
+0x0009b5a0 0846         mov      r0, r1
+0x0009b5a2 0190         str      r0, [sp, #4]
+0x0009b5a4 0198         ldr      r0, [sp, #4]
+0x0009b5a6 1fb0         add      sp, #0x7c
+0x0009b5a8 f0bd         pop      {r4, r5, r6, r7, pc}
+0x0009b5aa 2499         ldr      r1, [sp, #0x90]
+0x0009b5ac 0391         str      r1, [sp, #0xc]
+0x0009b5ae 0021         movs     r1, #0
+0x0009b5b0 c943         mvns     r1, r1
+0x0009b5b2 0691         str      r1, [sp, #0x18]
+0x0009b5b4 0999         ldr      r1, [sp, #0x24]
+0x0009b5b6 0968         ldr      r1, [r1]
+0x0009b5b8 0291         str      r1, [sp, #8]
+0x0009b5ba 1a4c         ldr      r4, [pc, #0x68] ; literal@0x9b624=0x7fffffff
+0x0009b5bc 0490         str      r0, [sp, #0x10]
+0x0009b5be 0025         movs     r5, #0
+0x0009b5c0 0998         ldr      r0, [sp, #0x24]
+0x0009b5c2 0068         ldr      r0, [r0]
+0x0009b5c4 0299         ldr      r1, [sp, #8]
+0x0009b5c6 8142         cmp      r1, r0
+0x0009b5c8 02d0         beq      #0x9b5d0
+0x0009b5ca 0598         ldr      r0, [sp, #0x14]
+0x0009b5cc 1df02eef     blx      #0xb942c ; _objc_enumerationMutation
+0x0009b5d0 a800         lsls     r0, r5, #2
+0x0009b5d2 0899         ldr      r1, [sp, #0x20]
+0x0009b5d4 0858         ldr      r0, [r1, r0]
+0x0009b5d6 1449         ldr      r1, [pc, #0x50] ; literal@0x9b628=0x171424 selector-ref:intValue
+0x0009b5d8 0968         ldr      r1, [r1]
+0x0009b5da 1df03aef     blx      #0xb9450 ; _objc_msgSend
+0x0009b5de 0399         ldr      r1, [sp, #0xc]
+0x0009b5e0 411a         subs     r1, r0, r1
+0x0009b5e2 ca17         asrs     r2, r1, #0x1f
+0x0009b5e4 8e18         adds     r6, r1, r2
+0x0009b5e6 5640         eors     r6, r2
+0x0009b5e8 a642         cmp      r6, r4
+0x0009b5ea 00db         blt      #0x9b5ee
+0x0009b5ec 0698         ldr      r0, [sp, #0x18]
+0x0009b5ee 0690         str      r0, [sp, #0x18]
+0x0009b5f0 a642         cmp      r6, r4
+0x0009b5f2 00db         blt      #0x9b5f6
+0x0009b5f4 2646         mov      r6, r4
+0x0009b5f6 0135         adds     r5, #1
+0x0009b5f8 0498         ldr      r0, [sp, #0x10]
+0x0009b5fa 8542         cmp      r5, r0
+0x0009b5fc 01d2         bhs      #0x9b602
+0x0009b5fe 3446         mov      r4, r6
+0x0009b600 dee7         b        #0x9b5c0
+0x0009b602 0a4c         ldr      r4, [pc, #0x28] ; literal@0x9b62c=0x171064 selector-ref:countByEnumeratingWithState:objects:count:
+0x0009b604 2168         ldr      r1, [r4]
+0x0009b606 1024         movs     r4, #0x10
+0x0009b608 6846         mov      r0, sp
+0x0009b60a 0460         str      r4, [r0]
+0x0009b60c 07aa         add      r2, sp, #0x1c
+0x0009b60e 0fab         add      r3, sp, #0x3c
+0x0009b610 0598         ldr      r0, [sp, #0x14]
+0x0009b612 1df01eef     blx      #0xb9450 ; _objc_msgSend
+0x0009b616 0028         cmp      r0, #0
+0x0009b618 bdd0         beq      #0x9b596
+0x0009b61a 0490         str      r0, [sp, #0x10]
+0x0009b61c 3446         mov      r4, r6
+0x0009b61e cee7         b        #0x9b5be
+0x0009b620 6410         asrs     r4, r4, #1
+0x0009b622 1700         movs     r7, r2
+
+## -[ABSwipeColumnViewController bestOffsetForPossibleOffsets:fromOffset:toOffset:inDirection:] VM 0x9b630 file 0x9a630 bounded end 0x9b728
+0x0009b630 f0b5         push     {r4, r5, r6, r7, lr}
+0x0009b632 03af         add      r7, sp, #0xc
+0x0009b634 a1b0         sub      sp, #0x84
+0x0009b636 0893         str      r3, [sp, #0x20]
+0x0009b638 1046         mov      r0, r2
+0x0009b63a 0790         str      r0, [sp, #0x1c]
+0x0009b63c 0021         movs     r1, #0
+0x0009b63e 0991         str      r1, [sp, #0x24]
+0x0009b640 0a91         str      r1, [sp, #0x28]
+0x0009b642 0b91         str      r1, [sp, #0x2c]
+0x0009b644 0c91         str      r1, [sp, #0x30]
+0x0009b646 0d91         str      r1, [sp, #0x34]
+0x0009b648 0e91         str      r1, [sp, #0x38]
+0x0009b64a 0f91         str      r1, [sp, #0x3c]
+0x0009b64c 1091         str      r1, [sp, #0x40]
+0x0009b64e 3249         ldr      r1, [pc, #0xc8] ; literal@0x9b718=0x171064 selector-ref:countByEnumeratingWithState:objects:count:
+0x0009b650 0968         ldr      r1, [r1]
+0x0009b652 1022         movs     r2, #0x10
+0x0009b654 6b46         mov      r3, sp
+0x0009b656 1a60         str      r2, [r3]
+0x0009b658 09aa         add      r2, sp, #0x24
+0x0009b65a 11ab         add      r3, sp, #0x44
+0x0009b65c 1df0f8ee     blx      #0xb9450 ; _objc_msgSend
+0x0009b660 2799         ldr      r1, [sp, #0x9c]
+0x0009b662 0191         str      r1, [sp, #4]
+0x0009b664 0028         cmp      r0, #0
+0x0009b666 15d1         bne      #0x9b694
+0x0009b668 0020         movs     r0, #0
+0x0009b66a c043         mvns     r0, r0
+0x0009b66c 0590         str      r0, [sp, #0x14]
+0x0009b66e 0490         str      r0, [sp, #0x10]
+0x0009b670 0020         movs     r0, #0
+0x0009b672 c143         mvns     r1, r0
+0x0009b674 0598         ldr      r0, [sp, #0x14]
+0x0009b676 8842         cmp      r0, r1
+0x0009b678 0898         ldr      r0, [sp, #0x20]
+0x0009b67a 00d0         beq      #0x9b67e
+0x0009b67c 0598         ldr      r0, [sp, #0x14]
+0x0009b67e 049a         ldr      r2, [sp, #0x10]
+0x0009b680 8a42         cmp      r2, r1
+0x0009b682 01d0         beq      #0x9b688
+0x0009b684 1146         mov      r1, r2
+0x0009b686 0891         str      r1, [sp, #0x20]
+0x0009b688 0199         ldr      r1, [sp, #4]
+0x0009b68a 0029         cmp      r1, #0
+0x0009b68c 00d0         beq      #0x9b690
+0x0009b68e 0898         ldr      r0, [sp, #0x20]
+0x0009b690 21b0         add      sp, #0x84
+0x0009b692 f0bd         pop      {r4, r5, r6, r7, pc}
+0x0009b694 2699         ldr      r1, [sp, #0x98]
+0x0009b696 0391         str      r1, [sp, #0xc]
+0x0009b698 0021         movs     r1, #0
+0x0009b69a c943         mvns     r1, r1
+0x0009b69c 0591         str      r1, [sp, #0x14]
+0x0009b69e 0b9a         ldr      r2, [sp, #0x2c]
+0x0009b6a0 1268         ldr      r2, [r2]
+0x0009b6a2 0292         str      r2, [sp, #8]
+0x0009b6a4 1d4c         ldr      r4, [pc, #0x74] ; literal@0x9b71c=0x7fffffff
+0x0009b6a6 0690         str      r0, [sp, #0x18]
+0x0009b6a8 0491         str      r1, [sp, #0x10]
+0x0009b6aa 2546         mov      r5, r4
+0x0009b6ac 0026         movs     r6, #0
+0x0009b6ae 0b98         ldr      r0, [sp, #0x2c]
+0x0009b6b0 0068         ldr      r0, [r0]
+0x0009b6b2 0299         ldr      r1, [sp, #8]
+0x0009b6b4 8142         cmp      r1, r0
+0x0009b6b6 02d0         beq      #0x9b6be
+0x0009b6b8 0798         ldr      r0, [sp, #0x1c]
+0x0009b6ba 1df0b8ee     blx      #0xb942c ; _objc_enumerationMutation
+0x0009b6be b000         lsls     r0, r6, #2
+0x0009b6c0 0a99         ldr      r1, [sp, #0x28]
+0x0009b6c2 0858         ldr      r0, [r1, r0]
+0x0009b6c4 1649         ldr      r1, [pc, #0x58] ; literal@0x9b720=0x171424 selector-ref:intValue
+0x0009b6c6 0968         ldr      r1, [r1]
+0x0009b6c8 1df0c2ee     blx      #0xb9450 ; _objc_msgSend
+0x0009b6cc 0399         ldr      r1, [sp, #0xc]
+0x0009b6ce 411a         subs     r1, r0, r1
+0x0009b6d0 ca17         asrs     r2, r1, #0x1f
+0x0009b6d2 8918         adds     r1, r1, r2
+0x0009b6d4 5140         eors     r1, r2
+0x0009b6d6 089a         ldr      r2, [sp, #0x20]
+0x0009b6d8 9042         cmp      r0, r2
+0x0009b6da 04da         bge      #0x9b6e6
+0x0009b6dc a142         cmp      r1, r4
+0x0009b6de 09da         bge      #0x9b6f4
+0x0009b6e0 0590         str      r0, [sp, #0x14]
+0x0009b6e2 0c46         mov      r4, r1
+0x0009b6e4 06e0         b        #0x9b6f4
+0x0009b6e6 089a         ldr      r2, [sp, #0x20]
+0x0009b6e8 9042         cmp      r0, r2
+0x0009b6ea 03dd         ble      #0x9b6f4
+0x0009b6ec a942         cmp      r1, r5
+0x0009b6ee 01da         bge      #0x9b6f4
+0x0009b6f0 0490         str      r0, [sp, #0x10]
+0x0009b6f2 0d46         mov      r5, r1
+0x0009b6f4 0136         adds     r6, #1
+0x0009b6f6 0698         ldr      r0, [sp, #0x18]
+0x0009b6f8 8642         cmp      r6, r0
+0x0009b6fa d8d3         blo      #0x9b6ae
+0x0009b6fc 0948         ldr      r0, [pc, #0x24] ; literal@0x9b724=0x171064 selector-ref:countByEnumeratingWithState:objects:count:
+0x0009b6fe 0168         ldr      r1, [r0]
+0x0009b700 1020         movs     r0, #0x10
+0x0009b702 6a46         mov      r2, sp
+0x0009b704 1060         str      r0, [r2]
+0x0009b706 09aa         add      r2, sp, #0x24
+0x0009b708 11ab         add      r3, sp, #0x44
+0x0009b70a 0798         ldr      r0, [sp, #0x1c]
+0x0009b70c 1df0a0ee     blx      #0xb9450 ; _objc_msgSend
+0x0009b710 0028         cmp      r0, #0
+0x0009b712 add0         beq      #0x9b670
+0x0009b714 0690         str      r0, [sp, #0x18]
+0x0009b716 c9e7         b        #0x9b6ac
+0x0009b718 6410         asrs     r4, r4, #1
+0x0009b71a 1700         movs     r7, r2
+
+## -[ABSwipeColumnViewController swipePointsForSwipeView:proposedOffset:] VM 0x9b728 file 0x9a728 bounded end 0x9b9b8
+0x0009b728 f0b5         push     {r4, r5, r6, r7, lr}
+0x0009b72a 03af         add      r7, sp, #0xc
+0x0009b72c a8b0         sub      sp, #0xa0
+0x0009b72e 0446         mov      r4, r0
+0x0009b730 0994         str      r4, [sp, #0x24]
+0x0009b732 8d48         ldr      r0, [pc, #0x234] ; literal@0x9b968=0x194d20 _OBJC_IVAR_$_ABSwipeColumnViewController.viewControllers
+0x0009b734 0168         ldr      r1, [r0]
+0x0009b736 0859         ldr      r0, [r1, r4]
+0x0009b738 8c49         ldr      r1, [pc, #0x230] ; literal@0x9b96c=0x170c20 selector-ref:count
+0x0009b73a 0968         ldr      r1, [r1]
+0x0009b73c 1df088ee     blx      #0xb9450 ; _objc_msgSend
+0x0009b740 0a90         str      r0, [sp, #0x28]
+0x0009b742 4200         lsls     r2, r0, #1
+0x0009b744 8a49         ldr      r1, [pc, #0x228] ; literal@0x9b970=0x17105c selector-ref:arrayWithCapacity:
+0x0009b746 0968         ldr      r1, [r1]
+0x0009b748 8a4b         ldr      r3, [pc, #0x228] ; literal@0x9b974=0x173fdc
+0x0009b74a 1868         ldr      r0, [r3]
+0x0009b74c 1df080ee     blx      #0xb9450 ; _objc_msgSend
+0x0009b750 0546         mov      r5, r0
+0x0009b752 0b95         str      r5, [sp, #0x2c]
+0x0009b754 8848         ldr      r0, [pc, #0x220] ; literal@0x9b978=0x171054 selector-ref:addObject:
+0x0009b756 0068         ldr      r0, [r0]
+0x0009b758 0890         str      r0, [sp, #0x20]
+0x0009b75a 8848         ldr      r0, [pc, #0x220] ; literal@0x9b97c=0x1711bc selector-ref:numberWithInt:
+0x0009b75c 0168         ldr      r1, [r0]
+0x0009b75e 8848         ldr      r0, [pc, #0x220] ; literal@0x9b980=0x174008
+0x0009b760 0068         ldr      r0, [r0]
+0x0009b762 0026         movs     r6, #0
+0x0009b764 3246         mov      r2, r6
+0x0009b766 1df074ee     blx      #0xb9450 ; _objc_msgSend
+0x0009b76a 0246         mov      r2, r0
+0x0009b76c 2846         mov      r0, r5
+0x0009b76e 0899         ldr      r1, [sp, #0x20]
+0x0009b770 1df06eee     blx      #0xb9450 ; _objc_msgSend
+0x0009b774 8348         ldr      r0, [pc, #0x20c] ; literal@0x9b984=0x170b28 selector-ref:view
+0x0009b776 0168         ldr      r1, [r0]
+0x0009b778 2046         mov      r0, r4
+0x0009b77a 1df06aee     blx      #0xb9450 ; _objc_msgSend
+0x0009b77e 0146         mov      r1, r0
+0x0009b780 8148         ldr      r0, [pc, #0x204] ; literal@0x9b988=0x170b2c selector-ref:bounds
+0x0009b782 0268         ldr      r2, [r0]
+0x0009b784 0ca8         add      r0, sp, #0x30
+0x0009b786 1df070ee     blx      #0xb9468 ; _objc_msgSend_stret
+0x0009b78a 0e98         ldr      r0, [sp, #0x38]
+0x0009b78c 0890         str      r0, [sp, #0x20]
+0x0009b78e 1096         str      r6, [sp, #0x40]
+0x0009b790 1196         str      r6, [sp, #0x44]
+0x0009b792 1296         str      r6, [sp, #0x48]
+0x0009b794 1396         str      r6, [sp, #0x4c]
+0x0009b796 1496         str      r6, [sp, #0x50]
+0x0009b798 1596         str      r6, [sp, #0x54]
+0x0009b79a 1696         str      r6, [sp, #0x58]
+0x0009b79c 1796         str      r6, [sp, #0x5c]
+0x0009b79e 7248         ldr      r0, [pc, #0x1c8] ; literal@0x9b968=0x194d20 _OBJC_IVAR_$_ABSwipeColumnViewController.viewControllers
+0x0009b7a0 0068         ldr      r0, [r0]
+0x0009b7a2 0059         ldr      r0, [r0, r4]
+0x0009b7a4 0190         str      r0, [sp, #4]
+0x0009b7a6 7949         ldr      r1, [pc, #0x1e4] ; literal@0x9b98c=0x171064 selector-ref:countByEnumeratingWithState:objects:count:
+0x0009b7a8 0968         ldr      r1, [r1]
+0x0009b7aa 1022         movs     r2, #0x10
+0x0009b7ac 6b46         mov      r3, sp
+0x0009b7ae 1a60         str      r2, [r3]
+0x0009b7b0 10aa         add      r2, sp, #0x40
+0x0009b7b2 18ab         add      r3, sp, #0x60
+0x0009b7b4 1df04cee     blx      #0xb9450 ; _objc_msgSend
+0x0009b7b8 0a99         ldr      r1, [sp, #0x28]
+0x0009b7ba 0139         subs     r1, #1
+0x0009b7bc 0491         str      r1, [sp, #0x10]
+0x0009b7be 0028         cmp      r0, #0
+0x0009b7c0 00d1         bne      #0x9b7c4
+0x0009b7c2 81e0         b        #0x9b8c8
+0x0009b7c4 0690         str      r0, [sp, #0x18]
+0x0009b7c6 1298         ldr      r0, [sp, #0x48]
+0x0009b7c8 0068         ldr      r0, [r0]
+0x0009b7ca 0390         str      r0, [sp, #0xc]
+0x0009b7cc 0898         ldr      r0, [sp, #0x20]
+0x0009b7ce 1df0f0ec     blx      #0xb91b0 ; ___fixsfsivfp
+0x0009b7d2 0021         movs     r1, #0
+0x0009b7d4 0591         str      r1, [sp, #0x14]
+0x0009b7d6 0290         str      r0, [sp, #8]
+0x0009b7d8 0891         str      r1, [sp, #0x20]
+0x0009b7da 0120         movs     r0, #1
+0x0009b7dc 0699         ldr      r1, [sp, #0x18]
+0x0009b7de 0129         cmp      r1, #1
+0x0009b7e0 00d8         bhi      #0x9b7e4
+0x0009b7e2 0690         str      r0, [sp, #0x18]
+0x0009b7e4 0020         movs     r0, #0
+0x0009b7e6 0a90         str      r0, [sp, #0x28]
+0x0009b7e8 0a99         ldr      r1, [sp, #0x28]
+0x0009b7ea 0598         ldr      r0, [sp, #0x14]
+0x0009b7ec 0c18         adds     r4, r1, r0
+0x0009b7ee 1298         ldr      r0, [sp, #0x48]
+0x0009b7f0 0068         ldr      r0, [r0]
+0x0009b7f2 0399         ldr      r1, [sp, #0xc]
+0x0009b7f4 8142         cmp      r1, r0
+0x0009b7f6 05d0         beq      #0x9b804
+0x0009b7f8 6548         ldr      r0, [pc, #0x194] ; literal@0x9b990=0x194d20 _OBJC_IVAR_$_ABSwipeColumnViewController.viewControllers
+0x0009b7fa 0068         ldr      r0, [r0]
+0x0009b7fc 0999         ldr      r1, [sp, #0x24]
+0x0009b7fe 4058         ldr      r0, [r0, r1]
+0x0009b800 1df014ee     blx      #0xb942c ; _objc_enumerationMutation
+0x0009b804 6348         ldr      r0, [pc, #0x18c] ; literal@0x9b994=0x1950d4 _OBJC_IVAR_$_ABSwipeColumnViewController.currentOrientation
+0x0009b806 0068         ldr      r0, [r0]
+0x0009b808 0999         ldr      r1, [sp, #0x24]
+0x0009b80a 4258         ldr      r2, [r0, r1]
+0x0009b80c 0a98         ldr      r0, [sp, #0x28]
+0x0009b80e 8000         lsls     r0, r0, #2
+0x0009b810 1199         ldr      r1, [sp, #0x44]
+0x0009b812 0858         ldr      r0, [r1, r0]
+0x0009b814 6049         ldr      r1, [pc, #0x180] ; literal@0x9b998=0x1739e8 selector-ref:ab_swipeColumnWidth:
+0x0009b816 0968         ldr      r1, [r1]
+0x0009b818 1df01aee     blx      #0xb9450 ; _objc_msgSend
+0x0009b81c 1df0c8ec     blx      #0xb91b0 ; ___fixsfsivfp
+0x0009b820 0790         str      r0, [sp, #0x1c]
+0x0009b822 002c         cmp      r4, #0
+0x0009b824 35d0         beq      #0x9b892
+0x0009b826 012c         cmp      r4, #1
+0x0009b828 01d1         bne      #0x9b82e
+0x0009b82a 0025         movs     r5, #0
+0x0009b82c 0be0         b        #0x9b846
+0x0009b82e 0898         ldr      r0, [sp, #0x20]
+0x0009b830 029d         ldr      r5, [sp, #8]
+0x0009b832 451b         subs     r5, r0, r5
+0x0009b834 0798         ldr      r0, [sp, #0x1c]
+0x0009b836 2a18         adds     r2, r5, r0
+0x0009b838 584d         ldr      r5, [pc, #0x160] ; literal@0x9b99c=0x1711bc selector-ref:numberWithInt:
+0x0009b83a 2968         ldr      r1, [r5]
+0x0009b83c 584d         ldr      r5, [pc, #0x160] ; literal@0x9b9a0=0x174008
+0x0009b83e 2868         ldr      r0, [r5]
+0x0009b840 1df006ee     blx      #0xb9450 ; _objc_msgSend
+0x0009b844 0546         mov      r5, r0
+0x0009b846 0498         ldr      r0, [sp, #0x10]
+0x0009b848 8442         cmp      r4, r0
+0x0009b84a 40d1         bne      #0x9b8ce
+0x0009b84c 0024         movs     r4, #0
+0x0009b84e 002d         cmp      r5, #0
+0x0009b850 0ed0         beq      #0x9b870
+0x0009b852 5648         ldr      r0, [pc, #0x158] ; literal@0x9b9ac=0x171048 selector-ref:containsObject:
+0x0009b854 0168         ldr      r1, [r0]
+0x0009b856 0b98         ldr      r0, [sp, #0x2c]
+0x0009b858 2a46         mov      r2, r5
+0x0009b85a 1df0faed     blx      #0xb9450 ; _objc_msgSend
+0x0009b85e ff21         movs     r1, #0xff
+0x0009b860 0842         tst      r0, r1
+0x0009b862 05d1         bne      #0x9b870
+0x0009b864 5248         ldr      r0, [pc, #0x148] ; literal@0x9b9b0=0x171054 selector-ref:addObject:
+0x0009b866 0168         ldr      r1, [r0]
+0x0009b868 0b98         ldr      r0, [sp, #0x2c]
+0x0009b86a 2a46         mov      r2, r5
+0x0009b86c 1df0f0ed     blx      #0xb9450 ; _objc_msgSend
+0x0009b870 002c         cmp      r4, #0
+0x0009b872 0ed0         beq      #0x9b892
+0x0009b874 4d48         ldr      r0, [pc, #0x134] ; literal@0x9b9ac=0x171048 selector-ref:containsObject:
+0x0009b876 0168         ldr      r1, [r0]
+0x0009b878 0b98         ldr      r0, [sp, #0x2c]
+0x0009b87a 2246         mov      r2, r4
+0x0009b87c 1df0e8ed     blx      #0xb9450 ; _objc_msgSend
+0x0009b880 ff21         movs     r1, #0xff
+0x0009b882 0842         tst      r0, r1
+0x0009b884 05d1         bne      #0x9b892
+0x0009b886 4a48         ldr      r0, [pc, #0x128] ; literal@0x9b9b0=0x171054 selector-ref:addObject:
+0x0009b888 0168         ldr      r1, [r0]
+0x0009b88a 0b98         ldr      r0, [sp, #0x2c]
+0x0009b88c 2246         mov      r2, r4
+0x0009b88e 1df0e0ed     blx      #0xb9450 ; _objc_msgSend
+0x0009b892 0798         ldr      r0, [sp, #0x1c]
+0x0009b894 0899         ldr      r1, [sp, #0x20]
+0x0009b896 4118         adds     r1, r0, r1
+0x0009b898 0891         str      r1, [sp, #0x20]
+0x0009b89a 0a98         ldr      r0, [sp, #0x28]
+0x0009b89c 0130         adds     r0, #1
+0x0009b89e 0a90         str      r0, [sp, #0x28]
+0x0009b8a0 0699         ldr      r1, [sp, #0x18]
+0x0009b8a2 8842         cmp      r0, r1
+0x0009b8a4 a0d1         bne      #0x9b7e8
+0x0009b8a6 4348         ldr      r0, [pc, #0x10c] ; literal@0x9b9b4=0x171064 selector-ref:countByEnumeratingWithState:objects:count:
+0x0009b8a8 0168         ldr      r1, [r0]
+0x0009b8aa 1020         movs     r0, #0x10
+0x0009b8ac 6a46         mov      r2, sp
+0x0009b8ae 1060         str      r0, [r2]
+0x0009b8b0 10aa         add      r2, sp, #0x40
+0x0009b8b2 18ab         add      r3, sp, #0x60
+0x0009b8b4 0198         ldr      r0, [sp, #4]
+0x0009b8b6 1df0cced     blx      #0xb9450 ; _objc_msgSend
+0x0009b8ba 059a         ldr      r2, [sp, #0x14]
+0x0009b8bc 0699         ldr      r1, [sp, #0x18]
+0x0009b8be 5218         adds     r2, r2, r1
+0x0009b8c0 0592         str      r2, [sp, #0x14]
+0x0009b8c2 0028         cmp      r0, #0
+0x0009b8c4 0690         str      r0, [sp, #0x18]
+0x0009b8c6 88d1         bne      #0x9b7da
+0x0009b8c8 0b98         ldr      r0, [sp, #0x2c]
+0x0009b8ca 28b0         add      sp, #0xa0
+0x0009b8cc f0bd         pop      {r4, r5, r6, r7, pc}
+0x0009b8ce 334c         ldr      r4, [pc, #0xcc] ; literal@0x9b99c=0x1711bc selector-ref:numberWithInt:
+0x0009b8d0 2168         ldr      r1, [r4]
+0x0009b8d2 334c         ldr      r4, [pc, #0xcc] ; literal@0x9b9a0=0x174008
+0x0009b8d4 2068         ldr      r0, [r4]
+0x0009b8d6 089a         ldr      r2, [sp, #0x20]
+0x0009b8d8 483a         subs     r2, #0x48
+0x0009b8da 1df0baed     blx      #0xb9450 ; _objc_msgSend
+0x0009b8de 0446         mov      r4, r0
+0x0009b8e0 002d         cmp      r5, #0
+0x0009b8e2 b4d0         beq      #0x9b84e
+0x0009b8e4 002c         cmp      r4, #0
+0x0009b8e6 b2d0         beq      #0x9b84e
+0x0009b8e8 2e48         ldr      r0, [pc, #0xb8] ; literal@0x9b9a4=0x1950f0 _OBJC_IVAR_$_ABSwipeColumnViewController.lastSnapOffset
+0x0009b8ea 0068         ldr      r0, [r0]
+0x0009b8ec 0999         ldr      r1, [sp, #0x24]
+0x0009b8ee 4658         ldr      r6, [r0, r1]
+0x0009b8f0 2d48         ldr      r0, [pc, #0xb4] ; literal@0x9b9a8=0x171424 selector-ref:intValue
+0x0009b8f2 0168         ldr      r1, [r0]
+0x0009b8f4 2846         mov      r0, r5
+0x0009b8f6 1df0aced     blx      #0xb9450 ; _objc_msgSend
+0x0009b8fa 8642         cmp      r6, r0
+0x0009b8fc 0dd1         bne      #0x9b91a
+0x0009b8fe 2b4c         ldr      r4, [pc, #0xac] ; literal@0x9b9ac=0x171048 selector-ref:containsObject:
+0x0009b900 2168         ldr      r1, [r4]
+0x0009b902 0b98         ldr      r0, [sp, #0x2c]
+0x0009b904 2a46         mov      r2, r5
+0x0009b906 1df0a4ed     blx      #0xb9450 ; _objc_msgSend
+0x0009b90a ff24         movs     r4, #0xff
+0x0009b90c 2042         tst      r0, r4
+0x0009b90e c0d1         bne      #0x9b892
+0x0009b910 274c         ldr      r4, [pc, #0x9c] ; literal@0x9b9b0=0x171054 selector-ref:addObject:
+0x0009b912 2168         ldr      r1, [r4]
+0x0009b914 0b98         ldr      r0, [sp, #0x2c]
+0x0009b916 2a46         mov      r2, r5
+0x0009b918 b9e7         b        #0x9b88e
+0x0009b91a 2248         ldr      r0, [pc, #0x88] ; literal@0x9b9a4=0x1950f0 _OBJC_IVAR_$_ABSwipeColumnViewController.lastSnapOffset
+0x0009b91c 0068         ldr      r0, [r0]
+0x0009b91e 0999         ldr      r1, [sp, #0x24]
+0x0009b920 4658         ldr      r6, [r0, r1]
+0x0009b922 2148         ldr      r0, [pc, #0x84] ; literal@0x9b9a8=0x171424 selector-ref:intValue
+0x0009b924 0168         ldr      r1, [r0]
+0x0009b926 2046         mov      r0, r4
+0x0009b928 1df092ed     blx      #0xb9450 ; _objc_msgSend
+0x0009b92c 1f49         ldr      r1, [pc, #0x7c] ; literal@0x9b9ac=0x171048 selector-ref:containsObject:
+0x0009b92e 0968         ldr      r1, [r1]
+0x0009b930 8642         cmp      r6, r0
+0x0009b932 09d1         bne      #0x9b948
+0x0009b934 0b98         ldr      r0, [sp, #0x2c]
+0x0009b936 2246         mov      r2, r4
+0x0009b938 1df08aed     blx      #0xb9450 ; _objc_msgSend
+0x0009b93c ff25         movs     r5, #0xff
+0x0009b93e 2842         tst      r0, r5
+0x0009b940 a7d1         bne      #0x9b892
+0x0009b942 1b4d         ldr      r5, [pc, #0x6c] ; literal@0x9b9b0=0x171054 selector-ref:addObject:
+0x0009b944 2968         ldr      r1, [r5]
+0x0009b946 a0e7         b        #0x9b88a
+0x0009b948 0b98         ldr      r0, [sp, #0x2c]
+0x0009b94a 2a46         mov      r2, r5
+0x0009b94c 1df080ed     blx      #0xb9450 ; _objc_msgSend
+0x0009b950 ff21         movs     r1, #0xff
+0x0009b952 0842         tst      r0, r1
+0x0009b954 05d1         bne      #0x9b962
+0x0009b956 1648         ldr      r0, [pc, #0x58] ; literal@0x9b9b0=0x171054 selector-ref:addObject:
+0x0009b958 0168         ldr      r1, [r0]
+0x0009b95a 0b98         ldr      r0, [sp, #0x2c]
+0x0009b95c 2a46         mov      r2, r5
+0x0009b95e 1df078ed     blx      #0xb9450 ; _objc_msgSend
+0x0009b962 124d         ldr      r5, [pc, #0x48] ; literal@0x9b9ac=0x171048 selector-ref:containsObject:
+0x0009b964 2968         ldr      r1, [r5]
+0x0009b966 e5e7         b        #0x9b934
+0x0009b968 204d         ldr      r5, [pc, #0x80] ; literal@0x9b9ec=0x493a9111 float32-candidate=764177
+0x0009b96a 1900         movs     r1, r3
+0x0009b96c 200c         lsrs     r0, r4, #0x10
+0x0009b96e 1700         movs     r7, r2
+0x0009b970 5c10         asrs     r4, r3, #1
+0x0009b972 1700         movs     r7, r2
+0x0009b974 dc3f         subs     r7, #0xdc
+0x0009b976 1700         movs     r7, r2
+0x0009b978 5410         asrs     r4, r2, #1
+0x0009b97a 1700         movs     r7, r2
+0x0009b97c bc11         asrs     r4, r7, #6
+0x0009b97e 1700         movs     r7, r2
+0x0009b980 0840         ands     r0, r1
+0x0009b982 1700         movs     r7, r2
+0x0009b984 280b         lsrs     r0, r5, #0xc
+0x0009b986 1700         movs     r7, r2
+0x0009b988 2c0b         lsrs     r4, r5, #0xc
+0x0009b98a 1700         movs     r7, r2
+0x0009b98c 6410         asrs     r4, r4, #1
+0x0009b98e 1700         movs     r7, r2
+0x0009b990 204d         ldr      r5, [pc, #0x80] ; literal@0x9ba14=0x90079109
+0x0009b992 1900         movs     r1, r3
+0x0009b994 d450         str      r4, [r2, r3]
+0x0009b996 1900         movs     r1, r3
+0x0009b998 e839         subs     r1, #0xe8
+0x0009b99a 1700         movs     r7, r2
+0x0009b99c bc11         asrs     r4, r7, #6
+0x0009b99e 1700         movs     r7, r2
+0x0009b9a0 0840         ands     r0, r1
+0x0009b9a2 1700         movs     r7, r2
+0x0009b9a4 f050         str      r0, [r6, r3]
+0x0009b9a6 1900         movs     r1, r3
+0x0009b9a8 2414         asrs     r4, r4, #0x10
+0x0009b9aa 1700         movs     r7, r2
+0x0009b9ac 4810         asrs     r0, r1, #1
+0x0009b9ae 1700         movs     r7, r2
+0x0009b9b0 5410         asrs     r4, r2, #1
+0x0009b9b2 1700         movs     r7, r2
+0x0009b9b4 6410         asrs     r4, r4, #1
+0x0009b9b6 1700         movs     r7, r2
+
+## -[ABSwipeColumnViewController loadView] VM 0x9bbe4 file 0x9abe4 bounded end 0x9c014
+0x0009bbe4 f0b5         push     {r4, r5, r6, r7, lr}
+0x0009bbe6 03af         add      r7, sp, #0xc
+0x0009bbe8 97b0         sub      sp, #0x5c
+0x0009bbea 0890         str      r0, [sp, #0x20]
+0x0009bbec df48         ldr      r0, [pc, #0x37c] ; literal@0x9bf6c=0x1950c0 _OBJC_IVAR_$_ABSwipeColumnViewController._masterContainer
+0x0009bbee 0168         ldr      r1, [r0]
+0x0009bbf0 0791         str      r1, [sp, #0x1c]
+0x0009bbf2 df4a         ldr      r2, [pc, #0x37c] ; literal@0x9bf70=0x170ae4 selector-ref:alloc
+0x0009bbf4 1168         ldr      r1, [r2]
+0x0009bbf6 df4b         ldr      r3, [pc, #0x37c] ; literal@0x9bf74=0x173f84
+0x0009bbf8 1868         ldr      r0, [r3]
+0x0009bbfa 1df02aec     blx      #0xb9450 ; _objc_msgSend
+0x0009bbfe 0446         mov      r4, r0
+0x0009bc00 dd4d         ldr      r5, [pc, #0x374] ; literal@0x9bf78=0x170b6c selector-ref:initWithFrame:
+0x0009bc02 2e68         ldr      r6, [r5]
+0x0009bc04 dd48         ldr      r0, [pc, #0x374] ; literal@0x9bf7c=0x170adc selector-ref:mainScreen
+0x0009bc06 0168         ldr      r1, [r0]
+0x0009bc08 dd48         ldr      r0, [pc, #0x374] ; literal@0x9bf80=0x173ed8
+0x0009bc0a 0068         ldr      r0, [r0]
+0x0009bc0c 1df020ec     blx      #0xb9450 ; _objc_msgSend
+0x0009bc10 0146         mov      r1, r0
+0x0009bc12 dc48         ldr      r0, [pc, #0x370] ; literal@0x9bf84=0x171b90 selector-ref:applicationFrame
+0x0009bc14 0268         ldr      r2, [r0]
+0x0009bc16 09a8         add      r0, sp, #0x24
+0x0009bc18 1df026ec     blx      #0xb9468 ; _objc_msgSend_stret
+0x0009bc1c 0a9b         ldr      r3, [sp, #0x28]
+0x0009bc1e 099a         ldr      r2, [sp, #0x24]
+0x0009bc20 0b98         ldr      r0, [sp, #0x2c]
+0x0009bc22 0c99         ldr      r1, [sp, #0x30]
+0x0009bc24 6d46         mov      r5, sp
+0x0009bc26 6960         str      r1, [r5, #4]
+0x0009bc28 2860         str      r0, [r5]
+0x0009bc2a 2046         mov      r0, r4
+0x0009bc2c 3146         mov      r1, r6
+0x0009bc2e 1df010ec     blx      #0xb9450 ; _objc_msgSend
+0x0009bc32 0799         ldr      r1, [sp, #0x1c]
+0x0009bc34 089c         ldr      r4, [sp, #0x20]
+0x0009bc36 0851         str      r0, [r1, r4]
+0x0009bc38 d348         ldr      r0, [pc, #0x34c] ; literal@0x9bf88=0x1950c4 _OBJC_IVAR_$_ABSwipeColumnViewController._scrollView
+0x0009bc3a 0068         ldr      r0, [r0]
+0x0009bc3c 0790         str      r0, [sp, #0x1c]
+0x0009bc3e cc4a         ldr      r2, [pc, #0x330] ; literal@0x9bf70=0x170ae4 selector-ref:alloc
+0x0009bc40 1168         ldr      r1, [r2]
+0x0009bc42 d24c         ldr      r4, [pc, #0x348] ; literal@0x9bf8c=0x174540
+0x0009bc44 2068         ldr      r0, [r4]
+0x0009bc46 1df004ec     blx      #0xb9450 ; _objc_msgSend
+0x0009bc4a 0446         mov      r4, r0
+0x0009bc4c c748         ldr      r0, [pc, #0x31c] ; literal@0x9bf6c=0x1950c0 _OBJC_IVAR_$_ABSwipeColumnViewController._masterContainer
+0x0009bc4e 0168         ldr      r1, [r0]
+0x0009bc50 089d         ldr      r5, [sp, #0x20]
+0x0009bc52 4959         ldr      r1, [r1, r5]
+0x0009bc54 c84d         ldr      r5, [pc, #0x320] ; literal@0x9bf78=0x170b6c selector-ref:initWithFrame:
+0x0009bc56 2e68         ldr      r6, [r5]
+0x0009bc58 cd48         ldr      r0, [pc, #0x334] ; literal@0x9bf90=0x170b2c selector-ref:bounds
+0x0009bc5a 0268         ldr      r2, [r0]
+0x0009bc5c 0da8         add      r0, sp, #0x34
+0x0009bc5e 1df004ec     blx      #0xb9468 ; _objc_msgSend_stret
+0x0009bc62 0e9b         ldr      r3, [sp, #0x38]
+0x0009bc64 0d9a         ldr      r2, [sp, #0x34]
+0x0009bc66 0f98         ldr      r0, [sp, #0x3c]
+0x0009bc68 1099         ldr      r1, [sp, #0x40]
+0x0009bc6a 6d46         mov      r5, sp
+0x0009bc6c 6960         str      r1, [r5, #4]
+0x0009bc6e 2860         str      r0, [r5]
+0x0009bc70 2046         mov      r0, r4
+0x0009bc72 3146         mov      r1, r6
+0x0009bc74 1df0eceb     blx      #0xb9450 ; _objc_msgSend
+0x0009bc78 0799         ldr      r1, [sp, #0x1c]
+0x0009bc7a 089d         ldr      r5, [sp, #0x20]
+0x0009bc7c 4851         str      r0, [r1, r5]
+0x0009bc7e c248         ldr      r0, [pc, #0x308] ; literal@0x9bf88=0x1950c4 _OBJC_IVAR_$_ABSwipeColumnViewController._scrollView
+0x0009bc80 0168         ldr      r1, [r0]
+0x0009bc82 4859         ldr      r0, [r1, r5]
+0x0009bc84 c349         ldr      r1, [pc, #0x30c] ; literal@0x9bf94=0x170b68 selector-ref:setAutoresizingMask:
+0x0009bc86 0968         ldr      r1, [r1]
+0x0009bc88 1222         movs     r2, #0x12
+0x0009bc8a 1df0e2eb     blx      #0xb9450 ; _objc_msgSend
+0x0009bc8e be48         ldr      r0, [pc, #0x2f8] ; literal@0x9bf88=0x1950c4 _OBJC_IVAR_$_ABSwipeColumnViewController._scrollView
+0x0009bc90 0468         ldr      r4, [r0]
+0x0009bc92 6059         ldr      r0, [r4, r5]
+0x0009bc94 c04c         ldr      r4, [pc, #0x300] ; literal@0x9bf98=0x170c8c selector-ref:setDelegate:
+0x0009bc96 2168         ldr      r1, [r4]
+0x0009bc98 2a46         mov      r2, r5
+0x0009bc9a 1df0daeb     blx      #0xb9450 ; _objc_msgSend
+0x0009bc9e ba48         ldr      r0, [pc, #0x2e8] ; literal@0x9bf88=0x1950c4 _OBJC_IVAR_$_ABSwipeColumnViewController._scrollView
+0x0009bca0 0468         ldr      r4, [r0]
+0x0009bca2 6259         ldr      r2, [r4, r5]
+0x0009bca4 b148         ldr      r0, [pc, #0x2c4] ; literal@0x9bf6c=0x1950c0 _OBJC_IVAR_$_ABSwipeColumnViewController._masterContainer
+0x0009bca6 0468         ldr      r4, [r0]
+0x0009bca8 6059         ldr      r0, [r4, r5]
+0x0009bcaa bc4c         ldr      r4, [pc, #0x2f0] ; literal@0x9bf9c=0x170b5c selector-ref:addSubview:
+0x0009bcac 2168         ldr      r1, [r4]
+0x0009bcae 1df0d0eb     blx      #0xb9450 ; _objc_msgSend
+0x0009bcb2 ae48         ldr      r0, [pc, #0x2b8] ; literal@0x9bf6c=0x1950c0 _OBJC_IVAR_$_ABSwipeColumnViewController._masterContainer
+0x0009bcb4 0568         ldr      r5, [r0]
+0x0009bcb6 089e         ldr      r6, [sp, #0x20]
+0x0009bcb8 aa59         ldr      r2, [r5, r6]
+0x0009bcba b94d         ldr      r5, [pc, #0x2e4] ; literal@0x9bfa0=0x170c84 selector-ref:setView:
+0x0009bcbc 2968         ldr      r1, [r5]
+0x0009bcbe 3046         mov      r0, r6
+0x0009bcc0 1df0c6eb     blx      #0xb9450 ; _objc_msgSend
+0x0009bcc4 a948         ldr      r0, [pc, #0x2a4] ; literal@0x9bf6c=0x1950c0 _OBJC_IVAR_$_ABSwipeColumnViewController._masterContainer
+0x0009bcc6 0068         ldr      r0, [r0]
+0x0009bcc8 8059         ldr      r0, [r0, r6]
+0x0009bcca b64a         ldr      r2, [pc, #0x2d8] ; literal@0x9bfa4=0x170ac8 selector-ref:release
+0x0009bccc 1168         ldr      r1, [r2]
+0x0009bcce 1df0c0eb     blx      #0xb9450 ; _objc_msgSend
+0x0009bcd2 ad48         ldr      r0, [pc, #0x2b4] ; literal@0x9bf88=0x1950c4 _OBJC_IVAR_$_ABSwipeColumnViewController._scrollView
+0x0009bcd4 0468         ldr      r4, [r0]
+0x0009bcd6 a059         ldr      r0, [r4, r6]
+0x0009bcd8 b24a         ldr      r2, [pc, #0x2c8] ; literal@0x9bfa4=0x170ac8 selector-ref:release
+0x0009bcda 1168         ldr      r1, [r2]
+0x0009bcdc 1df0b8eb     blx      #0xb9450 ; _objc_msgSend
+0x0009bce0 b148         ldr      r0, [pc, #0x2c4] ; literal@0x9bfa8=0x1950c8 _OBJC_IVAR_$_ABSwipeColumnViewController._pullTab
+0x0009bce2 0468         ldr      r4, [r0]
+0x0009bce4 a24a         ldr      r2, [pc, #0x288] ; literal@0x9bf70=0x170ae4 selector-ref:alloc
+0x0009bce6 1168         ldr      r1, [r2]
+0x0009bce8 b04d         ldr      r5, [pc, #0x2c0] ; literal@0x9bfac=0x173f9c
+0x0009bcea 2868         ldr      r0, [r5]
+0x0009bcec 1df0b0eb     blx      #0xb9450 ; _objc_msgSend
+0x0009bcf0 0646         mov      r6, r0
+0x0009bcf2 af48         ldr      r0, [pc, #0x2bc] ; literal@0x9bfb0=0x170ea4 selector-ref:initWithImage:
+0x0009bcf4 0568         ldr      r5, [r0]
+0x0009bcf6 af48         ldr      r0, [pc, #0x2bc] ; literal@0x9bfb4=0x170ce4 selector-ref:imageNamed:
+0x0009bcf8 0168         ldr      r1, [r0]
+0x0009bcfa af48         ldr      r0, [pc, #0x2bc] ; literal@0x9bfb8=0x173f3c
+0x0009bcfc 0068         ldr      r0, [r0]
+0x0009bcfe af4a         ldr      r2, [pc, #0x2bc] ; literal@0x9bfbc=0x16bce4 CFString:iPad-pulltab.png
+0x0009bd00 1df0a6eb     blx      #0xb9450 ; _objc_msgSend
+0x0009bd04 0246         mov      r2, r0
+0x0009bd06 3046         mov      r0, r6
+0x0009bd08 2946         mov      r1, r5
+0x0009bd0a 1df0a2eb     blx      #0xb9450 ; _objc_msgSend
+0x0009bd0e 089e         ldr      r6, [sp, #0x20]
+0x0009bd10 a051         str      r0, [r4, r6]
+0x0009bd12 a548         ldr      r0, [pc, #0x294] ; literal@0x9bfa8=0x1950c8 _OBJC_IVAR_$_ABSwipeColumnViewController._pullTab
+0x0009bd14 0468         ldr      r4, [r0]
+0x0009bd16 a059         ldr      r0, [r4, r6]
+0x0009bd18 a94c         ldr      r4, [pc, #0x2a4] ; literal@0x9bfc0=0x170f10 selector-ref:setHidden:
+0x0009bd1a 2168         ldr      r1, [r4]
+0x0009bd1c 0124         movs     r4, #1
+0x0009bd1e 2246         mov      r2, r4
+0x0009bd20 1df096eb     blx      #0xb9450 ; _objc_msgSend
+0x0009bd24 a048         ldr      r0, [pc, #0x280] ; literal@0x9bfa8=0x1950c8 _OBJC_IVAR_$_ABSwipeColumnViewController._pullTab
+0x0009bd26 0568         ldr      r5, [r0]
+0x0009bd28 a859         ldr      r0, [r5, r6]
+0x0009bd2a a64d         ldr      r5, [pc, #0x298] ; literal@0x9bfc4=0x171b78 selector-ref:setUserInteractionEnabled:
+0x0009bd2c 2968         ldr      r1, [r5]
+0x0009bd2e 2246         mov      r2, r4
+0x0009bd30 1df08eeb     blx      #0xb9450 ; _objc_msgSend
+0x0009bd34 9c48         ldr      r0, [pc, #0x270] ; literal@0x9bfa8=0x1950c8 _OBJC_IVAR_$_ABSwipeColumnViewController._pullTab
+0x0009bd36 0468         ldr      r4, [r0]
+0x0009bd38 a059         ldr      r0, [r4, r6]
+0x0009bd3a a34a         ldr      r2, [pc, #0x28c] ; literal@0x9bfc8=0x170f18 selector-ref:setFrame:
+0x0009bd3c 1168         ldr      r1, [r2]
+0x0009bd3e a34b         ldr      r3, [pc, #0x28c] ; literal@0x9bfcc=0x43160000 float32-candidate=150
+0x0009bd40 6c46         mov      r4, sp
+0x0009bd42 6360         str      r3, [r4, #4]
+0x0009bd44 a24b         ldr      r3, [pc, #0x288] ; literal@0x9bfd0=0x422c0000 float32-candidate=43
+0x0009bd46 2360         str      r3, [r4]
+0x0009bd48 a24a         ldr      r2, [pc, #0x288] ; literal@0x9bfd4=0x44fa0000 float32-candidate=2000
+0x0009bd4a a34b         ldr      r3, [pc, #0x28c] ; literal@0x9bfd8=0x43480000 float32-candidate=200
+0x0009bd4c 1df080eb     blx      #0xb9450 ; _objc_msgSend
+0x0009bd50 9548         ldr      r0, [pc, #0x254] ; literal@0x9bfa8=0x1950c8 _OBJC_IVAR_$_ABSwipeColumnViewController._pullTab
+0x0009bd52 0368         ldr      r3, [r0]
+0x0009bd54 9a59         ldr      r2, [r3, r6]
+0x0009bd56 8c48         ldr      r0, [pc, #0x230] ; literal@0x9bf88=0x1950c4 _OBJC_IVAR_$_ABSwipeColumnViewController._scrollView
+0x0009bd58 0368         ldr      r3, [r0]
+0x0009bd5a 9859         ldr      r0, [r3, r6]
+0x0009bd5c 8f4c         ldr      r4, [pc, #0x23c] ; literal@0x9bf9c=0x170b5c selector-ref:addSubview:
+0x0009bd5e 2168         ldr      r1, [r4]
+0x0009bd60 1df076eb     blx      #0xb9450 ; _objc_msgSend
+0x0009bd64 9048         ldr      r0, [pc, #0x240] ; literal@0x9bfa8=0x1950c8 _OBJC_IVAR_$_ABSwipeColumnViewController._pullTab
+0x0009bd66 0368         ldr      r3, [r0]
+0x0009bd68 9859         ldr      r0, [r3, r6]
+0x0009bd6a 8e4a         ldr      r2, [pc, #0x238] ; literal@0x9bfa4=0x170ac8 selector-ref:release
+0x0009bd6c 1168         ldr      r1, [r2]
+0x0009bd6e 1df070eb     blx      #0xb9450 ; _objc_msgSend
+0x0009bd72 7f4a         ldr      r2, [pc, #0x1fc] ; literal@0x9bf70=0x170ae4 selector-ref:alloc
+0x0009bd74 1168         ldr      r1, [r2]
+0x0009bd76 7f4b         ldr      r3, [pc, #0x1fc] ; literal@0x9bf74=0x173f84
+0x0009bd78 1868         ldr      r0, [r3]
+0x0009bd7a 1df06aeb     blx      #0xb9450 ; _objc_msgSend
+0x0009bd7e 7e4b         ldr      r3, [pc, #0x1f8] ; literal@0x9bf78=0x170b6c selector-ref:initWithFrame:
+0x0009bd80 1968         ldr      r1, [r3]
+0x0009bd82 8923         movs     r3, #0x89
+0x0009bd84 db05         lsls     r3, r3, #0x17
+0x0009bd86 6d46         mov      r5, sp
+0x0009bd88 6b60         str      r3, [r5, #4]
+0x0009bd8a 944b         ldr      r3, [pc, #0x250] ; literal@0x9bfdc=0x41300000 float32-candidate=11
+0x0009bd8c 2b60         str      r3, [r5]
+0x0009bd8e 2123         movs     r3, #0x21
+0x0009bd90 5a06         lsls     r2, r3, #0x19
+0x0009bd92 934b         ldr      r3, [pc, #0x24c] ; literal@0x9bfe0=0xc37a0000 float32-candidate=-250
+0x0009bd94 1df05ceb     blx      #0xb9450 ; _objc_msgSend
+0x0009bd98 0546         mov      r5, r0
+0x0009bd9a 924b         ldr      r3, [pc, #0x248] ; literal@0x9bfe4=0x172208 selector-ref:colorWithPatternImage:
+0x0009bd9c 1c68         ldr      r4, [r3]
+0x0009bd9e 924b         ldr      r3, [pc, #0x248] ; literal@0x9bfe8=0x173f7c
+0x0009bda0 1e68         ldr      r6, [r3]
+0x0009bda2 8448         ldr      r0, [pc, #0x210] ; literal@0x9bfb4=0x170ce4 selector-ref:imageNamed:
+0x0009bda4 0168         ldr      r1, [r0]
+0x0009bda6 8448         ldr      r0, [pc, #0x210] ; literal@0x9bfb8=0x173f3c
+0x0009bda8 0068         ldr      r0, [r0]
+0x0009bdaa 904a         ldr      r2, [pc, #0x240] ; literal@0x9bfec=0x16bcf4 CFString:iPad-pulltab-divider.png
+0x0009bdac 1df050eb     blx      #0xb9450 ; _objc_msgSend
+0x0009bdb0 0246         mov      r2, r0
+0x0009bdb2 3046         mov      r0, r6
+0x0009bdb4 2146         mov      r1, r4
+0x0009bdb6 1df04ceb     blx      #0xb9450 ; _objc_msgSend
+0x0009bdba 0246         mov      r2, r0
+0x0009bdbc 8c4b         ldr      r3, [pc, #0x230] ; literal@0x9bff0=0x170f04 selector-ref:setBackgroundColor:
+0x0009bdbe 1968         ldr      r1, [r3]
+0x0009bdc0 2846         mov      r0, r5
+0x0009bdc2 1df046eb     blx      #0xb9450 ; _objc_msgSend
+0x0009bdc6 8b48         ldr      r0, [pc, #0x22c] ; literal@0x9bff4=0x170efc selector-ref:setOpaque:
+0x0009bdc8 0168         ldr      r1, [r0]
+0x0009bdca 0020         movs     r0, #0
+0x0009bdcc 0790         str      r0, [sp, #0x1c]
+0x0009bdce 2846         mov      r0, r5
+0x0009bdd0 079a         ldr      r2, [sp, #0x1c]
+0x0009bdd2 1df03eeb     blx      #0xb9450 ; _objc_msgSend
+0x0009bdd6 7448         ldr      r0, [pc, #0x1d0] ; literal@0x9bfa8=0x1950c8 _OBJC_IVAR_$_ABSwipeColumnViewController._pullTab
+0x0009bdd8 0068         ldr      r0, [r0]
+0x0009bdda 089e         ldr      r6, [sp, #0x20]
+0x0009bddc 8059         ldr      r0, [r0, r6]
+0x0009bdde 6f4c         ldr      r4, [pc, #0x1bc] ; literal@0x9bf9c=0x170b5c selector-ref:addSubview:
+0x0009bde0 2168         ldr      r1, [r4]
+0x0009bde2 2a46         mov      r2, r5
+0x0009bde4 1df034eb     blx      #0xb9450 ; _objc_msgSend
+0x0009bde8 6e4a         ldr      r2, [pc, #0x1b8] ; literal@0x9bfa4=0x170ac8 selector-ref:release
+0x0009bdea 1168         ldr      r1, [r2]
+0x0009bdec 2846         mov      r0, r5
+0x0009bdee 1df030eb     blx      #0xb9450 ; _objc_msgSend
+0x0009bdf2 8148         ldr      r0, [pc, #0x204] ; literal@0x9bff8=0x1950cc _OBJC_IVAR_$_ABSwipeColumnViewController.sidebarShadow
+0x0009bdf4 0568         ldr      r5, [r0]
+0x0009bdf6 5e4a         ldr      r2, [pc, #0x178] ; literal@0x9bf70=0x170ae4 selector-ref:alloc
+0x0009bdf8 1168         ldr      r1, [r2]
+0x0009bdfa 6c4b         ldr      r3, [pc, #0x1b0] ; literal@0x9bfac=0x173f9c
+0x0009bdfc 1868         ldr      r0, [r3]
+0x0009bdfe 1df028eb     blx      #0xb9450 ; _objc_msgSend
+0x0009be02 0446         mov      r4, r0
+0x0009be04 6a48         ldr      r0, [pc, #0x1a8] ; literal@0x9bfb0=0x170ea4 selector-ref:initWithImage:
+0x0009be06 0668         ldr      r6, [r0]
+0x0009be08 6a48         ldr      r0, [pc, #0x1a8] ; literal@0x9bfb4=0x170ce4 selector-ref:imageNamed:
+0x0009be0a 0168         ldr      r1, [r0]
+0x0009be0c 6a48         ldr      r0, [pc, #0x1a8] ; literal@0x9bfb8=0x173f3c
+0x0009be0e 0068         ldr      r0, [r0]
+0x0009be10 7a4a         ldr      r2, [pc, #0x1e8] ; literal@0x9bffc=0x16bcb4 CFString:iPad-sidebar-shadow.png
+0x0009be12 1df01eeb     blx      #0xb9450 ; _objc_msgSend
+0x0009be16 7a49         ldr      r1, [pc, #0x1e8] ; literal@0x9c000=0x170eb4 selector-ref:stretchableImageWithLeftCapWidth:topCapHeight:
+0x0009be18 0968         ldr      r1, [r1]
+0x0009be1a 2923         movs     r3, #0x29
+0x0009be1c 0693         str      r3, [sp, #0x18]
+0x0009be1e 079a         ldr      r2, [sp, #0x1c]
+0x0009be20 1df016eb     blx      #0xb9450 ; _objc_msgSend
+0x0009be24 0246         mov      r2, r0
+0x0009be26 2046         mov      r0, r4
+0x0009be28 3146         mov      r1, r6
+0x0009be2a 1df012eb     blx      #0xb9450 ; _objc_msgSend
+0x0009be2e 089e         ldr      r6, [sp, #0x20]
+0x0009be30 a851         str      r0, [r5, r6]
+0x0009be32 7148         ldr      r0, [pc, #0x1c4] ; literal@0x9bff8=0x1950cc _OBJC_IVAR_$_ABSwipeColumnViewController.sidebarShadow
+0x0009be34 0368         ldr      r3, [r0]
+0x0009be36 9859         ldr      r0, [r3, r6]
+0x0009be38 5649         ldr      r1, [pc, #0x158] ; literal@0x9bf94=0x170b68 selector-ref:setAutoresizingMask:
+0x0009be3a 0968         ldr      r1, [r1]
+0x0009be3c 1022         movs     r2, #0x10
+0x0009be3e 0592         str      r2, [sp, #0x14]
+0x0009be40 1df006eb     blx      #0xb9450 ; _objc_msgSend
+0x0009be44 6c48         ldr      r0, [pc, #0x1b0] ; literal@0x9bff8=0x1950cc _OBJC_IVAR_$_ABSwipeColumnViewController.sidebarShadow
+0x0009be46 0168         ldr      r1, [r0]
+0x0009be48 8859         ldr      r0, [r1, r6]
+0x0009be4a 6a49         ldr      r1, [pc, #0x1a8] ; literal@0x9bff4=0x170efc selector-ref:setOpaque:
+0x0009be4c 0968         ldr      r1, [r1]
+0x0009be4e 079a         ldr      r2, [sp, #0x1c]
+0x0009be50 1df0feea     blx      #0xb9450 ; _objc_msgSend
+0x0009be54 6848         ldr      r0, [pc, #0x1a0] ; literal@0x9bff8=0x1950cc _OBJC_IVAR_$_ABSwipeColumnViewController.sidebarShadow
+0x0009be56 0268         ldr      r2, [r0]
+0x0009be58 9059         ldr      r0, [r2, r6]
+0x0009be5a 5b4a         ldr      r2, [pc, #0x16c] ; literal@0x9bfc8=0x170f18 selector-ref:setFrame:
+0x0009be5c 1168         ldr      r1, [r2]
+0x0009be5e 694a         ldr      r2, [pc, #0x1a4] ; literal@0x9c004=0x43fa0000 float32-candidate=500
+0x0009be60 0492         str      r2, [sp, #0x10]
+0x0009be62 6b46         mov      r3, sp
+0x0009be64 5a60         str      r2, [r3, #4]
+0x0009be66 1a60         str      r2, [r3]
+0x0009be68 079a         ldr      r2, [sp, #0x1c]
+0x0009be6a 1346         mov      r3, r2
+0x0009be6c 1df0f0ea     blx      #0xb9450 ; _objc_msgSend
+0x0009be70 6148         ldr      r0, [pc, #0x184] ; literal@0x9bff8=0x1950cc _OBJC_IVAR_$_ABSwipeColumnViewController.sidebarShadow
+0x0009be72 0168         ldr      r1, [r0]
+0x0009be74 8a59         ldr      r2, [r1, r6]
+0x0009be76 4448         ldr      r0, [pc, #0x110] ; literal@0x9bf88=0x1950c4 _OBJC_IVAR_$_ABSwipeColumnViewController._scrollView
+0x0009be78 0168         ldr      r1, [r0]
+0x0009be7a 8859         ldr      r0, [r1, r6]
+0x0009be7c 474c         ldr      r4, [pc, #0x11c] ; literal@0x9bf9c=0x170b5c selector-ref:addSubview:
+0x0009be7e 2168         ldr      r1, [r4]
+0x0009be80 1df0e6ea     blx      #0xb9450 ; _objc_msgSend
+0x0009be84 5c48         ldr      r0, [pc, #0x170] ; literal@0x9bff8=0x1950cc _OBJC_IVAR_$_ABSwipeColumnViewController.sidebarShadow
+0x0009be86 0068         ldr      r0, [r0]
+0x0009be88 8059         ldr      r0, [r0, r6]
+0x0009be8a 464a         ldr      r2, [pc, #0x118] ; literal@0x9bfa4=0x170ac8 selector-ref:release
+0x0009be8c 1168         ldr      r1, [r2]
+0x0009be8e 1df0e0ea     blx      #0xb9450 ; _objc_msgSend
+0x0009be92 5d48         ldr      r0, [pc, #0x174] ; literal@0x9c008=0x1950d0 _OBJC_IVAR_$_ABSwipeColumnViewController.otherSidebarShadow
+0x0009be94 0568         ldr      r5, [r0]
+0x0009be96 3649         ldr      r1, [pc, #0xd8] ; literal@0x9bf70=0x170ae4 selector-ref:alloc
+0x0009be98 0968         ldr      r1, [r1]
+0x0009be9a 444b         ldr      r3, [pc, #0x110] ; literal@0x9bfac=0x173f9c
+0x0009be9c 1868         ldr      r0, [r3]
+0x0009be9e 1df0d8ea     blx      #0xb9450 ; _objc_msgSend
+0x0009bea2 0446         mov      r4, r0
+0x0009bea4 4249         ldr      r1, [pc, #0x108] ; literal@0x9bfb0=0x170ea4 selector-ref:initWithImage:
+0x0009bea6 0e68         ldr      r6, [r1]
+0x0009bea8 4248         ldr      r0, [pc, #0x108] ; literal@0x9bfb4=0x170ce4 selector-ref:imageNamed:
+0x0009beaa 0168         ldr      r1, [r0]
+0x0009beac 4248         ldr      r0, [pc, #0x108] ; literal@0x9bfb8=0x173f3c
+0x0009beae 0068         ldr      r0, [r0]
+0x0009beb0 524a         ldr      r2, [pc, #0x148] ; literal@0x9bffc=0x16bcb4 CFString:iPad-sidebar-shadow.png
+0x0009beb2 1df0ceea     blx      #0xb9450 ; _objc_msgSend
+0x0009beb6 5249         ldr      r1, [pc, #0x148] ; literal@0x9c000=0x170eb4 selector-ref:stretchableImageWithLeftCapWidth:topCapHeight:
+0x0009beb8 0968         ldr      r1, [r1]
+0x0009beba 079a         ldr      r2, [sp, #0x1c]
+0x0009bebc 069b         ldr      r3, [sp, #0x18]
+0x0009bebe 1df0c8ea     blx      #0xb9450 ; _objc_msgSend
+0x0009bec2 0246         mov      r2, r0
+0x0009bec4 2046         mov      r0, r4
+0x0009bec6 3146         mov      r1, r6
+0x0009bec8 1df0c2ea     blx      #0xb9450 ; _objc_msgSend
+0x0009becc 089e         ldr      r6, [sp, #0x20]
+0x0009bece a851         str      r0, [r5, r6]
+0x0009bed0 4d48         ldr      r0, [pc, #0x134] ; literal@0x9c008=0x1950d0 _OBJC_IVAR_$_ABSwipeColumnViewController.otherSidebarShadow
+0x0009bed2 0168         ldr      r1, [r0]
+0x0009bed4 8859         ldr      r0, [r1, r6]
+0x0009bed6 2f49         ldr      r1, [pc, #0xbc] ; literal@0x9bf94=0x170b68 selector-ref:setAutoresizingMask:
+0x0009bed8 0968         ldr      r1, [r1]
+0x0009beda 059a         ldr      r2, [sp, #0x14]
+0x0009bedc 1df0b8ea     blx      #0xb9450 ; _objc_msgSend
+0x0009bee0 7f21         movs     r1, #0x7f
+0x0009bee2 ca05         lsls     r2, r1, #0x17
+0x0009bee4 11a8         add      r0, sp, #0x44
+0x0009bee6 4949         ldr      r1, [pc, #0x124] ; literal@0x9c00c=0xbf800000 float32-candidate=-1
+0x0009bee8 1cf0b0ee     blx      #0xb8c4c ; _CGAffineTransformMakeScale
+0x0009beec 4648         ldr      r0, [pc, #0x118] ; literal@0x9c008=0x1950d0 _OBJC_IVAR_$_ABSwipeColumnViewController.otherSidebarShadow
+0x0009beee 0168         ldr      r1, [r0]
+0x0009bef0 8859         ldr      r0, [r1, r6]
+0x0009bef2 4749         ldr      r1, [pc, #0x11c] ; literal@0x9c010=0x170dc4 selector-ref:setTransform:
+0x0009bef4 0968         ldr      r1, [r1]
+0x0009bef6 129b         ldr      r3, [sp, #0x48]
+0x0009bef8 119a         ldr      r2, [sp, #0x44]
+0x0009befa 139c         ldr      r4, [sp, #0x4c]
+0x0009befc 0694         str      r4, [sp, #0x18]
+0x0009befe 149c         ldr      r4, [sp, #0x50]
+0x0009bf00 0594         str      r4, [sp, #0x14]
+0x0009bf02 159d         ldr      r5, [sp, #0x54]
+0x0009bf04 169e         ldr      r6, [sp, #0x58]
+0x0009bf06 6c46         mov      r4, sp
+0x0009bf08 e660         str      r6, [r4, #0xc]
+0x0009bf0a a560         str      r5, [r4, #8]
+0x0009bf0c 059d         ldr      r5, [sp, #0x14]
+0x0009bf0e 6560         str      r5, [r4, #4]
+0x0009bf10 069d         ldr      r5, [sp, #0x18]
+0x0009bf12 2560         str      r5, [r4]
+0x0009bf14 1df09cea     blx      #0xb9450 ; _objc_msgSend
+0x0009bf18 3b48         ldr      r0, [pc, #0xec] ; literal@0x9c008=0x1950d0 _OBJC_IVAR_$_ABSwipeColumnViewController.otherSidebarShadow
+0x0009bf1a 0168         ldr      r1, [r0]
+0x0009bf1c 089e         ldr      r6, [sp, #0x20]
+0x0009bf1e 8859         ldr      r0, [r1, r6]
+0x0009bf20 3449         ldr      r1, [pc, #0xd0] ; literal@0x9bff4=0x170efc selector-ref:setOpaque:
+0x0009bf22 0968         ldr      r1, [r1]
+0x0009bf24 079a         ldr      r2, [sp, #0x1c]
+0x0009bf26 1df094ea     blx      #0xb9450 ; _objc_msgSend
+0x0009bf2a 3748         ldr      r0, [pc, #0xdc] ; literal@0x9c008=0x1950d0 _OBJC_IVAR_$_ABSwipeColumnViewController.otherSidebarShadow
+0x0009bf2c 0168         ldr      r1, [r0]
+0x0009bf2e 8859         ldr      r0, [r1, r6]
+0x0009bf30 254a         ldr      r2, [pc, #0x94] ; literal@0x9bfc8=0x170f18 selector-ref:setFrame:
+0x0009bf32 1168         ldr      r1, [r2]
+0x0009bf34 6a46         mov      r2, sp
+0x0009bf36 049b         ldr      r3, [sp, #0x10]
+0x0009bf38 5360         str      r3, [r2, #4]
+0x0009bf3a 1360         str      r3, [r2]
+0x0009bf3c 079a         ldr      r2, [sp, #0x1c]
+0x0009bf3e 1346         mov      r3, r2
+0x0009bf40 1df086ea     blx      #0xb9450 ; _objc_msgSend
+0x0009bf44 3048         ldr      r0, [pc, #0xc0] ; literal@0x9c008=0x1950d0 _OBJC_IVAR_$_ABSwipeColumnViewController.otherSidebarShadow
+0x0009bf46 0168         ldr      r1, [r0]
+0x0009bf48 8a59         ldr      r2, [r1, r6]
+0x0009bf4a 0f48         ldr      r0, [pc, #0x3c] ; literal@0x9bf88=0x1950c4 _OBJC_IVAR_$_ABSwipeColumnViewController._scrollView
+0x0009bf4c 0068         ldr      r0, [r0]
+0x0009bf4e 8059         ldr      r0, [r0, r6]
+0x0009bf50 124c         ldr      r4, [pc, #0x48] ; literal@0x9bf9c=0x170b5c selector-ref:addSubview:
+0x0009bf52 2168         ldr      r1, [r4]
+0x0009bf54 1df07cea     blx      #0xb9450 ; _objc_msgSend
+0x0009bf58 2b48         ldr      r0, [pc, #0xac] ; literal@0x9c008=0x1950d0 _OBJC_IVAR_$_ABSwipeColumnViewController.otherSidebarShadow
+0x0009bf5a 0068         ldr      r0, [r0]
+0x0009bf5c 8059         ldr      r0, [r0, r6]
+0x0009bf5e 114a         ldr      r2, [pc, #0x44] ; literal@0x9bfa4=0x170ac8 selector-ref:release
+0x0009bf60 1168         ldr      r1, [r2]
+0x0009bf62 1df076ea     blx      #0xb9450 ; _objc_msgSend
+0x0009bf66 17b0         add      sp, #0x5c
+0x0009bf68 f0bd         pop      {r4, r5, r6, r7, pc}
+0x0009bf6a c046         mov      r8, r8
+0x0009bf6c c050         str      r0, [r0, r3]
+0x0009bf6e 1900         movs     r1, r3
+0x0009bf70 e40a         lsrs     r4, r4, #0xb
+0x0009bf72 1700         movs     r7, r2
+0x0009bf74 843f         subs     r7, #0x84
+0x0009bf76 1700         movs     r7, r2
+0x0009bf78 6c0b         lsrs     r4, r5, #0xd
+0x0009bf7a 1700         movs     r7, r2
+0x0009bf7c dc0a         lsrs     r4, r3, #0xb
+0x0009bf7e 1700         movs     r7, r2
+0x0009bf80 d83e         subs     r6, #0xd8
+0x0009bf82 1700         movs     r7, r2
+0x0009bf84 901b         subs     r0, r2, r6
+0x0009bf86 1700         movs     r7, r2
+0x0009bf88 c450         str      r4, [r0, r3]
+0x0009bf8a 1900         movs     r1, r3
+0x0009bf8c 4045         cmp      r0, r8
+0x0009bf8e 1700         movs     r7, r2
+0x0009bf90 2c0b         lsrs     r4, r5, #0xc
+0x0009bf92 1700         movs     r7, r2
+0x0009bf94 680b         lsrs     r0, r5, #0xd
+0x0009bf96 1700         movs     r7, r2
+0x0009bf98 8c0c         lsrs     r4, r1, #0x12
+0x0009bf9a 1700         movs     r7, r2
+0x0009bf9c 5c0b         lsrs     r4, r3, #0xd
+0x0009bf9e 1700         movs     r7, r2
+0x0009bfa0 840c         lsrs     r4, r0, #0x12
+0x0009bfa2 1700         movs     r7, r2
+0x0009bfa4 c80a         lsrs     r0, r1, #0xb
+0x0009bfa6 1700         movs     r7, r2
+0x0009bfa8 c850         str      r0, [r1, r3]
+0x0009bfaa 1900         movs     r1, r3
+0x0009bfac 9c3f         subs     r7, #0x9c
+0x0009bfae 1700         movs     r7, r2
+0x0009bfb0 a40e         lsrs     r4, r4, #0x1a
+0x0009bfb2 1700         movs     r7, r2
+0x0009bfb4 e40c         lsrs     r4, r4, #0x13
+0x0009bfb6 1700         movs     r7, r2
+0x0009bfb8 3c3f         subs     r7, #0x3c
+0x0009bfba 1700         movs     r7, r2
+0x0009bfbc e4bc         pop      {r2, r5, r6, r7}
+0x0009bfbe 1600         movs     r6, r2
+0x0009bfc0 100f         lsrs     r0, r2, #0x1c
+0x0009bfc2 1700         movs     r7, r2
+0x0009bfc4 781b         subs     r0, r7, r5
+0x0009bfc6 1700         movs     r7, r2
+0x0009bfc8 180f         lsrs     r0, r3, #0x1c
+0x0009bfca 1700         movs     r7, r2
+0x0009bfcc 0000         movs     r0, r0
+0x0009bfce 1643         orrs     r6, r2
+0x0009bfd0 0000         movs     r0, r0
+0x0009bfd2 2c42         tst      r4, r5
+0x0009bfd4 0000         movs     r0, r0
+0x0009bfd6 fa44         add      sl, pc
+0x0009bfd8 0000         movs     r0, r0
+0x0009bfda 4843         muls     r0, r1, r0
+0x0009bfdc 0000         movs     r0, r0
+0x0009bfde 3041         asrs     r0, r6
+0x0009bfe0 0000         movs     r0, r0
+0x0009bfe2 7ac3         stm      r3!, {r1, r3, r4, r5, r6}
+0x0009bfe4 0822         movs     r2, #8
+0x0009bfe6 1700         movs     r7, r2
+0x0009bfe8 7c3f         subs     r7, #0x7c
+0x0009bfea 1700         movs     r7, r2
+0x0009bfec f4bc         pop      {r2, r4, r5, r6, r7}
+0x0009bfee 1600         movs     r6, r2
+0x0009bff0 040f         lsrs     r4, r0, #0x1c
+0x0009bff2 1700         movs     r7, r2
+0x0009bff4 fc0e         lsrs     r4, r7, #0x1b
+0x0009bff6 1700         movs     r7, r2
+0x0009bff8 cc50         str      r4, [r1, r3]
+0x0009bffa 1900         movs     r1, r3
+0x0009bffc b4bc         pop      {r2, r4, r5, r7}
+0x0009bffe 1600         movs     r6, r2
+0x0009c000 b40e         lsrs     r4, r6, #0x1a
+0x0009c002 1700         movs     r7, r2
+0x0009c004 0000         movs     r0, r0
+0x0009c006 fa43         mvns     r2, r7
+0x0009c008 d050         str      r0, [r2, r3]
+0x0009c00a 1900         movs     r1, r3
+0x0009c00c 0000         movs     r0, r0
+0x0009c00e 80bf         hint     #8
+0x0009c010 c40d         lsrs     r4, r0, #0x17
+0x0009c012 1700         movs     r7, r2
+
+## -[ABSwipeColumnViewController _updateLayout:] VM 0x9c014 file 0x9b014 bounded end 0x9c4ec
+0x0009c014 f0b5         push     {r4, r5, r6, r7, lr}
+0x0009c016 03af         add      r7, sp, #0xc
+0x0009c018 ceb0         sub      sp, #0x138
+0x0009c01a 0292         str      r2, [sp, #8]
+0x0009c01c 0446         mov      r4, r0
+0x0009c01e 1294         str      r4, [sp, #0x48]
+0x0009c020 ec49         ldr      r1, [pc, #0x3b0] ; literal@0x9c3d4=0x170b28 selector-ref:view
+0x0009c022 0968         ldr      r1, [r1]
+0x0009c024 1df014ea     blx      #0xb9450 ; _objc_msgSend
+0x0009c028 0146         mov      r1, r0
+0x0009c02a eb48         ldr      r0, [pc, #0x3ac] ; literal@0x9c3d8=0x170b2c selector-ref:bounds
+0x0009c02c 0268         ldr      r2, [r0]
+0x0009c02e 16ad         add      r5, sp, #0x58
+0x0009c030 2846         mov      r0, r5
+0x0009c032 1df01aea     blx      #0xb9468 ; _objc_msgSend_stret
+0x0009c036 fe48         ldr      r0, [pc, #0x3f8] ; literal@0x9c430=0x1950c4 _OBJC_IVAR_$_ABSwipeColumnViewController._scrollView
+0x0009c038 0168         ldr      r1, [r0]
+0x0009c03a 0959         ldr      r1, [r1, r4]
+0x0009c03c fd4a         ldr      r2, [pc, #0x3f4] ; literal@0x9c434=0x170f14 selector-ref:frame
+0x0009c03e 1268         ldr      r2, [r2]
+0x0009c040 1aa8         add      r0, sp, #0x68
+0x0009c042 1df012ea     blx      #0xb9468 ; _objc_msgSend_stret
+0x0009c046 1d99         ldr      r1, [sp, #0x74]
+0x0009c048 1991         str      r1, [sp, #0x64]
+0x0009c04a fb49         ldr      r1, [pc, #0x3ec] ; literal@0x9c438=0x194d20 _OBJC_IVAR_$_ABSwipeColumnViewController.viewControllers
+0x0009c04c 0a68         ldr      r2, [r1]
+0x0009c04e 1059         ldr      r0, [r2, r4]
+0x0009c050 fa4a         ldr      r2, [pc, #0x3e8] ; literal@0x9c43c=0x170c20 selector-ref:count
+0x0009c052 1168         ldr      r1, [r2]
+0x0009c054 1df0fce9     blx      #0xb9450 ; _objc_msgSend
+0x0009c058 0790         str      r0, [sp, #0x1c]
+0x0009c05a f548         ldr      r0, [pc, #0x3d4] ; literal@0x9c430=0x1950c4 _OBJC_IVAR_$_ABSwipeColumnViewController._scrollView
+0x0009c05c 0068         ldr      r0, [r0]
+0x0009c05e 0159         ldr      r1, [r0, r4]
+0x0009c060 f748         ldr      r0, [pc, #0x3dc] ; literal@0x9c440=0x171e4c selector-ref:contentOffset
+0x0009c062 0268         ldr      r2, [r0]
+0x0009c064 14a8         add      r0, sp, #0x50
+0x0009c066 1df000ea     blx      #0xb9468 ; _objc_msgSend_stret
+0x0009c06a 0020         movs     r0, #0
+0x0009c06c 1e90         str      r0, [sp, #0x78]
+0x0009c06e 1f90         str      r0, [sp, #0x7c]
+0x0009c070 2090         str      r0, [sp, #0x80]
+0x0009c072 2190         str      r0, [sp, #0x84]
+0x0009c074 2290         str      r0, [sp, #0x88]
+0x0009c076 2390         str      r0, [sp, #0x8c]
+0x0009c078 2490         str      r0, [sp, #0x90]
+0x0009c07a 2590         str      r0, [sp, #0x94]
+0x0009c07c ee49         ldr      r1, [pc, #0x3b8] ; literal@0x9c438=0x194d20 _OBJC_IVAR_$_ABSwipeColumnViewController.viewControllers
+0x0009c07e 0868         ldr      r0, [r1]
+0x0009c080 0059         ldr      r0, [r0, r4]
+0x0009c082 0390         str      r0, [sp, #0xc]
+0x0009c084 ef49         ldr      r1, [pc, #0x3bc] ; literal@0x9c444=0x171064 selector-ref:countByEnumeratingWithState:objects:count:
+0x0009c086 0968         ldr      r1, [r1]
+0x0009c088 1022         movs     r2, #0x10
+0x0009c08a 6b46         mov      r3, sp
+0x0009c08c 1a60         str      r2, [r3]
+0x0009c08e 1eaa         add      r2, sp, #0x78
+0x0009c090 26ab         add      r3, sp, #0x98
+0x0009c092 1df0dee9     blx      #0xb9450 ; _objc_msgSend
+0x0009c096 0c35         adds     r5, #0xc
+0x0009c098 0a95         str      r5, [sp, #0x28]
+0x0009c09a 0028         cmp      r0, #0
+0x0009c09c 04d1         bne      #0x9c0a8
+0x0009c09e 0020         movs     r0, #0
+0x0009c0a0 0c90         str      r0, [sp, #0x30]
+0x0009c0a2 0e90         str      r0, [sp, #0x38]
+0x0009c0a4 0b90         str      r0, [sp, #0x2c]
+0x0009c0a6 18e1         b        #0x9c2da
+0x0009c0a8 0890         str      r0, [sp, #0x20]
+0x0009c0aa 16a8         add      r0, sp, #0x58
+0x0009c0ac 0830         adds     r0, #8
+0x0009c0ae 0690         str      r0, [sp, #0x18]
+0x0009c0b0 0798         ldr      r0, [sp, #0x1c]
+0x0009c0b2 0138         subs     r0, #1
+0x0009c0b4 0590         str      r0, [sp, #0x14]
+0x0009c0b6 2098         ldr      r0, [sp, #0x80]
+0x0009c0b8 0068         ldr      r0, [r0]
+0x0009c0ba 0490         str      r0, [sp, #0x10]
+0x0009c0bc 0020         movs     r0, #0
+0x0009c0be 1390         str      r0, [sp, #0x4c]
+0x0009c0c0 0d90         str      r0, [sp, #0x34]
+0x0009c0c2 0b90         str      r0, [sp, #0x2c]
+0x0009c0c4 0120         movs     r0, #1
+0x0009c0c6 0899         ldr      r1, [sp, #0x20]
+0x0009c0c8 0129         cmp      r1, #1
+0x0009c0ca 00d8         bhi      #0x9c0ce
+0x0009c0cc 0890         str      r0, [sp, #0x20]
+0x0009c0ce 0020         movs     r0, #0
+0x0009c0d0 1190         str      r0, [sp, #0x44]
+0x0009c0d2 1199         ldr      r1, [sp, #0x44]
+0x0009c0d4 0d98         ldr      r0, [sp, #0x34]
+0x0009c0d6 0818         adds     r0, r1, r0
+0x0009c0d8 1090         str      r0, [sp, #0x40]
+0x0009c0da 2098         ldr      r0, [sp, #0x80]
+0x0009c0dc 0068         ldr      r0, [r0]
+0x0009c0de 0499         ldr      r1, [sp, #0x10]
+0x0009c0e0 8142         cmp      r1, r0
+0x0009c0e2 05d0         beq      #0x9c0f0
+0x0009c0e4 d848         ldr      r0, [pc, #0x360] ; literal@0x9c448=0x194d20 _OBJC_IVAR_$_ABSwipeColumnViewController.viewControllers
+0x0009c0e6 0068         ldr      r0, [r0]
+0x0009c0e8 1299         ldr      r1, [sp, #0x48]
+0x0009c0ea 4058         ldr      r0, [r0, r1]
+0x0009c0ec 1df09ee9     blx      #0xb942c ; _objc_enumerationMutation
+0x0009c0f0 d648         ldr      r0, [pc, #0x358] ; literal@0x9c44c=0x1950d4 _OBJC_IVAR_$_ABSwipeColumnViewController.currentOrientation
+0x0009c0f2 0068         ldr      r0, [r0]
+0x0009c0f4 1299         ldr      r1, [sp, #0x48]
+0x0009c0f6 4258         ldr      r2, [r0, r1]
+0x0009c0f8 1198         ldr      r0, [sp, #0x44]
+0x0009c0fa 8000         lsls     r0, r0, #2
+0x0009c0fc 1f99         ldr      r1, [sp, #0x7c]
+0x0009c0fe 0858         ldr      r0, [r1, r0]
+0x0009c100 0990         str      r0, [sp, #0x24]
+0x0009c102 d349         ldr      r1, [pc, #0x34c] ; literal@0x9c450=0x1739e8 selector-ref:ab_swipeColumnWidth:
+0x0009c104 0968         ldr      r1, [r1]
+0x0009c106 1df0a4e9     blx      #0xb9450 ; _objc_msgSend
+0x0009c10a 0146         mov      r1, r0
+0x0009c10c 0f91         str      r1, [sp, #0x3c]
+0x0009c10e 1398         ldr      r0, [sp, #0x4c]
+0x0009c110 1df012e8     blx      #0xb9138 ; ___addsf3vfp
+0x0009c114 0a99         ldr      r1, [sp, #0x28]
+0x0009c116 0968         ldr      r1, [r1]
+0x0009c118 0e91         str      r1, [sp, #0x38]
+0x0009c11a 0c90         str      r0, [sp, #0x30]
+0x0009c11c 1098         ldr      r0, [sp, #0x40]
+0x0009c11e 0028         cmp      r0, #0
+0x0009c120 01d1         bne      #0x9c126
+0x0009c122 1498         ldr      r0, [sp, #0x50]
+0x0009c124 1ee0         b        #0x9c164
+0x0009c126 0798         ldr      r0, [sp, #0x1c]
+0x0009c128 0228         cmp      r0, #2
+0x0009c12a 02d1         bne      #0x9c132
+0x0009c12c 1098         ldr      r0, [sp, #0x40]
+0x0009c12e 0128         cmp      r0, #1
+0x0009c130 19d0         beq      #0x9c166
+0x0009c132 c849         ldr      r1, [pc, #0x320] ; literal@0x9c454=0xc2900000 float32-candidate=-72
+0x0009c134 1398         ldr      r0, [sp, #0x4c]
+0x0009c136 1df000e8     blx      #0xb9138 ; ___addsf3vfp
+0x0009c13a 0446         mov      r4, r0
+0x0009c13c 149d         ldr      r5, [sp, #0x50]
+0x0009c13e 2946         mov      r1, r5
+0x0009c140 1df06ce8     blx      #0xb921c ; ___gtsf2vfp
+0x0009c144 0646         mov      r6, r0
+0x0009c146 2046         mov      r0, r4
+0x0009c148 2946         mov      r1, r5
+0x0009c14a 1df0e0e8     blx      #0xb930c ; ___unordsf2vfp
+0x0009c14e 3043         orrs     r0, r6
+0x0009c150 0028         cmp      r0, #0
+0x0009c152 08d1         bne      #0x9c166
+0x0009c154 1199         ldr      r1, [sp, #0x44]
+0x0009c156 0d98         ldr      r0, [sp, #0x34]
+0x0009c158 0818         adds     r0, r1, r0
+0x0009c15a 0b90         str      r0, [sp, #0x2c]
+0x0009c15c be49         ldr      r1, [pc, #0x2f8] ; literal@0x9c458=0x42900000 float32-candidate=72
+0x0009c15e 2846         mov      r0, r5
+0x0009c160 1cf0eaef     blx      #0xb9138 ; ___addsf3vfp
+0x0009c164 1390         str      r0, [sp, #0x4c]
+0x0009c166 1099         ldr      r1, [sp, #0x40]
+0x0009c168 0598         ldr      r0, [sp, #0x14]
+0x0009c16a 8142         cmp      r1, r0
+0x0009c16c 6fd1         bne      #0x9c24e
+0x0009c16e bb48         ldr      r0, [pc, #0x2ec] ; literal@0x9c45c=0x1950d0 _OBJC_IVAR_$_ABSwipeColumnViewController.otherSidebarShadow
+0x0009c170 0068         ldr      r0, [r0]
+0x0009c172 129c         ldr      r4, [sp, #0x48]
+0x0009c174 0559         ldr      r5, [r0, r4]
+0x0009c176 1398         ldr      r0, [sp, #0x4c]
+0x0009c178 0f99         ldr      r1, [sp, #0x3c]
+0x0009c17a 1cf0deef     blx      #0xb9138 ; ___addsf3vfp
+0x0009c17e 0646         mov      r6, r0
+0x0009c180 b749         ldr      r1, [pc, #0x2dc] ; literal@0x9c460=0xc0a00000 float32-candidate=-5
+0x0009c182 3046         mov      r0, r6
+0x0009c184 1cf0d8ef     blx      #0xb9138 ; ___addsf3vfp
+0x0009c188 0246         mov      r2, r0
+0x0009c18a b648         ldr      r0, [pc, #0x2d8] ; literal@0x9c464=0x170f18 selector-ref:setFrame:
+0x0009c18c 0168         ldr      r1, [r0]
+0x0009c18e 6846         mov      r0, sp
+0x0009c190 0e9b         ldr      r3, [sp, #0x38]
+0x0009c192 4360         str      r3, [r0, #4]
+0x0009c194 b44b         ldr      r3, [pc, #0x2d0] ; literal@0x9c468=0x42240000 float32-candidate=41
+0x0009c196 0360         str      r3, [r0]
+0x0009c198 0023         movs     r3, #0
+0x0009c19a 2846         mov      r0, r5
+0x0009c19c 1df058e9     blx      #0xb9450 ; _objc_msgSend
+0x0009c1a0 b248         ldr      r0, [pc, #0x2c8] ; literal@0x9c46c=0x1950c8 _OBJC_IVAR_$_ABSwipeColumnViewController._pullTab
+0x0009c1a2 0068         ldr      r0, [r0]
+0x0009c1a4 0059         ldr      r0, [r0, r4]
+0x0009c1a6 b249         ldr      r1, [pc, #0x2c8] ; literal@0x9c470=0x1739e4 selector-ref:isHidden
+0x0009c1a8 0968         ldr      r1, [r1]
+0x0009c1aa 1df052e9     blx      #0xb9450 ; _objc_msgSend
+0x0009c1ae ff21         movs     r1, #0xff
+0x0009c1b0 0842         tst      r0, r1
+0x0009c1b2 39d1         bne      #0x9c228
+0x0009c1b4 3046         mov      r0, r6
+0x0009c1b6 1499         ldr      r1, [sp, #0x50]
+0x0009c1b8 1df08ae8     blx      #0xb92d0 ; ___subsf3vfp
+0x0009c1bc 0446         mov      r4, r0
+0x0009c1be 0698         ldr      r0, [sp, #0x18]
+0x0009c1c0 0068         ldr      r0, [r0]
+0x0009c1c2 0021         movs     r1, #0
+0x0009c1c4 1cf0b8ef     blx      #0xb9138 ; ___addsf3vfp
+0x0009c1c8 0546         mov      r5, r0
+0x0009c1ca 2046         mov      r0, r4
+0x0009c1cc 2946         mov      r1, r5
+0x0009c1ce 1df032e8     blx      #0xb9234 ; ___lesf2vfp
+0x0009c1d2 0646         mov      r6, r0
+0x0009c1d4 2046         mov      r0, r4
+0x0009c1d6 2946         mov      r1, r5
+0x0009c1d8 1df098e8     blx      #0xb930c ; ___unordsf2vfp
+0x0009c1dc 0446         mov      r4, r0
+0x0009c1de 3443         orrs     r4, r6
+0x0009c1e0 a449         ldr      r1, [pc, #0x290] ; literal@0x9c474=0xc22c0000 float32-candidate=-43
+0x0009c1e2 1398         ldr      r0, [sp, #0x4c]
+0x0009c1e4 1cf0a8ef     blx      #0xb9138 ; ___addsf3vfp
+0x0009c1e8 7f21         movs     r1, #0x7f
+0x0009c1ea c905         lsls     r1, r1, #0x17
+0x0009c1ec 1cf0a4ef     blx      #0xb9138 ; ___addsf3vfp
+0x0009c1f0 a149         ldr      r1, [pc, #0x284] ; literal@0x9c478=0x40400000 float32-candidate=3
+0x0009c1f2 1cf0a2ef     blx      #0xb9138 ; ___addsf3vfp
+0x0009c1f6 002c         cmp      r4, #0
+0x0009c1f8 14d1         bne      #0x9c224
+0x0009c1fa 9c49         ldr      r1, [pc, #0x270] ; literal@0x9c46c=0x1950c8 _OBJC_IVAR_$_ABSwipeColumnViewController._pullTab
+0x0009c1fc 0968         ldr      r1, [r1]
+0x0009c1fe 129a         ldr      r2, [sp, #0x48]
+0x0009c200 8c58         ldr      r4, [r1, r2]
+0x0009c202 9e49         ldr      r1, [pc, #0x278] ; literal@0x9c47c=0x42480000 float32-candidate=50
+0x0009c204 1cf098ef     blx      #0xb9138 ; ___addsf3vfp
+0x0009c208 9d49         ldr      r1, [pc, #0x274] ; literal@0x9c480=0xc0400000 float32-candidate=-3
+0x0009c20a 1cf096ef     blx      #0xb9138 ; ___addsf3vfp
+0x0009c20e 0246         mov      r2, r0
+0x0009c210 9448         ldr      r0, [pc, #0x250] ; literal@0x9c464=0x170f18 selector-ref:setFrame:
+0x0009c212 0168         ldr      r1, [r0]
+0x0009c214 9b48         ldr      r0, [pc, #0x26c] ; literal@0x9c484=0x43160000 float32-candidate=150
+0x0009c216 6b46         mov      r3, sp
+0x0009c218 5860         str      r0, [r3, #4]
+0x0009c21a 9b48         ldr      r0, [pc, #0x26c] ; literal@0x9c488=0x422c0000 float32-candidate=43
+0x0009c21c 1860         str      r0, [r3]
+0x0009c21e 9b4b         ldr      r3, [pc, #0x26c] ; literal@0x9c48c=0x43480000 float32-candidate=200
+0x0009c220 2046         mov      r0, r4
+0x0009c222 12e0         b        #0x9c24a
+0x0009c224 9a49         ldr      r1, [pc, #0x268] ; literal@0x9c490=0xbf800000 float32-candidate=-1
+0x0009c226 01e0         b        #0x9c22c
+0x0009c228 9a49         ldr      r1, [pc, #0x268] ; literal@0x9c494=0x42c80000 float32-candidate=100
+0x0009c22a 1398         ldr      r0, [sp, #0x4c]
+0x0009c22c 1cf084ef     blx      #0xb9138 ; ___addsf3vfp
+0x0009c230 0246         mov      r2, r0
+0x0009c232 8e48         ldr      r0, [pc, #0x238] ; literal@0x9c46c=0x1950c8 _OBJC_IVAR_$_ABSwipeColumnViewController._pullTab
+0x0009c234 0068         ldr      r0, [r0]
+0x0009c236 1299         ldr      r1, [sp, #0x48]
+0x0009c238 4058         ldr      r0, [r0, r1]
+0x0009c23a 8a49         ldr      r1, [pc, #0x228] ; literal@0x9c464=0x170f18 selector-ref:setFrame:
+0x0009c23c 0968         ldr      r1, [r1]
+0x0009c23e 914b         ldr      r3, [pc, #0x244] ; literal@0x9c484=0x43160000 float32-candidate=150
+0x0009c240 6c46         mov      r4, sp
+0x0009c242 6360         str      r3, [r4, #4]
+0x0009c244 904b         ldr      r3, [pc, #0x240] ; literal@0x9c488=0x422c0000 float32-candidate=43
+0x0009c246 2360         str      r3, [r4]
+0x0009c248 904b         ldr      r3, [pc, #0x240] ; literal@0x9c48c=0x43480000 float32-candidate=200
+0x0009c24a 1df002e9     blx      #0xb9450 ; _objc_msgSend
+0x0009c24e 1098         ldr      r0, [sp, #0x40]
+0x0009c250 0128         cmp      r0, #1
+0x0009c252 13d1         bne      #0x9c27c
+0x0009c254 9049         ldr      r1, [pc, #0x240] ; literal@0x9c498=0xc2100000 float32-candidate=-36
+0x0009c256 1398         ldr      r0, [sp, #0x4c]
+0x0009c258 1cf06eef     blx      #0xb9138 ; ___addsf3vfp
+0x0009c25c 0246         mov      r2, r0
+0x0009c25e 8f48         ldr      r0, [pc, #0x23c] ; literal@0x9c49c=0x1950cc _OBJC_IVAR_$_ABSwipeColumnViewController.sidebarShadow
+0x0009c260 0068         ldr      r0, [r0]
+0x0009c262 1299         ldr      r1, [sp, #0x48]
+0x0009c264 4058         ldr      r0, [r0, r1]
+0x0009c266 7f49         ldr      r1, [pc, #0x1fc] ; literal@0x9c464=0x170f18 selector-ref:setFrame:
+0x0009c268 0968         ldr      r1, [r1]
+0x0009c26a 0a9b         ldr      r3, [sp, #0x28]
+0x0009c26c 1b68         ldr      r3, [r3]
+0x0009c26e 6c46         mov      r4, sp
+0x0009c270 6360         str      r3, [r4, #4]
+0x0009c272 7d4b         ldr      r3, [pc, #0x1f4] ; literal@0x9c468=0x42240000 float32-candidate=41
+0x0009c274 2360         str      r3, [r4]
+0x0009c276 0023         movs     r3, #0
+0x0009c278 1df0eae8     blx      #0xb9450 ; _objc_msgSend
+0x0009c27c 8848         ldr      r0, [pc, #0x220] ; literal@0x9c4a0=0x170b28 selector-ref:view
+0x0009c27e 0168         ldr      r1, [r0]
+0x0009c280 0998         ldr      r0, [sp, #0x24]
+0x0009c282 1df0e6e8     blx      #0xb9450 ; _objc_msgSend
+0x0009c286 7749         ldr      r1, [pc, #0x1dc] ; literal@0x9c464=0x170f18 selector-ref:setFrame:
+0x0009c288 0968         ldr      r1, [r1]
+0x0009c28a 6a46         mov      r2, sp
+0x0009c28c 0e9b         ldr      r3, [sp, #0x38]
+0x0009c28e 5360         str      r3, [r2, #4]
+0x0009c290 0f9b         ldr      r3, [sp, #0x3c]
+0x0009c292 1360         str      r3, [r2]
+0x0009c294 0023         movs     r3, #0
+0x0009c296 139a         ldr      r2, [sp, #0x4c]
+0x0009c298 1df0dae8     blx      #0xb9450 ; _objc_msgSend
+0x0009c29c 1198         ldr      r0, [sp, #0x44]
+0x0009c29e 0130         adds     r0, #1
+0x0009c2a0 1190         str      r0, [sp, #0x44]
+0x0009c2a2 0899         ldr      r1, [sp, #0x20]
+0x0009c2a4 8842         cmp      r0, r1
+0x0009c2a6 02d0         beq      #0x9c2ae
+0x0009c2a8 0c98         ldr      r0, [sp, #0x30]
+0x0009c2aa 1390         str      r0, [sp, #0x4c]
+0x0009c2ac 11e7         b        #0x9c0d2
+0x0009c2ae 7d48         ldr      r0, [pc, #0x1f4] ; literal@0x9c4a4=0x171064 selector-ref:countByEnumeratingWithState:objects:count:
+0x0009c2b0 0168         ldr      r1, [r0]
+0x0009c2b2 1020         movs     r0, #0x10
+0x0009c2b4 6a46         mov      r2, sp
+0x0009c2b6 1060         str      r0, [r2]
+0x0009c2b8 1eaa         add      r2, sp, #0x78
+0x0009c2ba 26ab         add      r3, sp, #0x98
+0x0009c2bc 0398         ldr      r0, [sp, #0xc]
+0x0009c2be 1df0c8e8     blx      #0xb9450 ; _objc_msgSend
+0x0009c2c2 0d9d         ldr      r5, [sp, #0x34]
+0x0009c2c4 0899         ldr      r1, [sp, #0x20]
+0x0009c2c6 6d18         adds     r5, r5, r1
+0x0009c2c8 0d95         str      r5, [sp, #0x34]
+0x0009c2ca 0028         cmp      r0, #0
+0x0009c2cc 03d0         beq      #0x9c2d6
+0x0009c2ce 0c99         ldr      r1, [sp, #0x30]
+0x0009c2d0 1391         str      r1, [sp, #0x4c]
+0x0009c2d2 0890         str      r0, [sp, #0x20]
+0x0009c2d4 f6e6         b        #0x9c0c4
+0x0009c2d6 0026         movs     r6, #0
+0x0009c2d8 0e96         str      r6, [sp, #0x38]
+0x0009c2da 0020         movs     r0, #0
+0x0009c2dc 3690         str      r0, [sp, #0xd8]
+0x0009c2de 3790         str      r0, [sp, #0xdc]
+0x0009c2e0 3890         str      r0, [sp, #0xe0]
+0x0009c2e2 3990         str      r0, [sp, #0xe4]
+0x0009c2e4 3a90         str      r0, [sp, #0xe8]
+0x0009c2e6 3b90         str      r0, [sp, #0xec]
+0x0009c2e8 3c90         str      r0, [sp, #0xf0]
+0x0009c2ea 3d90         str      r0, [sp, #0xf4]
+0x0009c2ec 6e48         ldr      r0, [pc, #0x1b8] ; literal@0x9c4a8=0x194d20 _OBJC_IVAR_$_ABSwipeColumnViewController.viewControllers
+0x0009c2ee 0068         ldr      r0, [r0]
+0x0009c2f0 1299         ldr      r1, [sp, #0x48]
+0x0009c2f2 4058         ldr      r0, [r0, r1]
+0x0009c2f4 0f90         str      r0, [sp, #0x3c]
+0x0009c2f6 6d49         ldr      r1, [pc, #0x1b4] ; literal@0x9c4ac=0x171064 selector-ref:countByEnumeratingWithState:objects:count:
+0x0009c2f8 0968         ldr      r1, [r1]
+0x0009c2fa 1022         movs     r2, #0x10
+0x0009c2fc 6b46         mov      r3, sp
+0x0009c2fe 1a60         str      r2, [r3]
+0x0009c300 36aa         add      r2, sp, #0xd8
+0x0009c302 3eab         add      r3, sp, #0xf8
+0x0009c304 1df0a4e8     blx      #0xb9450 ; _objc_msgSend
+0x0009c308 0028         cmp      r0, #0
+0x0009c30a 41d0         beq      #0x9c390
+0x0009c30c 3899         ldr      r1, [sp, #0xe0]
+0x0009c30e 0968         ldr      r1, [r1]
+0x0009c310 1091         str      r1, [sp, #0x40]
+0x0009c312 0021         movs     r1, #0
+0x0009c314 1191         str      r1, [sp, #0x44]
+0x0009c316 1390         str      r0, [sp, #0x4c]
+0x0009c318 0120         movs     r0, #1
+0x0009c31a 1399         ldr      r1, [sp, #0x4c]
+0x0009c31c 0129         cmp      r1, #1
+0x0009c31e 00d8         bhi      #0x9c322
+0x0009c320 1390         str      r0, [sp, #0x4c]
+0x0009c322 0024         movs     r4, #0
+0x0009c324 1198         ldr      r0, [sp, #0x44]
+0x0009c326 2518         adds     r5, r4, r0
+0x0009c328 3898         ldr      r0, [sp, #0xe0]
+0x0009c32a 0068         ldr      r0, [r0]
+0x0009c32c 1099         ldr      r1, [sp, #0x40]
+0x0009c32e 8142         cmp      r1, r0
+0x0009c330 05d0         beq      #0x9c33e
+0x0009c332 5f48         ldr      r0, [pc, #0x17c] ; literal@0x9c4b0=0x194d20 _OBJC_IVAR_$_ABSwipeColumnViewController.viewControllers
+0x0009c334 0068         ldr      r0, [r0]
+0x0009c336 1299         ldr      r1, [sp, #0x48]
+0x0009c338 4058         ldr      r0, [r0, r1]
+0x0009c33a 1df078e8     blx      #0xb942c ; _objc_enumerationMutation
+0x0009c33e 002d         cmp      r5, #0
+0x0009c340 11d0         beq      #0x9c366
+0x0009c342 0126         movs     r6, #1
+0x0009c344 0020         movs     r0, #0
+0x0009c346 0b99         ldr      r1, [sp, #0x2c]
+0x0009c348 8d42         cmp      r5, r1
+0x0009c34a 00db         blt      #0x9c34e
+0x0009c34c 0646         mov      r6, r0
+0x0009c34e a000         lsls     r0, r4, #2
+0x0009c350 3799         ldr      r1, [sp, #0xdc]
+0x0009c352 0858         ldr      r0, [r1, r0]
+0x0009c354 5749         ldr      r1, [pc, #0x15c] ; literal@0x9c4b4=0x170b28 selector-ref:view
+0x0009c356 0968         ldr      r1, [r1]
+0x0009c358 1df07ae8     blx      #0xb9450 ; _objc_msgSend
+0x0009c35c 5649         ldr      r1, [pc, #0x158] ; literal@0x9c4b8=0x170f10 selector-ref:setHidden:
+0x0009c35e 0968         ldr      r1, [r1]
+0x0009c360 3246         mov      r2, r6
+0x0009c362 1df076e8     blx      #0xb9450 ; _objc_msgSend
+0x0009c366 0134         adds     r4, #1
+0x0009c368 1398         ldr      r0, [sp, #0x4c]
+0x0009c36a 8442         cmp      r4, r0
+0x0009c36c dad1         bne      #0x9c324
+0x0009c36e 5348         ldr      r0, [pc, #0x14c] ; literal@0x9c4bc=0x171064 selector-ref:countByEnumeratingWithState:objects:count:
+0x0009c370 0168         ldr      r1, [r0]
+0x0009c372 1020         movs     r0, #0x10
+0x0009c374 6a46         mov      r2, sp
+0x0009c376 1060         str      r0, [r2]
+0x0009c378 36aa         add      r2, sp, #0xd8
+0x0009c37a 3eab         add      r3, sp, #0xf8
+0x0009c37c 0f98         ldr      r0, [sp, #0x3c]
+0x0009c37e 1df068e8     blx      #0xb9450 ; _objc_msgSend
+0x0009c382 139a         ldr      r2, [sp, #0x4c]
+0x0009c384 1199         ldr      r1, [sp, #0x44]
+0x0009c386 8918         adds     r1, r1, r2
+0x0009c388 1191         str      r1, [sp, #0x44]
+0x0009c38a 0028         cmp      r0, #0
+0x0009c38c 1390         str      r0, [sp, #0x4c]
+0x0009c38e c3d1         bne      #0x9c318
+0x0009c390 0b98         ldr      r0, [sp, #0x2c]
+0x0009c392 0228         cmp      r0, #2
+0x0009c394 04d0         beq      #0x9c3a0
+0x0009c396 0b98         ldr      r0, [sp, #0x2c]
+0x0009c398 0128         cmp      r0, #1
+0x0009c39a 03d8         bhi      #0x9c3a4
+0x0009c39c 0020         movs     r0, #0
+0x0009c39e 02e0         b        #0x9c3a6
+0x0009c3a0 0120         movs     r0, #1
+0x0009c3a2 00e0         b        #0x9c3a6
+0x0009c3a4 0220         movs     r0, #2
+0x0009c3a6 4649         ldr      r1, [pc, #0x118] ; literal@0x9c4c0=0x1950ec _OBJC_IVAR_$_ABSwipeColumnViewController._flags
+0x0009c3a8 0968         ldr      r1, [r1]
+0x0009c3aa 129a         ldr      r2, [sp, #0x48]
+0x0009c3ac 8b5c         ldrb     r3, [r1, r2]
+0x0009c3ae 9c08         lsrs     r4, r3, #2
+0x0009c3b0 0725         movs     r5, #7
+0x0009c3b2 2540         ands     r5, r4
+0x0009c3b4 8918         adds     r1, r1, r2
+0x0009c3b6 a842         cmp      r0, r5
+0x0009c3b8 26d0         beq      #0x9c408
+0x0009c3ba e322         movs     r2, #0xe3
+0x0009c3bc 1340         ands     r3, r2
+0x0009c3be 8200         lsls     r2, r0, #2
+0x0009c3c0 1a43         orrs     r2, r3
+0x0009c3c2 0a70         strb     r2, [r1]
+0x0009c3c4 0128         cmp      r0, #1
+0x0009c3c6 03d0         beq      #0x9c3d0
+0x0009c3c8 0228         cmp      r0, #2
+0x0009c3ca 07d1         bne      #0x9c3dc
+0x0009c3cc 3d4a         ldr      r2, [pc, #0xf4] ; literal@0x9c4c4=0x16bc94 CFString:iPad-sidebar-shadow-2.png
+0x0009c3ce 06e0         b        #0x9c3de
+0x0009c3d0 3d4a         ldr      r2, [pc, #0xf4] ; literal@0x9c4c8=0x16bca4 CFString:iPad-sidebar-shadow-1.png
+0x0009c3d2 04e0         b        #0x9c3de
+0x0009c3d4 280b         lsrs     r0, r5, #0xc
+0x0009c3d6 1700         movs     r7, r2
+0x0009c3d8 2c0b         lsrs     r4, r5, #0xc
+0x0009c3da 1700         movs     r7, r2
+0x0009c3dc 3b4a         ldr      r2, [pc, #0xec] ; literal@0x9c4cc=0x16bcb4 CFString:iPad-sidebar-shadow.png
+0x0009c3de 3c48         ldr      r0, [pc, #0xf0] ; literal@0x9c4d0=0x170ce4 selector-ref:imageNamed:
+0x0009c3e0 0168         ldr      r1, [r0]
+0x0009c3e2 3c48         ldr      r0, [pc, #0xf0] ; literal@0x9c4d4=0x173f3c
+0x0009c3e4 0068         ldr      r0, [r0]
+0x0009c3e6 1df034e8     blx      #0xb9450 ; _objc_msgSend
+0x0009c3ea 3b49         ldr      r1, [pc, #0xec] ; literal@0x9c4d8=0x170eb4 selector-ref:stretchableImageWithLeftCapWidth:topCapHeight:
+0x0009c3ec 0968         ldr      r1, [r1]
+0x0009c3ee 0022         movs     r2, #0
+0x0009c3f0 2923         movs     r3, #0x29
+0x0009c3f2 1df02ee8     blx      #0xb9450 ; _objc_msgSend
+0x0009c3f6 0246         mov      r2, r0
+0x0009c3f8 3848         ldr      r0, [pc, #0xe0] ; literal@0x9c4dc=0x1950cc _OBJC_IVAR_$_ABSwipeColumnViewController.sidebarShadow
+0x0009c3fa 0068         ldr      r0, [r0]
+0x0009c3fc 1299         ldr      r1, [sp, #0x48]
+0x0009c3fe 4058         ldr      r0, [r0, r1]
+0x0009c400 3749         ldr      r1, [pc, #0xdc] ; literal@0x9c4e0=0x171c80 selector-ref:setImage:
+0x0009c402 0968         ldr      r1, [r1]
+0x0009c404 1df024e8     blx      #0xb9450 ; _objc_msgSend
+0x0009c408 ff20         movs     r0, #0xff
+0x0009c40a 029a         ldr      r2, [sp, #8]
+0x0009c40c 0242         tst      r2, r0
+0x0009c40e 0cd0         beq      #0x9c42a
+0x0009c410 3448         ldr      r0, [pc, #0xd0] ; literal@0x9c4e4=0x1950c4 _OBJC_IVAR_$_ABSwipeColumnViewController._scrollView
+0x0009c412 0068         ldr      r0, [r0]
+0x0009c414 1299         ldr      r1, [sp, #0x48]
+0x0009c416 4058         ldr      r0, [r0, r1]
+0x0009c418 0a99         ldr      r1, [sp, #0x28]
+0x0009c41a 0b68         ldr      r3, [r1]
+0x0009c41c 0e9e         ldr      r6, [sp, #0x38]
+0x0009c41e 3343         orrs     r3, r6
+0x0009c420 3149         ldr      r1, [pc, #0xc4] ; literal@0x9c4e8=0x1733a4 selector-ref:setContentSize:
+0x0009c422 0968         ldr      r1, [r1]
+0x0009c424 0c9a         ldr      r2, [sp, #0x30]
+0x0009c426 1df014e8     blx      #0xb9450 ; _objc_msgSend
+0x0009c42a 4eb0         add      sp, #0x138
+0x0009c42c f0bd         pop      {r4, r5, r6, r7, pc}
+0x0009c42e c046         mov      r8, r8
+0x0009c430 c450         str      r4, [r0, r3]
+0x0009c432 1900         movs     r1, r3
+0x0009c434 140f         lsrs     r4, r2, #0x1c
+0x0009c436 1700         movs     r7, r2
+0x0009c438 204d         ldr      r5, [pc, #0x80] ; literal@0x9c4bc=0x171064 selector-ref:countByEnumeratingWithState:objects:count:
+0x0009c43a 1900         movs     r1, r3
+0x0009c43c 200c         lsrs     r0, r4, #0x10
+0x0009c43e 1700         movs     r7, r2
+0x0009c440 4c1e         subs     r4, r1, #1
+0x0009c442 1700         movs     r7, r2
+0x0009c444 6410         asrs     r4, r4, #1
+0x0009c446 1700         movs     r7, r2
+0x0009c448 204d         ldr      r5, [pc, #0x80] ; literal@0x9c4cc=0x16bcb4 CFString:iPad-sidebar-shadow.png
+0x0009c44a 1900         movs     r1, r3
+0x0009c44c d450         str      r4, [r2, r3]
+0x0009c44e 1900         movs     r1, r3
+0x0009c450 e839         subs     r1, #0xe8
+0x0009c452 1700         movs     r7, r2
+0x0009c454 0000         movs     r0, r0
+0x0009c456 90c2         stm      r2!, {r4, r7}
+0x0009c458 0000         movs     r0, r0
+0x0009c45a 9042         cmp      r0, r2
+0x0009c45c d050         str      r0, [r2, r3]
+0x0009c45e 1900         movs     r1, r3
+0x0009c460 0000         movs     r0, r0
+0x0009c462 a0c0         stm      r0!, {r5, r7}
+0x0009c464 180f         lsrs     r0, r3, #0x1c
+0x0009c466 1700         movs     r7, r2
+0x0009c468 0000         movs     r0, r0
+0x0009c46a 2442         tst      r4, r4
+0x0009c46c c850         str      r0, [r1, r3]
+0x0009c46e 1900         movs     r1, r3
+0x0009c470 e439         subs     r1, #0xe4
+0x0009c472 1700         movs     r7, r2
+0x0009c474 0000         movs     r0, r0
+0x0009c476 2cc2         stm      r2!, {r2, r3, r5}
+0x0009c478 0000         movs     r0, r0
+0x0009c47a 4040         eors     r0, r0
+0x0009c47c 0000         movs     r0, r0
+0x0009c47e 4842         rsbs     r0, r1, #0
+0x0009c480 0000         movs     r0, r0
+0x0009c482 40c0         stm      r0!, {r6}
+0x0009c484 0000         movs     r0, r0
+0x0009c486 1643         orrs     r6, r2
+0x0009c488 0000         movs     r0, r0
+0x0009c48a 2c42         tst      r4, r5
+0x0009c48c 0000         movs     r0, r0
+0x0009c48e 4843         muls     r0, r1, r0
+0x0009c490 0000         movs     r0, r0
+0x0009c492 80bf         hint     #8
+0x0009c494 0000         movs     r0, r0
+0x0009c496 c842         cmn      r0, r1
+0x0009c498 0000         movs     r0, r0
+0x0009c49a 10c2         stm      r2!, {r4}
+0x0009c49c cc50         str      r4, [r1, r3]
+0x0009c49e 1900         movs     r1, r3
+0x0009c4a0 280b         lsrs     r0, r5, #0xc
+0x0009c4a2 1700         movs     r7, r2
+0x0009c4a4 6410         asrs     r4, r4, #1
+0x0009c4a6 1700         movs     r7, r2
+0x0009c4a8 204d         ldr      r5, [pc, #0x80] ; literal@0x9c52c=0x194d20 _OBJC_IVAR_$_ABSwipeColumnViewController.viewControllers
+0x0009c4aa 1900         movs     r1, r3
+0x0009c4ac 6410         asrs     r4, r4, #1
+0x0009c4ae 1700         movs     r7, r2
+0x0009c4b0 204d         ldr      r5, [pc, #0x80] ; literal@0x9c534=0x170ae8 selector-ref:dealloc
+0x0009c4b2 1900         movs     r1, r3
+0x0009c4b4 280b         lsrs     r0, r5, #0xc
+0x0009c4b6 1700         movs     r7, r2
+0x0009c4b8 100f         lsrs     r0, r2, #0x1c
+0x0009c4ba 1700         movs     r7, r2
+0x0009c4bc 6410         asrs     r4, r4, #1
+0x0009c4be 1700         movs     r7, r2
+0x0009c4c0 ec50         str      r4, [r5, r3]
+0x0009c4c2 1900         movs     r1, r3
+0x0009c4c4 94bc         pop      {r2, r4, r7}
+0x0009c4c6 1600         movs     r6, r2
+0x0009c4c8 a4bc         pop      {r2, r5, r7}
+0x0009c4ca 1600         movs     r6, r2
+0x0009c4cc b4bc         pop      {r2, r4, r5, r7}
+0x0009c4ce 1600         movs     r6, r2
+0x0009c4d0 e40c         lsrs     r4, r4, #0x13
+0x0009c4d2 1700         movs     r7, r2
+0x0009c4d4 3c3f         subs     r7, #0x3c
+0x0009c4d6 1700         movs     r7, r2
+0x0009c4d8 b40e         lsrs     r4, r6, #0x1a
+0x0009c4da 1700         movs     r7, r2
+0x0009c4dc cc50         str      r4, [r1, r3]
+0x0009c4de 1900         movs     r1, r3
+0x0009c4e0 801c         adds     r0, r0, #2
+0x0009c4e2 1700         movs     r7, r2
+0x0009c4e4 c450         str      r4, [r0, r3]
+0x0009c4e6 1900         movs     r1, r3
+0x0009c4e8 a433         adds     r3, #0xa4
+0x0009c4ea 1700         movs     r7, r2
+
+## -[ABScrollGestureRecognizer touchesEnded:withEvent:] VM 0x9cfb8 file 0x9bfb8 bounded end 0x9d0f8
+0x0009cfb8 f0b5         push     {r4, r5, r6, r7, lr}
+0x0009cfba 03af         add      r7, sp, #0xc
+0x0009cfbc 87b0         sub      sp, #0x1c
+0x0009cfbe 1446         mov      r4, r2
+0x0009cfc0 0546         mov      r5, r0
+0x0009cfc2 0495         str      r5, [sp, #0x10]
+0x0009cfc4 0595         str      r5, [sp, #0x14]
+0x0009cfc6 3a48         ldr      r0, [pc, #0xe8] ; literal@0x9d0b0=0x174970
+0x0009cfc8 0068         ldr      r0, [r0]
+0x0009cfca 0690         str      r0, [sp, #0x18]
+0x0009cfcc 3948         ldr      r0, [pc, #0xe4] ; literal@0x9d0b4=0x173728 selector-ref:touchesEnded:withEvent:
+0x0009cfce 0168         ldr      r1, [r0]
+0x0009cfd0 05a8         add      r0, sp, #0x14
+0x0009cfd2 1cf044ea     blx      #0xb945c ; _objc_msgSendSuper2
+0x0009cfd6 3848         ldr      r0, [pc, #0xe0] ; literal@0x9d0b8=0x195608 _OBJC_IVAR_$_ABScrollGestureRecognizer._touch
+0x0009cfd8 0068         ldr      r0, [r0]
+0x0009cfda 4259         ldr      r2, [r0, r5]
+0x0009cfdc 002a         cmp      r2, #0
+0x0009cfde 65d0         beq      #0x9d0ac
+0x0009cfe0 2046         mov      r0, r4
+0x0009cfe2 3649         ldr      r1, [pc, #0xd8] ; literal@0x9d0bc=0x171048 selector-ref:containsObject:
+0x0009cfe4 0968         ldr      r1, [r1]
+0x0009cfe6 1cf034ea     blx      #0xb9450 ; _objc_msgSend
+0x0009cfea ff21         movs     r1, #0xff
+0x0009cfec 0842         tst      r0, r1
+0x0009cfee 5dd0         beq      #0x9d0ac
+0x0009cff0 3348         ldr      r0, [pc, #0xcc] ; literal@0x9d0c0=0x170b28 selector-ref:view
+0x0009cff2 0168         ldr      r1, [r0]
+0x0009cff4 2c46         mov      r4, r5
+0x0009cff6 2046         mov      r0, r4
+0x0009cff8 1cf02aea     blx      #0xb9450 ; _objc_msgSend
+0x0009cffc 0390         str      r0, [sp, #0xc]
+0x0009cffe 3148         ldr      r0, [pc, #0xc4] ; literal@0x9d0c4=0x17324c selector-ref:state
+0x0009d000 0168         ldr      r1, [r0]
+0x0009d002 2046         mov      r0, r4
+0x0009d004 1cf024ea     blx      #0xb9450 ; _objc_msgSend
+0x0009d008 411e         subs     r1, r0, #1
+0x0009d00a 0329         cmp      r1, #3
+0x0009d00c 06d3         blo      #0x9d01c
+0x0009d00e 0028         cmp      r0, #0
+0x0009d010 47d1         bne      #0x9d0a2
+0x0009d012 2d48         ldr      r0, [pc, #0xb4] ; literal@0x9d0c8=0x17329c selector-ref:setState:
+0x0009d014 0168         ldr      r1, [r0]
+0x0009d016 0522         movs     r2, #5
+0x0009d018 0498         ldr      r0, [sp, #0x10]
+0x0009d01a 40e0         b        #0x9d09e
+0x0009d01c 1bf09eed     blx      #0xb8b5c ; _CFAbsoluteTimeGetCurrent
+0x0009d020 2a4a         ldr      r2, [pc, #0xa8] ; literal@0x9d0cc=0x195614 _OBJC_IVAR_$_ABScrollGestureRecognizer._lastTime
+0x0009d022 1368         ldr      r3, [r2]
+0x0009d024 1a59         ldr      r2, [r3, r4]
+0x0009d026 1b19         adds     r3, r3, r4
+0x0009d028 5b68         ldr      r3, [r3, #4]
+0x0009d02a 1cf04ce9     blx      #0xb92c4 ; ___subdf3vfp
+0x0009d02e 1cf056e9     blx      #0xb92dc ; ___truncdfsf2vfp
+0x0009d032 2749         ldr      r1, [pc, #0x9c] ; literal@0x9d0d0=0x19561c _OBJC_IVAR_$_ABScrollGestureRecognizer._dt
+0x0009d034 0b68         ldr      r3, [r1]
+0x0009d036 1851         str      r0, [r3, r4]
+0x0009d038 0868         ldr      r0, [r1]
+0x0009d03a 0290         str      r0, [sp, #8]
+0x0009d03c 0059         ldr      r0, [r0, r4]
+0x0009d03e 1cf0ace8     blx      #0xb9198 ; ___extendsfdf2vfp
+0x0009d042 0190         str      r0, [sp, #4]
+0x0009d044 0091         str      r1, [sp]
+0x0009d046 234c         ldr      r4, [pc, #0x8c] ; literal@0x9d0d4=0x11111111
+0x0009d048 234d         ldr      r5, [pc, #0x8c] ; literal@0x9d0d8=0x3f911111 float32-candidate=1.13333
+0x0009d04a 2246         mov      r2, r4
+0x0009d04c 2b46         mov      r3, r5
+0x0009d04e 1cf0d4e8     blx      #0xb91f8 ; ___gedf2vfp
+0x0009d052 0646         mov      r6, r0
+0x0009d054 0198         ldr      r0, [sp, #4]
+0x0009d056 0099         ldr      r1, [sp]
+0x0009d058 2246         mov      r2, r4
+0x0009d05a 2b46         mov      r3, r5
+0x0009d05c 1cf050e9     blx      #0xb9300 ; ___unorddf2vfp
+0x0009d060 3043         orrs     r0, r6
+0x0009d062 0299         ldr      r1, [sp, #8]
+0x0009d064 049c         ldr      r4, [sp, #0x10]
+0x0009d066 0919         adds     r1, r1, r4
+0x0009d068 0028         cmp      r0, #0
+0x0009d06a 01d1         bne      #0x9d070
+0x0009d06c 1b4b         ldr      r3, [pc, #0x6c] ; literal@0x9d0dc=0x3c888889 float32-candidate=0.0166667
+0x0009d06e 0b60         str      r3, [r1]
+0x0009d070 1b49         ldr      r1, [pc, #0x6c] ; literal@0x9d0e0=0x17329c selector-ref:setState:
+0x0009d072 0968         ldr      r1, [r1]
+0x0009d074 0322         movs     r2, #3
+0x0009d076 049c         ldr      r4, [sp, #0x10]
+0x0009d078 2046         mov      r0, r4
+0x0009d07a 1cf0eae9     blx      #0xb9450 ; _objc_msgSend
+0x0009d07e 1949         ldr      r1, [pc, #0x64] ; literal@0x9d0e4=0x19561c _OBJC_IVAR_$_ABScrollGestureRecognizer._dt
+0x0009d080 0968         ldr      r1, [r1]
+0x0009d082 0859         ldr      r0, [r1, r4]
+0x0009d084 1849         ldr      r1, [pc, #0x60] ; literal@0x9d0e8=0x42700000 float32-candidate=60
+0x0009d086 1cf006e9     blx      #0xb9294 ; ___mulsf3vfp
+0x0009d08a 0146         mov      r1, r0
+0x0009d08c 174b         ldr      r3, [pc, #0x5c] ; literal@0x9d0ec=0x195618 _OBJC_IVAR_$_ABScrollGestureRecognizer._dx
+0x0009d08e 1b68         ldr      r3, [r3]
+0x0009d090 1859         ldr      r0, [r3, r4]
+0x0009d092 1cf064e8     blx      #0xb915c ; ___divsf3vfp
+0x0009d096 0246         mov      r2, r0
+0x0009d098 1549         ldr      r1, [pc, #0x54] ; literal@0x9d0f0=0x1739f4 selector-ref:_endScroll:
+0x0009d09a 0968         ldr      r1, [r1]
+0x0009d09c 0398         ldr      r0, [sp, #0xc]
+0x0009d09e 1cf0d8e9     blx      #0xb9450 ; _objc_msgSend
+0x0009d0a2 1449         ldr      r1, [pc, #0x50] ; literal@0x9d0f4=0x195608 _OBJC_IVAR_$_ABScrollGestureRecognizer._touch
+0x0009d0a4 0968         ldr      r1, [r1]
+0x0009d0a6 0023         movs     r3, #0
+0x0009d0a8 0498         ldr      r0, [sp, #0x10]
+0x0009d0aa 0b50         str      r3, [r1, r0]
+0x0009d0ac 07b0         add      sp, #0x1c
+0x0009d0ae f0bd         pop      {r4, r5, r6, r7, pc}
+0x0009d0b0 7049         ldr      r1, [pc, #0x1c0] ; literal@0x9d274=0xf01c9906
+0x0009d0b2 1700         movs     r7, r2
+0x0009d0b4 2837         adds     r7, #0x28
+0x0009d0b6 1700         movs     r7, r2
+0x0009d0b8 0856         ldrsb    r0, [r1, r0]
+0x0009d0ba 1900         movs     r1, r3
+0x0009d0bc 4810         asrs     r0, r1, #1
+0x0009d0be 1700         movs     r7, r2
+0x0009d0c0 280b         lsrs     r0, r5, #0xc
+0x0009d0c2 1700         movs     r7, r2
+0x0009d0c4 4c32         adds     r2, #0x4c
+0x0009d0c6 1700         movs     r7, r2
+0x0009d0c8 9c32         adds     r2, #0x9c
+0x0009d0ca 1700         movs     r7, r2
+0x0009d0cc 1456         ldrsb    r4, [r2, r0]
+0x0009d0ce 1900         movs     r1, r3
+0x0009d0d0 1c56         ldrsb    r4, [r3, r0]
+0x0009d0d2 1900         movs     r1, r3
+0x0009d0d4 1111         asrs     r1, r2, #4
+0x0009d0d6 1111         asrs     r1, r2, #4
+0x0009d0d8 1111         asrs     r1, r2, #4
+0x0009d0da 913f         subs     r7, #0x91
+0x0009d0dc 8988         ldrh     r1, [r1, #4]
+0x0009d0de 883c         subs     r4, #0x88
+0x0009d0e0 9c32         adds     r2, #0x9c
+0x0009d0e2 1700         movs     r7, r2
+0x0009d0e4 1c56         ldrsb    r4, [r3, r0]
+0x0009d0e6 1900         movs     r1, r3
+0x0009d0e8 0000         movs     r0, r0
+0x0009d0ea 7042         rsbs     r0, r6, #0
+0x0009d0ec 1856         ldrsb    r0, [r3, r0]
+0x0009d0ee 1900         movs     r1, r3
+0x0009d0f0 f439         subs     r1, #0xf4
+0x0009d0f2 1700         movs     r7, r2
+0x0009d0f4 0856         ldrsb    r0, [r1, r0]
+0x0009d0f6 1900         movs     r1, r3
+
+## -[ABScrollGestureRecognizer touchesMoved:withEvent:] VM 0x9d0f8 file 0x9c0f8 bounded end 0x9d37c
+0x0009d0f8 f0b5         push     {r4, r5, r6, r7, lr}
+0x0009d0fa 03af         add      r7, sp, #0xc
+0x0009d0fc 8ab0         sub      sp, #0x28
+0x0009d0fe 1446         mov      r4, r2
+0x0009d100 0546         mov      r5, r0
+0x0009d102 0595         str      r5, [sp, #0x14]
+0x0009d104 0895         str      r5, [sp, #0x20]
+0x0009d106 8248         ldr      r0, [pc, #0x208] ; literal@0x9d310=0x174970
+0x0009d108 0068         ldr      r0, [r0]
+0x0009d10a 0990         str      r0, [sp, #0x24]
+0x0009d10c 8148         ldr      r0, [pc, #0x204] ; literal@0x9d314=0x1739fc selector-ref:touchesMoved:withEvent:
+0x0009d10e 0168         ldr      r1, [r0]
+0x0009d110 08a8         add      r0, sp, #0x20
+0x0009d112 1cf0a4e9     blx      #0xb945c ; _objc_msgSendSuper2
+0x0009d116 8048         ldr      r0, [pc, #0x200] ; literal@0x9d318=0x195608 _OBJC_IVAR_$_ABScrollGestureRecognizer._touch
+0x0009d118 0068         ldr      r0, [r0]
+0x0009d11a 4259         ldr      r2, [r0, r5]
+0x0009d11c 002a         cmp      r2, #0
+0x0009d11e 00d1         bne      #0x9d122
+0x0009d120 f4e0         b        #0x9d30c
+0x0009d122 2046         mov      r0, r4
+0x0009d124 7d49         ldr      r1, [pc, #0x1f4] ; literal@0x9d31c=0x171048 selector-ref:containsObject:
+0x0009d126 0968         ldr      r1, [r1]
+0x0009d128 1cf092e9     blx      #0xb9450 ; _objc_msgSend
+0x0009d12c ff21         movs     r1, #0xff
+0x0009d12e 0842         tst      r0, r1
+0x0009d130 00d1         bne      #0x9d134
+0x0009d132 ebe0         b        #0x9d30c
+0x0009d134 7a48         ldr      r0, [pc, #0x1e8] ; literal@0x9d320=0x170b28 selector-ref:view
+0x0009d136 0168         ldr      r1, [r0]
+0x0009d138 2c46         mov      r4, r5
+0x0009d13a 2046         mov      r0, r4
+0x0009d13c 1cf088e9     blx      #0xb9450 ; _objc_msgSend
+0x0009d140 0290         str      r0, [sp, #8]
+0x0009d142 7849         ldr      r1, [pc, #0x1e0] ; literal@0x9d324=0x195608 _OBJC_IVAR_$_ABScrollGestureRecognizer._touch
+0x0009d144 0968         ldr      r1, [r1]
+0x0009d146 0d59         ldr      r5, [r1, r4]
+0x0009d148 7749         ldr      r1, [pc, #0x1dc] ; literal@0x9d328=0x1730d0 selector-ref:locationInView:
+0x0009d14a 0e68         ldr      r6, [r1]
+0x0009d14c 7749         ldr      r1, [pc, #0x1dc] ; literal@0x9d32c=0x17220c selector-ref:superview
+0x0009d14e 0968         ldr      r1, [r1]
+0x0009d150 1cf07ee9     blx      #0xb9450 ; _objc_msgSend
+0x0009d154 0346         mov      r3, r0
+0x0009d156 06a8         add      r0, sp, #0x18
+0x0009d158 2946         mov      r1, r5
+0x0009d15a 3246         mov      r2, r6
+0x0009d15c 1cf084e9     blx      #0xb9468 ; _objc_msgSend_stret
+0x0009d160 7348         ldr      r0, [pc, #0x1cc] ; literal@0x9d330=0x17324c selector-ref:state
+0x0009d162 0168         ldr      r1, [r0]
+0x0009d164 2046         mov      r0, r4
+0x0009d166 1cf074e9     blx      #0xb9450 ; _objc_msgSend
+0x0009d16a 0528         cmp      r0, #5
+0x0009d16c 00d9         bls      #0x9d170
+0x0009d16e c5e0         b        #0x9d2fc
+0x0009d170 8000         lsls     r0, r0, #2
+0x0009d172 01a1         adr      r1, #4
+0x0009d174 4058         ldr      r0, [r0, r1]
+0x0009d176 8746         mov      pc, r0
+0x0009d178 90d1         bne      #0x9d09c
+0x0009d17a 0900         movs     r1, r1
+0x0009d17c 54d2         bhs      #0x9d228
+0x0009d17e 0900         movs     r1, r1
+0x0009d180 5cd2         bhs      #0x9d23c
+0x0009d182 0900         movs     r1, r1
+0x0009d184 fcd2         bhs      #0x9d180
+0x0009d186 0900         movs     r1, r1
+0x0009d188 fcd2         bhs      #0x9d184
+0x0009d18a 0900         movs     r1, r1
+0x0009d18c 0cd3         blo      #0x9d1a8
+0x0009d18e 0900         movs     r1, r1
+0x0009d190 6848         ldr      r0, [pc, #0x1a0] ; literal@0x9d334=0x19560c _OBJC_IVAR_$_ABScrollGestureRecognizer._firstPoint
+0x0009d192 0068         ldr      r0, [r0]
+0x0009d194 0290         str      r0, [sp, #8]
+0x0009d196 0219         adds     r2, r0, r4
+0x0009d198 0392         str      r2, [sp, #0xc]
+0x0009d19a 5068         ldr      r0, [r2, #4]
+0x0009d19c 0799         ldr      r1, [sp, #0x1c]
+0x0009d19e 1cf098e8     blx      #0xb92d0 ; ___subsf3vfp
+0x0009d1a2 654a         ldr      r2, [pc, #0x194] ; literal@0x9d338=0x7fffffff
+0x0009d1a4 0492         str      r2, [sp, #0x10]
+0x0009d1a6 0446         mov      r4, r0
+0x0009d1a8 1440         ands     r4, r2
+0x0009d1aa 644d         ldr      r5, [pc, #0x190] ; literal@0x9d33c=0x41200000 float32-candidate=10
+0x0009d1ac 2046         mov      r0, r4
+0x0009d1ae 2946         mov      r1, r5
+0x0009d1b0 1cf040e8     blx      #0xb9234 ; ___lesf2vfp
+0x0009d1b4 0646         mov      r6, r0
+0x0009d1b6 2046         mov      r0, r4
+0x0009d1b8 2946         mov      r1, r5
+0x0009d1ba 1cf0a8e8     blx      #0xb930c ; ___unordsf2vfp
+0x0009d1be 0546         mov      r5, r0
+0x0009d1c0 3543         orrs     r5, r6
+0x0009d1c2 0299         ldr      r1, [sp, #8]
+0x0009d1c4 0598         ldr      r0, [sp, #0x14]
+0x0009d1c6 0858         ldr      r0, [r1, r0]
+0x0009d1c8 0699         ldr      r1, [sp, #0x18]
+0x0009d1ca 1cf082e8     blx      #0xb92d0 ; ___subsf3vfp
+0x0009d1ce 049a         ldr      r2, [sp, #0x10]
+0x0009d1d0 0240         ands     r2, r0
+0x0009d1d2 0492         str      r2, [sp, #0x10]
+0x0009d1d4 002d         cmp      r5, #0
+0x0009d1d6 13d1         bne      #0x9d200
+0x0009d1d8 2046         mov      r0, r4
+0x0009d1da 1546         mov      r5, r2
+0x0009d1dc 2946         mov      r1, r5
+0x0009d1de 1cf02ae8     blx      #0xb9234 ; ___lesf2vfp
+0x0009d1e2 0646         mov      r6, r0
+0x0009d1e4 2046         mov      r0, r4
+0x0009d1e6 2946         mov      r1, r5
+0x0009d1e8 1cf090e8     blx      #0xb930c ; ___unordsf2vfp
+0x0009d1ec 3043         orrs     r0, r6
+0x0009d1ee 0028         cmp      r0, #0
+0x0009d1f0 06d1         bne      #0x9d200
+0x0009d1f2 5348         ldr      r0, [pc, #0x14c] ; literal@0x9d340=0x17329c selector-ref:setState:
+0x0009d1f4 0168         ldr      r1, [r0]
+0x0009d1f6 0522         movs     r2, #5
+0x0009d1f8 0598         ldr      r0, [sp, #0x14]
+0x0009d1fa 1cf02ae9     blx      #0xb9450 ; _objc_msgSend
+0x0009d1fe 7de0         b        #0x9d2fc
+0x0009d200 4e4c         ldr      r4, [pc, #0x138] ; literal@0x9d33c=0x41200000 float32-candidate=10
+0x0009d202 049d         ldr      r5, [sp, #0x10]
+0x0009d204 2846         mov      r0, r5
+0x0009d206 2146         mov      r1, r4
+0x0009d208 1cf014e8     blx      #0xb9234 ; ___lesf2vfp
+0x0009d20c 0646         mov      r6, r0
+0x0009d20e 2846         mov      r0, r5
+0x0009d210 2146         mov      r1, r4
+0x0009d212 1cf07ce8     blx      #0xb930c ; ___unordsf2vfp
+0x0009d216 3043         orrs     r0, r6
+0x0009d218 0028         cmp      r0, #0
+0x0009d21a 6fd1         bne      #0x9d2fc
+0x0009d21c 0698         ldr      r0, [sp, #0x18]
+0x0009d21e 0799         ldr      r1, [sp, #0x1c]
+0x0009d220 039a         ldr      r2, [sp, #0xc]
+0x0009d222 5160         str      r1, [r2, #4]
+0x0009d224 1060         str      r0, [r2]
+0x0009d226 4748         ldr      r0, [pc, #0x11c] ; literal@0x9d344=0x195614 _OBJC_IVAR_$_ABScrollGestureRecognizer._lastTime
+0x0009d228 0468         ldr      r4, [r0]
+0x0009d22a 1bf098ec     blx      #0xb8b5c ; _CFAbsoluteTimeGetCurrent
+0x0009d22e 059b         ldr      r3, [sp, #0x14]
+0x0009d230 e050         str      r0, [r4, r3]
+0x0009d232 e018         adds     r0, r4, r3
+0x0009d234 4160         str      r1, [r0, #4]
+0x0009d236 4448         ldr      r0, [pc, #0x110] ; literal@0x9d348=0x195618 _OBJC_IVAR_$_ABScrollGestureRecognizer._dx
+0x0009d238 0068         ldr      r0, [r0]
+0x0009d23a 0021         movs     r1, #0
+0x0009d23c c150         str      r1, [r0, r3]
+0x0009d23e 4348         ldr      r0, [pc, #0x10c] ; literal@0x9d34c=0x19561c _OBJC_IVAR_$_ABScrollGestureRecognizer._dt
+0x0009d240 0068         ldr      r0, [r0]
+0x0009d242 4349         ldr      r1, [pc, #0x10c] ; literal@0x9d350=0x3c888889 float32-candidate=0.0166667
+0x0009d244 c150         str      r1, [r0, r3]
+0x0009d246 4348         ldr      r0, [pc, #0x10c] ; literal@0x9d354=0x17329c selector-ref:setState:
+0x0009d248 0168         ldr      r1, [r0]
+0x0009d24a 0122         movs     r2, #1
+0x0009d24c 1846         mov      r0, r3
+0x0009d24e 1cf000e9     blx      #0xb9450 ; _objc_msgSend
+0x0009d252 53e0         b        #0x9d2fc
+0x0009d254 4048         ldr      r0, [pc, #0x100] ; literal@0x9d358=0x17329c selector-ref:setState:
+0x0009d256 0168         ldr      r1, [r0]
+0x0009d258 0222         movs     r2, #2
+0x0009d25a cde7         b        #0x9d1f8
+0x0009d25c 3f48         ldr      r0, [pc, #0xfc] ; literal@0x9d35c=0x195618 _OBJC_IVAR_$_ABScrollGestureRecognizer._dx
+0x0009d25e 0168         ldr      r1, [r0]
+0x0009d260 0491         str      r1, [sp, #0x10]
+0x0009d262 059c         ldr      r4, [sp, #0x14]
+0x0009d264 0859         ldr      r0, [r1, r4]
+0x0009d266 3e49         ldr      r1, [pc, #0xf8] ; literal@0x9d360=0x3f666666 float32-candidate=0.9
+0x0009d268 1cf014e8     blx      #0xb9294 ; ___mulsf3vfp
+0x0009d26c 0546         mov      r5, r0
+0x0009d26e 3d4a         ldr      r2, [pc, #0xf4] ; literal@0x9d364=0x195610 _OBJC_IVAR_$_ABScrollGestureRecognizer._lastPoint
+0x0009d270 1268         ldr      r2, [r2]
+0x0009d272 1059         ldr      r0, [r2, r4]
+0x0009d274 0699         ldr      r1, [sp, #0x18]
+0x0009d276 1cf02ce8     blx      #0xb92d0 ; ___subsf3vfp
+0x0009d27a 0646         mov      r6, r0
+0x0009d27c 3a49         ldr      r1, [pc, #0xe8] ; literal@0x9d368=0x3dccccd0 float32-candidate=0.1
+0x0009d27e 1cf00ae8     blx      #0xb9294 ; ___mulsf3vfp
+0x0009d282 0146         mov      r1, r0
+0x0009d284 2846         mov      r0, r5
+0x0009d286 1bf058ef     blx      #0xb9138 ; ___addsf3vfp
+0x0009d28a 0499         ldr      r1, [sp, #0x10]
+0x0009d28c 0851         str      r0, [r1, r4]
+0x0009d28e 3348         ldr      r0, [pc, #0xcc] ; literal@0x9d35c=0x195618 _OBJC_IVAR_$_ABScrollGestureRecognizer._dx
+0x0009d290 0068         ldr      r0, [r0]
+0x0009d292 0651         str      r6, [r0, r4]
+0x0009d294 1bf062ec     blx      #0xb8b5c ; _CFAbsoluteTimeGetCurrent
+0x0009d298 0390         str      r0, [sp, #0xc]
+0x0009d29a 0491         str      r1, [sp, #0x10]
+0x0009d29c 3348         ldr      r0, [pc, #0xcc] ; literal@0x9d36c=0x19561c _OBJC_IVAR_$_ABScrollGestureRecognizer._dt
+0x0009d29e 0168         ldr      r1, [r0]
+0x0009d2a0 0191         str      r1, [sp, #4]
+0x0009d2a2 0859         ldr      r0, [r1, r4]
+0x0009d2a4 3f22         movs     r2, #0x3f
+0x0009d2a6 1506         lsls     r5, r2, #0x18
+0x0009d2a8 2946         mov      r1, r5
+0x0009d2aa 1bf0f4ef     blx      #0xb9294 ; ___mulsf3vfp
+0x0009d2ae 0090         str      r0, [sp]
+0x0009d2b0 2f4a         ldr      r2, [pc, #0xbc] ; literal@0x9d370=0x195614 _OBJC_IVAR_$_ABScrollGestureRecognizer._lastTime
+0x0009d2b2 1368         ldr      r3, [r2]
+0x0009d2b4 1a59         ldr      r2, [r3, r4]
+0x0009d2b6 1b19         adds     r3, r3, r4
+0x0009d2b8 5b68         ldr      r3, [r3, #4]
+0x0009d2ba 0398         ldr      r0, [sp, #0xc]
+0x0009d2bc 0499         ldr      r1, [sp, #0x10]
+0x0009d2be 1cf002e8     blx      #0xb92c4 ; ___subdf3vfp
+0x0009d2c2 1cf00ce8     blx      #0xb92dc ; ___truncdfsf2vfp
+0x0009d2c6 0646         mov      r6, r0
+0x0009d2c8 2946         mov      r1, r5
+0x0009d2ca 1bf0e4ef     blx      #0xb9294 ; ___mulsf3vfp
+0x0009d2ce 0146         mov      r1, r0
+0x0009d2d0 0098         ldr      r0, [sp]
+0x0009d2d2 1bf032ef     blx      #0xb9138 ; ___addsf3vfp
+0x0009d2d6 0199         ldr      r1, [sp, #4]
+0x0009d2d8 0851         str      r0, [r1, r4]
+0x0009d2da 2448         ldr      r0, [pc, #0x90] ; literal@0x9d36c=0x19561c _OBJC_IVAR_$_ABScrollGestureRecognizer._dt
+0x0009d2dc 0068         ldr      r0, [r0]
+0x0009d2de 0651         str      r6, [r0, r4]
+0x0009d2e0 234a         ldr      r2, [pc, #0x8c] ; literal@0x9d370=0x195614 _OBJC_IVAR_$_ABScrollGestureRecognizer._lastTime
+0x0009d2e2 1068         ldr      r0, [r2]
+0x0009d2e4 0399         ldr      r1, [sp, #0xc]
+0x0009d2e6 0151         str      r1, [r0, r4]
+0x0009d2e8 0019         adds     r0, r0, r4
+0x0009d2ea 0499         ldr      r1, [sp, #0x10]
+0x0009d2ec 4160         str      r1, [r0, #4]
+0x0009d2ee 2148         ldr      r0, [pc, #0x84] ; literal@0x9d374=0x1739f8 selector-ref:_didScroll:
+0x0009d2f0 0168         ldr      r1, [r0]
+0x0009d2f2 079b         ldr      r3, [sp, #0x1c]
+0x0009d2f4 069a         ldr      r2, [sp, #0x18]
+0x0009d2f6 0298         ldr      r0, [sp, #8]
+0x0009d2f8 1cf0aae8     blx      #0xb9450 ; _objc_msgSend
+0x0009d2fc 1e48         ldr      r0, [pc, #0x78] ; literal@0x9d378=0x195610 _OBJC_IVAR_$_ABScrollGestureRecognizer._lastPoint
+0x0009d2fe 0068         ldr      r0, [r0]
+0x0009d300 0799         ldr      r1, [sp, #0x1c]
+0x0009d302 069a         ldr      r2, [sp, #0x18]
+0x0009d304 059b         ldr      r3, [sp, #0x14]
+0x0009d306 c250         str      r2, [r0, r3]
+0x0009d308 c018         adds     r0, r0, r3
+0x0009d30a 4160         str      r1, [r0, #4]
+0x0009d30c 0ab0         add      sp, #0x28
+0x0009d30e f0bd         pop      {r4, r5, r6, r7, pc}
+0x0009d310 7049         ldr      r1, [pc, #0x1c0] ; literal@0x9d4d4=0x59406820
+0x0009d312 1700         movs     r7, r2
+0x0009d314 fc39         subs     r1, #0xfc
+0x0009d316 1700         movs     r7, r2
+0x0009d318 0856         ldrsb    r0, [r1, r0]
+0x0009d31a 1900         movs     r1, r3
+0x0009d31c 4810         asrs     r0, r1, #1
+0x0009d31e 1700         movs     r7, r2
+0x0009d320 280b         lsrs     r0, r5, #0xc
+0x0009d322 1700         movs     r7, r2
+0x0009d324 0856         ldrsb    r0, [r1, r0]
+0x0009d326 1900         movs     r1, r3
+0x0009d328 d030         adds     r0, #0xd0
+0x0009d32a 1700         movs     r7, r2
+0x0009d32c 0c22         movs     r2, #0xc
+0x0009d32e 1700         movs     r7, r2
+0x0009d330 4c32         adds     r2, #0x4c
+0x0009d332 1700         movs     r7, r2
+0x0009d334 0c56         ldrsb    r4, [r1, r0]
+0x0009d336 1900         movs     r1, r3
+
+## -[ABScrollGestureRecognizer touchesBegan:withEvent:] VM 0x9d37c file 0x9c37c bounded end 0x9d47c
+0x0009d37c f0b5         push     {r4, r5, r6, r7, lr}
+0x0009d37e 03af         add      r7, sp, #0xc
+0x0009d380 8db0         sub      sp, #0x34
+0x0009d382 0193         str      r3, [sp, #4]
+0x0009d384 0392         str      r2, [sp, #0xc]
+0x0009d386 0446         mov      r4, r0
+0x0009d388 0294         str      r4, [sp, #8]
+0x0009d38a 0b94         str      r4, [sp, #0x2c]
+0x0009d38c 2d48         ldr      r0, [pc, #0xb4] ; literal@0x9d444=0x174970
+0x0009d38e 0068         ldr      r0, [r0]
+0x0009d390 0c90         str      r0, [sp, #0x30]
+0x0009d392 2d48         ldr      r0, [pc, #0xb4] ; literal@0x9d448=0x173730 selector-ref:touchesBegan:withEvent:
+0x0009d394 0168         ldr      r1, [r0]
+0x0009d396 0ba8         add      r0, sp, #0x2c
+0x0009d398 1cf060e8     blx      #0xb945c ; _objc_msgSendSuper2
+0x0009d39c 2b48         ldr      r0, [pc, #0xac] ; literal@0x9d44c=0x195608 _OBJC_IVAR_$_ABScrollGestureRecognizer._touch
+0x0009d39e 0068         ldr      r0, [r0]
+0x0009d3a0 0059         ldr      r0, [r0, r4]
+0x0009d3a2 0028         cmp      r0, #0
+0x0009d3a4 4bd1         bne      #0x9d43e
+0x0009d3a6 2a48         ldr      r0, [pc, #0xa8] ; literal@0x9d450=0x170b28 selector-ref:view
+0x0009d3a8 0168         ldr      r1, [r0]
+0x0009d3aa 2046         mov      r0, r4
+0x0009d3ac 1cf050e8     blx      #0xb9450 ; _objc_msgSend
+0x0009d3b0 0246         mov      r2, r0
+0x0009d3b2 0492         str      r2, [sp, #0x10]
+0x0009d3b4 2749         ldr      r1, [pc, #0x9c] ; literal@0x9d454=0x173a04 selector-ref:swipeView:willBeginTouches:withEvent:
+0x0009d3b6 0968         ldr      r1, [r1]
+0x0009d3b8 6b46         mov      r3, sp
+0x0009d3ba 019c         ldr      r4, [sp, #4]
+0x0009d3bc 1c60         str      r4, [r3]
+0x0009d3be 039c         ldr      r4, [sp, #0xc]
+0x0009d3c0 2346         mov      r3, r4
+0x0009d3c2 1cf046e8     blx      #0xb9450 ; _objc_msgSend
+0x0009d3c6 2448         ldr      r0, [pc, #0x90] ; literal@0x9d458=0x170c20 selector-ref:count
+0x0009d3c8 0168         ldr      r1, [r0]
+0x0009d3ca 2046         mov      r0, r4
+0x0009d3cc 1cf040e8     blx      #0xb9450 ; _objc_msgSend
+0x0009d3d0 0128         cmp      r0, #1
+0x0009d3d2 06d0         beq      #0x9d3e2
+0x0009d3d4 2148         ldr      r0, [pc, #0x84] ; literal@0x9d45c=0x17329c selector-ref:setState:
+0x0009d3d6 0168         ldr      r1, [r0]
+0x0009d3d8 0522         movs     r2, #5
+0x0009d3da 0298         ldr      r0, [sp, #8]
+0x0009d3dc 1cf038e8     blx      #0xb9450 ; _objc_msgSend
+0x0009d3e0 2de0         b        #0x9d43e
+0x0009d3e2 1f4c         ldr      r4, [pc, #0x7c] ; literal@0x9d460=0x195608 _OBJC_IVAR_$_ABScrollGestureRecognizer._touch
+0x0009d3e4 2568         ldr      r5, [r4]
+0x0009d3e6 1f48         ldr      r0, [pc, #0x7c] ; literal@0x9d464=0x1730d4 selector-ref:anyObject
+0x0009d3e8 0168         ldr      r1, [r0]
+0x0009d3ea 0398         ldr      r0, [sp, #0xc]
+0x0009d3ec 1cf030e8     blx      #0xb9450 ; _objc_msgSend
+0x0009d3f0 029e         ldr      r6, [sp, #8]
+0x0009d3f2 a851         str      r0, [r5, r6]
+0x0009d3f4 2068         ldr      r0, [r4]
+0x0009d3f6 8059         ldr      r0, [r0, r6]
+0x0009d3f8 0390         str      r0, [sp, #0xc]
+0x0009d3fa 1b48         ldr      r0, [pc, #0x6c] ; literal@0x9d468=0x19560c _OBJC_IVAR_$_ABScrollGestureRecognizer._firstPoint
+0x0009d3fc 0468         ldr      r4, [r0]
+0x0009d3fe 1b48         ldr      r0, [pc, #0x6c] ; literal@0x9d46c=0x1730d0 selector-ref:locationInView:
+0x0009d400 0568         ldr      r5, [r0]
+0x0009d402 1b48         ldr      r0, [pc, #0x6c] ; literal@0x9d470=0x17220c selector-ref:superview
+0x0009d404 0168         ldr      r1, [r0]
+0x0009d406 0498         ldr      r0, [sp, #0x10]
+0x0009d408 1cf022e8     blx      #0xb9450 ; _objc_msgSend
+0x0009d40c 0346         mov      r3, r0
+0x0009d40e 09a8         add      r0, sp, #0x24
+0x0009d410 0399         ldr      r1, [sp, #0xc]
+0x0009d412 2a46         mov      r2, r5
+0x0009d414 1cf028e8     blx      #0xb9468 ; _objc_msgSend_stret
+0x0009d418 0a98         ldr      r0, [sp, #0x28]
+0x0009d41a 0999         ldr      r1, [sp, #0x24]
+0x0009d41c a151         str      r1, [r4, r6]
+0x0009d41e a119         adds     r1, r4, r6
+0x0009d420 4860         str      r0, [r1, #4]
+0x0009d422 1448         ldr      r0, [pc, #0x50] ; literal@0x9d474=0x195620 _OBJC_IVAR_$_ABScrollGestureRecognizer._originalBounds
+0x0009d424 0468         ldr      r4, [r0]
+0x0009d426 1448         ldr      r0, [pc, #0x50] ; literal@0x9d478=0x170b2c selector-ref:bounds
+0x0009d428 0268         ldr      r2, [r0]
+0x0009d42a 05ad         add      r5, sp, #0x14
+0x0009d42c 2846         mov      r0, r5
+0x0009d42e 0499         ldr      r1, [sp, #0x10]
+0x0009d430 1cf01ae8     blx      #0xb9468 ; _objc_msgSend_stret
+0x0009d434 a019         adds     r0, r4, r6
+0x0009d436 1022         movs     r2, #0x10
+0x0009d438 2946         mov      r1, r5
+0x0009d43a 1bf0d4ef     blx      #0xb93e4 ; _memcpy
+0x0009d43e 0db0         add      sp, #0x34
+0x0009d440 f0bd         pop      {r4, r5, r6, r7, pc}
+0x0009d442 c046         mov      r8, r8
+0x0009d444 7049         ldr      r1, [pc, #0x1c0] ; literal@0x9d608=0xaf03b5f0 float32-candidate=-1.1979e-10
+0x0009d446 1700         movs     r7, r2
+0x0009d448 3037         adds     r7, #0x30
+0x0009d44a 1700         movs     r7, r2
+0x0009d44c 0856         ldrsb    r0, [r1, r0]
+0x0009d44e 1900         movs     r1, r3
+0x0009d450 280b         lsrs     r0, r5, #0xc
+0x0009d452 1700         movs     r7, r2
+0x0009d454 043a         subs     r2, #4
+0x0009d456 1700         movs     r7, r2
+0x0009d458 200c         lsrs     r0, r4, #0x10
+0x0009d45a 1700         movs     r7, r2
+0x0009d45c 9c32         adds     r2, #0x9c
+0x0009d45e 1700         movs     r7, r2
+0x0009d460 0856         ldrsb    r0, [r1, r0]
+0x0009d462 1900         movs     r1, r3
+0x0009d464 d430         adds     r0, #0xd4
+0x0009d466 1700         movs     r7, r2
+0x0009d468 0c56         ldrsb    r4, [r1, r0]
+0x0009d46a 1900         movs     r1, r3
+0x0009d46c d030         adds     r0, #0xd0
+0x0009d46e 1700         movs     r7, r2
+0x0009d470 0c22         movs     r2, #0xc
+0x0009d472 1700         movs     r7, r2
+0x0009d474 2056         ldrsb    r0, [r4, r0]
+0x0009d476 1900         movs     r1, r3
+0x0009d478 2c0b         lsrs     r4, r5, #0xc
+0x0009d47a 1700         movs     r7, r2
+
+## -[ABSwipeColumnScrollView animate] VM 0x9c8bc file 0x9b8bc bounded end 0x9ca88
+0x0009c8bc f0b5         push     {r4, r5, r6, r7, lr}
+0x0009c8be 03af         add      r7, sp, #0xc
+0x0009c8c0 87b0         sub      sp, #0x1c
+0x0009c8c2 0446         mov      r4, r0
+0x0009c8c4 5548         ldr      r0, [pc, #0x154] ; literal@0x9ca1c=0x1954a0 _OBJC_IVAR_$_ABSwipeColumnScrollView.steps
+0x0009c8c6 0068         ldr      r0, [r0]
+0x0009c8c8 0159         ldr      r1, [r0, r4]
+0x0009c8ca 0131         adds     r1, #1
+0x0009c8cc 0151         str      r1, [r0, r4]
+0x0009c8ce 5448         ldr      r0, [pc, #0x150] ; literal@0x9ca20=0x1954ac _OBJC_IVAR_$_ABSwipeColumnScrollView.workingBounds
+0x0009c8d0 0568         ldr      r5, [r0]
+0x0009c8d2 2859         ldr      r0, [r5, r4]
+0x0009c8d4 534e         ldr      r6, [pc, #0x14c] ; literal@0x9ca24=0x19549c _OBJC_IVAR_$_ABSwipeColumnScrollView.dx
+0x0009c8d6 3168         ldr      r1, [r6]
+0x0009c8d8 0959         ldr      r1, [r1, r4]
+0x0009c8da 1cf02eec     blx      #0xb9138 ; ___addsf3vfp
+0x0009c8de 2851         str      r0, [r5, r4]
+0x0009c8e0 3568         ldr      r5, [r6]
+0x0009c8e2 2859         ldr      r0, [r5, r4]
+0x0009c8e4 5049         ldr      r1, [pc, #0x140] ; literal@0x9ca28=0x1954a4 _OBJC_IVAR_$_ABSwipeColumnScrollView.friction
+0x0009c8e6 0968         ldr      r1, [r1]
+0x0009c8e8 0959         ldr      r1, [r1, r4]
+0x0009c8ea 1cf0d4ec     blx      #0xb9294 ; ___mulsf3vfp
+0x0009c8ee 2851         str      r0, [r5, r4]
+0x0009c8f0 4e49         ldr      r1, [pc, #0x138] ; literal@0x9ca2c=0x1954b0 _OBJC_IVAR_$_ABSwipeColumnScrollView.destinationOffset
+0x0009c8f2 0968         ldr      r1, [r1]
+0x0009c8f4 0859         ldr      r0, [r1, r4]
+0x0009c8f6 4a49         ldr      r1, [pc, #0x128] ; literal@0x9ca20=0x1954ac _OBJC_IVAR_$_ABSwipeColumnScrollView.workingBounds
+0x0009c8f8 0968         ldr      r1, [r1]
+0x0009c8fa 0959         ldr      r1, [r1, r4]
+0x0009c8fc 1cf0e8ec     blx      #0xb92d0 ; ___subsf3vfp
+0x0009c900 4b49         ldr      r1, [pc, #0x12c] ; literal@0x9ca30=0x195210 _OBJC_IVAR_$_ABSwipeColumnScrollView._swipeFlags
+0x0009c902 0968         ldr      r1, [r1]
+0x0009c904 095d         ldrb     r1, [r1, r4]
+0x0009c906 0290         str      r0, [sp, #8]
+0x0009c908 0122         movs     r2, #1
+0x0009c90a 1142         tst      r1, r2
+0x0009c90c 0bd1         bne      #0x9c926
+0x0009c90e 4949         ldr      r1, [pc, #0x124] ; literal@0x9ca34=0x1954a8 _OBJC_IVAR_$_ABSwipeColumnScrollView.springiness
+0x0009c910 0968         ldr      r1, [r1]
+0x0009c912 0959         ldr      r1, [r1, r4]
+0x0009c914 1cf0beec     blx      #0xb9294 ; ___mulsf3vfp
+0x0009c918 0146         mov      r1, r0
+0x0009c91a 474a         ldr      r2, [pc, #0x11c] ; literal@0x9ca38=0x19549c _OBJC_IVAR_$_ABSwipeColumnScrollView.dx
+0x0009c91c 1568         ldr      r5, [r2]
+0x0009c91e 2859         ldr      r0, [r5, r4]
+0x0009c920 1cf00aec     blx      #0xb9138 ; ___addsf3vfp
+0x0009c924 2851         str      r0, [r5, r4]
+0x0009c926 4549         ldr      r1, [pc, #0x114] ; literal@0x9ca3c=0x173a30 selector-ref:begin
+0x0009c928 0968         ldr      r1, [r1]
+0x0009c92a 454d         ldr      r5, [pc, #0x114] ; literal@0x9ca40=0x17454c
+0x0009c92c 2868         ldr      r0, [r5]
+0x0009c92e 1cf090ed     blx      #0xb9450 ; _objc_msgSend
+0x0009c932 4449         ldr      r1, [pc, #0x110] ; literal@0x9ca44=0x173a2c selector-ref:setDisableActions:
+0x0009c934 0968         ldr      r1, [r1]
+0x0009c936 2868         ldr      r0, [r5]
+0x0009c938 0122         movs     r2, #1
+0x0009c93a 1cf08aed     blx      #0xb9450 ; _objc_msgSend
+0x0009c93e 4249         ldr      r1, [pc, #0x108] ; literal@0x9ca48=0x170b2c selector-ref:bounds
+0x0009c940 0a68         ldr      r2, [r1]
+0x0009c942 03a8         add      r0, sp, #0xc
+0x0009c944 2146         mov      r1, r4
+0x0009c946 1cf090ed     blx      #0xb9468 ; _objc_msgSend_stret
+0x0009c94a 4049         ldr      r1, [pc, #0x100] ; literal@0x9ca4c=0x1954ac _OBJC_IVAR_$_ABSwipeColumnScrollView.workingBounds
+0x0009c94c 0968         ldr      r1, [r1]
+0x0009c94e 0859         ldr      r0, [r1, r4]
+0x0009c950 1cf0c6ed     blx      #0xb94e0 ; _roundf
+0x0009c954 0390         str      r0, [sp, #0xc]
+0x0009c956 3e49         ldr      r1, [pc, #0xf8] ; literal@0x9ca50=0x1954a0 _OBJC_IVAR_$_ABSwipeColumnScrollView.steps
+0x0009c958 0968         ldr      r1, [r1]
+0x0009c95a 0959         ldr      r1, [r1, r4]
+0x0009c95c c729         cmp      r1, #0xc7
+0x0009c95e 1edc         bgt      #0x9c99e
+0x0009c960 3c49         ldr      r1, [pc, #0xf0] ; literal@0x9ca54=0x19549c _OBJC_IVAR_$_ABSwipeColumnScrollView.dx
+0x0009c962 0968         ldr      r1, [r1]
+0x0009c964 0959         ldr      r1, [r1, r4]
+0x0009c966 3c48         ldr      r0, [pc, #0xf0] ; literal@0x9ca58=0x7fffffff
+0x0009c968 0840         ands     r0, r1
+0x0009c96a 7f21         movs     r1, #0x7f
+0x0009c96c c905         lsls     r1, r1, #0x17
+0x0009c96e 1cf06eec     blx      #0xb924c ; ___ltsf2vfp
+0x0009c972 0028         cmp      r0, #0
+0x0009c974 01d1         bne      #0x9c97a
+0x0009c976 0020         movs     r0, #0
+0x0009c978 26e0         b        #0x9c9c8
+0x0009c97a 3748         ldr      r0, [pc, #0xdc] ; literal@0x9ca58=0x7fffffff
+0x0009c97c 0299         ldr      r1, [sp, #8]
+0x0009c97e 0140         ands     r1, r0
+0x0009c980 0291         str      r1, [sp, #8]
+0x0009c982 7f20         movs     r0, #0x7f
+0x0009c984 c505         lsls     r5, r0, #0x17
+0x0009c986 0846         mov      r0, r1
+0x0009c988 2946         mov      r1, r5
+0x0009c98a 1cf03cec     blx      #0xb9204 ; ___gesf2vfp
+0x0009c98e 0646         mov      r6, r0
+0x0009c990 0298         ldr      r0, [sp, #8]
+0x0009c992 2946         mov      r1, r5
+0x0009c994 1cf0baec     blx      #0xb930c ; ___unordsf2vfp
+0x0009c998 3043         orrs     r0, r6
+0x0009c99a 0028         cmp      r0, #0
+0x0009c99c ebd1         bne      #0x9c976
+0x0009c99e 2f48         ldr      r0, [pc, #0xbc] ; literal@0x9ca5c=0x1954b0 _OBJC_IVAR_$_ABSwipeColumnScrollView.destinationOffset
+0x0009c9a0 0068         ldr      r0, [r0]
+0x0009c9a2 0059         ldr      r0, [r0, r4]
+0x0009c9a4 0390         str      r0, [sp, #0xc]
+0x0009c9a6 2e4d         ldr      r5, [pc, #0xb8] ; literal@0x9ca60=0x195498 _OBJC_IVAR_$_ABSwipeColumnScrollView.timer
+0x0009c9a8 2868         ldr      r0, [r5]
+0x0009c9aa 0059         ldr      r0, [r0, r4]
+0x0009c9ac 2d49         ldr      r1, [pc, #0xb4] ; literal@0x9ca64=0x171654 selector-ref:invalidate
+0x0009c9ae 0968         ldr      r1, [r1]
+0x0009c9b0 1cf04eed     blx      #0xb9450 ; _objc_msgSend
+0x0009c9b4 2868         ldr      r0, [r5]
+0x0009c9b6 0021         movs     r1, #0
+0x0009c9b8 0151         str      r1, [r0, r4]
+0x0009c9ba 2b48         ldr      r0, [pc, #0xac] ; literal@0x9ca68=0x195210 _OBJC_IVAR_$_ABSwipeColumnScrollView._swipeFlags
+0x0009c9bc 0068         ldr      r0, [r0]
+0x0009c9be 015d         ldrb     r1, [r0, r4]
+0x0009c9c0 fe22         movs     r2, #0xfe
+0x0009c9c2 0a40         ands     r2, r1
+0x0009c9c4 0255         strb     r2, [r0, r4]
+0x0009c9c6 0120         movs     r0, #1
+0x0009c9c8 0290         str      r0, [sp, #8]
+0x0009c9ca 2848         ldr      r0, [pc, #0xa0] ; literal@0x9ca6c=0x172308 selector-ref:setBounds:
+0x0009c9cc 0168         ldr      r1, [r0]
+0x0009c9ce 049b         ldr      r3, [sp, #0x10]
+0x0009c9d0 039a         ldr      r2, [sp, #0xc]
+0x0009c9d2 0598         ldr      r0, [sp, #0x14]
+0x0009c9d4 069d         ldr      r5, [sp, #0x18]
+0x0009c9d6 6e46         mov      r6, sp
+0x0009c9d8 7560         str      r5, [r6, #4]
+0x0009c9da 3060         str      r0, [r6]
+0x0009c9dc 2046         mov      r0, r4
+0x0009c9de 1cf038ed     blx      #0xb9450 ; _objc_msgSend
+0x0009c9e2 2348         ldr      r0, [pc, #0x8c] ; literal@0x9ca70=0x19521c _OBJC_IVAR_$_ABSwipeColumnScrollView.delegate
+0x0009c9e4 0068         ldr      r0, [r0]
+0x0009c9e6 0059         ldr      r0, [r0, r4]
+0x0009c9e8 2249         ldr      r1, [pc, #0x88] ; literal@0x9ca74=0x17336c selector-ref:scrollViewDidScroll:
+0x0009c9ea 0968         ldr      r1, [r1]
+0x0009c9ec 2246         mov      r2, r4
+0x0009c9ee 1cf030ed     blx      #0xb9450 ; _objc_msgSend
+0x0009c9f2 0120         movs     r0, #1
+0x0009c9f4 0299         ldr      r1, [sp, #8]
+0x0009c9f6 4840         eors     r0, r1
+0x0009c9f8 0028         cmp      r0, #0
+0x0009c9fa 07d1         bne      #0x9ca0c
+0x0009c9fc 1e48         ldr      r0, [pc, #0x78] ; literal@0x9ca78=0x19521c _OBJC_IVAR_$_ABSwipeColumnScrollView.delegate
+0x0009c9fe 0068         ldr      r0, [r0]
+0x0009ca00 0059         ldr      r0, [r0, r4]
+0x0009ca02 1e49         ldr      r1, [pc, #0x78] ; literal@0x9ca7c=0x173a0c selector-ref:scrollViewDidEndScrollingAnimation:
+0x0009ca04 0968         ldr      r1, [r1]
+0x0009ca06 2246         mov      r2, r4
+0x0009ca08 1cf022ed     blx      #0xb9450 ; _objc_msgSend
+0x0009ca0c 1c48         ldr      r0, [pc, #0x70] ; literal@0x9ca80=0x173a28 selector-ref:commit
+0x0009ca0e 0168         ldr      r1, [r0]
+0x0009ca10 1c48         ldr      r0, [pc, #0x70] ; literal@0x9ca84=0x17454c
+0x0009ca12 0068         ldr      r0, [r0]
+0x0009ca14 1cf01ced     blx      #0xb9450 ; _objc_msgSend
+0x0009ca18 07b0         add      sp, #0x1c
+0x0009ca1a f0bd         pop      {r4, r5, r6, r7, pc}
+0x0009ca1c a054         strb     r0, [r4, r2]
+0x0009ca1e 1900         movs     r1, r3
+0x0009ca20 ac54         strb     r4, [r5, r2]
+0x0009ca22 1900         movs     r1, r3
+0x0009ca24 9c54         strb     r4, [r3, r2]
+0x0009ca26 1900         movs     r1, r3
+0x0009ca28 a454         strb     r4, [r4, r2]
+0x0009ca2a 1900         movs     r1, r3
+0x0009ca2c b054         strb     r0, [r6, r2]
+0x0009ca2e 1900         movs     r1, r3
+0x0009ca30 1052         strh     r0, [r2, r0]
+0x0009ca32 1900         movs     r1, r3
+0x0009ca34 a854         strb     r0, [r5, r2]
+0x0009ca36 1900         movs     r1, r3
+0x0009ca38 9c54         strb     r4, [r3, r2]
+0x0009ca3a 1900         movs     r1, r3
+0x0009ca3c 303a         subs     r2, #0x30
+0x0009ca3e 1700         movs     r7, r2
+0x0009ca40 4c45         cmp      r4, sb
+0x0009ca42 1700         movs     r7, r2
+0x0009ca44 2c3a         subs     r2, #0x2c
+0x0009ca46 1700         movs     r7, r2
+0x0009ca48 2c0b         lsrs     r4, r5, #0xc
+0x0009ca4a 1700         movs     r7, r2
+0x0009ca4c ac54         strb     r4, [r5, r2]
+0x0009ca4e 1900         movs     r1, r3
+0x0009ca50 a054         strb     r0, [r4, r2]
+0x0009ca52 1900         movs     r1, r3
+0x0009ca54 9c54         strb     r4, [r3, r2]
+0x0009ca56 1900         movs     r1, r3
+
+## -[ABSwipeColumnScrollView _endScroll:] VM 0x9ca88 file 0x9ba88 bounded end 0x9cb28
+0x0009ca88 f0b5         push     {r4, r5, r6, r7, lr}
+0x0009ca8a 03af         add      r7, sp, #0xc
+0x0009ca8c 84b0         sub      sp, #0x10
+0x0009ca8e 0446         mov      r4, r0
+0x0009ca90 1d4d         ldr      r5, [pc, #0x74] ; literal@0x9cb08=0x19549c _OBJC_IVAR_$_ABSwipeColumnScrollView.dx
+0x0009ca92 2868         ldr      r0, [r5]
+0x0009ca94 0251         str      r2, [r0, r4]
+0x0009ca96 1d48         ldr      r0, [pc, #0x74] ; literal@0x9cb0c=0x170b2c selector-ref:bounds
+0x0009ca98 0268         ldr      r2, [r0]
+0x0009ca9a 6e46         mov      r6, sp
+0x0009ca9c 3046         mov      r0, r6
+0x0009ca9e 2146         mov      r1, r4
+0x0009caa0 1cf0e2ec     blx      #0xb9468 ; _objc_msgSend_stret
+0x0009caa4 1a48         ldr      r0, [pc, #0x68] ; literal@0x9cb10=0x1954ac _OBJC_IVAR_$_ABSwipeColumnScrollView.workingBounds
+0x0009caa6 0068         ldr      r0, [r0]
+0x0009caa8 0019         adds     r0, r0, r4
+0x0009caaa 1022         movs     r2, #0x10
+0x0009caac 3146         mov      r1, r6
+0x0009caae 1cf09aec     blx      #0xb93e4 ; _memcpy
+0x0009cab2 1848         ldr      r0, [pc, #0x60] ; literal@0x9cb14=0x1954a4 _OBJC_IVAR_$_ABSwipeColumnScrollView.friction
+0x0009cab4 0068         ldr      r0, [r0]
+0x0009cab6 0159         ldr      r1, [r0, r4]
+0x0009cab8 7f20         movs     r0, #0x7f
+0x0009caba c005         lsls     r0, r0, #0x17
+0x0009cabc 1cf008ec     blx      #0xb92d0 ; ___subsf3vfp
+0x0009cac0 0146         mov      r1, r0
+0x0009cac2 2868         ldr      r0, [r5]
+0x0009cac4 0059         ldr      r0, [r0, r4]
+0x0009cac6 1cf04aeb     blx      #0xb915c ; ___divsf3vfp
+0x0009caca 0146         mov      r1, r0
+0x0009cacc 0098         ldr      r0, [sp]
+0x0009cace 1cf034eb     blx      #0xb9138 ; ___addsf3vfp
+0x0009cad2 1149         ldr      r1, [pc, #0x44] ; literal@0x9cb18=0x1954b0 _OBJC_IVAR_$_ABSwipeColumnScrollView.destinationOffset
+0x0009cad4 0d68         ldr      r5, [r1]
+0x0009cad6 1cf004ed     blx      #0xb94e0 ; _roundf
+0x0009cada 2851         str      r0, [r5, r4]
+0x0009cadc 0f4d         ldr      r5, [pc, #0x3c] ; literal@0x9cb1c=0x195210 _OBJC_IVAR_$_ABSwipeColumnScrollView._swipeFlags
+0x0009cade 2868         ldr      r0, [r5]
+0x0009cae0 015d         ldrb     r1, [r0, r4]
+0x0009cae2 0222         movs     r2, #2
+0x0009cae4 0a43         orrs     r2, r1
+0x0009cae6 0255         strb     r2, [r0, r4]
+0x0009cae8 0d48         ldr      r0, [pc, #0x34] ; literal@0x9cb20=0x173a10 selector-ref:_animateToDestinationOffset
+0x0009caea 0168         ldr      r1, [r0]
+0x0009caec 2046         mov      r0, r4
+0x0009caee 1cf0b0ec     blx      #0xb9450 ; _objc_msgSend
+0x0009caf2 2868         ldr      r0, [r5]
+0x0009caf4 015d         ldrb     r1, [r0, r4]
+0x0009caf6 fd22         movs     r2, #0xfd
+0x0009caf8 0a40         ands     r2, r1
+0x0009cafa 0255         strb     r2, [r0, r4]
+0x0009cafc 0948         ldr      r0, [pc, #0x24] ; literal@0x9cb24=0x1954b4 _OBJC_IVAR_$_ABSwipeColumnScrollView.beganInteractionOnItem
+0x0009cafe 0068         ldr      r0, [r0]
+0x0009cb00 0021         movs     r1, #0
+0x0009cb02 0151         str      r1, [r0, r4]
+0x0009cb04 04b0         add      sp, #0x10
+0x0009cb06 f0bd         pop      {r4, r5, r6, r7, pc}
+0x0009cb08 9c54         strb     r4, [r3, r2]
+0x0009cb0a 1900         movs     r1, r3
+0x0009cb0c 2c0b         lsrs     r4, r5, #0xc
+0x0009cb0e 1700         movs     r7, r2
+0x0009cb10 ac54         strb     r4, [r5, r2]
+0x0009cb12 1900         movs     r1, r3
+0x0009cb14 a454         strb     r4, [r4, r2]
+0x0009cb16 1900         movs     r1, r3
+0x0009cb18 b054         strb     r0, [r6, r2]
+0x0009cb1a 1900         movs     r1, r3
+0x0009cb1c 1052         strh     r0, [r2, r0]
+0x0009cb1e 1900         movs     r1, r3
+0x0009cb20 103a         subs     r2, #0x10
+0x0009cb22 1700         movs     r7, r2
+0x0009cb24 b454         strb     r4, [r6, r2]
+0x0009cb26 1900         movs     r1, r3
+
+## -[ABSwipeColumnScrollView jiggle] VM 0x9cb28 file 0x9bb28 bounded end 0x9cb60
+0x0009cb28 b0b5         push     {r4, r5, r7, lr}
+0x0009cb2a 02af         add      r7, sp, #8
+0x0009cb2c 84b0         sub      sp, #0x10
+0x0009cb2e 0446         mov      r4, r0
+0x0009cb30 0848         ldr      r0, [pc, #0x20] ; literal@0x9cb54=0x1954b0 _OBJC_IVAR_$_ABSwipeColumnScrollView.destinationOffset
+0x0009cb32 0568         ldr      r5, [r0]
+0x0009cb34 0848         ldr      r0, [pc, #0x20] ; literal@0x9cb58=0x170b2c selector-ref:bounds
+0x0009cb36 0268         ldr      r2, [r0]
+0x0009cb38 6846         mov      r0, sp
+0x0009cb3a 2146         mov      r1, r4
+0x0009cb3c 1cf094ec     blx      #0xb9468 ; _objc_msgSend_stret
+0x0009cb40 0098         ldr      r0, [sp]
+0x0009cb42 2851         str      r0, [r5, r4]
+0x0009cb44 0548         ldr      r0, [pc, #0x14] ; literal@0x9cb5c=0x173a10 selector-ref:_animateToDestinationOffset
+0x0009cb46 0168         ldr      r1, [r0]
+0x0009cb48 2046         mov      r0, r4
+0x0009cb4a 1cf082ec     blx      #0xb9450 ; _objc_msgSend
+0x0009cb4e 04b0         add      sp, #0x10
+0x0009cb50 b0bd         pop      {r4, r5, r7, pc}
+0x0009cb52 c046         mov      r8, r8
+0x0009cb54 b054         strb     r0, [r6, r2]
+0x0009cb56 1900         movs     r1, r3
+0x0009cb58 2c0b         lsrs     r4, r5, #0xc
+0x0009cb5a 1700         movs     r7, r2
+0x0009cb5c 103a         subs     r2, #0x10
+0x0009cb5e 1700         movs     r7, r2
+
+## -[ABSwipeColumnScrollView _animateToDestinationOffset] VM 0x9cb60 file 0x9bb60 bounded end 0x9cce0
+0x0009cb60 f0b5         push     {r4, r5, r6, r7, lr}
+0x0009cb62 03af         add      r7, sp, #0xc
+0x0009cb64 89b0         sub      sp, #0x24
+0x0009cb66 0446         mov      r4, r0
+0x0009cb68 4048         ldr      r0, [pc, #0x100] ; literal@0x9cc6c=0x1954b0 _OBJC_IVAR_$_ABSwipeColumnScrollView.destinationOffset
+0x0009cb6a 0568         ldr      r5, [r0]
+0x0009cb6c 2b59         ldr      r3, [r5, r4]
+0x0009cb6e 0493         str      r3, [sp, #0x10]
+0x0009cb70 3f48         ldr      r0, [pc, #0xfc] ; literal@0x9cc70=0x19521c _OBJC_IVAR_$_ABSwipeColumnScrollView.delegate
+0x0009cb72 0068         ldr      r0, [r0]
+0x0009cb74 0059         ldr      r0, [r0, r4]
+0x0009cb76 3f49         ldr      r1, [pc, #0xfc] ; literal@0x9cc74=0x195210 _OBJC_IVAR_$_ABSwipeColumnScrollView._swipeFlags
+0x0009cb78 0a68         ldr      r2, [r1]
+0x0009cb7a 125d         ldrb     r2, [r2, r4]
+0x0009cb7c 5208         lsrs     r2, r2, #1
+0x0009cb7e 0126         movs     r6, #1
+0x0009cb80 3240         ands     r2, r6
+0x0009cb82 3d4b         ldr      r3, [pc, #0xf4] ; literal@0x9cc78=0x173a24 selector-ref:swipeView:willSwipeToOffset:throwing:
+0x0009cb84 1968         ldr      r1, [r3]
+0x0009cb86 6b46         mov      r3, sp
+0x0009cb88 1a60         str      r2, [r3]
+0x0009cb8a 2246         mov      r2, r4
+0x0009cb8c 049b         ldr      r3, [sp, #0x10]
+0x0009cb8e 1cf060ec     blx      #0xb9450 ; _objc_msgSend
+0x0009cb92 2851         str      r0, [r5, r4]
+0x0009cb94 3749         ldr      r1, [pc, #0xdc] ; literal@0x9cc74=0x195210 _OBJC_IVAR_$_ABSwipeColumnScrollView._swipeFlags
+0x0009cb96 0868         ldr      r0, [r1]
+0x0009cb98 005d         ldrb     r0, [r0, r4]
+0x0009cb9a 3849         ldr      r1, [pc, #0xe0] ; literal@0x9cc7c=0x1954a4 _OBJC_IVAR_$_ABSwipeColumnScrollView.friction
+0x0009cb9c 0968         ldr      r1, [r1]
+0x0009cb9e 0919         adds     r1, r1, r4
+0x0009cba0 3042         tst      r0, r6
+0x0009cba2 24d0         beq      #0x9cbee
+0x0009cba4 3648         ldr      r0, [pc, #0xd8] ; literal@0x9cc80=0x3f4ccccd float32-candidate=0.8
+0x0009cba6 0860         str      r0, [r1]
+0x0009cba8 3649         ldr      r1, [pc, #0xd8] ; literal@0x9cc84=0x1954a8 _OBJC_IVAR_$_ABSwipeColumnScrollView.springiness
+0x0009cbaa 0968         ldr      r1, [r1]
+0x0009cbac 3648         ldr      r0, [pc, #0xd8] ; literal@0x9cc88=0x3d75c28f float32-candidate=0.06
+0x0009cbae 0851         str      r0, [r1, r4]
+0x0009cbb0 3649         ldr      r1, [pc, #0xd8] ; literal@0x9cc8c=0x1954a4 _OBJC_IVAR_$_ABSwipeColumnScrollView.friction
+0x0009cbb2 0968         ldr      r1, [r1]
+0x0009cbb4 0959         ldr      r1, [r1, r4]
+0x0009cbb6 7f20         movs     r0, #0x7f
+0x0009cbb8 c005         lsls     r0, r0, #0x17
+0x0009cbba 1cf08aeb     blx      #0xb92d0 ; ___subsf3vfp
+0x0009cbbe 0546         mov      r5, r0
+0x0009cbc0 3349         ldr      r1, [pc, #0xcc] ; literal@0x9cc90=0x1954b0 _OBJC_IVAR_$_ABSwipeColumnScrollView.destinationOffset
+0x0009cbc2 0968         ldr      r1, [r1]
+0x0009cbc4 0e59         ldr      r6, [r1, r4]
+0x0009cbc6 3349         ldr      r1, [pc, #0xcc] ; literal@0x9cc94=0x19549c _OBJC_IVAR_$_ABSwipeColumnScrollView.dx
+0x0009cbc8 0968         ldr      r1, [r1]
+0x0009cbca 0491         str      r1, [sp, #0x10]
+0x0009cbcc 3248         ldr      r0, [pc, #0xc8] ; literal@0x9cc98=0x170b2c selector-ref:bounds
+0x0009cbce 0268         ldr      r2, [r0]
+0x0009cbd0 05a8         add      r0, sp, #0x14
+0x0009cbd2 2146         mov      r1, r4
+0x0009cbd4 1cf048ec     blx      #0xb9468 ; _objc_msgSend_stret
+0x0009cbd8 0599         ldr      r1, [sp, #0x14]
+0x0009cbda 3046         mov      r0, r6
+0x0009cbdc 1cf078eb     blx      #0xb92d0 ; ___subsf3vfp
+0x0009cbe0 0146         mov      r1, r0
+0x0009cbe2 2846         mov      r0, r5
+0x0009cbe4 1cf056eb     blx      #0xb9294 ; ___mulsf3vfp
+0x0009cbe8 0499         ldr      r1, [sp, #0x10]
+0x0009cbea 0851         str      r0, [r1, r4]
+0x0009cbec 05e0         b        #0x9cbfa
+0x0009cbee 2b48         ldr      r0, [pc, #0xac] ; literal@0x9cc9c=0x3f333333 float32-candidate=0.7
+0x0009cbf0 0860         str      r0, [r1]
+0x0009cbf2 2b48         ldr      r0, [pc, #0xac] ; literal@0x9cca0=0x1954a8 _OBJC_IVAR_$_ABSwipeColumnScrollView.springiness
+0x0009cbf4 0068         ldr      r0, [r0]
+0x0009cbf6 2b49         ldr      r1, [pc, #0xac] ; literal@0x9cca4=0x3d4ccccd float32-candidate=0.05
+0x0009cbf8 0151         str      r1, [r0, r4]
+0x0009cbfa 2b48         ldr      r0, [pc, #0xac] ; literal@0x9cca8=0x195498 _OBJC_IVAR_$_ABSwipeColumnScrollView.timer
+0x0009cbfc 0068         ldr      r0, [r0]
+0x0009cbfe 0059         ldr      r0, [r0, r4]
+0x0009cc00 0028         cmp      r0, #0
+0x0009cc02 07d0         beq      #0x9cc14
+0x0009cc04 2949         ldr      r1, [pc, #0xa4] ; literal@0x9ccac=0x171654 selector-ref:invalidate
+0x0009cc06 0968         ldr      r1, [r1]
+0x0009cc08 1cf022ec     blx      #0xb9450 ; _objc_msgSend
+0x0009cc0c 2848         ldr      r0, [pc, #0xa0] ; literal@0x9ccb0=0x195498 _OBJC_IVAR_$_ABSwipeColumnScrollView.timer
+0x0009cc0e 0068         ldr      r0, [r0]
+0x0009cc10 0021         movs     r1, #0
+0x0009cc12 0151         str      r1, [r0, r4]
+0x0009cc14 2748         ldr      r0, [pc, #0x9c] ; literal@0x9ccb4=0x1954a0 _OBJC_IVAR_$_ABSwipeColumnScrollView.steps
+0x0009cc16 0068         ldr      r0, [r0]
+0x0009cc18 0022         movs     r2, #0
+0x0009cc1a 0251         str      r2, [r0, r4]
+0x0009cc1c 2648         ldr      r0, [pc, #0x98] ; literal@0x9ccb8=0x195498 _OBJC_IVAR_$_ABSwipeColumnScrollView.timer
+0x0009cc1e 0168         ldr      r1, [r0]
+0x0009cc20 0491         str      r1, [sp, #0x10]
+0x0009cc22 264b         ldr      r3, [pc, #0x98] ; literal@0x9ccbc=0x173a1c selector-ref:timerWithTimeInterval:target:selector:userInfo:repeats:
+0x0009cc24 1968         ldr      r1, [r3]
+0x0009cc26 264b         ldr      r3, [pc, #0x98] ; literal@0x9ccc0=0x174104
+0x0009cc28 1868         ldr      r0, [r3]
+0x0009cc2a 264b         ldr      r3, [pc, #0x98] ; literal@0x9ccc4=0x173a20 selector-ref:animate
+0x0009cc2c 1b68         ldr      r3, [r3]
+0x0009cc2e 0125         movs     r5, #1
+0x0009cc30 6e46         mov      r6, sp
+0x0009cc32 f560         str      r5, [r6, #0xc]
+0x0009cc34 b260         str      r2, [r6, #8]
+0x0009cc36 7360         str      r3, [r6, #4]
+0x0009cc38 3460         str      r4, [r6]
+0x0009cc3a 234a         ldr      r2, [pc, #0x8c] ; literal@0x9ccc8=0x11111111
+0x0009cc3c 234b         ldr      r3, [pc, #0x8c] ; literal@0x9cccc=0x3f911111 float32-candidate=1.13333
+0x0009cc3e 1cf008ec     blx      #0xb9450 ; _objc_msgSend
+0x0009cc42 0499         ldr      r1, [sp, #0x10]
+0x0009cc44 0851         str      r0, [r1, r4]
+0x0009cc46 2249         ldr      r1, [pc, #0x88] ; literal@0x9ccd0=0x173a18 selector-ref:mainRunLoop
+0x0009cc48 0968         ldr      r1, [r1]
+0x0009cc4a 224a         ldr      r2, [pc, #0x88] ; literal@0x9ccd4=0x174288
+0x0009cc4c 1068         ldr      r0, [r2]
+0x0009cc4e 1cf000ec     blx      #0xb9450 ; _objc_msgSend
+0x0009cc52 1949         ldr      r1, [pc, #0x64] ; literal@0x9ccb8=0x195498 _OBJC_IVAR_$_ABSwipeColumnScrollView.timer
+0x0009cc54 0968         ldr      r1, [r1]
+0x0009cc56 0a59         ldr      r2, [r1, r4]
+0x0009cc58 1f49         ldr      r1, [pc, #0x7c] ; literal@0x9ccd8=0x173a14 selector-ref:addTimer:forMode:
+0x0009cc5a 0968         ldr      r1, [r1]
+0x0009cc5c 1f4b         ldr      r3, [pc, #0x7c] ; literal@0x9ccdc=0x1643dc
+0x0009cc5e 1b68         ldr      r3, [r3]
+0x0009cc60 1b68         ldr      r3, [r3]
+0x0009cc62 1cf0f6eb     blx      #0xb9450 ; _objc_msgSend
+0x0009cc66 09b0         add      sp, #0x24
+0x0009cc68 f0bd         pop      {r4, r5, r6, r7, pc}
+0x0009cc6a c046         mov      r8, r8
+0x0009cc6c b054         strb     r0, [r6, r2]
+0x0009cc6e 1900         movs     r1, r3
+0x0009cc70 1c52         strh     r4, [r3, r0]
+0x0009cc72 1900         movs     r1, r3
+0x0009cc74 1052         strh     r0, [r2, r0]
+0x0009cc76 1900         movs     r1, r3
+0x0009cc78 243a         subs     r2, #0x24
+0x0009cc7a 1700         movs     r7, r2
+0x0009cc7c a454         strb     r4, [r4, r2]
+0x0009cc7e 1900         movs     r1, r3
+0x0009cc80 cdcc         ldm      r4!, {r0, r2, r3, r6, r7}
+0x0009cc82 4c3f         subs     r7, #0x4c
+0x0009cc84 a854         strb     r0, [r5, r2]
+0x0009cc86 1900         movs     r1, r3
+0x0009cc88 8fc2         stm      r2!, {r0, r1, r2, r3, r7}
+0x0009cc8a 753d         subs     r5, #0x75
+0x0009cc8c a454         strb     r4, [r4, r2]
+0x0009cc8e 1900         movs     r1, r3
+0x0009cc90 b054         strb     r0, [r6, r2]
+0x0009cc92 1900         movs     r1, r3
+0x0009cc94 9c54         strb     r4, [r3, r2]
+0x0009cc96 1900         movs     r1, r3
+0x0009cc98 2c0b         lsrs     r4, r5, #0xc
+0x0009cc9a 1700         movs     r7, r2
+0x0009cc9c 3333         adds     r3, #0x33
+0x0009cc9e 333f         subs     r7, #0x33
+0x0009cca0 a854         strb     r0, [r5, r2]
+0x0009cca2 1900         movs     r1, r3
+0x0009cca4 cdcc         ldm      r4!, {r0, r2, r3, r6, r7}
+0x0009cca6 4c3d         subs     r5, #0x4c
+0x0009cca8 9854         strb     r0, [r3, r2]
+0x0009ccaa 1900         movs     r1, r3
+0x0009ccac 5416         asrs     r4, r2, #0x19
+0x0009ccae 1700         movs     r7, r2
+0x0009ccb0 9854         strb     r0, [r3, r2]
+0x0009ccb2 1900         movs     r1, r3
+0x0009ccb4 a054         strb     r0, [r4, r2]
+0x0009ccb6 1900         movs     r1, r3
+0x0009ccb8 9854         strb     r0, [r3, r2]
+0x0009ccba 1900         movs     r1, r3
+0x0009ccbc 1c3a         subs     r2, #0x1c
+0x0009ccbe 1700         movs     r7, r2
+0x0009ccc0 0441         asrs     r4, r0
+0x0009ccc2 1700         movs     r7, r2
+0x0009ccc4 203a         subs     r2, #0x20
+0x0009ccc6 1700         movs     r7, r2
+0x0009ccc8 1111         asrs     r1, r2, #4
+0x0009ccca 1111         asrs     r1, r2, #4
+0x0009cccc 1111         asrs     r1, r2, #4
+0x0009ccce 913f         subs     r7, #0x91
+0x0009ccd0 183a         subs     r2, #0x18
+0x0009ccd2 1700         movs     r7, r2
+0x0009ccd4 8842         cmp      r0, r1
+0x0009ccd6 1700         movs     r7, r2
+0x0009ccd8 143a         subs     r2, #0x14
+0x0009ccda 1700         movs     r7, r2
+0x0009ccdc dc43         mvns     r4, r3
+0x0009ccde 1600         movs     r6, r2
+
+## -[ABSwipeColumnScrollView _didScroll:] VM 0x9cce0 file 0x9bce0 bounded end 0x9ce24
+0x0009cce0 f0b5         push     {r4, r5, r6, r7, lr}
+0x0009cce2 03af         add      r7, sp, #0xc
+0x0009cce4 88b0         sub      sp, #0x20
+0x0009cce6 0390         str      r0, [sp, #0xc]
+0x0009cce8 4048         ldr      r0, [pc, #0x100] ; literal@0x9cdec=0x195494 _OBJC_IVAR_$_ABSwipeColumnScrollView.r
+0x0009ccea 0068         ldr      r0, [r0]
+0x0009ccec 0399         ldr      r1, [sp, #0xc]
+0x0009ccee 4458         ldr      r4, [r0, r1]
+0x0009ccf0 3f48         ldr      r0, [pc, #0xfc] ; literal@0x9cdf0=0x19560c _OBJC_IVAR_$_ABScrollGestureRecognizer._firstPoint
+0x0009ccf2 0068         ldr      r0, [r0]
+0x0009ccf4 2058         ldr      r0, [r4, r0]
+0x0009ccf6 1146         mov      r1, r2
+0x0009ccf8 1cf0eaea     blx      #0xb92d0 ; ___subsf3vfp
+0x0009ccfc 0146         mov      r1, r0
+0x0009ccfe 3d48         ldr      r0, [pc, #0xf4] ; literal@0x9cdf4=0x195620 _OBJC_IVAR_$_ABScrollGestureRecognizer._originalBounds
+0x0009cd00 0068         ldr      r0, [r0]
+0x0009cd02 2058         ldr      r0, [r4, r0]
+0x0009cd04 1cf018ea     blx      #0xb9138 ; ___addsf3vfp
+0x0009cd08 0446         mov      r4, r0
+0x0009cd0a 0021         movs     r1, #0
+0x0009cd0c 1cf09eea     blx      #0xb924c ; ___ltsf2vfp
+0x0009cd10 0546         mov      r5, r0
+0x0009cd12 3948         ldr      r0, [pc, #0xe4] ; literal@0x9cdf8=0x173a30 selector-ref:begin
+0x0009cd14 0168         ldr      r1, [r0]
+0x0009cd16 394e         ldr      r6, [pc, #0xe4] ; literal@0x9cdfc=0x17454c
+0x0009cd18 3068         ldr      r0, [r6]
+0x0009cd1a 1cf09aeb     blx      #0xb9450 ; _objc_msgSend
+0x0009cd1e 3848         ldr      r0, [pc, #0xe0] ; literal@0x9ce00=0x173a2c selector-ref:setDisableActions:
+0x0009cd20 0168         ldr      r1, [r0]
+0x0009cd22 3068         ldr      r0, [r6]
+0x0009cd24 0122         movs     r2, #1
+0x0009cd26 1cf094eb     blx      #0xb9450 ; _objc_msgSend
+0x0009cd2a 3648         ldr      r0, [pc, #0xd8] ; literal@0x9ce04=0x170b2c selector-ref:bounds
+0x0009cd2c 0268         ldr      r2, [r0]
+0x0009cd2e 04a8         add      r0, sp, #0x10
+0x0009cd30 0399         ldr      r1, [sp, #0xc]
+0x0009cd32 1cf09aeb     blx      #0xb9468 ; _objc_msgSend_stret
+0x0009cd36 002d         cmp      r5, #0
+0x0009cd38 05d0         beq      #0x9cd46
+0x0009cd3a 3f20         movs     r0, #0x3f
+0x0009cd3c 0106         lsls     r1, r0, #0x18
+0x0009cd3e 2046         mov      r0, r4
+0x0009cd40 1cf0a8ea     blx      #0xb9294 ; ___mulsf3vfp
+0x0009cd44 0446         mov      r4, r0
+0x0009cd46 0494         str      r4, [sp, #0x10]
+0x0009cd48 069d         ldr      r5, [sp, #0x18]
+0x0009cd4a 2046         mov      r0, r4
+0x0009cd4c 2946         mov      r1, r5
+0x0009cd4e 1cf0f4e9     blx      #0xb9138 ; ___addsf3vfp
+0x0009cd52 0290         str      r0, [sp, #8]
+0x0009cd54 2c48         ldr      r0, [pc, #0xb0] ; literal@0x9ce08=0x195214 _OBJC_IVAR_$_ABSwipeColumnScrollView.contentSize
+0x0009cd56 0068         ldr      r0, [r0]
+0x0009cd58 0399         ldr      r1, [sp, #0xc]
+0x0009cd5a 4658         ldr      r6, [r0, r1]
+0x0009cd5c 2846         mov      r0, r5
+0x0009cd5e 3146         mov      r1, r6
+0x0009cd60 1cf05cea     blx      #0xb921c ; ___gtsf2vfp
+0x0009cd64 0028         cmp      r0, #0
+0x0009cd66 00d1         bne      #0x9cd6a
+0x0009cd68 3546         mov      r5, r6
+0x0009cd6a 0298         ldr      r0, [sp, #8]
+0x0009cd6c 2946         mov      r1, r5
+0x0009cd6e 1cf056ea     blx      #0xb921c ; ___gtsf2vfp
+0x0009cd72 0028         cmp      r0, #0
+0x0009cd74 18d0         beq      #0x9cda8
+0x0009cd76 2046         mov      r0, r4
+0x0009cd78 1cf00eea     blx      #0xb9198 ; ___extendsfdf2vfp
+0x0009cd7c 0446         mov      r4, r0
+0x0009cd7e 0e46         mov      r6, r1
+0x0009cd80 0298         ldr      r0, [sp, #8]
+0x0009cd82 2946         mov      r1, r5
+0x0009cd84 1cf0a4ea     blx      #0xb92d0 ; ___subsf3vfp
+0x0009cd88 1cf006ea     blx      #0xb9198 ; ___extendsfdf2vfp
+0x0009cd8c 0022         movs     r2, #0
+0x0009cd8e 1f4b         ldr      r3, [pc, #0x7c] ; literal@0x9ce0c=0xbfe00000 float32-candidate=-1.75
+0x0009cd90 1cf07aea     blx      #0xb9288 ; ___muldf3vfp
+0x0009cd94 0246         mov      r2, r0
+0x0009cd96 0b46         mov      r3, r1
+0x0009cd98 2046         mov      r0, r4
+0x0009cd9a 3146         mov      r1, r6
+0x0009cd9c 1cf0c6e9     blx      #0xb912c ; ___adddf3vfp
+0x0009cda0 1cf09cea     blx      #0xb92dc ; ___truncdfsf2vfp
+0x0009cda4 0490         str      r0, [sp, #0x10]
+0x0009cda6 0446         mov      r4, r0
+0x0009cda8 2046         mov      r0, r4
+0x0009cdaa 1cf09aeb     blx      #0xb94e0 ; _roundf
+0x0009cdae 0246         mov      r2, r0
+0x0009cdb0 0492         str      r2, [sp, #0x10]
+0x0009cdb2 1748         ldr      r0, [pc, #0x5c] ; literal@0x9ce10=0x172308 selector-ref:setBounds:
+0x0009cdb4 0168         ldr      r1, [r0]
+0x0009cdb6 059b         ldr      r3, [sp, #0x14]
+0x0009cdb8 0698         ldr      r0, [sp, #0x18]
+0x0009cdba 079c         ldr      r4, [sp, #0x1c]
+0x0009cdbc 6d46         mov      r5, sp
+0x0009cdbe 6c60         str      r4, [r5, #4]
+0x0009cdc0 2860         str      r0, [r5]
+0x0009cdc2 039c         ldr      r4, [sp, #0xc]
+0x0009cdc4 2046         mov      r0, r4
+0x0009cdc6 1cf044eb     blx      #0xb9450 ; _objc_msgSend
+0x0009cdca 1248         ldr      r0, [pc, #0x48] ; literal@0x9ce14=0x19521c _OBJC_IVAR_$_ABSwipeColumnScrollView.delegate
+0x0009cdcc 0068         ldr      r0, [r0]
+0x0009cdce 0059         ldr      r0, [r0, r4]
+0x0009cdd0 1149         ldr      r1, [pc, #0x44] ; literal@0x9ce18=0x17336c selector-ref:scrollViewDidScroll:
+0x0009cdd2 0968         ldr      r1, [r1]
+0x0009cdd4 2246         mov      r2, r4
+0x0009cdd6 1cf03ceb     blx      #0xb9450 ; _objc_msgSend
+0x0009cdda 1048         ldr      r0, [pc, #0x40] ; literal@0x9ce1c=0x173a28 selector-ref:commit
+0x0009cddc 0168         ldr      r1, [r0]
+0x0009cdde 1048         ldr      r0, [pc, #0x40] ; literal@0x9ce20=0x17454c
+0x0009cde0 0068         ldr      r0, [r0]
+0x0009cde2 1cf036eb     blx      #0xb9450 ; _objc_msgSend
+0x0009cde6 08b0         add      sp, #0x20
+0x0009cde8 f0bd         pop      {r4, r5, r6, r7, pc}
+0x0009cdea c046         mov      r8, r8
+0x0009cdec 9454         strb     r4, [r2, r2]
+0x0009cdee 1900         movs     r1, r3
+0x0009cdf0 0c56         ldrsb    r4, [r1, r0]
+0x0009cdf2 1900         movs     r1, r3
+0x0009cdf4 2056         ldrsb    r0, [r4, r0]
+0x0009cdf6 1900         movs     r1, r3
+0x0009cdf8 303a         subs     r2, #0x30
+0x0009cdfa 1700         movs     r7, r2
+0x0009cdfc 4c45         cmp      r4, sb
+0x0009cdfe 1700         movs     r7, r2
+0x0009ce00 2c3a         subs     r2, #0x2c
+0x0009ce02 1700         movs     r7, r2
+0x0009ce04 2c0b         lsrs     r4, r5, #0xc
+0x0009ce06 1700         movs     r7, r2
+0x0009ce08 1452         strh     r4, [r2, r0]
+0x0009ce0a 1900         movs     r1, r3
+0x0009ce0c 0000         movs     r0, r0
+0x0009ce0e e0bf         hint     #0xe
+0x0009ce10 0823         movs     r3, #8
+0x0009ce12 1700         movs     r7, r2
+0x0009ce14 1c52         strh     r4, [r3, r0]
+0x0009ce16 1900         movs     r1, r3
+0x0009ce18 6c33         adds     r3, #0x6c
+0x0009ce1a 1700         movs     r7, r2
+0x0009ce1c 283a         subs     r2, #0x28
+0x0009ce1e 1700         movs     r7, r2
+0x0009ce20 4c45         cmp      r4, sb
+0x0009ce22 1700         movs     r7, r2
+
+## -[ABSwipeColumnScrollView initWithFrame:] VM 0x9ce64 file 0x9be64 bounded end 0x9cf28
+0x0009ce64 f0b5         push     {r4, r5, r6, r7, lr}
+0x0009ce66 03af         add      r7, sp, #0xc
+0x0009ce68 84b0         sub      sp, #0x10
+0x0009ce6a 0290         str      r0, [sp, #8]
+0x0009ce6c 2348         ldr      r0, [pc, #0x8c] ; literal@0x9cefc=0x17496c
+0x0009ce6e 0068         ldr      r0, [r0]
+0x0009ce70 0390         str      r0, [sp, #0xc]
+0x0009ce72 2348         ldr      r0, [pc, #0x8c] ; literal@0x9cf00=0x170b6c selector-ref:initWithFrame:
+0x0009ce74 0168         ldr      r1, [r0]
+0x0009ce76 0a98         ldr      r0, [sp, #0x28]
+0x0009ce78 6c46         mov      r4, sp
+0x0009ce7a 6060         str      r0, [r4, #4]
+0x0009ce7c 0998         ldr      r0, [sp, #0x24]
+0x0009ce7e 2060         str      r0, [r4]
+0x0009ce80 02a8         add      r0, sp, #8
+0x0009ce82 1cf0ecea     blx      #0xb945c ; _objc_msgSendSuper2
+0x0009ce86 0446         mov      r4, r0
+0x0009ce88 0028         cmp      r0, #0
+0x0009ce8a 34d0         beq      #0x9cef6
+0x0009ce8c 1d48         ldr      r0, [pc, #0x74] ; literal@0x9cf04=0x171ce0 selector-ref:setClipsToBounds:
+0x0009ce8e 0168         ldr      r1, [r0]
+0x0009ce90 0025         movs     r5, #0
+0x0009ce92 2046         mov      r0, r4
+0x0009ce94 2a46         mov      r2, r5
+0x0009ce96 1cf0dcea     blx      #0xb9450 ; _objc_msgSend
+0x0009ce9a 1b48         ldr      r0, [pc, #0x6c] ; literal@0x9cf08=0x195494 _OBJC_IVAR_$_ABSwipeColumnScrollView.r
+0x0009ce9c 0668         ldr      r6, [r0]
+0x0009ce9e 1b49         ldr      r1, [pc, #0x6c] ; literal@0x9cf0c=0x170ae4 selector-ref:alloc
+0x0009cea0 0968         ldr      r1, [r1]
+0x0009cea2 1b4a         ldr      r2, [pc, #0x6c] ; literal@0x9cf10=0x174544
+0x0009cea4 1068         ldr      r0, [r2]
+0x0009cea6 1cf0d4ea     blx      #0xb9450 ; _objc_msgSend
+0x0009ceaa 1a49         ldr      r1, [pc, #0x68] ; literal@0x9cf14=0x173534 selector-ref:initWithTarget:action:
+0x0009ceac 0968         ldr      r1, [r1]
+0x0009ceae 2a46         mov      r2, r5
+0x0009ceb0 2b46         mov      r3, r5
+0x0009ceb2 1cf0ceea     blx      #0xb9450 ; _objc_msgSend
+0x0009ceb6 3051         str      r0, [r6, r4]
+0x0009ceb8 1348         ldr      r0, [pc, #0x4c] ; literal@0x9cf08=0x195494 _OBJC_IVAR_$_ABSwipeColumnScrollView.r
+0x0009ceba 0168         ldr      r1, [r0]
+0x0009cebc 0859         ldr      r0, [r1, r4]
+0x0009cebe 1649         ldr      r1, [pc, #0x58] ; literal@0x9cf18=0x173a38 selector-ref:setDelaysTouchesBegan:
+0x0009cec0 0968         ldr      r1, [r1]
+0x0009cec2 2a46         mov      r2, r5
+0x0009cec4 1cf0c4ea     blx      #0xb9450 ; _objc_msgSend
+0x0009cec8 0f48         ldr      r0, [pc, #0x3c] ; literal@0x9cf08=0x195494 _OBJC_IVAR_$_ABSwipeColumnScrollView.r
+0x0009ceca 0168         ldr      r1, [r0]
+0x0009cecc 0859         ldr      r0, [r1, r4]
+0x0009cece 1349         ldr      r1, [pc, #0x4c] ; literal@0x9cf1c=0x173a34 selector-ref:setDelaysTouchesEnded:
+0x0009ced0 0968         ldr      r1, [r1]
+0x0009ced2 2a46         mov      r2, r5
+0x0009ced4 1cf0bcea     blx      #0xb9450 ; _objc_msgSend
+0x0009ced8 0b48         ldr      r0, [pc, #0x2c] ; literal@0x9cf08=0x195494 _OBJC_IVAR_$_ABSwipeColumnScrollView.r
+0x0009ceda 0168         ldr      r1, [r0]
+0x0009cedc 0a59         ldr      r2, [r1, r4]
+0x0009cede 1049         ldr      r1, [pc, #0x40] ; literal@0x9cf20=0x173530 selector-ref:addGestureRecognizer:
+0x0009cee0 0968         ldr      r1, [r1]
+0x0009cee2 2046         mov      r0, r4
+0x0009cee4 1cf0b4ea     blx      #0xb9450 ; _objc_msgSend
+0x0009cee8 0748         ldr      r0, [pc, #0x1c] ; literal@0x9cf08=0x195494 _OBJC_IVAR_$_ABSwipeColumnScrollView.r
+0x0009ceea 0068         ldr      r0, [r0]
+0x0009ceec 0059         ldr      r0, [r0, r4]
+0x0009ceee 0d49         ldr      r1, [pc, #0x34] ; literal@0x9cf24=0x170ac8 selector-ref:release
+0x0009cef0 0968         ldr      r1, [r1]
+0x0009cef2 1cf0aeea     blx      #0xb9450 ; _objc_msgSend
+0x0009cef6 2046         mov      r0, r4
+0x0009cef8 04b0         add      sp, #0x10
+0x0009cefa f0bd         pop      {r4, r5, r6, r7, pc}
+0x0009cefc 6c49         ldr      r1, [pc, #0x1b0] ; literal@0x9d0b0=0x174970
+0x0009cefe 1700         movs     r7, r2
+0x0009cf00 6c0b         lsrs     r4, r5, #0xd
+0x0009cf02 1700         movs     r7, r2
+0x0009cf04 e01c         adds     r0, r4, #3
+0x0009cf06 1700         movs     r7, r2
+0x0009cf08 9454         strb     r4, [r2, r2]
+0x0009cf0a 1900         movs     r1, r3
+0x0009cf0c e40a         lsrs     r4, r4, #0xb
+0x0009cf0e 1700         movs     r7, r2
+0x0009cf10 4445         cmp      r4, r8
+0x0009cf12 1700         movs     r7, r2
+0x0009cf14 3435         adds     r5, #0x34
+0x0009cf16 1700         movs     r7, r2
+0x0009cf18 383a         subs     r2, #0x38
+0x0009cf1a 1700         movs     r7, r2
+0x0009cf1c 343a         subs     r2, #0x34
+0x0009cf1e 1700         movs     r7, r2
+0x0009cf20 3035         adds     r5, #0x30
+0x0009cf22 1700         movs     r7, r2
+0x0009cf24 c80a         lsrs     r0, r1, #0xb
+0x0009cf26 1700         movs     r7, r2
+
+## -[TwitterPadTweetViewController ab_swipeColumnWidth:] VM 0x9e7d4 file 0x9d7d4 bounded end 0x9e814
+0x0009e7d4 90b5         push     {r4, r7, lr}
+0x0009e7d6 01af         add      r7, sp, #4
+0x0009e7d8 1446         mov      r4, r2
+0x0009e7da 0a49         ldr      r1, [pc, #0x28] ; literal@0x9e804=0x173aac selector-ref:needsWide
+0x0009e7dc 0968         ldr      r1, [r1]
+0x0009e7de 1af038ee     blx      #0xb9450 ; _objc_msgSend
+0x0009e7e2 ff21         movs     r1, #0xff
+0x0009e7e4 0842         tst      r0, r1
+0x0009e7e6 06d0         beq      #0x9e7f6
+0x0009e7e8 611e         subs     r1, r4, #1
+0x0009e7ea 0748         ldr      r0, [pc, #0x1c] ; literal@0x9e808=0x440f8000 float32-candidate=574
+0x0009e7ec 074a         ldr      r2, [pc, #0x1c] ; literal@0x9e80c=0x444f8000 float32-candidate=830
+0x0009e7ee 0229         cmp      r1, #2
+0x0009e7f0 00d3         blo      #0x9e7f4
+0x0009e7f2 1046         mov      r0, r2
+0x0009e7f4 90bd         pop      {r4, r7, pc}
+0x0009e7f6 0648         ldr      r0, [pc, #0x18] ; literal@0x9e810=0x16438c
+0x0009e7f8 0068         ldr      r0, [r0]
+0x0009e7fa 0068         ldr      r0, [r0]
+0x0009e7fc 1af0f0ec     blx      #0xb91e0 ; ___floatsisfvfp
+0x0009e800 90bd         pop      {r4, r7, pc}
+0x0009e802 c046         mov      r8, r8
+0x0009e804 ac3a         subs     r2, #0xac
+0x0009e806 1700         movs     r7, r2
+0x0009e808 0080         strh     r0, [r0]
+0x0009e80a 0f44         add      r7, r1
+0x0009e80c 0080         strh     r0, [r0]
+0x0009e80e 4f44         add      r7, sb
+0x0009e810 8c43         bics     r4, r1
+0x0009e812 1600         movs     r6, r2
+
+## -[ABSwipeColumnViewController ab_swipeColumnWidth:] VM 0x9a458 file 0x99458 bounded end 0x9a480
+0x0009a458 80b5         push     {r7, lr}
+0x0009a45a 6f46         mov      r7, sp
+0x0009a45c 054b         ldr      r3, [pc, #0x14] ; literal@0x9a474=0x164024
+0x0009a45e 1b68         ldr      r3, [r3]
+0x0009a460 1b78         ldrb     r3, [r3]
+0x0009a462 002b         cmp      r3, #0
+0x0009a464 04d0         beq      #0x9a470
+0x0009a466 0448         ldr      r0, [pc, #0x10] ; literal@0x9a478=0x19adec _ABSwipeColumnDefaultWidth
+0x0009a468 0068         ldr      r0, [r0]
+0x0009a46a 1ef0baee     blx      #0xb91e0 ; ___floatsisfvfp
+0x0009a46e 80bd         pop      {r7, pc}
+0x0009a470 0248         ldr      r0, [pc, #8] ; literal@0x9a47c=0x43780000 float32-candidate=248
+0x0009a472 80bd         pop      {r7, pc}
+0x0009a474 2440         ands     r4, r4
+0x0009a476 1600         movs     r6, r2
+0x0009a478 ecad         add      r5, sp, #0x3b0
+0x0009a47a 1900         movs     r1, r3
+0x0009a47c 0000         movs     r0, r0
+0x0009a47e 7843         muls     r0, r7, r0

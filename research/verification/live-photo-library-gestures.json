@@ -1,0 +1,41 @@
+{
+  "checkedAt": "2026-10-15T15:50:23.266Z",
+  "errors": [],
+  "imageWidth": 1360,
+  "originalPane": {
+    "x": 804,
+    "y": 0,
+    "width": 476,
+    "height": 900
+  },
+  "fullscreen": {
+    "x": 0,
+    "y": 0,
+    "width": 1280,
+    "height": 900
+  },
+  "fitZoom": "1.000",
+  "zoom": 1.772,
+  "pan": {
+    "x": -60,
+    "y": -39.6
+  },
+  "dismissPreview": {
+    "armed": "true",
+    "stillFullscreen": 1,
+    "cueAbsent": true
+  },
+  "restoredPane": {
+    "x": 804,
+    "y": 0,
+    "width": 476,
+    "height": 900
+  },
+  "remainingPanes": 2,
+  "backgroundRestored": true,
+  "trackpadPaneSwipe": {
+    "before": 440,
+    "after": 220
+  },
+  "pass": true
+}

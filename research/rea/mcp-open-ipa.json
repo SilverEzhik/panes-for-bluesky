@@ -1,0 +1,27 @@
+{
+  "result": {
+    "_meta": {
+      "provenance": {
+        "untrusted_content": true,
+        "source": "analysis_target"
+      }
+    },
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"result\":{\"path\":\"/home/debian/twitter/research/original-app/Twitter-3.1.1.ipa\",\"format\":\"ipa\",\"kind\":\"archive\",\"sha256\":\"605d2192d883d1c9f7a44969da827db951d567b783f0d41bbc877412e817b581\",\"architecture\":null}}"
+      }
+    ],
+    "structuredContent": {
+      "result": {
+        "path": "/home/debian/twitter/research/original-app/Twitter-3.1.1.ipa",
+        "format": "ipa",
+        "kind": "archive",
+        "sha256": "605d2192d883d1c9f7a44969da827db951d567b783f0d41bbc877412e817b581",
+        "architecture": null
+      }
+    }
+  },
+  "jsonrpc": "2.0",
+  "id": 4
+}

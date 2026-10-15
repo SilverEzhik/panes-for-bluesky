@@ -1,0 +1,16 @@
+{
+  "timestamp": "2026-10-15T14:08:07.747Z",
+  "baseUrl": "http://localhost:5173",
+  "errors": [],
+  "livePosts": 22,
+  "brokenVisibleImages": 0,
+  "profile": "aspetjournals.bsky.social",
+  "authorFeedRecords": 30,
+  "profileError": 0,
+  "threadUri": "at://did:plc:qn72hduyz5af2r5gi2fz23fi/app.bsky.feed.post/3mxw7y6iyqx2i",
+  "threadError": 0,
+  "searchRecords": 30,
+  "searchPosts": 29,
+  "horizontalOverflow": false,
+  "pass": true
+}

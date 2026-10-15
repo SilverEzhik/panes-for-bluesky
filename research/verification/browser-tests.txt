@@ -1,0 +1,93 @@
+
+> panes-bluesky@0.1.0 test
+> playwright test
+
+[WebServer] (node:94863) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+[WebServer] [plugin builtin:vite-reporter] 
+[WebServer] (!) Some chunks are larger than 500 kB after minification. Consider:
+[WebServer] - Using dynamic import() to code-split the application
+[WebServer] - Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+[WebServer] - Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+[WebServer] (node:94888) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+[WebServer] (node:94911) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 60 tests using 2 workers
+
+(node:94933) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:94934) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   2 [chromium] › tests/client.spec.ts:42:1 › conversation and profile form real stacked sheets; a header drag dismisses only its branch (2.4s)
+  ✓   1 [chromium] › tests/client.spec.ts:56:1 › pointer body drag and horizontal trackpad wheel browse sheets while vertical wheel scrolls content (3.3s)
+  ✓   3 [chromium] › tests/client.spec.ts:75:1 › keyboard opens posts, browses sheets, and closes the newest panel (3.3s)
+  ✓   5 [chromium] › tests/client.spec.ts:106:1 › mobile navigation and full width sheets fit a phone (1.8s)
+  ✓   4 [chromium] › tests/client.spec.ts:92:1 › a short directional flick advances from an intermediate panel anchor (4.8s)
+  ✓   7 [chromium] › tests/client.spec.ts:150:1 › failed publishing preserves a locally saved draft through closing and reopening (1.1s)
+  ✓   6 [chromium] › tests/client.spec.ts:124:1 › authentication errors stay in the dialog, successful login sends writes and persists only tokens (1.7s)
+  ✓   8 [chromium] › tests/client.spec.ts:163:1 › saved public posts survive reload when Bluesky is unavailable (789ms)
+  ✓  10 [chromium] › tests/links.spec.ts:61:1 › UTF8 rich text opens mentions in sheets and hashtags as a real Bluesky search (973ms)
+  ✓   9 [chromium] › tests/client.spec.ts:174:1 › account reading and drafts survive a Bluesky outage, writes wait for verified reconnection, and sign out clears private storage (2.3s)
+  ✓  11 [chromium] › tests/links.spec.ts:79:1 › facet links and external cards open embedded pages with working reload and original toolbar assets (2.3s)
+  ✓  13 [chromium] › tests/links.spec.ts:148:1 › a failed full size image explains the failure and retains an accessible original-image escape (698ms)
+  ✓  12 [chromium] › tests/links.spec.ts:107:1 › compact media opens a gallery and detail thumbnails preserve selected photo, keys and zoom (2.6s)
+  ✓  15 [chromium] › tests/touch.spec.ts:55:3 › native pinch apart opens a post using the browser touchscreen input pipeline (890ms)
+  ✓  16 [chromium] › tests/touch.spec.ts:55:3 › native two finger pull down opens a post using the browser touchscreen input pipeline (936ms)
+  ✓  14 [chromium] › tests/touch.spec.ts:13:1 › native touchscreen vertical scrolling and horizontal sheet swipe work on a phone (4.2s)
+  ✓  17 [chromium] › tests/touch.spec.ts:83:1 › touch pointer recognition for pinch and two finger pull down is consistent across engines (3.2s)
+  ✓  18 [chromium] › tests/trackpad.spec.ts:4:1 › trackpad pinch events open post actions while ordinary scrolling and gestures outside posts retain defaults (1.6s)
+  ✓  19 [chromium] › tests/trackpad.spec.ts:39:1 › browser native trackpad pinch opens post actions (768ms)
+(node:95321) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  20 [chromium] › tests/video.spec.ts:36:1 › HLS video loads fragments only after Play and decodes frames (1.7s)
+(node:95467) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  21 [firefox] › tests/client.spec.ts:42:1 › conversation and profile form real stacked sheets; a header drag dismisses only its branch (5.0s)
+  ✓  22 [firefox] › tests/client.spec.ts:56:1 › pointer body drag and horizontal trackpad wheel browse sheets while vertical wheel scrolls content (3.9s)
+  ✓  23 [firefox] › tests/client.spec.ts:75:1 › keyboard opens posts, browses sheets, and closes the newest panel (3.8s)
+  ✓  24 [firefox] › tests/client.spec.ts:92:1 › a short directional flick advances from an intermediate panel anchor (5.5s)
+  ✓  25 [firefox] › tests/client.spec.ts:106:1 › mobile navigation and full width sheets fit a phone (2.3s)
+  ✓  27 [firefox] › tests/client.spec.ts:150:1 › failed publishing preserves a locally saved draft through closing and reopening (1.6s)
+  ✓  26 [firefox] › tests/client.spec.ts:124:1 › authentication errors stay in the dialog, successful login sends writes and persists only tokens (1.9s)
+  ✓  28 [firefox] › tests/client.spec.ts:163:1 › saved public posts survive reload when Bluesky is unavailable (1.1s)
+  ✓  30 [firefox] › tests/links.spec.ts:61:1 › UTF8 rich text opens mentions in sheets and hashtags as a real Bluesky search (1.1s)
+  ✓  29 [firefox] › tests/client.spec.ts:174:1 › account reading and drafts survive a Bluesky outage, writes wait for verified reconnection, and sign out clears private storage (2.7s)
+  ✓  31 [firefox] › tests/links.spec.ts:79:1 › facet links and external cards open embedded pages with working reload and original toolbar assets (2.6s)
+  ✓  33 [firefox] › tests/links.spec.ts:148:1 › a failed full size image explains the failure and retains an accessible original-image escape (964ms)
+  -  34 [firefox] › tests/touch.spec.ts:13:1 › native touchscreen vertical scrolling and horizontal sheet swipe work on a phone
+  -  35 [firefox] › tests/touch.spec.ts:55:3 › native pinch apart opens a post using the browser touchscreen input pipeline
+  -  36 [firefox] › tests/touch.spec.ts:55:3 › native two finger pull down opens a post using the browser touchscreen input pipeline
+  ✓  32 [firefox] › tests/links.spec.ts:107:1 › compact media opens a gallery and detail thumbnails preserve selected photo, keys and zoom (3.5s)
+  ✓  38 [firefox] › tests/trackpad.spec.ts:4:1 › trackpad pinch events open post actions while ordinary scrolling and gestures outside posts retain defaults (1.7s)
+  -  39 [firefox] › tests/trackpad.spec.ts:39:1 › browser native trackpad pinch opens post actions
+  ✓  37 [firefox] › tests/touch.spec.ts:83:1 › touch pointer recognition for pinch and two finger pull down is consistent across engines (2.8s)
+(node:96174) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  40 [firefox] › tests/video.spec.ts:36:1 › HLS video loads fragments only after Play and decodes frames (1.4s)
+(node:96253) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  42 [webkit] › tests/client.spec.ts:56:1 › pointer body drag and horizontal trackpad wheel browse sheets while vertical wheel scrolls content (4.2s)
+  ✓  41 [webkit] › tests/client.spec.ts:42:1 › conversation and profile form real stacked sheets; a header drag dismisses only its branch (5.5s)
+  ✓  43 [webkit] › tests/client.spec.ts:75:1 › keyboard opens posts, browses sheets, and closes the newest panel (5.5s)
+  ✓  44 [webkit] › tests/client.spec.ts:92:1 › a short directional flick advances from an intermediate panel anchor (7.5s)
+  ✓  45 [webkit] › tests/client.spec.ts:106:1 › mobile navigation and full width sheets fit a phone (2.7s)
+  ✓  47 [webkit] › tests/client.spec.ts:150:1 › failed publishing preserves a locally saved draft through closing and reopening (4.7s)
+  ✓  46 [webkit] › tests/client.spec.ts:124:1 › authentication errors stay in the dialog, successful login sends writes and persists only tokens (5.6s)
+  ✓  48 [webkit] › tests/client.spec.ts:163:1 › saved public posts survive reload when Bluesky is unavailable (1.6s)
+  ✓  50 [webkit] › tests/links.spec.ts:61:1 › UTF8 rich text opens mentions in sheets and hashtags as a real Bluesky search (3.4s)
+  ✓  49 [webkit] › tests/client.spec.ts:174:1 › account reading and drafts survive a Bluesky outage, writes wait for verified reconnection, and sign out clears private storage (5.9s)
+  ✓  51 [webkit] › tests/links.spec.ts:79:1 › facet links and external cards open embedded pages with working reload and original toolbar assets (3.5s)
+  ✓  53 [webkit] › tests/links.spec.ts:148:1 › a failed full size image explains the failure and retains an accessible original-image escape (2.6s)
+  -  54 [webkit] › tests/touch.spec.ts:13:1 › native touchscreen vertical scrolling and horizontal sheet swipe work on a phone
+  -  55 [webkit] › tests/touch.spec.ts:55:3 › native pinch apart opens a post using the browser touchscreen input pipeline
+  -  56 [webkit] › tests/touch.spec.ts:55:3 › native two finger pull down opens a post using the browser touchscreen input pipeline
+  ✓  52 [webkit] › tests/links.spec.ts:107:1 › compact media opens a gallery and detail thumbnails preserve selected photo, keys and zoom (6.3s)
+  ✓  58 [webkit] › tests/trackpad.spec.ts:4:1 › trackpad pinch events open post actions while ordinary scrolling and gestures outside posts retain defaults (2.5s)
+  ✓  57 [webkit] › tests/touch.spec.ts:83:1 › touch pointer recognition for pinch and two finger pull down is consistent across engines (4.5s)
+  -  59 [webkit] › tests/trackpad.spec.ts:39:1 › browser native trackpad pinch opens post actions
+  ✓  60 [webkit] › tests/video.spec.ts:36:1 › HLS video loads fragments only after Play and decodes frames (1.8s)
+
+  8 skipped
+  52 passed (1.4m)

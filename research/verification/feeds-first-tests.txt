@@ -1,0 +1,49 @@
+[WebServer] (node:160727) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+[WebServer] [plugin builtin:vite-reporter] 
+[WebServer] (!) Some chunks are larger than 500 kB after minification. Consider:
+[WebServer] - Using dynamic import() to code-split the application
+[WebServer] - Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+[WebServer] - Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+[WebServer] (node:160752) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+[WebServer] (node:160775) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 27 tests using 1 worker
+
+(node:160797) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   1 [chromium] › tests/discover-feeds.spec.ts:39:1 › custom feed search selects the actual generator and keeps its URI through pagination (3.7s)
+  ✓   2 [chromium] › tests/discover-feeds.spec.ts:77:3 › signed-in Feeds reads v2 saved feeds without changing preferences (805ms)
+  ✓   3 [chromium] › tests/discover-feeds.spec.ts:77:3 › signed-in Feeds reads legacy saved feeds without changing preferences (803ms)
+  ✓   4 [chromium] › tests/discover-feeds.spec.ts:104:1 › a shared custom-feed embed renders a card and opens its feed instead of a webpage (1.4s)
+  ✓   5 [chromium] › tests/discover-feeds.spec.ts:126:1 › a slow custom-feed response cannot replace a newer selection (892ms)
+  ✓   6 [chromium] › tests/discover-feeds.spec.ts:141:1 › blocked custom-feed embeds withhold their text and artwork (425ms)
+  ✓   7 [chromium] › tests/discover-feeds.spec.ts:156:1 › saved custom-feed posts stay separate from other feeds during an outage (1.5s)
+  ✓   8 [chromium] › tests/discover-feeds.spec.ts:173:1 › a phone can choose a feed without overflow or opening navigation (707ms)
+  ✓   9 [chromium] › tests/discover-feeds.spec.ts:189:1 › Feeds has no injected default entry when Discover is absent from account and directory (626ms)
+(node:160970) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  10 [firefox] › tests/discover-feeds.spec.ts:39:1 › custom feed search selects the actual generator and keeps its URI through pagination (5.6s)
+  ✓  11 [firefox] › tests/discover-feeds.spec.ts:77:3 › signed-in Feeds reads v2 saved feeds without changing preferences (1.4s)
+  ✓  12 [firefox] › tests/discover-feeds.spec.ts:77:3 › signed-in Feeds reads legacy saved feeds without changing preferences (1.3s)
+  ✓  13 [firefox] › tests/discover-feeds.spec.ts:104:1 › a shared custom-feed embed renders a card and opens its feed instead of a webpage (1.6s)
+  ✓  14 [firefox] › tests/discover-feeds.spec.ts:126:1 › a slow custom-feed response cannot replace a newer selection (2.0s)
+  ✓  15 [firefox] › tests/discover-feeds.spec.ts:141:1 › blocked custom-feed embeds withhold their text and artwork (543ms)
+  ✓  16 [firefox] › tests/discover-feeds.spec.ts:156:1 › saved custom-feed posts stay separate from other feeds during an outage (1.6s)
+  ✓  17 [firefox] › tests/discover-feeds.spec.ts:173:1 › a phone can choose a feed without overflow or opening navigation (904ms)
+  ✓  18 [firefox] › tests/discover-feeds.spec.ts:189:1 › Feeds has no injected default entry when Discover is absent from account and directory (856ms)
+(node:161395) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  19 [webkit] › tests/discover-feeds.spec.ts:39:1 › custom feed search selects the actual generator and keeps its URI through pagination (4.6s)
+  ✓  20 [webkit] › tests/discover-feeds.spec.ts:77:3 › signed-in Feeds reads v2 saved feeds without changing preferences (2.3s)
+  ✓  21 [webkit] › tests/discover-feeds.spec.ts:77:3 › signed-in Feeds reads legacy saved feeds without changing preferences (2.4s)
+  ✓  22 [webkit] › tests/discover-feeds.spec.ts:104:1 › a shared custom-feed embed renders a card and opens its feed instead of a webpage (2.6s)
+  ✓  23 [webkit] › tests/discover-feeds.spec.ts:126:1 › a slow custom-feed response cannot replace a newer selection (3.0s)
+  ✓  24 [webkit] › tests/discover-feeds.spec.ts:141:1 › blocked custom-feed embeds withhold their text and artwork (1.1s)
+  ✓  25 [webkit] › tests/discover-feeds.spec.ts:156:1 › saved custom-feed posts stay separate from other feeds during an outage (2.3s)
+  ✓  26 [webkit] › tests/discover-feeds.spec.ts:173:1 › a phone can choose a feed without overflow or opening navigation (1.1s)
+  ✓  27 [webkit] › tests/discover-feeds.spec.ts:189:1 › Feeds has no injected default entry when Discover is absent from account and directory (2.1s)
+
+  27 passed (55.2s)

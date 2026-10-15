@@ -1,0 +1,14 @@
+.classic-people { min-height: 100%; background: #f7f7f7; }
+.classic-people-heading { padding: 15px; background: linear-gradient(#f0f1f4, #dfe0e6); border-bottom: 1px solid #b4b5bc; }
+.classic-people-heading h2 { font-size: 18px; margin: 0 0 4px; }
+.classic-people-heading p { margin: 0; font-size: 13px; color: #5e6570; overflow-wrap: anywhere; }
+.classic-person { border: 0; border-bottom: 1px solid #d0d0d0; box-shadow: inset 0 1px white; background: transparent; padding: 13px 14px; width: 100%; display: flex; gap: 12px; align-items: flex-start; text-align: left; }
+.classic-person:hover { background: #ebeff3; }
+.classic-person:active { background: linear-gradient(#0088f4, #0063e6); color: white; }
+.classic-person-copy { display: flex; flex: 1; min-width: 0; flex-direction: column; gap: 4px; }
+.classic-person-copy strong { font-size: 17px; overflow-wrap: anywhere; }
+.classic-person-copy > span { font-size: 13px; color: #62676d; overflow-wrap: anywhere; }
+.classic-person-copy small { display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 3; overflow: hidden; font-size: 15px; line-height: 1.3; color: #3f4145; white-space: pre-wrap; overflow-wrap: anywhere; }
+.classic-person:active .classic-person-copy > * { color: white; }
+.classic-person-disclosure { align-self: center; color: #7c8086; font-size: 25px; }
+.classic-people-notice { padding: 10px 15px; margin: 0; font-size: 13px; color: #46525d; background: #e5e8eb; }
